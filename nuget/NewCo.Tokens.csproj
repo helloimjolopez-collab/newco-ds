@@ -1,17 +1,11 @@
 <!--
-  NewCo.Tokens — .NET / NuGet delivery of the NewCo (Spired) design tokens.
-
-  A Razor Class Library (RCL): it bundles the SAME dist/tokens.css produced by
-  the npm pipeline as a static web asset, plus an optional generated C# constants
-  class. A Blazor / Radzen app installs the NuGet package and references:
-
-      <link rel="stylesheet" href="_content/NewCo.Tokens/newco-tokens.css" />
-
-  ...then styles with var(--semantic-color-...) exactly like every other tribe.
-
-  Version is kept in lockstep with the npm package by CI (dotnet pack -p:Version=).
-  Build order: `npm run build-dist` (produces dist/) then `npm run build-nuget`
-  (copies CSS + generates NewCoTokens.g.cs into this folder), then `dotnet pack`.
+  NewCo.Tokens : .NET / NuGet delivery of the NewCo (Spired) design tokens.
+  A Razor Class Library (RCL) that bundles the same dist/tokens.css produced by
+  the npm pipeline as a static web asset (served at
+  _content/NewCo.Tokens/newco-tokens.css), plus a generated C# constants class.
+  Blazor / Radzen apps reference the stylesheet and style with CSS variables.
+  Version is kept in lockstep with the npm package by CI.
+  Build order: npm run build-dist, then npm run build-nuget, then dotnet pack.
 -->
 <Project Sdk="Microsoft.NET.Sdk.Razor">
 
