@@ -68,6 +68,42 @@ for (const [name, light, midnight] of semantics) {
   setLeaf(out["semantic-color"]["midnight-mode"], parts, { $type: "color", $value: encodeValue(midnight) });
 }
 
+// ── Non-color collections (unit, layout, type, motion, elevation, breakpoints) ─
+const nc = JSON.parse(readFileSync(resolve(SRC, "non-color.json"), "utf8"));
+const num = (v) => ({ $type: "number", $value: v });
+const str = (v) => ({ $type: "string", $value: v });
+const index = {}; // figma name -> dtcg dotted path (for alias resolution)
+
+// pass 1: register every non-color token's dtcg path
+const reg = (name, coll) => { index[name] = coll + "." + pathParts(name).join("."); };
+for (const [n] of nc["Primitive: Unit"].vars) reg(n, "primitive-unit");
+for (const [n] of nc["Breakpoints"].vars) reg(n, "breakpoints");
+for (const [n] of nc["Motion"].durations) reg(n, "motion");
+for (const [n] of nc["Motion"].easings) reg(n, "motion");
+for (const [n] of nc["Elevation"].vars) reg(n, "elevation");
+for (const grp of ["families", "sizes", "weights", "letterSpacing"]) for (const [n] of nc["Primitive: Type"][grp]) reg(n, "primitive-type");
+for (const [n] of nc["Semantic: Layout & Units"].vars) reg(n, "semantic-layout-units");
+
+const encNC = (v) => (typeof v === "string" && v.startsWith("=")) ? `{${index[v.slice(1)]}}` : v;
+
+// pass 2: emit
+out["primitive-unit"] = {};
+for (const [n, v] of nc["Primitive: Unit"].vars) setLeaf(out["primitive-unit"], pathParts(n), num(v));
+out["breakpoints"] = {};
+for (const [n, v] of nc["Breakpoints"].vars) setLeaf(out["breakpoints"], pathParts(n), num(v));
+out["motion"] = {};
+for (const [n, v] of nc["Motion"].durations) setLeaf(out["motion"], pathParts(n), str(`${v}ms`));
+for (const [n, v] of nc["Motion"].easings) setLeaf(out["motion"], pathParts(n), str(v));
+out["elevation"] = {}; out["elevation-midnight"] = {};
+for (const [n, l, m] of nc["Elevation"].vars) { setLeaf(out["elevation"], pathParts(n), str(l)); setLeaf(out["elevation-midnight"], pathParts(n), str(m)); }
+out["primitive-type"] = {};
+for (const [n, v] of nc["Primitive: Type"].families) setLeaf(out["primitive-type"], pathParts(n), str(v));
+for (const [n, v] of nc["Primitive: Type"].sizes) setLeaf(out["primitive-type"], pathParts(n), { $type: "number", $value: encNC(v) });
+for (const [n, v] of nc["Primitive: Type"].weights) setLeaf(out["primitive-type"], pathParts(n), num(v));
+for (const [n, v] of nc["Primitive: Type"].letterSpacing) setLeaf(out["primitive-type"], pathParts(n), num(v));
+out["semantic-layout-units"] = {};
+for (const [n, v] of nc["Semantic: Layout & Units"].vars) setLeaf(out["semantic-layout-units"], pathParts(n), { $type: "number", $value: encNC(v) });
+
 // ── Validation: every alias must resolve to a real primitive leaf ────────────
 function resolvePath(tree, dotted) {
   let cur = tree;

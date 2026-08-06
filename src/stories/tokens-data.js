@@ -42,6 +42,15 @@ export function leaves(node, trail = []) {
   return out;
 }
 
+/** Follow {alias} chains to a concrete value (number or string). */
+export function resolveVal(val) {
+  if (typeof val === "string" && val.startsWith("{")) {
+    const leaf = getByPath(dtcg, val.slice(1, -1).split("."));
+    return leaf && "$value" in leaf ? resolveVal(leaf.$value) : val;
+  }
+  return val;
+}
+
 export const PRIMITIVES = dtcg["primitive-color"];
 export const SEM_LIGHT = dtcg["semantic-color"]["light-mode"];
 export const SEM_MIDNIGHT = dtcg["semantic-color"]["midnight-mode"];
