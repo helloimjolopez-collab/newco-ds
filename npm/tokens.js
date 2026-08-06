@@ -4124,12 +4124,12 @@ export default {
       10: {
         key: "{primitive-color.seabreeze.10}",
         $type: "color",
-        $value: "#f6faff",
+        $value: "#f7faff",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#f6faff",
+          $value: "#f7faff",
           key: "{primitive-color.seabreeze.10}",
         },
         name: "PrimitiveColorSeabreeze10",
@@ -4143,12 +4143,12 @@ export default {
       15: {
         key: "{primitive-color.seabreeze.15}",
         $type: "color",
-        $value: "#ecedfa",
+        $value: "#e8effa",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#ecedfa",
+          $value: "#e8effa",
           key: "{primitive-color.seabreeze.15}",
         },
         name: "PrimitiveColorSeabreeze15",
@@ -4162,12 +4162,12 @@ export default {
       20: {
         key: "{primitive-color.seabreeze.20}",
         $type: "color",
-        $value: "#e9f4ff",
+        $value: "#e7eefb",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#e9f4ff",
+          $value: "#e7eefb",
           key: "{primitive-color.seabreeze.20}",
         },
         name: "PrimitiveColorSeabreeze20",
@@ -4181,12 +4181,12 @@ export default {
       30: {
         key: "{primitive-color.seabreeze.30}",
         $type: "color",
-        $value: "#dbedff",
+        $value: "#dfebff",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#dbedff",
+          $value: "#dfebff",
           key: "{primitive-color.seabreeze.30}",
         },
         name: "PrimitiveColorSeabreeze30",
@@ -4200,12 +4200,12 @@ export default {
       40: {
         key: "{primitive-color.seabreeze.40}",
         $type: "color",
-        $value: "#c5e2ff",
+        $value: "#ccdfff",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#c5e2ff",
+          $value: "#ccdfff",
           key: "{primitive-color.seabreeze.40}",
         },
         name: "PrimitiveColorSeabreeze40",
@@ -4219,12 +4219,12 @@ export default {
       50: {
         key: "{primitive-color.seabreeze.50}",
         $type: "color",
-        $value: "#b4d9ff",
+        $value: "#bdd6ff",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#b4d9ff",
+          $value: "#bdd6ff",
           key: "{primitive-color.seabreeze.50}",
         },
         name: "PrimitiveColorSeabreeze50",
@@ -4238,12 +4238,12 @@ export default {
       60: {
         key: "{primitive-color.seabreeze.60}",
         $type: "color",
-        $value: "#9bc9ff",
+        $value: "#a5c6ff",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#9bc9ff",
+          $value: "#a5c6ff",
           key: "{primitive-color.seabreeze.60}",
         },
         name: "PrimitiveColorSeabreeze60",
@@ -4257,12 +4257,12 @@ export default {
       70: {
         key: "{primitive-color.seabreeze.70}",
         $type: "color",
-        $value: "#84b9ff",
+        $value: "#8eb6ff",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#84b9ff",
+          $value: "#8eb6ff",
           key: "{primitive-color.seabreeze.70}",
         },
         name: "PrimitiveColorSeabreeze70",
@@ -4276,12 +4276,12 @@ export default {
       80: {
         key: "{primitive-color.seabreeze.80}",
         $type: "color",
-        $value: "#72abff",
+        $value: "#7aa9ff",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#72abff",
+          $value: "#7aa9ff",
           key: "{primitive-color.seabreeze.80}",
         },
         name: "PrimitiveColorSeabreeze80",
@@ -4295,12 +4295,12 @@ export default {
       90: {
         key: "{primitive-color.seabreeze.90}",
         $type: "color",
-        $value: "#67a1ff",
+        $value: "#6ca0ff",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#67a1ff",
+          $value: "#6ca0ff",
           key: "{primitive-color.seabreeze.90}",
         },
         name: "PrimitiveColorSeabreeze90",
@@ -4314,12 +4314,12 @@ export default {
       95: {
         key: "{primitive-color.seabreeze.95}",
         $type: "color",
-        $value: "#8a8cea",
+        $value: "#6896ec",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#8a8cea",
+          $value: "#6896ec",
           key: "{primitive-color.seabreeze.95}",
         },
         name: "PrimitiveColorSeabreeze95",
@@ -4333,12 +4333,12 @@ export default {
       100: {
         key: "{primitive-color.seabreeze.100}",
         $type: "color",
-        $value: "#609bff",
+        $value: "#5f94f9",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#609bff",
+          $value: "#5f94f9",
           key: "{primitive-color.seabreeze.100}",
         },
         name: "PrimitiveColorSeabreeze100",
@@ -4352,12 +4352,12 @@ export default {
       103: {
         key: "{primitive-color.seabreeze.103}",
         $type: "color",
-        $value: "#849fd9",
+        $value: "#7897d0",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#849fd9",
+          $value: "#7897d0",
           key: "{primitive-color.seabreeze.103}",
         },
         name: "PrimitiveColorSeabreeze103",
@@ -4371,12 +4371,12 @@ export default {
       105: {
         key: "{primitive-color.seabreeze.105}",
         $type: "color",
-        $value: "#7c97d6",
+        $value: "#7597d4",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#7c97d6",
+          $value: "#7597d4",
           key: "{primitive-color.seabreeze.105}",
         },
         name: "PrimitiveColorSeabreeze105",
@@ -4390,12 +4390,12 @@ export default {
       110: {
         key: "{primitive-color.seabreeze.110}",
         $type: "color",
-        $value: "#5b97ff",
+        $value: "#5c93fc",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#5b97ff",
+          $value: "#5c93fc",
           key: "{primitive-color.seabreeze.110}",
         },
         name: "PrimitiveColorSeabreeze110",
@@ -4428,12 +4428,12 @@ export default {
       125: {
         key: "{primitive-color.seabreeze.125}",
         $type: "color",
-        $value: "#4e5ac6",
+        $value: "#2e62c6",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#4e5ac6",
+          $value: "#2e62c6",
           key: "{primitive-color.seabreeze.125}",
         },
         name: "PrimitiveColorSeabreeze125",
@@ -4447,12 +4447,12 @@ export default {
       130: {
         key: "{primitive-color.seabreeze.130}",
         $type: "color",
-        $value: "#426ece",
+        $value: "#3263c0",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#426ece",
+          $value: "#3263c0",
           key: "{primitive-color.seabreeze.130}",
         },
         name: "PrimitiveColorSeabreeze130",
@@ -4466,12 +4466,12 @@ export default {
       140: {
         key: "{primitive-color.seabreeze.140}",
         $type: "color",
-        $value: "#355aac",
+        $value: "#315bac",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#355aac",
+          $value: "#315bac",
           key: "{primitive-color.seabreeze.140}",
         },
         name: "PrimitiveColorSeabreeze140",
@@ -4485,12 +4485,12 @@ export default {
       145: {
         key: "{primitive-color.seabreeze.145}",
         $type: "color",
-        $value: "#3f52ae",
+        $value: "#2a57ae",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#3f52ae",
+          $value: "#2a57ae",
           key: "{primitive-color.seabreeze.145}",
         },
         name: "PrimitiveColorSeabreeze145",
@@ -4504,12 +4504,12 @@ export default {
       150: {
         key: "{primitive-color.seabreeze.150}",
         $type: "color",
-        $value: "#284688",
+        $value: "#254788",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#284688",
+          $value: "#254788",
           key: "{primitive-color.seabreeze.150}",
         },
         name: "PrimitiveColorSeabreeze150",
@@ -4523,12 +4523,12 @@ export default {
       155: {
         key: "{primitive-color.seabreeze.155}",
         $type: "color",
-        $value: "#35468f",
+        $value: "#22468b",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#35468f",
+          $value: "#22468b",
           key: "{primitive-color.seabreeze.155}",
         },
         name: "PrimitiveColorSeabreeze155",
@@ -4542,12 +4542,12 @@ export default {
       160: {
         key: "{primitive-color.seabreeze.160}",
         $type: "color",
-        $value: "#1d3467",
+        $value: "#1a3567",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#1d3467",
+          $value: "#1a3567",
           key: "{primitive-color.seabreeze.160}",
         },
         name: "PrimitiveColorSeabreeze160",
@@ -4561,12 +4561,12 @@ export default {
       170: {
         key: "{primitive-color.seabreeze.170}",
         $type: "color",
-        $value: "#15264c",
+        $value: "#13264c",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#15264c",
+          $value: "#13264c",
           key: "{primitive-color.seabreeze.170}",
         },
         name: "PrimitiveColorSeabreeze170",
@@ -4580,12 +4580,12 @@ export default {
       180: {
         key: "{primitive-color.seabreeze.180}",
         $type: "color",
-        $value: "#0e1932",
+        $value: "#0c1932",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#0e1932",
+          $value: "#0c1932",
           key: "{primitive-color.seabreeze.180}",
         },
         name: "PrimitiveColorSeabreeze180",
@@ -4599,12 +4599,12 @@ export default {
       190: {
         key: "{primitive-color.seabreeze.190}",
         $type: "color",
-        $value: "#070d1b",
+        $value: "#060d1b",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#070d1b",
+          $value: "#060d1b",
           key: "{primitive-color.seabreeze.190}",
         },
         name: "PrimitiveColorSeabreeze190",
@@ -4639,12 +4639,12 @@ export default {
       10: {
         key: "{primitive-color.lagoon.10}",
         $type: "color",
-        $value: "#f8fbfa",
+        $value: "#f8fbfc",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#f8fbfa",
+          $value: "#f8fbfc",
           key: "{primitive-color.lagoon.10}",
         },
         name: "PrimitiveColorLagoon10",
@@ -4658,12 +4658,12 @@ export default {
       20: {
         key: "{primitive-color.lagoon.20}",
         $type: "color",
-        $value: "#edf6f4",
+        $value: "#edf6f8",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#edf6f4",
+          $value: "#edf6f8",
           key: "{primitive-color.lagoon.20}",
         },
         name: "PrimitiveColorLagoon20",
@@ -4677,12 +4677,12 @@ export default {
       25: {
         key: "{primitive-color.lagoon.25}",
         $type: "color",
-        $value: "#e6f1f3",
+        $value: "#e6f1f4",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#e6f1f3",
+          $value: "#e6f1f4",
           key: "{primitive-color.lagoon.25}",
         },
         name: "PrimitiveColorLagoon25",
@@ -4696,12 +4696,12 @@ export default {
       30: {
         key: "{primitive-color.lagoon.30}",
         $type: "color",
-        $value: "#def0ec",
+        $value: "#ddeff4",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#def0ec",
+          $value: "#ddeff4",
           key: "{primitive-color.lagoon.30}",
         },
         name: "PrimitiveColorLagoon30",
@@ -4715,12 +4715,12 @@ export default {
       40: {
         key: "{primitive-color.lagoon.40}",
         $type: "color",
-        $value: "#c9e6e0",
+        $value: "#c8e5ec",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#c9e6e0",
+          $value: "#c8e5ec",
           key: "{primitive-color.lagoon.40}",
         },
         name: "PrimitiveColorLagoon40",
@@ -4734,12 +4734,12 @@ export default {
       50: {
         key: "{primitive-color.lagoon.50}",
         $type: "color",
-        $value: "#afdbd1",
+        $value: "#add9e4",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#afdbd1",
+          $value: "#add9e4",
           key: "{primitive-color.lagoon.50}",
         },
         name: "PrimitiveColorLagoon50",
@@ -4753,12 +4753,12 @@ export default {
       60: {
         key: "{primitive-color.lagoon.60}",
         $type: "color",
-        $value: "#9ad0c5",
+        $value: "#98cddb",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#9ad0c5",
+          $value: "#98cddb",
           key: "{primitive-color.lagoon.60}",
         },
         name: "PrimitiveColorLagoon60",
@@ -4772,12 +4772,12 @@ export default {
       70: {
         key: "{primitive-color.lagoon.70}",
         $type: "color",
-        $value: "#88c8ba",
+        $value: "#85c5d5",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#88c8ba",
+          $value: "#85c5d5",
           key: "{primitive-color.lagoon.70}",
         },
         name: "PrimitiveColorLagoon70",
@@ -4791,12 +4791,12 @@ export default {
       75: {
         key: "{primitive-color.lagoon.75}",
         $type: "color",
-        $value: "#6fb3be",
+        $value: "#70b2c2",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#6fb3be",
+          $value: "#70b2c2",
           key: "{primitive-color.lagoon.75}",
         },
         name: "PrimitiveColorLagoon75",
@@ -4810,12 +4810,12 @@ export default {
       80: {
         key: "{primitive-color.lagoon.80}",
         $type: "color",
-        $value: "#7ac1b3",
+        $value: "#6cb2c3",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#7ac1b3",
+          $value: "#6cb2c3",
           key: "{primitive-color.lagoon.80}",
         },
         name: "PrimitiveColorLagoon80",
@@ -4829,12 +4829,12 @@ export default {
       90: {
         key: "{primitive-color.lagoon.90}",
         $type: "color",
-        $value: "#5bbeac",
+        $value: "#52b5cc",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#5bbeac",
+          $value: "#52b5cc",
           key: "{primitive-color.lagoon.90}",
         },
         name: "PrimitiveColorLagoon90",
@@ -4848,12 +4848,12 @@ export default {
       100: {
         key: "{primitive-color.lagoon.100}",
         $type: "color",
-        $value: "#39bca7",
+        $value: "#31b6d2",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#39bca7",
+          $value: "#31b6d2",
           key: "{primitive-color.lagoon.100}",
         },
         name: "PrimitiveColorLagoon100",
@@ -4867,12 +4867,12 @@ export default {
       110: {
         key: "{primitive-color.lagoon.110}",
         $type: "color",
-        $value: "#25b09c",
+        $value: "#1babc5",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#25b09c",
+          $value: "#1babc5",
           key: "{primitive-color.lagoon.110}",
         },
         name: "PrimitiveColorLagoon110",
@@ -4886,12 +4886,12 @@ export default {
       120: {
         key: "{primitive-color.lagoon.120}",
         $type: "color",
-        $value: "#17aa95",
+        $value: "#01a4bf",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#17aa95",
+          $value: "#01a4bf",
           key: "{primitive-color.lagoon.120}",
         },
         name: "PrimitiveColorLagoon120",
@@ -4905,12 +4905,12 @@ export default {
       130: {
         key: "{primitive-color.lagoon.130}",
         $type: "color",
-        $value: "#0e9f8b",
+        $value: "#009ab3",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#0e9f8b",
+          $value: "#009ab3",
           key: "{primitive-color.lagoon.130}",
         },
         name: "PrimitiveColorLagoon130",
@@ -4924,12 +4924,12 @@ export default {
       140: {
         key: "{primitive-color.lagoon.140}",
         $type: "color",
-        $value: "#0a8474",
+        $value: "#008095",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#0a8474",
+          $value: "#008095",
           key: "{primitive-color.lagoon.140}",
         },
         name: "PrimitiveColorLagoon140",
@@ -4943,12 +4943,12 @@ export default {
       145: {
         key: "{primitive-color.lagoon.145}",
         $type: "color",
-        $value: "#2a7e90",
+        $value: "#297e90",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#2a7e90",
+          $value: "#297e90",
           key: "{primitive-color.lagoon.145}",
         },
         name: "PrimitiveColorLagoon145",
@@ -4962,12 +4962,12 @@ export default {
       150: {
         key: "{primitive-color.lagoon.150}",
         $type: "color",
-        $value: "#166c5f",
+        $value: "#10697a",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#166c5f",
+          $value: "#10697a",
           key: "{primitive-color.lagoon.150}",
         },
         name: "PrimitiveColorLagoon150",
@@ -4981,12 +4981,12 @@ export default {
       160: {
         key: "{primitive-color.lagoon.160}",
         $type: "color",
-        $value: "#18404e",
+        $value: "#14414b",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#18404e",
+          $value: "#14414b",
           key: "{primitive-color.lagoon.160}",
         },
         name: "PrimitiveColorLagoon160",
@@ -5000,12 +5000,12 @@ export default {
       170: {
         key: "{primitive-color.lagoon.170}",
         $type: "color",
-        $value: "#16313b",
+        $value: "#143239",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#16313b",
+          $value: "#143239",
           key: "{primitive-color.lagoon.170}",
         },
         name: "PrimitiveColorLagoon170",
@@ -5019,12 +5019,12 @@ export default {
       180: {
         key: "{primitive-color.lagoon.180}",
         $type: "color",
-        $value: "#0e2027",
+        $value: "#0d2125",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#0e2027",
+          $value: "#0d2125",
           key: "{primitive-color.lagoon.180}",
         },
         name: "PrimitiveColorLagoon180",
@@ -5038,12 +5038,12 @@ export default {
       190: {
         key: "{primitive-color.lagoon.190}",
         $type: "color",
-        $value: "#0a161b",
+        $value: "#09161a",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#0a161b",
+          $value: "#09161a",
           key: "{primitive-color.lagoon.190}",
         },
         name: "PrimitiveColorLagoon190",
@@ -14068,7 +14068,7 @@ export default {
             light: {
               key: "{semantic-color.light-mode.fill.static.accent-seabreeze.light}",
               $type: "color",
-              $value: "#ecedfa",
+              $value: "#e8effa",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -14096,7 +14096,7 @@ export default {
             subtle: {
               key: "{semantic-color.light-mode.fill.static.accent-seabreeze.subtle}",
               $type: "color",
-              $value: "#dbedff",
+              $value: "#dfebff",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -14124,7 +14124,7 @@ export default {
             base: {
               key: "{semantic-color.light-mode.fill.static.accent-seabreeze.base}",
               $type: "color",
-              $value: "#4e5ac6",
+              $value: "#2e62c6",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -14152,7 +14152,7 @@ export default {
             contrast: {
               key: "{semantic-color.light-mode.fill.static.accent-seabreeze.contrast}",
               $type: "color",
-              $value: "#67a1ff",
+              $value: "#6ca0ff",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -14180,7 +14180,7 @@ export default {
             bold: {
               key: "{semantic-color.light-mode.fill.static.accent-seabreeze.bold}",
               $type: "color",
-              $value: "#609bff",
+              $value: "#5f94f9",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -14470,7 +14470,7 @@ export default {
             base: {
               key: "{semantic-color.light-mode.fill.static.accent-teal.base}",
               $type: "color",
-              $value: "#2a7e90",
+              $value: "#297e90",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -14498,7 +14498,7 @@ export default {
             light: {
               key: "{semantic-color.light-mode.fill.static.accent-teal.light}",
               $type: "color",
-              $value: "#e6f1f3",
+              $value: "#e6f1f4",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -14588,7 +14588,7 @@ export default {
             base: {
               key: "{semantic-color.light-mode.fill.static.accent-navy.base}",
               $type: "color",
-              $value: "#3f52ae",
+              $value: "#2a57ae",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -14616,7 +14616,7 @@ export default {
             bold: {
               key: "{semantic-color.light-mode.fill.static.accent-navy.bold}",
               $type: "color",
-              $value: "#35468f",
+              $value: "#22468b",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -17732,7 +17732,7 @@ export default {
             light: {
               key: "{semantic-color.light-mode.icon.static.accent-seabreeze.light}",
               $type: "color",
-              $value: "#b4d9ff",
+              $value: "#bdd6ff",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -17760,7 +17760,7 @@ export default {
             subtle: {
               key: "{semantic-color.light-mode.icon.static.accent-seabreeze.subtle}",
               $type: "color",
-              $value: "#9bc9ff",
+              $value: "#a5c6ff",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -17788,7 +17788,7 @@ export default {
             base: {
               key: "{semantic-color.light-mode.icon.static.accent-seabreeze.base}",
               $type: "color",
-              $value: "#67a1ff",
+              $value: "#6ca0ff",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -17816,7 +17816,7 @@ export default {
             contrast: {
               key: "{semantic-color.light-mode.icon.static.accent-seabreeze.contrast}",
               $type: "color",
-              $value: "#5b97ff",
+              $value: "#5c93fc",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -17844,7 +17844,7 @@ export default {
             bold: {
               key: "{semantic-color.light-mode.icon.static.accent-seabreeze.bold}",
               $type: "color",
-              $value: "#426ece",
+              $value: "#3263c0",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -17874,7 +17874,7 @@ export default {
             light: {
               key: "{semantic-color.light-mode.icon.static.accent-lagoon.light}",
               $type: "color",
-              $value: "#def0ec",
+              $value: "#ddeff4",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -17902,7 +17902,7 @@ export default {
             subtle: {
               key: "{semantic-color.light-mode.icon.static.accent-lagoon.subtle}",
               $type: "color",
-              $value: "#afdbd1",
+              $value: "#add9e4",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -17930,7 +17930,7 @@ export default {
             base: {
               key: "{semantic-color.light-mode.icon.static.accent-lagoon.base}",
               $type: "color",
-              $value: "#88c8ba",
+              $value: "#85c5d5",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -17958,7 +17958,7 @@ export default {
             contrast: {
               key: "{semantic-color.light-mode.icon.static.accent-lagoon.contrast}",
               $type: "color",
-              $value: "#39bca7",
+              $value: "#31b6d2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -17986,7 +17986,7 @@ export default {
             bold: {
               key: "{semantic-color.light-mode.icon.static.accent-lagoon.bold}",
               $type: "color",
-              $value: "#0e9f8b",
+              $value: "#009ab3",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -28004,7 +28004,7 @@ export default {
             subtle: {
               key: "{semantic-color.midnight-mode.fill.static.accent-seabreeze.subtle}",
               $type: "color",
-              $value: "#dbedff",
+              $value: "#dfebff",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -28032,7 +28032,7 @@ export default {
             base: {
               key: "{semantic-color.midnight-mode.fill.static.accent-seabreeze.base}",
               $type: "color",
-              $value: "#8a8cea",
+              $value: "#6896ec",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -28060,7 +28060,7 @@ export default {
             contrast: {
               key: "{semantic-color.midnight-mode.fill.static.accent-seabreeze.contrast}",
               $type: "color",
-              $value: "#67a1ff",
+              $value: "#6ca0ff",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -28088,7 +28088,7 @@ export default {
             bold: {
               key: "{semantic-color.midnight-mode.fill.static.accent-seabreeze.bold}",
               $type: "color",
-              $value: "#609bff",
+              $value: "#5f94f9",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -28378,7 +28378,7 @@ export default {
             base: {
               key: "{semantic-color.midnight-mode.fill.static.accent-teal.base}",
               $type: "color",
-              $value: "#6fb3be",
+              $value: "#70b2c2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -28496,7 +28496,7 @@ export default {
             base: {
               key: "{semantic-color.midnight-mode.fill.static.accent-navy.base}",
               $type: "color",
-              $value: "#7c97d6",
+              $value: "#7597d4",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -28524,7 +28524,7 @@ export default {
             bold: {
               key: "{semantic-color.midnight-mode.fill.static.accent-navy.bold}",
               $type: "color",
-              $value: "#849fd9",
+              $value: "#7897d0",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -31640,7 +31640,7 @@ export default {
             light: {
               key: "{semantic-color.midnight-mode.icon.static.accent-seabreeze.light}",
               $type: "color",
-              $value: "#b4d9ff",
+              $value: "#bdd6ff",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -31668,7 +31668,7 @@ export default {
             subtle: {
               key: "{semantic-color.midnight-mode.icon.static.accent-seabreeze.subtle}",
               $type: "color",
-              $value: "#9bc9ff",
+              $value: "#a5c6ff",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -31696,7 +31696,7 @@ export default {
             base: {
               key: "{semantic-color.midnight-mode.icon.static.accent-seabreeze.base}",
               $type: "color",
-              $value: "#67a1ff",
+              $value: "#6ca0ff",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -31724,7 +31724,7 @@ export default {
             contrast: {
               key: "{semantic-color.midnight-mode.icon.static.accent-seabreeze.contrast}",
               $type: "color",
-              $value: "#5b97ff",
+              $value: "#5c93fc",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -31752,7 +31752,7 @@ export default {
             bold: {
               key: "{semantic-color.midnight-mode.icon.static.accent-seabreeze.bold}",
               $type: "color",
-              $value: "#426ece",
+              $value: "#3263c0",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -31782,7 +31782,7 @@ export default {
             light: {
               key: "{semantic-color.midnight-mode.icon.static.accent-lagoon.light}",
               $type: "color",
-              $value: "#def0ec",
+              $value: "#ddeff4",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -31810,7 +31810,7 @@ export default {
             subtle: {
               key: "{semantic-color.midnight-mode.icon.static.accent-lagoon.subtle}",
               $type: "color",
-              $value: "#afdbd1",
+              $value: "#add9e4",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -31838,7 +31838,7 @@ export default {
             base: {
               key: "{semantic-color.midnight-mode.icon.static.accent-lagoon.base}",
               $type: "color",
-              $value: "#88c8ba",
+              $value: "#85c5d5",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -31866,7 +31866,7 @@ export default {
             contrast: {
               key: "{semantic-color.midnight-mode.icon.static.accent-lagoon.contrast}",
               $type: "color",
-              $value: "#39bca7",
+              $value: "#31b6d2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -31894,7 +31894,7 @@ export default {
             bold: {
               key: "{semantic-color.midnight-mode.icon.static.accent-lagoon.bold}",
               $type: "color",
-              $value: "#0e9f8b",
+              $value: "#009ab3",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
