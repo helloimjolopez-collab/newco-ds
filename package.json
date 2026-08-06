@@ -8,15 +8,15 @@
     "node": ">=20"
   },
   "files": [
-    "dist",
+    "npm",
     "tokens/newco-design-tokens.json"
   ],
-  "main": "./dist/tokens.js",
-  "style": "./dist/tokens.css",
+  "main": "./npm/tokens.js",
+  "style": "./npm/tokens.css",
   "exports": {
-    ".": "./dist/tokens.js",
-    "./css": "./dist/tokens.css",
-    "./json": "./dist/tokens.json"
+    ".": "./npm/tokens.js",
+    "./css": "./npm/tokens.css",
+    "./json": "./npm/tokens.json"
   },
   "publishConfig": {
     "access": "public",

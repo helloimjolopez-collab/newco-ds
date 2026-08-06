@@ -42,7 +42,7 @@ variable aliased to the new one for one minor release).
 - **Secrets:** the Figma **Plan Access Token** and **npm publish token** live only
   as GitHub Actions secrets. Prefer an **org Plan Access Token** (admin-managed,
   revocable, not tied to a person) over personal tokens.
-- **Supply chain:** package ships only `dist/` + the DTCG JSON (see `files` in
+- **Supply chain:** package ships only `npm/` + the DTCG JSON (see `files` in
   package.json) — no scripts run on install. Pin CI actions to SHAs; enable
   Dependabot; the token pipeline's only runtime dep is Style Dictionary.
 - **Publish access:** `publishConfig.access` is `restricted` — decide public vs a

@@ -11,7 +11,7 @@ are just CSS variables (npm) or a static web asset (NuGet), so adoption is a
 | React / Vue / Angular / Svelte / plain web | `npm i @helloimjolopez-newco/newco-tokens` | `@import ".../css"`, use `var(--…)` | Low |
 | Tailwind | same | map tokens in `theme.extend` to the CSS vars | Low |
 | **Blazor / Radzen** | `dotnet add package NewCo.Tokens` | one `<link>` to `_content/NewCo.Tokens/newco-tokens.css`, use `var(--…)` | Low |
-| Own tooling | consume `dist/tokens.json` (DTCG) | feed your Style Dictionary | Low–Med |
+| Own tooling | consume `npm/tokens.json` (DTCG) | feed your Style Dictionary | Low–Med |
 
 The key point for engineering leadership: **no team leaves their framework.** A
 Blazor+Radzen tribe keeps Radzen and re-skins it with NewCo tokens; a React tribe

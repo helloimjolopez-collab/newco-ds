@@ -17,7 +17,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, "..");
-const cssPath = resolve(root, "dist", "tokens.css");
+const cssPath = resolve(root, "npm", "tokens.css");
 const wwwroot = resolve(root, "nuget", "wwwroot");
 
 mkdirSync(wwwroot, { recursive: true });

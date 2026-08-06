@@ -18,13 +18,13 @@ npm package. Every value is a **1:1 reflection of the Figma variable library**
 
 ## What a consuming team gets
 
-Install once, theme forever. Three artifacts are published in `dist/`:
+Install once, theme forever. Three artifacts are published in `npm/`:
 
 | File | Format | Use it when… |
 |------|--------|--------------|
-| `dist/tokens.css` | CSS custom properties | You style with CSS/SCSS/Tailwind/Blazor/Radzen — **the default** |
-| `dist/tokens.js`  | ESM object            | You need tokens in JS/TS (theming logic, RN, charts) |
-| `dist/tokens.json`| W3C DTCG              | You feed your own Style Dictionary / tooling |
+| `npm/tokens.css` | CSS custom properties | You style with CSS/SCSS/Tailwind/Blazor/Radzen — **the default** |
+| `npm/tokens.js`  | ESM object            | You need tokens in JS/TS (theming logic, RN, charts) |
+| `npm/tokens.json`| W3C DTCG              | You feed your own Style Dictionary / tooling |
 
 ```bash
 npm install @helloimjolopez-newco/newco-tokens
@@ -78,7 +78,7 @@ tokens/figma-source/*.json               <- raw graph snapshot (primitives + sem
 tokens/newco-design-tokens.json          <- DTCG source of truth (committed)
       |  style-dictionary.config.js      <- Style Dictionary v5
       v
-src/tokens/{tokens.css,tokens.js}  ->  build-dist.js  ->  dist/{tokens.css,tokens.js,tokens.json}
+src/tokens/{tokens.css,tokens.js}  ->  build-dist.js  ->  npm/{tokens.css,tokens.js,tokens.json}
       |
       v
 npm publish  ->  consuming tribes
@@ -116,7 +116,7 @@ plugin (TokenNexus / TokenSync) or a Dev-Mode MCP pull. See
 ```bash
 npm install
 npm run build-tokens     # figma-source -> DTCG -> CSS/JS  (validates aliases)
-npm run build-dist       # + assemble dist/
+npm run build-dist       # + assemble npm/
 npm run storybook        # browse the token galleries
 npm run sync-tokens      # pull latest from Figma (needs FIGMA_TOKEN, FIGMA_FILE_KEY)
 ```
