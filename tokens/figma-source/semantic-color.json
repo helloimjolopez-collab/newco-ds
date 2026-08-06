@@ -32,7 +32,7 @@
   [
     "Text/Static/Primary/Base",
     "=Cool Neutral/185",
-    "=Midnight/Ink-Primary"
+    "=Midnight/50"
   ],
   [
     "Text/Static/Primary/Bold",
@@ -52,12 +52,12 @@
   [
     "Text/Static/Secondary/Subtle",
     "=Cool Neutral/125",
-    "=Midnight/Ink-Subtle"
+    "=Midnight/400"
   ],
   [
     "Text/Static/Secondary/Base",
     "=Cool Neutral/150",
-    "=Midnight/Ink-Secondary"
+    "=Midnight/200"
   ],
   [
     "Text/Static/Secondary/Bold",
@@ -197,7 +197,7 @@
   [
     "Text/Action/Secondary/Base",
     "=Warm Neutral/950",
-    "=Midnight/Ink-Bright"
+    "=Midnight/100"
   ],
   [
     "Text/Action/SecondaryInverse/Base",
@@ -1712,12 +1712,12 @@
   [
     "Surface/Nav/Base",
     "=Warm Neutral/250",
-    "=Midnight/Canvas"
+    "=Midnight/900"
   ],
   [
     "Surface/Nav/Light",
     "=Warm Neutral/250",
-    "=Midnight/Canvas"
+    "=Midnight/900"
   ],
   [
     "Scrim/Light",
@@ -1857,7 +1857,7 @@
   [
     "Fill/Static/Neutral/Light",
     "=Cool Neutral/0",
-    "=Midnight/Panel"
+    "=Midnight/850"
   ],
   [
     "Fill/Static/Neutral/Subtle",
@@ -2177,7 +2177,7 @@
   [
     "Text/Contextual/NavItem/Base",
     "=Cool Neutral/150",
-    "=Midnight/Ink-Secondary"
+    "=Midnight/200"
   ],
   [
     "Text/Contextual/NavItem/Hover",
@@ -2227,12 +2227,12 @@
   [
     "Surface/Canvas/Base",
     "=Warm Neutral/250",
-    "=Midnight/Canvas"
+    "=Midnight/900"
   ],
   [
     "Surface/Canvas/Light",
     "=Warm Neutral/250",
-    "=Midnight/Canvas"
+    "=Midnight/900"
   ],
   [
     "Fill/Static/Accent_Seabreeze/Light",
@@ -2312,27 +2312,27 @@
   [
     "Surface/Overlay/Base",
     "=Cool Neutral/0",
-    "=Midnight/Widget"
+    "=Midnight/800"
   ],
   [
     "Surface/Sheet/Base",
     "=Warm Neutral/100",
-    "=Midnight/Sheet"
+    "=Midnight/870"
   ],
   [
     "Surface/Widget/Header",
     "=Warm Neutral/0",
-    "=Midnight/Header"
+    "=Midnight/700"
   ],
   [
     "Surface/Widget/Base",
     "=Cool Neutral/0",
-    "=Midnight/Widget"
+    "=Midnight/800"
   ],
   [
     "Text/Static/Tertiary/Base",
     "=Warm Neutral/725",
-    "=Midnight/Ink-Tertiary"
+    "=Midnight/500"
   ],
   [
     "Stroke/Static/Neutral/Faint",
