@@ -54,8 +54,8 @@ function encodeValue(cell) {
   return typeof cell === "string" ? cell.toLowerCase() : cell;
 }
 
-const primitives = JSON.parse(readFileSync(resolve(SRC, "primitives.json"), "utf8"));
-const semantics = JSON.parse(readFileSync(resolve(SRC, "semantics.json"), "utf8"));
+const primitives = JSON.parse(readFileSync(resolve(SRC, "primitive-color.json"), "utf8"));
+const semantics = JSON.parse(readFileSync(resolve(SRC, "semantic-color.json"), "utf8"));
 
 const out = { "primitive-color": {}, "semantic-color": { "light-mode": {}, "midnight-mode": {} } };
 
@@ -69,7 +69,15 @@ for (const [name, light, midnight] of semantics) {
 }
 
 // ── Non-color collections (unit, layout, type, motion, elevation, breakpoints) ─
-const nc = JSON.parse(readFileSync(resolve(SRC, "non-color.json"), "utf8"));
+const rd = (f) => JSON.parse(readFileSync(resolve(SRC, f), "utf8"));
+const nc = {
+  "Primitive: Unit": rd("primitive-unit.json"),
+  "Breakpoints": rd("breakpoints.json"),
+  "Motion": rd("motion.json"),
+  "Elevation": rd("elevation.json"),
+  "Primitive: Type": rd("primitive-type.json"),
+  "Semantic: Layout & Units": rd("semantic-layout.json"),
+};
 const num = (v) => ({ $type: "number", $value: v });
 const str = (v) => ({ $type: "string", $value: v });
 const index = {}; // figma name -> dtcg dotted path (for alias resolution)

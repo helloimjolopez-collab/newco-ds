@@ -94,8 +94,8 @@ async function main() {
   }
 
   mkdirSync(OUT, { recursive: true });
-  writeFileSync(resolve(OUT, "primitives.json"), JSON.stringify(primitives, null, 2) + "\n");
-  writeFileSync(resolve(OUT, "semantics.json"), JSON.stringify(semantics) + "\n");
+  writeFileSync(resolve(OUT, "primitive-color.json"), JSON.stringify(primitives, null, 2) + "\n");
+  writeFileSync(resolve(OUT, "semantic-color.json"), JSON.stringify(semantics) + "\n");
   console.log(`Pulled ${Object.keys(primitives).length} primitives, ${semantics.length} semantics from Figma.`);
   console.log("Now run: npm run build-tokens");
 }

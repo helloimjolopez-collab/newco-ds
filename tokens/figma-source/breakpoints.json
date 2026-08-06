@@ -1,0 +1,25 @@
+{
+  "mode": "Value",
+  "vars": [
+    [
+      "Desktop 1920px",
+      1920
+    ],
+    [
+      "Desktop 1440px",
+      1440
+    ],
+    [
+      "Tablet 1024px",
+      1024
+    ],
+    [
+      "Tablet 768px",
+      768
+    ],
+    [
+      "Mobile 393px",
+      393
+    ]
+  ]
+}

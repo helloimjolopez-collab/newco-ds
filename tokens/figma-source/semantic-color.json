@@ -1,0 +1,2452 @@
+[
+  [
+    "Text/Action/Primary/Base",
+    "=Brand/450",
+    "=Brand/47"
+  ],
+  [
+    "Text/Action/Primary/Hover",
+    "=Brand/500",
+    "=Brand/10"
+  ],
+  [
+    "Text/Action/Primary/Pressed",
+    "=Brand/600",
+    "=Brand/20"
+  ],
+  [
+    "Text/Action/Primary/Disabled",
+    "=Brand/50",
+    "=Brand/900 @ 50%"
+  ],
+  [
+    "Text/Static/Primary/Light",
+    "=Cool Neutral/170",
+    "=Cool Neutral/20"
+  ],
+  [
+    "Text/Static/Primary/Subtle",
+    "=Cool Neutral/180",
+    "=Cool Neutral/30"
+  ],
+  [
+    "Text/Static/Primary/Base",
+    "=Cool Neutral/185",
+    "=Midnight/Ink-Primary"
+  ],
+  [
+    "Text/Static/Primary/Bold",
+    "=Cool Neutral/200",
+    "=Cool Neutral/10"
+  ],
+  [
+    "Text/Static/Primary/Contrast",
+    "=Cool Neutral/220",
+    "=Cool Neutral/0"
+  ],
+  [
+    "Text/Static/Secondary/Light",
+    "=Cool Neutral/110",
+    "=Cool Neutral/30"
+  ],
+  [
+    "Text/Static/Secondary/Subtle",
+    "=Cool Neutral/125",
+    "=Midnight/Ink-Subtle"
+  ],
+  [
+    "Text/Static/Secondary/Base",
+    "=Cool Neutral/150",
+    "=Midnight/Ink-Secondary"
+  ],
+  [
+    "Text/Static/Secondary/Bold",
+    "=Cool Neutral/190",
+    "=Cool Neutral/20"
+  ],
+  [
+    "Text/Static/Secondary/Contrast",
+    "=Cool Neutral/210",
+    "=Cool Neutral/10"
+  ],
+  [
+    "Text/Static/Info/Base",
+    "=Brand/500",
+    "=Brand/50"
+  ],
+  [
+    "Text/Static/Info/Subtle",
+    "=Brand/300",
+    "=Brand/40"
+  ],
+  [
+    "Text/Static/Info/Contrast",
+    "=Brand/600",
+    "=Brand/60"
+  ],
+  [
+    "Text/Static/Alert/Base",
+    "=Saffron/170",
+    "=Saffron/70"
+  ],
+  [
+    "Text/Static/Alert/Subtle",
+    "=Saffron/160",
+    "=Saffron/60"
+  ],
+  [
+    "Text/Static/Alert/Contrast",
+    "=Saffron/190",
+    "=Saffron/100"
+  ],
+  [
+    "Text/Static/Danger/Base",
+    "=Orange/110",
+    "=Orange/40"
+  ],
+  [
+    "Text/Static/Danger/Subtle",
+    "=Orange/100",
+    "=Orange/60"
+  ],
+  [
+    "Text/Static/Danger/Contrast",
+    "=Orange/130",
+    "=Orange/70"
+  ],
+  [
+    "Text/Static/Negative/Base",
+    "=Red/130",
+    "=Red/40"
+  ],
+  [
+    "Text/Static/Negative/Subtle",
+    "=Red/120",
+    "=Red/60"
+  ],
+  [
+    "Text/Static/Negative/Contrast",
+    "=Red/150",
+    "=Red/30"
+  ],
+  [
+    "Text/Static/Positive/Base",
+    "=Green/110",
+    "=Green/65"
+  ],
+  [
+    "Text/Static/Positive/Subtle",
+    "=Green/100",
+    "=Green/30"
+  ],
+  [
+    "Text/Static/Positive/Contrast",
+    "=Green/140",
+    "=Green/30"
+  ],
+  [
+    "Text/Static/Accent-Amethyst/Base",
+    "=Amethyst/130",
+    "=Amethyst/40"
+  ],
+  [
+    "Text/Static/Accent-Amethyst/Subtle",
+    "=Amethyst/120",
+    "=Amethyst/70"
+  ],
+  [
+    "Text/Static/Accent-Amethyst/Contrast",
+    "=Amethyst/150",
+    "=Amethyst/20"
+  ],
+  [
+    "Text/Static/Accent-Jade/Base",
+    "=Jade/150",
+    "=Jade/50"
+  ],
+  [
+    "Text/Static/Accent-Jade/Subtle",
+    "=Jade/130",
+    "=Jade/80"
+  ],
+  [
+    "Text/Static/Accent-Jade/Contrast",
+    "=Jade/160",
+    "=Jade/40"
+  ],
+  [
+    "Text/Action/PrimaryInverse/Base",
+    "=Cool Neutral/0",
+    "=Brand/800"
+  ],
+  [
+    "Text/Action/PrimaryInverse/Hover",
+    "=Cool Neutral/0",
+    "=Brand/900"
+  ],
+  [
+    "Text/Action/PrimaryInverse/Pressed",
+    "=Brand/10",
+    "=Brand/950"
+  ],
+  [
+    "Text/Action/PrimaryInverse/Disabled",
+    "=Cool Neutral/0 @ 90%",
+    "=Cool Neutral/0 @ 30%"
+  ],
+  [
+    "Text/Action/Secondary/Base",
+    "=Warm Neutral/950",
+    "=Midnight/Ink-Bright"
+  ],
+  [
+    "Text/Action/SecondaryInverse/Base",
+    "=Cool Neutral/140",
+    "=Cool Neutral/40"
+  ],
+  [
+    "Text/Action/SecondaryInverse/Hover",
+    "=Cool Neutral/150",
+    "=Cool Neutral/30"
+  ],
+  [
+    "Text/Action/SecondaryInverse/Pressed",
+    "=Cool Neutral/160",
+    "=Cool Neutral/20"
+  ],
+  [
+    "Text/Action/SecondaryInverse/Disabled",
+    "=Cool Neutral/90",
+    "=Cool Neutral/0 @ 16%"
+  ],
+  [
+    "Text/Action/Secondary/Hover",
+    "=Warm Neutral/960",
+    "=Cool Neutral/30"
+  ],
+  [
+    "Text/Action/Secondary/Pressed",
+    "=Warm Neutral/970",
+    "=Cool Neutral/20"
+  ],
+  [
+    "Text/Action/Secondary/Disabled",
+    "=Warm Neutral/500",
+    "=Cool Neutral/0 @ 16%"
+  ],
+  [
+    "Text/Action/Tertiary/Base",
+    "=Brand/500",
+    "=Brand/50"
+  ],
+  [
+    "Text/Action/Tertiary/Hover",
+    "=Brand/600",
+    "=Brand/40"
+  ],
+  [
+    "Text/Action/Tertiary/Pressed",
+    "=Brand/800",
+    "=Brand/30"
+  ],
+  [
+    "Text/Action/Tertiary/Disabled",
+    "=Brand/50",
+    "=Brand/900 @ 30%"
+  ],
+  [
+    "Text/Action/Mono/Base",
+    "=Cool Neutral/10",
+    "=Cool Neutral/10"
+  ],
+  [
+    "Text/Action/Mono/Hover",
+    "=Cool Neutral/0",
+    "=Cool Neutral/0"
+  ],
+  [
+    "Text/Action/Mono/Pressed",
+    "=Cool Neutral/0",
+    "=Cool Neutral/0"
+  ],
+  [
+    "Text/Action/Mono/Disabled",
+    "=Cool Neutral/0 @ 80%",
+    "=Cool Neutral/0 @ 16%"
+  ],
+  [
+    "Text/Action/Alert/Base",
+    "=Saffron/140",
+    "=Saffron/50"
+  ],
+  [
+    "Text/Action/Alert/Hover",
+    "=Saffron/130",
+    "=Saffron/80"
+  ],
+  [
+    "Text/Action/Alert/Pressed",
+    "=Saffron/150",
+    "=Saffron/100"
+  ],
+  [
+    "Text/Action/Alert/Disabled",
+    "=Saffron/130 @ 50%",
+    "=Saffron/130 @ 30%"
+  ],
+  [
+    "Text/Action/Danger/Base",
+    "=Orange/110",
+    "=Orange/40"
+  ],
+  [
+    "Text/Action/Danger/Hover",
+    "=Orange/100",
+    "=Orange/60"
+  ],
+  [
+    "Text/Action/Danger/Pressed",
+    "=Orange/130",
+    "=Orange/70"
+  ],
+  [
+    "Text/Action/Danger/Disabled",
+    "=Orange/80 @ 70%",
+    "=Orange/80 @ 50%"
+  ],
+  [
+    "Text/Action/Negative/Base",
+    "=Red/100",
+    "=Red/30"
+  ],
+  [
+    "Text/Action/Negative/Hover",
+    "=Red/120",
+    "=Red/40"
+  ],
+  [
+    "Text/Action/Negative/Pressed",
+    "=Red/130",
+    "=Red/50"
+  ],
+  [
+    "Text/Action/Negative/Disabled",
+    "=Red/40",
+    "=Red/120 @ 30%"
+  ],
+  [
+    "Text/Action/Positive/Base",
+    "=Green/120",
+    "=Green/40"
+  ],
+  [
+    "Text/Action/Positive/Hover",
+    "=Green/110",
+    "=Green/60"
+  ],
+  [
+    "Text/Action/Positive/Pressed",
+    "=Green/130",
+    "=Green/70"
+  ],
+  [
+    "Text/Action/Positive/Disabled",
+    "=Green/110 @ 50%",
+    "=Green/110 @ 70%"
+  ],
+  [
+    "Text/Action/Accent-Jade/Base",
+    "=Jade/140",
+    "=Jade/50"
+  ],
+  [
+    "Text/Action/Accent-Jade/Hover",
+    "=Jade/150",
+    "=Jade/70"
+  ],
+  [
+    "Text/Action/Accent-Jade/Pressed",
+    "=Jade/170",
+    "=Jade/100"
+  ],
+  [
+    "Text/Action/Accent-Jade/Disabled",
+    "=Jade/110 @ 70%",
+    "=Jade/110 @ 50%"
+  ],
+  [
+    "Fill/Action/Primary/Base",
+    "=Brand/300",
+    "=Brand/50"
+  ],
+  [
+    "Fill/Action/PrimaryInverse/Base",
+    "=Brand/0",
+    "=Brand/50 @ 8%"
+  ],
+  [
+    "Fill/Action/Secondary/Base",
+    "=Warm Neutral/275",
+    "=Amethyst/55 @ 10%"
+  ],
+  [
+    "Fill/Action/Secondary/Hover",
+    "=Warm Neutral/325",
+    "=Amethyst/55 @ 18%"
+  ],
+  [
+    "Fill/Action/Secondary/Pressed",
+    "=Warm Neutral/350",
+    "=Cool Neutral/0 @ 16%"
+  ],
+  [
+    "Fill/Action/Secondary/Disabled",
+    "=Cool Neutral/220 @ 4%",
+    "=Cool Neutral/0 @ 8%"
+  ],
+  [
+    "Fill/Action/PrimaryInverse/Hover",
+    "=Brand/10",
+    "=Brand/900 @ 16%"
+  ],
+  [
+    "Fill/Action/PrimaryInverse/Pressed",
+    "=Brand/20",
+    "=Cool Neutral/0 @ 8%"
+  ],
+  [
+    "Fill/Action/PrimaryInverse/Disabled",
+    "=Brand/50 @ 20%",
+    "=Brand/900 @ 4%"
+  ],
+  [
+    "Fill/Action/Primary/Hover",
+    "=Brand/430",
+    "=Brand/45"
+  ],
+  [
+    "Fill/Action/Primary/Pressed",
+    "=Brand/500",
+    "=Brand/60"
+  ],
+  [
+    "Fill/Action/Primary/Disabled",
+    "=Brand/40",
+    "=Brand/900 @ 30%"
+  ],
+  [
+    "Fill/Action/SecondaryInverse/Base",
+    "=Warm Neutral/200",
+    "=Cool Neutral/0 @ 8%"
+  ],
+  [
+    "Fill/Action/SecondaryInverse/Hover",
+    "=Warm Neutral/150",
+    "=Cool Neutral/0 @ 16%"
+  ],
+  [
+    "Fill/Action/SecondaryInverse/Pressed",
+    "=Warm Neutral/250",
+    "=Cool Neutral/0 @ 16%"
+  ],
+  [
+    "Fill/Action/SecondaryInverse/Disabled",
+    "=Cool Neutral/220 @ 2%",
+    "=Cool Neutral/0 @ 8%"
+  ],
+  [
+    "Fill/Action/Tertiary/Base",
+    "=Brand/100",
+    "=Brand/50 @ 4%"
+  ],
+  [
+    "Fill/Action/Tertiary Inverse/Base",
+    "=Brand/10",
+    "=Brand/50 @ 4%"
+  ],
+  [
+    "Fill/Action/Tertiary Inverse/Hover",
+    "=Brand/50 @ 20%",
+    "=Brand/50 @ 8%"
+  ],
+  [
+    "Fill/Action/Tertiary Inverse/Pressed",
+    "=Brand/20",
+    "=Brand/50 @ 16%"
+  ],
+  [
+    "Fill/Action/Tertiary Inverse/Disabled",
+    "=Brand/50 @ 8%",
+    "=Brand/900 @ 4%"
+  ],
+  [
+    "Fill/Action/Warning/Base",
+    "=Saffron/120",
+    "=Saffron/0"
+  ],
+  [
+    "Fill/Action/WarningInverse/Base",
+    "=Saffron/0",
+    "=Saffron/0"
+  ],
+  [
+    "Fill/Action/WarningInverse/Hover",
+    "=Saffron/10",
+    "=Saffron/130 @ 30%"
+  ],
+  [
+    "Fill/Action/WarningInverse/Pressed",
+    "=Saffron/20",
+    "=Saffron/130 @ 50%"
+  ],
+  [
+    "Fill/Action/WarningInverse/Disabled",
+    "=Saffron/130 @ 50%",
+    "=Saffron/100"
+  ],
+  [
+    "Fill/Action/Danger/Base",
+    "=Orange/70",
+    "=Orange/0"
+  ],
+  [
+    "Fill/Action/DangerInverse/Base",
+    "=Orange/0",
+    "=Orange/0"
+  ],
+  [
+    "Fill/Action/DangerInverse/Hover",
+    "=Orange/10",
+    "=Orange/30"
+  ],
+  [
+    "Fill/Action/DangerInverse/Pressed",
+    "=Orange/20",
+    "=Orange/80 @ 50%"
+  ],
+  [
+    "Fill/Action/DangerInverse/Disabled",
+    "=Orange/80 @ 50%",
+    "=Orange/80"
+  ],
+  [
+    "Fill/Action/Danger/Hover",
+    "=Orange/100",
+    "=Orange/10"
+  ],
+  [
+    "Fill/Action/Danger/Pressed",
+    "=Orange/110",
+    "=Orange/20"
+  ],
+  [
+    "Fill/Action/Danger/Disabled",
+    "=Orange/40",
+    "=Orange/80 @ 70%"
+  ],
+  [
+    "Fill/Action/Warning/Hover",
+    "=Saffron/100",
+    "=Saffron/10"
+  ],
+  [
+    "Fill/Action/Warning/Selected",
+    "=Saffron/130",
+    "=Saffron/20"
+  ],
+  [
+    "Fill/Action/Warning/Disabled",
+    "=Saffron/40",
+    "=Saffron/130 @ 50%"
+  ],
+  [
+    "Fill/Action/Negative/Base",
+    "=Red/120",
+    "=Red/120 @ 70%"
+  ],
+  [
+    "Fill/Action/NegativeInverse/Base",
+    "=Red/10",
+    "=Red/0"
+  ],
+  [
+    "Fill/Action/NegativeInverse/Hover",
+    "=Red/10",
+    "=Red/120 @ 20%"
+  ],
+  [
+    "Fill/Action/NegativeInverse/Pressed",
+    "=Red/20",
+    "=Red/120 @ 50%"
+  ],
+  [
+    "Fill/Action/NegativeInverse/Disabled",
+    "=Red/120 @ 16%",
+    "=Red/80"
+  ],
+  [
+    "Fill/Action/Negative/Hover",
+    "=Red/110",
+    "=Red/120 @ 50%"
+  ],
+  [
+    "Fill/Action/Negative/Pressed",
+    "=Red/130",
+    "=Red/120 @ 80%"
+  ],
+  [
+    "Fill/Action/Negative/Disabled",
+    "=Red/120 @ 50%",
+    "=Red/120 @ 16%"
+  ],
+  [
+    "Fill/Action/Tertiary/Hover",
+    "=Brand/80",
+    "=Brand/50 @ 8%"
+  ],
+  [
+    "Fill/Action/Tertiary/Pressed",
+    "=Brand/200",
+    "=Brand/50 @ 16%"
+  ],
+  [
+    "Fill/Action/Tertiary/Disabled",
+    "=Brand/50 @ 8%",
+    "=Brand/900 @ 4%"
+  ],
+  [
+    "Icon/Action/Primary/Base",
+    "=Brand/400",
+    "=Brand/20"
+  ],
+  [
+    "Icon/Action/Primary/Hover",
+    "=Brand/500",
+    "=Brand/10"
+  ],
+  [
+    "Icon/Action/Primary/Pressed",
+    "=Brand/600",
+    "=Brand/20"
+  ],
+  [
+    "Icon/Action/Primary/Disabled",
+    "=Brand/50",
+    "=Brand/900 @ 50%"
+  ],
+  [
+    "Icon/Action/PrimaryInverse/Base",
+    "=Cool Neutral/0",
+    "=Brand/800"
+  ],
+  [
+    "Stroke/Action/Primary/Base",
+    "=Brand/300",
+    "=Brand/50"
+  ],
+  [
+    "Stroke/Action/Primary/Hover",
+    "=Brand/100",
+    "=Brand/40"
+  ],
+  [
+    "Stroke/Action/Primary/Pressed",
+    "=Brand/400",
+    "=Brand/60"
+  ],
+  [
+    "Stroke/Action/Primary/Disabled",
+    "=Brand/30",
+    "=Brand/900 @ 30%"
+  ],
+  [
+    "Stroke/Action/Primary Inverse/Base",
+    "=Brand/40",
+    "=Brand/50"
+  ],
+  [
+    "Stroke/Action/Primary Inverse/Hover",
+    "=Brand/30",
+    "=Brand/40"
+  ],
+  [
+    "Stroke/Action/Primary Inverse/Pressed",
+    "=Brand/50",
+    "=Brand/60"
+  ],
+  [
+    "Stroke/Action/Primary Inverse/Disabled",
+    "=Brand/30",
+    "=Brand/900 @ 30%"
+  ],
+  [
+    "Stroke/Action/Secondary/Base",
+    "=Warm Neutral/600",
+    "=Cool Neutral/0 @ 16%"
+  ],
+  [
+    "Stroke/Action/Secondary/Hover",
+    "=Warm Neutral/700",
+    "=Cool Neutral/0 @ 8%"
+  ],
+  [
+    "Stroke/Action/Secondary/Pressed",
+    "=Warm Neutral/750",
+    "=Cool Neutral/220 @ 30%"
+  ],
+  [
+    "Stroke/Action/Secondary/Disabled",
+    "=Warm Neutral/100",
+    "=Cool Neutral/0 @ 8%"
+  ],
+  [
+    "Stroke/Action/Secondary Inverse/Base",
+    "=Warm Neutral/400",
+    "=Amethyst/55 @ 24%"
+  ],
+  [
+    "Stroke/Action/Secondary Inverse/Hover",
+    "=Cool Neutral/70",
+    "=Cool Neutral/0 @ 8%"
+  ],
+  [
+    "Stroke/Action/Secondary Inverse/Pressed",
+    "=Cool Neutral/80",
+    "=Cool Neutral/220 @ 30%"
+  ],
+  [
+    "Stroke/Action/Secondary Inverse/Disabled",
+    "=Cool Neutral/40",
+    "=Cool Neutral/0 @ 8%"
+  ],
+  [
+    "Stroke/Action/Tertiary/Base",
+    "=Brand/40",
+    "=Brand/50 @ 16%"
+  ],
+  [
+    "Stroke/Action/TertiaryInverse/Base",
+    "=Brand/10",
+    "=Brand/10"
+  ],
+  [
+    "Stroke/Action/TertiaryInverse/Hover",
+    "=Brand/0",
+    "=Brand/0"
+  ],
+  [
+    "Stroke/Action/TertiaryInverse/Pressed",
+    "=Brand/30",
+    "=Brand/30"
+  ],
+  [
+    "Stroke/Action/TertiaryInverse/Disabled",
+    "=Brand/40",
+    "=Brand/40"
+  ],
+  [
+    "Stroke/Action/Tertiary/Hover",
+    "=Brand/50",
+    "=Brand/50 @ 20%"
+  ],
+  [
+    "Stroke/Action/Tertiary/Pressed",
+    "=Brand/60",
+    "=Brand/50 @ 30%"
+  ],
+  [
+    "Stroke/Action/Tertiary/Disabled",
+    "=Brand/10",
+    "=Brand/50 @ 4%"
+  ],
+  [
+    "Stroke/Action/Warning/Base",
+    "=Saffron/70",
+    "=Saffron/70"
+  ],
+  [
+    "Stroke/Action/Warning/Hover",
+    "=Saffron/80",
+    "=Saffron/80"
+  ],
+  [
+    "Stroke/Action/Warning/Pressed",
+    "=Saffron/90",
+    "=Saffron/90"
+  ],
+  [
+    "Stroke/Action/Warning/Disabled",
+    "=Saffron/40",
+    "=Saffron/40"
+  ],
+  [
+    "Stroke/Action/WarningInverse/Base",
+    "=Saffron/20",
+    "=Saffron/20"
+  ],
+  [
+    "Stroke/Action/WarningInverse/Hover",
+    "=Saffron/10",
+    "=Saffron/10"
+  ],
+  [
+    "Stroke/Action/WarningInverse/Pressed",
+    "=Saffron/30",
+    "=Saffron/30"
+  ],
+  [
+    "Stroke/Action/WarningInverse/Disabled",
+    "=Saffron/40",
+    "=Saffron/40"
+  ],
+  [
+    "Stroke/Action/Danger/Base",
+    "=Orange/60",
+    "=Orange/60"
+  ],
+  [
+    "Stroke/Action/Danger/Hover",
+    "=Orange/70",
+    "=Orange/70"
+  ],
+  [
+    "Stroke/Action/Danger/Pressed",
+    "=Orange/110",
+    "=Orange/110"
+  ],
+  [
+    "Stroke/Action/Danger/Disabled",
+    "=Orange/30",
+    "=Orange/30"
+  ],
+  [
+    "Stroke/Action/DangerInverse/Base",
+    "=Orange/20",
+    "=Orange/20"
+  ],
+  [
+    "Stroke/Action/DangerInverse/Hover",
+    "=Orange/0",
+    "=Orange/0"
+  ],
+  [
+    "Stroke/Action/DangerInverse/Pressed",
+    "=Orange/30",
+    "=Orange/30"
+  ],
+  [
+    "Stroke/Action/DangerInverse/Disabled",
+    "=Orange/50",
+    "=Orange/50"
+  ],
+  [
+    "Stroke/Action/Negative/Base",
+    "=Red/90",
+    "=Red/50"
+  ],
+  [
+    "Stroke/Action/Negative Inverse/Base",
+    "=Red/30",
+    "=Red/50"
+  ],
+  [
+    "Stroke/Action/Negative Inverse/Hover",
+    "=Red/40",
+    "=Red/120 @ 50%"
+  ],
+  [
+    "Stroke/Action/Negative Inverse/Pressed",
+    "=Red/50",
+    "=Red/120 @ 80%"
+  ],
+  [
+    "Stroke/Action/Negative Inverse/Disabled",
+    "=Red/30",
+    "=Red/120 @ 20%"
+  ],
+  [
+    "Stroke/Action/Negative/Hover",
+    "=Red/80",
+    "=Red/120 @ 50%"
+  ],
+  [
+    "Stroke/Action/Negative/Pressed",
+    "=Red/100",
+    "=Red/120 @ 80%"
+  ],
+  [
+    "Stroke/Action/Negative/Disabled",
+    "=Red/30",
+    "=Red/120 @ 20%"
+  ],
+  [
+    "Stroke/Action/Positive/Base",
+    "=Green/70",
+    "=Green/70"
+  ],
+  [
+    "Stroke/Action/Positive/Hover",
+    "=Green/80",
+    "=Green/80"
+  ],
+  [
+    "Stroke/Action/Positive/Pressed",
+    "=Green/100",
+    "=Green/100"
+  ],
+  [
+    "Stroke/Action/Positive/Disabled",
+    "=Green/30",
+    "=Green/30"
+  ],
+  [
+    "Stroke/Action/PositiveInverse/Base",
+    "=Green/20",
+    "=Green/20"
+  ],
+  [
+    "Stroke/Action/PositiveInverse/Hover",
+    "=Green/10",
+    "=Green/10"
+  ],
+  [
+    "Stroke/Action/PositiveInverse/Pressed",
+    "=Green/30",
+    "=Green/30"
+  ],
+  [
+    "Stroke/Action/PositiveInverse/Disabled",
+    "=Green/60",
+    "=Green/60"
+  ],
+  [
+    "Stroke/Action/Accent_Amethyst/Base",
+    "=Amethyst/70",
+    "=Amethyst/70"
+  ],
+  [
+    "Stroke/Action/Accent_Amethyst/Hover",
+    "=Amethyst/80",
+    "=Amethyst/80"
+  ],
+  [
+    "Stroke/Action/Accent_Amethyst/Pressed",
+    "=Amethyst/100",
+    "=Amethyst/100"
+  ],
+  [
+    "Stroke/Action/Accent_Amethyst/Disabled",
+    "=Amethyst/30",
+    "=Amethyst/30"
+  ],
+  [
+    "Stroke/Action/Accent_Amethyst_Inverse/Base",
+    "=Amethyst/20",
+    "=Amethyst/20"
+  ],
+  [
+    "Stroke/Action/Accent_Amethyst_Inverse/Hover",
+    "=Amethyst/10",
+    "=Amethyst/10"
+  ],
+  [
+    "Stroke/Action/Accent_Amethyst_Inverse/Pressed",
+    "=Amethyst/30",
+    "=Amethyst/30"
+  ],
+  [
+    "Stroke/Action/Accent_Amethyst_Inverse/Disabled",
+    "=Amethyst/50",
+    "=Amethyst/50"
+  ],
+  [
+    "Stroke/Action/Accent_Jade/Base",
+    "=Jade/70",
+    "=Jade/70"
+  ],
+  [
+    "Stroke/Action/Accent_Jade/Hover",
+    "=Jade/80",
+    "=Jade/80"
+  ],
+  [
+    "Stroke/Action/Accent_Jade/Pressed",
+    "=Jade/100",
+    "=Jade/100"
+  ],
+  [
+    "Stroke/Action/Accent_Jade/Disabled",
+    "=Jade/30",
+    "=Jade/30"
+  ],
+  [
+    "Stroke/Action/Accent_Jade_Inverse/Base",
+    "=Jade/20",
+    "=Jade/20"
+  ],
+  [
+    "Stroke/Action/Accent_Jade_Inverse/Hover",
+    "=Jade/10",
+    "=Jade/10"
+  ],
+  [
+    "Stroke/Action/Accent_Jade_Inverse/Pressed",
+    "=Jade/30",
+    "=Jade/30"
+  ],
+  [
+    "Stroke/Action/Accent_Jade_Inverse/Disabled",
+    "=Jade/40",
+    "=Jade/40"
+  ],
+  [
+    "Stroke/Static/Neutral/Light",
+    "=Warm Neutral/300",
+    "=Amethyst/55 @ 13%"
+  ],
+  [
+    "Stroke/Contextual/FocusRing/Base",
+    "=Brand/70",
+    "=Cool Neutral/0 @ 30%"
+  ],
+  [
+    "Stroke/Static/Neutral/Subtle",
+    "=Cool Neutral/30",
+    "=Cool Neutral/30"
+  ],
+  [
+    "Stroke/Static/Neutral/Base",
+    "=Cool Neutral/40",
+    "=Cool Neutral/40"
+  ],
+  [
+    "Stroke/Static/Neutral/Contrast",
+    "=Cool Neutral/80",
+    "=Cool Neutral/80"
+  ],
+  [
+    "Stroke/Static/Neutral/Bold",
+    "=Cool Neutral/120",
+    "=Cool Neutral/120"
+  ],
+  [
+    "Stroke/Static/Brand/Light",
+    "=Brand/40",
+    "=Brand/40"
+  ],
+  [
+    "Stroke/Static/Brand/Subtle",
+    "=Brand/50",
+    "=Brand/50"
+  ],
+  [
+    "Stroke/Static/Brand/Base",
+    "=Brand/60",
+    "=Brand/60"
+  ],
+  [
+    "Stroke/Static/Brand/Contrast",
+    "=Brand/80",
+    "=Brand/80"
+  ],
+  [
+    "Stroke/Static/Brand/Bold",
+    "=Brand/100",
+    "=Brand/100"
+  ],
+  [
+    "Stroke/Static/Info/Light",
+    "=Brand/0",
+    "=Brand/0"
+  ],
+  [
+    "Stroke/Static/Info/Subtle",
+    "=Brand/10",
+    "=Brand/10"
+  ],
+  [
+    "Stroke/Static/Info/Base",
+    "=Brand/30",
+    "=Brand/30"
+  ],
+  [
+    "Stroke/Static/Info/Contrast",
+    "=Brand/40",
+    "=Brand/40"
+  ],
+  [
+    "Stroke/Static/Info/Bold",
+    "=Brand/60",
+    "=Brand/60"
+  ],
+  [
+    "Stroke/Static/Alert/Light",
+    "=Saffron/20",
+    "=Saffron/20"
+  ],
+  [
+    "Stroke/Static/Alert/Subtle",
+    "=Saffron/30",
+    "=Saffron/30"
+  ],
+  [
+    "Stroke/Static/Alert/Base",
+    "=Saffron/40",
+    "=Saffron/40"
+  ],
+  [
+    "Stroke/Static/Alert/Contrast",
+    "=Saffron/70",
+    "=Saffron/70"
+  ],
+  [
+    "Stroke/Static/Alert/Bold",
+    "=Saffron/90",
+    "=Saffron/90"
+  ],
+  [
+    "Stroke/Static/Danger/Light",
+    "=Orange/0",
+    "=Orange/0"
+  ],
+  [
+    "Stroke/Static/Danger/Subtle",
+    "=Orange/30",
+    "=Orange/30"
+  ],
+  [
+    "Stroke/Static/Danger/Base",
+    "=Orange/50",
+    "=Orange/50"
+  ],
+  [
+    "Stroke/Static/Danger/Contrast",
+    "=Orange/70",
+    "=Orange/70"
+  ],
+  [
+    "Stroke/Static/Danger/Bold",
+    "=Orange/100",
+    "=Orange/100"
+  ],
+  [
+    "Stroke/Static/Negative/Light",
+    "=Red/50",
+    "=Red/50"
+  ],
+  [
+    "Stroke/Static/Negative/Subtle",
+    "=Red/60",
+    "=Red/60"
+  ],
+  [
+    "Stroke/Static/Negative/Base",
+    "=Red/70",
+    "=Red/70"
+  ],
+  [
+    "Stroke/Static/Negative/Contrast",
+    "=Red/90",
+    "=Red/90"
+  ],
+  [
+    "Stroke/Static/Negative/Bold",
+    "=Red/110",
+    "=Red/110"
+  ],
+  [
+    "Stroke/Static/Positive/Light",
+    "=Green/20",
+    "=Green/20"
+  ],
+  [
+    "Stroke/Static/Positive/Subtle",
+    "=Green/30",
+    "=Green/30"
+  ],
+  [
+    "Stroke/Static/Positive/Base",
+    "=Green/40",
+    "=Green/40"
+  ],
+  [
+    "Stroke/Static/Positive/Contrast",
+    "=Green/60",
+    "=Green/60"
+  ],
+  [
+    "Stroke/Static/Positive/Bold",
+    "=Green/90",
+    "=Green/90"
+  ],
+  [
+    "Stroke/Static/Accent_Amethyst/Light",
+    "=Amethyst/20",
+    "=Amethyst/20"
+  ],
+  [
+    "Stroke/Static/Accent_Amethyst/Subtle",
+    "=Amethyst/30",
+    "=Amethyst/30"
+  ],
+  [
+    "Stroke/Static/Accent_Amethyst/Base",
+    "=Amethyst/40",
+    "=Amethyst/40"
+  ],
+  [
+    "Stroke/Static/Accent_Amethyst/Contrast",
+    "=Amethyst/70",
+    "=Amethyst/70"
+  ],
+  [
+    "Stroke/Static/Accent_Amethyst/Bold",
+    "=Amethyst/90",
+    "=Amethyst/90"
+  ],
+  [
+    "Stroke/Static/Accent_Jade/Light",
+    "=Jade/20",
+    "=Jade/20"
+  ],
+  [
+    "Stroke/Static/Accent_Jade/Subtle",
+    "=Jade/30",
+    "=Jade/30"
+  ],
+  [
+    "Stroke/Static/Accent_Jade/Base",
+    "=Jade/40",
+    "=Jade/40"
+  ],
+  [
+    "Stroke/Static/Accent_Jade/Contrast",
+    "=Jade/70",
+    "=Jade/70"
+  ],
+  [
+    "Stroke/Static/Accent_Jade/Bold",
+    "=Jade/100",
+    "=Jade/100"
+  ],
+  [
+    "Icon/Action/PrimaryInverse/Hover",
+    "=Cool Neutral/0",
+    "=Brand/900"
+  ],
+  [
+    "Icon/Action/PrimaryInverse/Pressed",
+    "=Brand/10",
+    "=Brand/950"
+  ],
+  [
+    "Icon/Action/PrimaryInverse/Disabled",
+    "=Cool Neutral/0 @ 90%",
+    "=Cool Neutral/0 @ 30%"
+  ],
+  [
+    "Icon/Action/Secondary/Base",
+    "=Warm Neutral/950",
+    "=Cool Neutral/40"
+  ],
+  [
+    "Icon/Action/Secondary Inverse/Base",
+    "=Cool Neutral/120",
+    "=Cool Neutral/40"
+  ],
+  [
+    "Icon/Action/Secondary Inverse/Hover",
+    "=Cool Neutral/140",
+    "=Cool Neutral/30"
+  ],
+  [
+    "Icon/Action/Secondary Inverse/Pressed",
+    "=Cool Neutral/160",
+    "=Cool Neutral/20"
+  ],
+  [
+    "Icon/Action/Secondary Inverse/Disabled",
+    "=Cool Neutral/50",
+    "=Cool Neutral/0 @ 16%"
+  ],
+  [
+    "Icon/Action/Mono/Base",
+    "=Cool Neutral/10",
+    "=Cool Neutral/10"
+  ],
+  [
+    "Icon/Action/Mono/Hover",
+    "=Cool Neutral/0",
+    "=Cool Neutral/0"
+  ],
+  [
+    "Icon/Action/Mono/Pressed",
+    "=Cool Neutral/0",
+    "=Cool Neutral/0"
+  ],
+  [
+    "Icon/Action/Mono/Disabled",
+    "=Cool Neutral/0 @ 80%",
+    "=Cool Neutral/0 @ 16%"
+  ],
+  [
+    "Icon/Action/Tertiary/Base",
+    "=Brand/500",
+    "=Brand/50"
+  ],
+  [
+    "Icon/Action/Tertiary/Hover",
+    "=Brand/600",
+    "=Brand/40"
+  ],
+  [
+    "Icon/Action/Tertiary/Pressed",
+    "=Brand/800",
+    "=Brand/30"
+  ],
+  [
+    "Icon/Action/Tertiary/Disabled",
+    "=Brand/50",
+    "=Brand/900 @ 30%"
+  ],
+  [
+    "Icon/Action/Secondary/Hover",
+    "=Warm Neutral/960",
+    "=Cool Neutral/30"
+  ],
+  [
+    "Icon/Action/Secondary/Pressed",
+    "=Warm Neutral/970",
+    "=Cool Neutral/20"
+  ],
+  [
+    "Icon/Action/Secondary/Disabled",
+    "=Warm Neutral/500",
+    "=Cool Neutral/0 @ 16%"
+  ],
+  [
+    "Icon/Action/Alert/Base",
+    "=Saffron/140",
+    "=Saffron/50"
+  ],
+  [
+    "Icon/Action/Alert/Hover",
+    "=Saffron/130",
+    "=Saffron/80"
+  ],
+  [
+    "Icon/Action/Alert/Pressed",
+    "=Saffron/150",
+    "=Saffron/100"
+  ],
+  [
+    "Icon/Action/Alert/Disabled",
+    "=Saffron/130 @ 50%",
+    "=Saffron/130 @ 50%"
+  ],
+  [
+    "Icon/Action/Danger/Base",
+    "=Orange/110",
+    "=Orange/40"
+  ],
+  [
+    "Icon/Action/Danger/Hover",
+    "=Orange/100",
+    "=Orange/60"
+  ],
+  [
+    "Icon/Action/Danger/Pressed",
+    "=Orange/130",
+    "=Orange/70"
+  ],
+  [
+    "Icon/Action/Danger/Disabled",
+    "=Orange/80 @ 70%",
+    "=Orange/80 @ 50%"
+  ],
+  [
+    "Icon/Action/Negative/Base",
+    "=Red/100",
+    "=Red/30"
+  ],
+  [
+    "Icon/Action/Negative/Hover",
+    "=Red/120",
+    "=Red/40"
+  ],
+  [
+    "Icon/Action/Negative/Pressed",
+    "=Red/130",
+    "=Red/50"
+  ],
+  [
+    "Icon/Action/Negative/Disabled",
+    "=Red/40",
+    "=Red/120 @ 30%"
+  ],
+  [
+    "Icon/Action/NegativeInverse/Base",
+    "=Red/40",
+    "=Red/40"
+  ],
+  [
+    "Icon/Action/NegativeInverse/Hover",
+    "=Red/50",
+    "=Red/50"
+  ],
+  [
+    "Icon/Action/NegativeInverse/Pressed",
+    "=Red/20",
+    "=Red/20"
+  ],
+  [
+    "Icon/Action/NegativeInverse/Disabled",
+    "=Red/30",
+    "=Red/30"
+  ],
+  [
+    "Icon/Action/Positive/Base",
+    "=Green/80",
+    "=Green/80"
+  ],
+  [
+    "Icon/Action/Positive/Hover",
+    "=Green/90",
+    "=Green/90"
+  ],
+  [
+    "Icon/Action/Positive/Pressed",
+    "=Green/100",
+    "=Green/100"
+  ],
+  [
+    "Icon/Action/Positive/Disabled",
+    "=Green/50",
+    "=Green/50"
+  ],
+  [
+    "Icon/Action/PositiveInverse/Base",
+    "=Green/20",
+    "=Green/20"
+  ],
+  [
+    "Icon/Action/PositiveInverse/Hover",
+    "=Green/10",
+    "=Green/10"
+  ],
+  [
+    "Icon/Action/PositiveInverse/Pressed",
+    "=Green/30",
+    "=Green/30"
+  ],
+  [
+    "Icon/Action/PositiveInverse/Disabled",
+    "=Green/60",
+    "=Green/60"
+  ],
+  [
+    "Icon/Action/Accent_Jade/Base",
+    "=Jade/80",
+    "=Jade/80"
+  ],
+  [
+    "Icon/Action/Accent_Jade/Hover",
+    "=Jade/90",
+    "=Jade/90"
+  ],
+  [
+    "Icon/Action/Accent_Jade/Selected",
+    "=Jade/110",
+    "=Jade/110"
+  ],
+  [
+    "Icon/Action/Accent_Jade/Disabled",
+    "=Jade/40",
+    "=Jade/40"
+  ],
+  [
+    "Icon/Static/Neutral/XLight",
+    "=Cool Neutral/90",
+    "=Cool Neutral/0 @ 16%"
+  ],
+  [
+    "Icon/Static/Neutral/Light",
+    "=Cool Neutral/110",
+    "=Cool Neutral/0 @ 30%"
+  ],
+  [
+    "Icon/Static/Neutral/Subtle",
+    "=Cool Neutral/130",
+    "=Cool Neutral/0 @ 70%"
+  ],
+  [
+    "Icon/Static/Neutral/Base",
+    "=Cool Neutral/150",
+    "=Cool Neutral/0 @ 80%"
+  ],
+  [
+    "Icon/Static/Neutral/Contrast",
+    "=Cool Neutral/190",
+    "=Cool Neutral/0 @ 90%"
+  ],
+  [
+    "Icon/Static/Neutral/Bold",
+    "=Cool Neutral/210",
+    "=Cool Neutral/0"
+  ],
+  [
+    "Icon/Static/Brand/Light",
+    "=Brand/80",
+    "=Brand/80"
+  ],
+  [
+    "Icon/Static/Mono/Light",
+    "=Cool Neutral/10",
+    "=Cool Neutral/10"
+  ],
+  [
+    "Icon/Static/Mono/Base",
+    "=Cool Neutral/0",
+    "=Cool Neutral/0"
+  ],
+  [
+    "Icon/Static/Brand/Subtle",
+    "=Brand/90",
+    "=Brand/90"
+  ],
+  [
+    "Icon/Static/Brand/Base",
+    "=Brand/300",
+    "=Brand/300"
+  ],
+  [
+    "Icon/Static/Brand/Contrast",
+    "=Brand/400",
+    "=Brand/400"
+  ],
+  [
+    "Icon/Static/Brand/Bold",
+    "=Brand/500",
+    "=Brand/500"
+  ],
+  [
+    "Icon/Static/Info/Light",
+    "=Brand/70",
+    "=Brand/70"
+  ],
+  [
+    "Icon/Static/Info/Subtle",
+    "=Brand/80",
+    "=Brand/80"
+  ],
+  [
+    "Icon/Static/Info/Base",
+    "=Brand/100",
+    "=Brand/90"
+  ],
+  [
+    "Icon/Static/Info/Contrast",
+    "=Brand/400",
+    "=Brand/400"
+  ],
+  [
+    "Icon/Static/Info/Bold",
+    "=Brand/500",
+    "=Brand/500"
+  ],
+  [
+    "Icon/Static/Warning/Light",
+    "=Saffron/60",
+    "=Saffron/40"
+  ],
+  [
+    "Icon/Static/Warning/Subtle",
+    "=Saffron/80",
+    "=Saffron/50"
+  ],
+  [
+    "Icon/Static/Warning/Base",
+    "=Saffron/100",
+    "=Saffron/80"
+  ],
+  [
+    "Icon/Static/Warning/Contrast",
+    "=Saffron/130",
+    "=Saffron/90"
+  ],
+  [
+    "Icon/Static/Warning/Bold",
+    "=Saffron/140",
+    "=Saffron/100"
+  ],
+  [
+    "Icon/Static/Danger/Light",
+    "=Orange/50",
+    "=Orange/50"
+  ],
+  [
+    "Icon/Static/Danger/Subtle",
+    "=Orange/60",
+    "=Orange/60"
+  ],
+  [
+    "Icon/Static/Danger/Base",
+    "=Orange/80",
+    "=Orange/80"
+  ],
+  [
+    "Icon/Static/Danger/Contrast",
+    "=Orange/100",
+    "=Orange/100"
+  ],
+  [
+    "Icon/Static/Danger/Bold",
+    "=Orange/110",
+    "=Orange/110"
+  ],
+  [
+    "Icon/Static/Negative/Light",
+    "=Red/70",
+    "=Red/80"
+  ],
+  [
+    "Icon/Static/Negative/Subtle",
+    "=Red/80",
+    "=Red/90"
+  ],
+  [
+    "Icon/Static/Negative/Base",
+    "=Red/100",
+    "=Red/100"
+  ],
+  [
+    "Icon/Static/Negative/Contrast",
+    "=Red/120",
+    "=Red/130"
+  ],
+  [
+    "Icon/Static/Negative/Bold",
+    "=Red/130",
+    "=Red/150"
+  ],
+  [
+    "Icon/Static/Positive/Light",
+    "=Green/50",
+    "=Green/50"
+  ],
+  [
+    "Icon/Static/Positive/Subtle",
+    "=Green/60",
+    "=Green/60"
+  ],
+  [
+    "Icon/Static/Positive/Base",
+    "=Green/70",
+    "=Green/70"
+  ],
+  [
+    "Icon/Static/Positive/Contrast",
+    "=Green/90",
+    "=Green/90"
+  ],
+  [
+    "Icon/Static/Positive/Bold",
+    "=Green/100",
+    "=Green/100"
+  ],
+  [
+    "Icon/Static/Accent_Amethyst/Light",
+    "=Amethyst/50",
+    "=Amethyst/50"
+  ],
+  [
+    "Icon/Static/Accent_Amethyst/Subtle",
+    "=Amethyst/70",
+    "=Amethyst/60"
+  ],
+  [
+    "Icon/Static/Accent_Amethyst/Base",
+    "=Amethyst/80",
+    "=Amethyst/80"
+  ],
+  [
+    "Icon/Static/Accent_Amethyst/Contrast",
+    "=Amethyst/100",
+    "=Amethyst/90"
+  ],
+  [
+    "Icon/Static/Accent_Amethyst/Bold",
+    "=Amethyst/130",
+    "=Amethyst/100"
+  ],
+  [
+    "Icon/Static/Accent_Jade/Light",
+    "=Jade/40",
+    "=Jade/40"
+  ],
+  [
+    "Icon/Static/Accent_Jade/Subtle",
+    "=Jade/60",
+    "=Jade/60"
+  ],
+  [
+    "Icon/Static/Accent_Jade/Base",
+    "=Jade/90",
+    "=Jade/110"
+  ],
+  [
+    "Icon/Static/Accent_Jade/Contrast",
+    "=Jade/110",
+    "=Jade/120"
+  ],
+  [
+    "Icon/Static/Accent_Jade/Bold",
+    "=Jade/130",
+    "=Jade/140"
+  ],
+  [
+    "Scrim/Faint",
+    "=Cool Neutral/220 @ 16%",
+    "=Cool Neutral/0 @ 16%"
+  ],
+  [
+    "Surface/Nav/Base",
+    "=Warm Neutral/250",
+    "=Midnight/Canvas"
+  ],
+  [
+    "Surface/Nav/Light",
+    "=Warm Neutral/250",
+    "=Midnight/Canvas"
+  ],
+  [
+    "Scrim/Light",
+    "=Cool Neutral/220 @ 30%",
+    "=Cool Neutral/0 @ 30%"
+  ],
+  [
+    "Scrim/Subtle",
+    "=Cool Neutral/220 @ 50%",
+    "=Cool Neutral/0 @ 70%"
+  ],
+  [
+    "Scrim/Base",
+    "=Cool Neutral/220 @ 70%",
+    "=Cool Neutral/0 @ 80%"
+  ],
+  [
+    "Fill/Action/Positive/Base",
+    "=Green/70",
+    "=Green/70"
+  ],
+  [
+    "Fill/Action/Positive/Hover",
+    "=Green/80",
+    "=Green/80"
+  ],
+  [
+    "Fill/Action/Positive/Pressed",
+    "=Green/90",
+    "=Green/90"
+  ],
+  [
+    "Fill/Action/Positive/Disabled",
+    "=Green/40",
+    "=Green/40"
+  ],
+  [
+    "Fill/Action/PositiveInverse/Base",
+    "=Green/20",
+    "=Green/20"
+  ],
+  [
+    "Fill/Action/PositiveInverse/Hover",
+    "=Green/30",
+    "=Green/30"
+  ],
+  [
+    "Fill/Action/PositiveInverse/Pressed",
+    "=Green/50",
+    "=Green/50"
+  ],
+  [
+    "Fill/Action/PositiveInverse/Disabled",
+    "=Green/20",
+    "=Green/20"
+  ],
+  [
+    "Fill/Action/Accent_Amethyst/Base",
+    "=Amethyst/90",
+    "=Amethyst/90"
+  ],
+  [
+    "Fill/Action/Accent_Amethyst_Inverse/Base",
+    "=Amethyst/0",
+    "=Amethyst/10"
+  ],
+  [
+    "Fill/Action/Accent_Amethyst_Inverse/Hover",
+    "=Amethyst/10",
+    "=Amethyst/20"
+  ],
+  [
+    "Fill/Action/Accent_Amethyst_Inverse/Pressed",
+    "=Amethyst/30",
+    "=Amethyst/30"
+  ],
+  [
+    "Fill/Action/Accent_Amethyst_Inverse/Disabled",
+    "=Amethyst/40",
+    "=Amethyst/10"
+  ],
+  [
+    "Fill/Action/Accent_Amethyst/Hover",
+    "=Amethyst/80",
+    "=Amethyst/80"
+  ],
+  [
+    "Fill/Action/Accent_Amethyst/Pressed",
+    "=Amethyst/100",
+    "=Amethyst/100"
+  ],
+  [
+    "Fill/Action/Accent_Amethyst/Disabled",
+    "=Amethyst/40",
+    "=Amethyst/40"
+  ],
+  [
+    "Fill/Action/Accent_Jade/Base",
+    "=Jade/90",
+    "=Jade/90"
+  ],
+  [
+    "Fill/Action/Accent_Jade/Hover",
+    "=Jade/80",
+    "=Jade/80"
+  ],
+  [
+    "Fill/Action/Accent_Jade/Selected",
+    "=Jade/100",
+    "=Jade/100"
+  ],
+  [
+    "Fill/Action/Accent_Jade/Disabled",
+    "=Jade/40",
+    "=Jade/40"
+  ],
+  [
+    "Fill/Action/Accent_Jade_Inverse/Base",
+    "=Jade/20",
+    "=Jade/20"
+  ],
+  [
+    "Fill/Action/Accent_Jade_Inverse/Hover",
+    "=Jade/30",
+    "=Jade/30"
+  ],
+  [
+    "Fill/Action/Accent_Jade_Inverse/Pressed",
+    "=Jade/40",
+    "=Jade/40"
+  ],
+  [
+    "Fill/Action/Accent_Jade_Inverse/Disabled",
+    "=Jade/10",
+    "=Jade/10"
+  ],
+  [
+    "Fill/Static/Neutral/Light",
+    "=Cool Neutral/0",
+    "=Midnight/Panel"
+  ],
+  [
+    "Fill/Static/Neutral/Subtle",
+    "=Warm Neutral/250",
+    "=Amethyst/55 @ 8%"
+  ],
+  [
+    "Fill/Static/Neutral/Base",
+    "=Warm Neutral/200",
+    "=Cool Neutral/200"
+  ],
+  [
+    "Fill/Static/Neutral/Opacity 70",
+    "=Warm Neutral/200 @ 70%",
+    "=Cool Neutral/220 @ 50%"
+  ],
+  [
+    "Fill/Static/Neutral/Opacity 30",
+    "=Warm Neutral/200 @ 30%",
+    "=Cool Neutral/220 @ 30%"
+  ],
+  [
+    "Fill/Static/Neutral/Opacity 16",
+    "=Warm Neutral/200 @ 16%",
+    "=Cool Neutral/220 @ 16%"
+  ],
+  [
+    "Fill/Static/Neutral/Opacity 8",
+    "=Warm Neutral/200 @ 8%",
+    "=Cool Neutral/220 @ 8%"
+  ],
+  [
+    "Fill/Static/CoolNeutral/Light",
+    "=Cool Neutral/0",
+    "=Cool Neutral/170"
+  ],
+  [
+    "Fill/Static/CoolNeutral/Subtle",
+    "=Cool Neutral/10",
+    "=Cool Neutral/180"
+  ],
+  [
+    "Fill/Static/CoolNeutral/Base",
+    "=Cool Neutral/20",
+    "=Cool Neutral/200"
+  ],
+  [
+    "Fill/Static/CoolNeutral/Opacity 70",
+    "=Cool Neutral/0 @ 70%",
+    "=Cool Neutral/220 @ 50%"
+  ],
+  [
+    "Fill/Static/CoolNeutral/Opacity 30",
+    "=Cool Neutral/0 @ 30%",
+    "=Cool Neutral/220 @ 30%"
+  ],
+  [
+    "Fill/Static/CoolNeutral/Opacity 16",
+    "=Cool Neutral/0 @ 16%",
+    "=Cool Neutral/220 @ 16%"
+  ],
+  [
+    "Fill/Static/CoolNeutral/Opacity 8",
+    "=Cool Neutral/0 @ 8%",
+    "=Cool Neutral/220 @ 8%"
+  ],
+  [
+    "Fill/Static/Brand/Light",
+    "=Brand/5",
+    "=Amethyst/55 @ 12%"
+  ],
+  [
+    "Fill/Static/Info/Light",
+    "=Brand/10",
+    "=Brand/10"
+  ],
+  [
+    "Fill/Static/Info/Subtle",
+    "=Brand/20",
+    "=Brand/20"
+  ],
+  [
+    "Fill/Static/Info/Base",
+    "=Brand/40",
+    "=Brand/40"
+  ],
+  [
+    "Fill/Static/Info/Contrast",
+    "=Brand/70",
+    "=Brand/70"
+  ],
+  [
+    "Fill/Static/Info/Bold",
+    "=Brand/90",
+    "=Brand/90"
+  ],
+  [
+    "Fill/Static/Brand/Subtle",
+    "=Brand/300",
+    "=Brand/100"
+  ],
+  [
+    "Fill/Static/Brand/Base",
+    "=Brand/600",
+    "=Brand/600"
+  ],
+  [
+    "Fill/Static/Brand/Contrast",
+    "=Brand/600",
+    "=Brand/400"
+  ],
+  [
+    "Fill/Static/Brand/Bold",
+    "=Brand/900",
+    "=Brand/900"
+  ],
+  [
+    "Fill/Static/Brand/Dark",
+    "=Brand/800",
+    "=Brand/600"
+  ],
+  [
+    "Fill/Static/Brand/Black",
+    "=Brand/900",
+    "=Brand/700"
+  ],
+  [
+    "Fill/Static/Warning/Light",
+    "=Saffron/10",
+    "=Saffron/10"
+  ],
+  [
+    "Fill/Static/Danger/Light",
+    "=Orange/10",
+    "=Orange/0"
+  ],
+  [
+    "Fill/Static/Negative/Light",
+    "=Red/10",
+    "=Red/40"
+  ],
+  [
+    "Fill/Static/Negative/Subtle",
+    "=Red/20",
+    "=Red/50"
+  ],
+  [
+    "Fill/Static/Negative/Base",
+    "=Red/30",
+    "=Red/60"
+  ],
+  [
+    "Fill/Static/Negative/Contrast",
+    "=Red/70",
+    "=Red/70"
+  ],
+  [
+    "Fill/Static/Negative/Bold",
+    "=Red/90",
+    "=Red/90"
+  ],
+  [
+    "Fill/Static/Danger/Subtle",
+    "=Orange/20",
+    "=Orange/20"
+  ],
+  [
+    "Fill/Static/Danger/Base",
+    "=Orange/30",
+    "=Orange/30"
+  ],
+  [
+    "Fill/Static/Danger/Contrast",
+    "=Orange/40",
+    "=Orange/40"
+  ],
+  [
+    "Fill/Static/Danger/Bold",
+    "=Orange/60",
+    "=Orange/60"
+  ],
+  [
+    "Fill/Static/Warning/Subtle",
+    "=Saffron/20",
+    "=Saffron/20"
+  ],
+  [
+    "Fill/Static/Warning/Base",
+    "=Saffron/30",
+    "=Saffron/30"
+  ],
+  [
+    "Fill/Static/Warning/Contrast",
+    "=Saffron/50",
+    "=Saffron/50"
+  ],
+  [
+    "Fill/Static/Warning/Bold",
+    "=Saffron/70",
+    "=Saffron/70"
+  ],
+  [
+    "Fill/Static/Positive/Light",
+    "=Green/5",
+    "=Green/65 @ 12%"
+  ],
+  [
+    "Fill/Static/Positive/Subtle",
+    "=Green/20",
+    "=Green/20"
+  ],
+  [
+    "Fill/Static/Positive/Base",
+    "=Green/30",
+    "=Green/30"
+  ],
+  [
+    "Fill/Static/Positive/Contrast",
+    "=Green/50",
+    "=Green/50"
+  ],
+  [
+    "Fill/Static/Positive/Bold",
+    "=Green/70",
+    "=Green/70"
+  ],
+  [
+    "Fill/Static/Accent_Amethyst/Light",
+    "=Amethyst/10",
+    "=Amethyst/55 @ 12%"
+  ],
+  [
+    "Fill/Static/Accent_Amethyst/Subtle",
+    "=Amethyst/20",
+    "=Amethyst/120"
+  ],
+  [
+    "Fill/Static/Accent_Amethyst/Base",
+    "=Amethyst/68",
+    "=Amethyst/72"
+  ],
+  [
+    "Fill/Static/Accent_Amethyst/Medium",
+    "=Amethyst/50",
+    "=Amethyst/90"
+  ],
+  [
+    "Fill/Static/Accent_Amethyst/Contrast",
+    "=Amethyst/70",
+    "=Amethyst/80"
+  ],
+  [
+    "Fill/Static/Accent_Amethyst/Bold",
+    "=Amethyst/80",
+    "=Amethyst/60"
+  ],
+  [
+    "Fill/Static/Accent_Amethyst/Extra Bold",
+    "=Amethyst/100",
+    "=Amethyst/40"
+  ],
+  [
+    "Fill/Static/Accent_Amethyst/Black",
+    "=Amethyst/130",
+    "=Amethyst/20"
+  ],
+  [
+    "Fill/Static/Accent_Jade/Light",
+    "=Jade/25",
+    "=Jade/98 @ 14%"
+  ],
+  [
+    "Fill/Static/Accent_Jade/Subtle",
+    "=Jade/20",
+    "=Jade/20"
+  ],
+  [
+    "Fill/Static/Accent_Jade/Base",
+    "=Jade/115",
+    "=Jade/98"
+  ],
+  [
+    "Fill/Static/Accent_Jade/Contrast",
+    "=Jade/40",
+    "=Jade/40"
+  ],
+  [
+    "Fill/Static/Accent_Jade/Bold",
+    "=Jade/60",
+    "=Jade/60"
+  ],
+  [
+    "Fill/Contextual/NavItem/Base",
+    "=Brand/0",
+    "=Brand/0"
+  ],
+  [
+    "Fill/Contextual/NavItem/Hover",
+    "=Amethyst/135 @ 6%",
+    "=Warm Neutral/240 @ 7%"
+  ],
+  [
+    "Fill/Contextual/NavItem/Focused",
+    "=Cool Neutral/220 @ 2%",
+    "=Brand/900 @ 8%"
+  ],
+  [
+    "Fill/Contextual/NavItem/Active",
+    "=Amethyst/55 @ 13%",
+    "=Amethyst/55 @ 12%"
+  ],
+  [
+    "Fill/Contextual/NavItem/Trail",
+    "=Cool Neutral/220 @ 2%",
+    "=Cool Neutral/220 @ 2%"
+  ],
+  [
+    "Text/Contextual/NavItem/Base",
+    "=Cool Neutral/150",
+    "=Midnight/Ink-Secondary"
+  ],
+  [
+    "Text/Contextual/NavItem/Hover",
+    "=Cool Neutral/180",
+    "=Cool Neutral/20"
+  ],
+  [
+    "Text/Contextual/NavItem/Focused",
+    "=Cool Neutral/180",
+    "=Cool Neutral/20"
+  ],
+  [
+    "Text/Contextual/NavItem/Active",
+    "=Cool Neutral/185",
+    "=Cool Neutral/0"
+  ],
+  [
+    "Text/Contextual/NavItem/Disabled",
+    "=Cool Neutral/220 @ 50%",
+    "=Cool Neutral/0 @ 30%"
+  ],
+  [
+    "Icon/Contextual/NavItem/Base",
+    "=Cool Neutral/150",
+    "=Cool Neutral/50"
+  ],
+  [
+    "Icon/Contextual/NavItem/Hover",
+    "=Cool Neutral/170",
+    "=Cool Neutral/20"
+  ],
+  [
+    "Icon/Contextual/NavItem/Focused",
+    "=Cool Neutral/170",
+    "=Cool Neutral/20"
+  ],
+  [
+    "Icon/Contextual/NavItem/Active",
+    "=Brand/500",
+    "=Cool Neutral/0"
+  ],
+  [
+    "Icon/Contextual/NavItem/Disabled",
+    "=Brand/60",
+    "=Cool Neutral/0 @ 30%"
+  ],
+  [
+    "Surface/Canvas/Base",
+    "=Warm Neutral/250",
+    "=Midnight/Canvas"
+  ],
+  [
+    "Surface/Canvas/Light",
+    "=Warm Neutral/250",
+    "=Midnight/Canvas"
+  ],
+  [
+    "Fill/Static/Accent_Seabreeze/Light",
+    "=Seabreeze/15",
+    "=Seabreeze/95 @ 15%"
+  ],
+  [
+    "Fill/Static/Accent_Seabreeze/Subtle",
+    "=Seabreeze/30",
+    "=Seabreeze/30"
+  ],
+  [
+    "Fill/Static/Accent_Seabreeze/Base",
+    "=Seabreeze/125",
+    "=Seabreeze/95"
+  ],
+  [
+    "Fill/Static/Accent_Seabreeze/Contrast",
+    "=Seabreeze/90",
+    "=Seabreeze/90"
+  ],
+  [
+    "Fill/Static/Accent_Seabreeze/Bold",
+    "=Seabreeze/100",
+    "=Seabreeze/100"
+  ],
+  [
+    "Icon/Static/Accent_Seabreeze/Light",
+    "=Seabreeze/50",
+    "=Seabreeze/50"
+  ],
+  [
+    "Icon/Static/Accent_Seabreeze/Subtle",
+    "=Seabreeze/60",
+    "=Seabreeze/60"
+  ],
+  [
+    "Icon/Static/Accent_Seabreeze/Base",
+    "=Seabreeze/90",
+    "=Seabreeze/90"
+  ],
+  [
+    "Icon/Static/Accent_Seabreeze/Contrast",
+    "=Seabreeze/110",
+    "=Seabreeze/110"
+  ],
+  [
+    "Icon/Static/Accent_Seabreeze/Bold",
+    "=Seabreeze/130",
+    "=Seabreeze/130"
+  ],
+  [
+    "Icon/Static/Accent_Lagoon/Light",
+    "=Lagoon/30",
+    "=Lagoon/30"
+  ],
+  [
+    "Icon/Static/Accent_Lagoon/Subtle",
+    "=Lagoon/50",
+    "=Lagoon/50"
+  ],
+  [
+    "Icon/Static/Accent_Lagoon/Base",
+    "=Lagoon/70",
+    "=Lagoon/70"
+  ],
+  [
+    "Icon/Static/Accent_Lagoon/Contrast",
+    "=Lagoon/100",
+    "=Lagoon/100"
+  ],
+  [
+    "Icon/Static/Accent_Lagoon/Bold",
+    "=Lagoon/130",
+    "=Lagoon/130"
+  ],
+  [
+    "Surface/Overlay/Base",
+    "=Cool Neutral/0",
+    "=Midnight/Widget"
+  ],
+  [
+    "Surface/Sheet/Base",
+    "=Warm Neutral/100",
+    "=Midnight/Sheet"
+  ],
+  [
+    "Surface/Widget/Header",
+    "=Warm Neutral/0",
+    "=Midnight/Header"
+  ],
+  [
+    "Surface/Widget/Base",
+    "=Cool Neutral/0",
+    "=Midnight/Widget"
+  ],
+  [
+    "Text/Static/Tertiary/Base",
+    "=Warm Neutral/725",
+    "=Midnight/Ink-Tertiary"
+  ],
+  [
+    "Stroke/Static/Neutral/Faint",
+    "=Amethyst/152 @ 5%",
+    "=Amethyst/55 @ 5%"
+  ],
+  [
+    "Icon/Contextual/NavItem/OnColor",
+    "=Cool Neutral/0",
+    "=Brand/925"
+  ],
+  [
+    "Fill/Static/Accent_Amber/Base",
+    "=Saffron/135",
+    "=Saffron/115"
+  ],
+  [
+    "Fill/Static/Accent_Amber/Light",
+    "=Saffron/45",
+    "=Saffron/105 @ 15%"
+  ],
+  [
+    "Fill/Static/Accent_Magenta/Base",
+    "=Mauve/75",
+    "=Mauve/62"
+  ],
+  [
+    "Fill/Static/Accent_Magenta/Bold",
+    "=Mauve/95",
+    "=Mauve/48"
+  ],
+  [
+    "Fill/Static/Accent_Magenta/Light",
+    "=Mauve/15",
+    "=Mauve/65 @ 13%"
+  ],
+  [
+    "Fill/Static/Accent_Sunrise/Base",
+    "=Orange/75",
+    "=Orange/55"
+  ],
+  [
+    "Fill/Static/Accent_Sunrise/Bold",
+    "=Orange/95",
+    "=Orange/52"
+  ],
+  [
+    "Fill/Static/Accent_Sunrise/Light",
+    "=Orange/15",
+    "=Orange/45 @ 13%"
+  ],
+  [
+    "Fill/Static/Accent_Gold/Base",
+    "=Saffron/100",
+    "=Saffron/100"
+  ],
+  [
+    "Fill/Static/Accent_Teal/Base",
+    "=Lagoon/145",
+    "=Lagoon/75"
+  ],
+  [
+    "Fill/Static/Accent_Teal/Light",
+    "=Lagoon/25",
+    "=Lagoon/75 @ 12%"
+  ],
+  [
+    "Fill/Static/Accent_Mauve/Base",
+    "=Amethyst/95",
+    "=Amethyst/88"
+  ],
+  [
+    "Fill/Static/Accent_Taupe/Base",
+    "=Amethyst/128",
+    "=Amethyst/108"
+  ],
+  [
+    "Fill/Static/Accent_Navy/Base",
+    "=Seabreeze/145",
+    "=Seabreeze/105"
+  ],
+  [
+    "Fill/Static/Accent_Navy/Bold",
+    "=Seabreeze/155",
+    "=Seabreeze/103"
+  ],
+  [
+    "Fill/Static/Accent_Red/Base",
+    "=Red/85",
+    "=Red/65"
+  ],
+  [
+    "Fill/Contextual/Avatar/Base",
+    "=Amethyst/32",
+    "=Amethyst/38 @ 18%"
+  ],
+  [
+    "Text/Contextual/Avatar/Base",
+    "=Amethyst/155",
+    "=Amethyst/12"
+  ],
+  [
+    "Text/Static/Accent_Amethyst/Base",
+    "=Amethyst/80",
+    "=Amethyst/80"
+  ],
+  [
+    "Icon/Action/MonoInverse/Base",
+    "=Cool Neutral/10",
+    "=Cool Neutral/10"
+  ],
+  [
+    "Text/Action/MonoInverse/Base",
+    "=Cool Neutral/10",
+    "=Cool Neutral/10"
+  ]
+]
