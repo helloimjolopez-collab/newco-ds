@@ -1,0 +1,81 @@
+name: Release (npm + NuGet, lockstep)
+
+# Publishes BOTH packages from the same build so they never drift:
+#   • @helloimjolopez-newco/newco-tokens  -> npm
+#   • NewCo.Tokens                         -> NuGet
+#
+# Triggers:
+#   • automatically when a token sync is merged to main (dist/tokens change), OR
+#   • manually with an explicit version bump.
+#
+# Required secrets: NPM_TOKEN, NUGET_API_KEY.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "dist/**"
+      - "tokens/newco-design-tokens.json"
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: "Version bump"
+        required: true
+        default: "patch"
+        type: choice
+        options: [patch, minor, major]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          registry-url: "https://registry.npmjs.org"
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+
+      - run: npm ci
+
+      - name: Determine next version (from npm high-water mark)
+        run: |
+          BUMP="${{ github.event.inputs.bump || 'patch' }}"
+          PKG="@helloimjolopez-newco/newco-tokens"
+          CURRENT=$(npm view "$PKG" version 2>/dev/null || echo "0.1.0")
+          IFS='.' read -r MA MI PA <<< "$CURRENT"
+          if [ "$BUMP" = "major" ]; then NEW="$((MA+1)).0.0";
+          elif [ "$BUMP" = "minor" ]; then NEW="${MA}.$((MI+1)).0";
+          else NEW="${MA}.${MI}.$((PA+1))"; fi
+          echo "NEW_VERSION=$NEW" >> $GITHUB_ENV
+          node -e "const f='package.json',j=require('./'+f);j.version=process.env.NEW_VERSION;require('fs').writeFileSync(f,JSON.stringify(j,null,2)+'\n')"
+          echo "Releasing $CURRENT -> $NEW"
+
+      - name: Build both artifacts
+        run: npm run build-all
+
+      - name: Publish to npm
+        run: npm publish --access restricted
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Pack & publish NuGet
+        run: |
+          dotnet pack nuget/NewCo.Tokens.csproj -c Release -p:Version=${NEW_VERSION} -o ./nupkg
+          dotnet nuget push "./nupkg/*.nupkg" --api-key "${{ secrets.NUGET_API_KEY }}" \
+            --source https://api.nuget.org/v3/index.json --skip-duplicate
+
+      - name: Commit version bump + tag
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add package.json
+          git commit -m "chore(release): v${NEW_VERSION} [skip ci]" || echo "nothing to commit"
+          git tag "v${NEW_VERSION}" || true
+          git push origin HEAD:main --tags || true

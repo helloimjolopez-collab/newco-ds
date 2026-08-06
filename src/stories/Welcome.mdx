@@ -1,0 +1,42 @@
+import { Meta } from "@storybook/blocks";
+
+<Meta title="Welcome" />
+
+# NewCo (Spired) Design System — Tokens
+
+The single source of truth for NewCo's visual language, delivered as a versioned
+package. Every value here is a **1:1 reflection of the Figma variable library**
+(the Spired branch), pulled programmatically — never hand-maintained.
+
+## What's in this Storybook
+
+- **Tokens → Colors** — the live palette rendered straight from the built
+  `tokens.css`: the surface elevation stack (Light + Midnight), the Spired brand
+  ramp, and a sampler of semantic roles.
+
+Components (starting with **Button**, as Lit Web Components) will land under a
+**Library** section in a later pass.
+
+## How teams consume it
+
+- **npm** — `@helloimjolopez-newco/newco-tokens` → `import ".../css"`, use `var(--…)`.
+- **NuGet** — `NewCo.Tokens` (Razor Class Library) for Blazor/Radzen → one
+  `<link>` to the static-asset CSS.
+- **DTCG JSON** — `dist/tokens.json` for your own tooling.
+
+Because the output is plain CSS variables, **any framework can absorb it** —
+React, Vue, Angular, Svelte, plain HTML, and Blazor/Radzen — with no framework
+switch.
+
+## Naming
+
+```
+--primitive-color-brand-600
+--semantic-color-light-mode-surface-sheet-base
+--semantic-color-midnight-mode-surface-sheet-base
+```
+
+Semantics reference primitives via `var()`, preserving the Figma alias chain.
+
+See the repo `README.md`, `docs/adoption.md`, and `docs/governance.md` for
+architecture, rollout, versioning, and security.

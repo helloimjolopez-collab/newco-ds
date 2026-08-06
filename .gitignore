@@ -1,0 +1,10 @@
+node_modules/
+storybook-static/
+src/tokens/
+nuget/wwwroot/
+nuget/NewCoTokens.g.cs
+nuget/bin/
+nuget/obj/
+.env
+.DS_Store
+.claude/
