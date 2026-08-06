@@ -54,7 +54,7 @@ jobs:
           elif [ "$BUMP" = "minor" ]; then NEW="${MA}.$((MI+1)).0";
           else NEW="${MA}.${MI}.$((PA+1))"; fi
           echo "NEW_VERSION=$NEW" >> $GITHUB_ENV
-          node -e "const f='package.json',j=require('./'+f);j.version=process.env.NEW_VERSION;require('fs').writeFileSync(f,JSON.stringify(j,null,2)+'\n')"
+          node -e "const f='package.json',j=require('./'+f);j.version='${NEW}';require('fs').writeFileSync(f,JSON.stringify(j,null,2)+'\n')"
           echo "Releasing $CURRENT -> $NEW"
 
       - name: Build both artifacts
