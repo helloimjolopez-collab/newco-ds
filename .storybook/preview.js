@@ -18,7 +18,9 @@ const preview = {
       storySort: {
         order: [
           "Welcome",
-          "Tokens", ["Primitives", "Semantics"],
+          "Token Architecture & Economy",
+          "Adoption",
+          "Tokens", ["Primitives", "Semantics", ["Surface", "Text", "Fill", "Stroke", "Icon", "Scrim"]],
           "Library",
           "*",
         ],

@@ -1,51 +1,62 @@
 import { Meta } from "@storybook/blocks";
 
-<Meta title="Architecture" />
+<Meta title="Token Architecture & Economy" />
 
-# Architecture — Figma → repo → packages
+# Token Architecture & Economy
 
-Figma is the single source of truth. The repo transforms and delivers; it never
-originates values.
+A quick, complete mental model — readable by any developer or AI agent.
+
+## Two layers
+
+1. **Primitives** — `--primitive-color-{family}-{step}` (e.g. `--primitive-color-brand-600`).
+   The raw palette: Brand ramp, Warm/Cool neutrals, status hues, accents, and the
+   Midnight canvas set. **Don't consume these directly.**
+2. **Semantics** — `--semantic-color-{mode}-{category}-{role}-{variant}`
+   (e.g. `--semantic-color-light-mode-surface-sheet-base`). Role-based tokens that
+   **reference** a primitive via `var()`. **This is what you build with.**
 
 ```
-Figma (Spired branch variables)          <- single source of truth
-      |  sync-tokens.js  (REST, org Plan Access Token, in CI - no manual export)
-      v
-tokens/figma-source/*.json               <- raw graph snapshot (primitives + semantics)
-      |  build-token-source.js           <- -> W3C DTCG, validates every alias resolves
-      v
-tokens/newco-design-tokens.json          <- DTCG source of truth (committed)
-      |  style-dictionary.config.js      <- Style Dictionary v5
-      v
-src/tokens/{tokens.css,tokens.js}
-      |  build-dist.js / build-nuget.js
-      v
-dist/{tokens.css,tokens.js,tokens.json}   +   nuget/ (NewCo.Tokens RCL)
-      |
-      v
-npm publish  +  dotnet nuget push   (lockstep, same version)
+--primitive-color-warm-neutral-100:              #fcf9f9;              /* raw */
+--semantic-color-light-mode-surface-sheet-base:  var(--primitive-color-warm-neutral-100);
+--semantic-color-midnight-mode-surface-sheet-base: var(--primitive-color-midnight-sheet);
 ```
 
-## The two deliverables
+Change a primitive → every semantic that references it moves with it. The alias
+chain from Figma is preserved end-to-end.
 
-| Package | Ecosystem | Ships |
-|---------|-----------|-------|
-| `@helloimjolopez-newco/newco-tokens` | npm | `tokens.css` · `tokens.js` · `tokens.json` (DTCG) |
-| `NewCo.Tokens` | NuGet (Razor Class Library) | `newco-tokens.css` static web asset + C# constants |
+## Modes
 
-Both are produced from the **same** DTCG source and released together, so npm and
-NuGet never drift.
+Two modes ship today: **Light** and **Midnight**. Each semantic exists in both,
+namespaced in the variable name (`…-light-mode-…` / `…-midnight-mode-…`). A thin
+`[data-theme="midnight"]` alias layer (so apps flip themes with one attribute) is
+the planned next iteration.
 
-## Staying in sync (no exports, ever)
+## Categories (semantic)
 
-1. CI runs `sync-tokens.js` (schedule + manual) → pulls variables from Figma via
-   REST, authenticated by an **org Plan Access Token** (a GitHub secret).
-2. If tokens changed, it opens a **Pull Request** with the diff.
-3. A maintainer **reviews & merges** — the approval gate.
-4. Merge triggers the release workflow → **npm + NuGet publish** in lockstep.
+`surface` · `text` · `fill` · `stroke` · `icon` · `scrim` — each split by role
+(Action / Static / Contextual) and status family (primary, info, positive,
+negative, danger, alert, accents). Browse them under **Tokens → Semantics**.
 
-No plugin exports, no local file watcher, no hand-edited token JSON.
+## The pipeline (Figma is the source of truth)
 
-> Caveat under review: the Figma `variables/local` REST endpoint may be
-> Enterprise-gated. On Organization plans the script fails loudly with documented
-> fallbacks (Figma→Git plugin, or Dev-Mode MCP pull) — same PR gate either way.
+```
+Figma (Spired branch)  --REST, Plan Access Token, in CI-->  PR (approval gate)  -->  merge
+   --> Style Dictionary build --> dist/{tokens.css, tokens.js, tokens.json}
+   --> npm publish  +  NuGet publish  (lockstep)
+```
+
+No manual export, no file watcher. See **Adoption** for install, and the repo's
+`docs/governance.md` for versioning, ownership, and security.
+
+## Token economy
+
+Is the token count "too many"? It's the right **coverage**, with a leaner
+**representation** available:
+
+- The emitted CSS-variable count ≈ **primitives + semantics × 2 modes**. The ×2 is
+  an encoding artifact (Light + Midnight as separate names), not extra decisions —
+  a `[data-theme]` alias layer roughly halves it.
+- **Consumers touch semantics only**; primitives are private.
+- Primitive bulk is largely **alpha variants**; generating those with `color-mix()`
+  trims ~30–40% with zero loss.
+- Judge health by **coverage · no dead tokens · one-obvious-choice**, not raw count.
