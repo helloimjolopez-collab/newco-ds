@@ -61,14 +61,17 @@ jobs:
         run: npm run build-all
 
       - name: Publish to npm
-        run: npm publish --access restricted
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Pack & publish NuGet
+        if: ${{ env.NUGET_API_KEY != '' }}
+        env:
+          NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
         run: |
           dotnet pack nuget/NewCo.Tokens.csproj -c Release -p:Version=${NEW_VERSION} -o ./nupkg
-          dotnet nuget push "./nupkg/*.nupkg" --api-key "${{ secrets.NUGET_API_KEY }}" \
+          dotnet nuget push "./nupkg/*.nupkg" --api-key "${NUGET_API_KEY}" \
             --source https://api.nuget.org/v3/index.json --skip-duplicate
 
       - name: Commit version bump + tag

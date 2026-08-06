@@ -19,7 +19,7 @@
     "./json": "./dist/tokens.json"
   },
   "publishConfig": {
-    "access": "restricted",
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "repository": {
