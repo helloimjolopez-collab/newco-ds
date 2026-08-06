@@ -70,7 +70,7 @@ jobs:
         id: nuget-login
         uses: NuGet/login@v1
         with:
-          user: Jolopez
+          user: jolopez
 
       - name: Pack & push NuGet
         run: |
