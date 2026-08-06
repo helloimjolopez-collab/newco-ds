@@ -1,0 +1,36 @@
+import { Meta } from "@storybook/blocks";
+
+<Meta title="Adoption" />
+
+# Adoption — how tribes absorb NewCo
+
+Adoption is a **value swap, not a framework switch**. Tokens are plain CSS
+variables (npm) or a static web asset (NuGet), so any stack can consume them.
+
+| Stack | Install | Consume |
+|-------|---------|---------|
+| React / Vue / Angular / Svelte / plain web | `npm i @helloimjolopez-newco/newco-tokens` | `@import ".../css"`, use `var(--…)` |
+| Tailwind | same | map `theme.extend` to the CSS vars |
+| **Blazor / Radzen** | `dotnet add package NewCo.Tokens` | one `<link>` to `_content/NewCo.Tokens/newco-tokens.css`, use `var(--…)` |
+| Own tooling | consume `dist/tokens.json` (DTCG) | feed your Style Dictionary |
+
+**No team leaves its framework.** A Blazor+Radzen tribe keeps Radzen and re-skins
+it with NewCo tokens; a React tribe keeps React.
+
+## Components (next phase) — the Radix/shadcn question
+
+Components ship as **Web Components (Lit)** — real custom elements
+(`<newco-button>`) usable in React, Vue, Angular, plain HTML, and **Blazor/Radzen**.
+
+**Can a Radzen app consume a Radix or shadcn component? No** — those are
+React-only and can't render in Blazor. We keep the *strategy* (start from an
+accessible headless primitive) using web-components-native bases (Shoelace / Web
+Awesome, or Lit built to the WAI-ARIA APG). React-only tribes may still use
+shadcn internally; the org-wide shared library is Web Components.
+
+## Rollout
+
+1. **Tokens first** (this package) — reskin existing UI by swapping to `var(--…)`.
+2. **Pilot tribe** validates npm + NuGet in a real app.
+3. **Components** land incrementally (Button → inputs → nav), each mapped to Figma
+   via Code Connect.

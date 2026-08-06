@@ -1,0 +1,51 @@
+import { Meta } from "@storybook/blocks";
+
+<Meta title="Architecture" />
+
+# Architecture — Figma → repo → packages
+
+Figma is the single source of truth. The repo transforms and delivers; it never
+originates values.
+
+```
+Figma (Spired branch variables)          <- single source of truth
+      |  sync-tokens.js  (REST, org Plan Access Token, in CI - no manual export)
+      v
+tokens/figma-source/*.json               <- raw graph snapshot (primitives + semantics)
+      |  build-token-source.js           <- -> W3C DTCG, validates every alias resolves
+      v
+tokens/newco-design-tokens.json          <- DTCG source of truth (committed)
+      |  style-dictionary.config.js      <- Style Dictionary v5
+      v
+src/tokens/{tokens.css,tokens.js}
+      |  build-dist.js / build-nuget.js
+      v
+dist/{tokens.css,tokens.js,tokens.json}   +   nuget/ (NewCo.Tokens RCL)
+      |
+      v
+npm publish  +  dotnet nuget push   (lockstep, same version)
+```
+
+## The two deliverables
+
+| Package | Ecosystem | Ships |
+|---------|-----------|-------|
+| `@helloimjolopez-newco/newco-tokens` | npm | `tokens.css` · `tokens.js` · `tokens.json` (DTCG) |
+| `NewCo.Tokens` | NuGet (Razor Class Library) | `newco-tokens.css` static web asset + C# constants |
+
+Both are produced from the **same** DTCG source and released together, so npm and
+NuGet never drift.
+
+## Staying in sync (no exports, ever)
+
+1. CI runs `sync-tokens.js` (schedule + manual) → pulls variables from Figma via
+   REST, authenticated by an **org Plan Access Token** (a GitHub secret).
+2. If tokens changed, it opens a **Pull Request** with the diff.
+3. A maintainer **reviews & merges** — the approval gate.
+4. Merge triggers the release workflow → **npm + NuGet publish** in lockstep.
+
+No plugin exports, no local file watcher, no hand-edited token JSON.
+
+> Caveat under review: the Figma `variables/local` REST endpoint may be
+> Enterprise-gated. On Organization plans the script fails loudly with documented
+> fallbacks (Figma→Git plugin, or Dev-Mode MCP pull) — same PR gate either way.

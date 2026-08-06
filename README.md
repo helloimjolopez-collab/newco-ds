@@ -6,6 +6,8 @@ The single source of truth for NewCo's visual language, delivered as a versioned
 npm package. Every value is a **1:1 reflection of the Figma variable library**
 (the Spired branch) — pulled programmatically, never hand-maintained.
 
+**▶ Live Storybook:** https://helloimjolopez-collab.github.io/newco-ds/
+
 > **First-pass status.** This repo is a foundation for review. It ships the full
 > **color system** (417 primitives, 490 semantics, Light + **Midnight** modes) as
 > CSS/JS/JSON, plus Storybook and the CI sync pipeline. Type, spacing, motion,

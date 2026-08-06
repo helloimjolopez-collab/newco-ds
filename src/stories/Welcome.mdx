@@ -4,39 +4,76 @@ import { Meta } from "@storybook/blocks";
 
 # NewCo (Spired) Design System — Tokens
 
-The single source of truth for NewCo's visual language, delivered as a versioned
-package. Every value here is a **1:1 reflection of the Figma variable library**
+The single source of truth for NewCo's visual language, delivered as versioned
+packages. **Every value here is a 1:1 reflection of the Figma variable library**
 (the Spired branch), pulled programmatically — never hand-maintained.
 
-## What's in this Storybook
+**Live Storybook:** https://helloimjolopez-collab.github.io/newco-ds/
+**Repository:** https://github.com/helloimjolopez-collab/newco-ds
+
+---
+
+## What am I looking at?
+
+This Storybook is the browsable face of the `newco-tokens` package. In the
+sidebar:
 
 - **Tokens → Colors** — the live palette rendered straight from the built
   `tokens.css`: the surface elevation stack (Light + Midnight), the Spired brand
   ramp, and a sampler of semantic roles.
+- **Architecture** — how Figma → repo → packages fits together.
+- **Adoption** — how any tribe (incl. Blazor/Radzen) installs and consumes it.
 
-Components (starting with **Button**, as Lit Web Components) will land under a
+Components (starting with **Button**, as Lit Web Components) land under a
 **Library** section in a later pass.
 
-## How teams consume it
+---
 
-- **npm** — `@helloimjolopez-newco/newco-tokens` → `import ".../css"`, use `var(--…)`.
-- **NuGet** — `NewCo.Tokens` (Razor Class Library) for Blazor/Radzen → one
-  `<link>` to the static-asset CSS.
-- **DTCG JSON** — `dist/tokens.json` for your own tooling.
+## Install
 
-Because the output is plain CSS variables, **any framework can absorb it** —
-React, Vue, Angular, Svelte, plain HTML, and Blazor/Radzen — with no framework
-switch.
+**npm** (React, Vue, Angular, Svelte, plain web, Tailwind):
 
-## Naming
-
+```bash
+npm install @helloimjolopez-newco/newco-tokens
 ```
---primitive-color-brand-600
---semantic-color-light-mode-surface-sheet-base
---semantic-color-midnight-mode-surface-sheet-base
+```css
+@import "@helloimjolopez-newco/newco-tokens/css";
+.card { background: var(--semantic-color-light-mode-surface-widget-base); }
 ```
 
-Semantics reference primitives via `var()`, preserving the Figma alias chain.
+**NuGet** (Blazor / Radzen):
 
-See the repo `README.md`, `docs/adoption.md`, and `docs/governance.md` for
-architecture, rollout, versioning, and security.
+```bash
+dotnet add package NewCo.Tokens
+```
+```html
+<link rel="stylesheet" href="_content/NewCo.Tokens/newco-tokens.css" />
+```
+
+Both packages are built from the same source and released **in lockstep**.
+
+---
+
+## Token architecture
+
+Two layers, mirroring Figma exactly:
+
+1. **Primitives** (`--primitive-color-*`) — the raw palette (Brand ramp, Warm/Cool
+   Neutrals, status hues, Midnight canvas set). ~417 values. Apps rarely touch
+   these directly.
+2. **Semantics** (`--semantic-color-{mode}-*`) — role-based tokens (surface, text,
+   fill, stroke, icon × primary/info/positive/negative/…) that **reference**
+   primitives via `var()`. ~490 roles, in **Light** and **Midnight** modes.
+
+```
+--primitive-color-warm-neutral-100:            #fcf9f9;
+--semantic-color-light-mode-surface-sheet-base: var(--primitive-color-warm-neutral-100);
+--semantic-color-midnight-mode-surface-sheet-base: var(--primitive-color-midnight-sheet);
+```
+
+The alias chain from Figma is preserved in the output — change a primitive and
+every semantic that references it moves with it. **Consume semantics, not
+primitives.**
+
+See the repo `README.md`, `docs/adoption.md`, and `docs/governance.md` for the
+full pipeline, versioning, ownership, and security posture.

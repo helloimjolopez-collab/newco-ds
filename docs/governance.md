@@ -53,10 +53,10 @@ variable aliased to the new one for one minor release).
   Enterprise-only; `sync-tokens.js` 403s loudly with documented fallbacks
   (TokenNexus/TokenSync plugin, or Dev-Mode MCP pull) — same PR gate either way.
 
-## Token economy — is 1,395 variables "too many"?
+## Token economy
 
-Short answer: it's the right **coverage**, with a leaner **representation**
-available.
+Is 1,395 variables "too many"? It's the right **coverage**, with a leaner
+**representation** available.
 
 - 1,395 emitted CSS vars = ~417 primitives + ~490 semantics **×2 modes**. The
   ×2 is an encoding artifact (Light + Midnight as separate names), not extra
