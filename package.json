@@ -1,6 +1,6 @@
 {
   "name": "@helloimjolopez-newco/newco-tokens",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "NewCo (Spired) Design System tokens — a 1:1 reflection of the Figma variable library as CSS custom properties, JS/ESM, and W3C DTCG JSON. Light + Midnight modes.",
   "license": "UNLICENSED",
   "type": "module",
