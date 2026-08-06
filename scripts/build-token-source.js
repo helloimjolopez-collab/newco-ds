@@ -81,7 +81,7 @@ for (const [n] of nc["Breakpoints"].vars) reg(n, "breakpoints");
 for (const [n] of nc["Motion"].durations) reg(n, "motion");
 for (const [n] of nc["Motion"].easings) reg(n, "motion");
 for (const [n] of nc["Elevation"].vars) reg(n, "elevation");
-for (const grp of ["families", "sizes", "weights", "letterSpacing"]) for (const [n] of nc["Primitive: Type"][grp]) reg(n, "primitive-type");
+for (const grp of ["families", "sizes", "weights", "letterSpacing", "lineHeights"]) for (const [n] of nc["Primitive: Type"][grp]) reg(n, "primitive-type");
 for (const [n] of nc["Semantic: Layout & Units"].vars) reg(n, "semantic-layout-units");
 
 const encNC = (v) => (typeof v === "string" && v.startsWith("=")) ? `{${index[v.slice(1)]}}` : v;
@@ -101,8 +101,17 @@ for (const [n, v] of nc["Primitive: Type"].families) setLeaf(out["primitive-type
 for (const [n, v] of nc["Primitive: Type"].sizes) setLeaf(out["primitive-type"], pathParts(n), { $type: "number", $value: encNC(v) });
 for (const [n, v] of nc["Primitive: Type"].weights) setLeaf(out["primitive-type"], pathParts(n), num(v));
 for (const [n, v] of nc["Primitive: Type"].letterSpacing) setLeaf(out["primitive-type"], pathParts(n), num(v));
+for (const [n, v] of nc["Primitive: Type"].lineHeights) setLeaf(out["primitive-type"], pathParts(n), num(v));
 out["semantic-layout-units"] = {};
 for (const [n, v] of nc["Semantic: Layout & Units"].vars) setLeaf(out["semantic-layout-units"], pathParts(n), { $type: "number", $value: encNC(v) });
+
+// semantic typography roles (Desktop mode), aliasing Primitive: Type
+const st = JSON.parse(readFileSync(resolve(SRC, "semantic-type.json"), "utf8"));
+out["semantic-type"] = {};
+for (const [n, v] of st.vars) {
+  const isFamily = /FontFamily$/.test(n);
+  setLeaf(out["semantic-type"], pathParts(n), { $type: isFamily ? "string" : "number", $value: encNC(v) });
+}
 
 // ── Validation: every alias must resolve to a real primitive leaf ────────────
 function resolvePath(tree, dotted) {
