@@ -7453,12 +7453,12 @@ export default {
             base: {
               key: "{semantic-color.light-mode.fill.action.primary.base}",
               $type: "color",
-              $value: "#cb4034",
+              $value: "#6e64be",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.400}",
+                $value: "{primitive-color.brand.400}",
                 key: "{semantic-color.light-mode.fill.action.primary.base}",
               },
               name: "SemanticColorLightModeFillActionPrimaryBase",
@@ -21361,12 +21361,12 @@ export default {
             base: {
               key: "{semantic-color.midnight-mode.fill.action.primary.base}",
               $type: "color",
-              $value: "#e47769",
+              $value: "#9691f5",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.300}",
+                $value: "{primitive-color.brand.300}",
                 key: "{semantic-color.midnight-mode.fill.action.primary.base}",
               },
               name: "SemanticColorMidnightModeFillActionPrimaryBase",

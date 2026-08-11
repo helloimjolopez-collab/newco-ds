@@ -1538,7 +1538,7 @@
           "primary": {
             "base": {
               "$type": "color",
-              "$value": "{primitive-color.red.400}"
+              "$value": "{primitive-color.brand.400}"
             },
             "disabled": {
               "$type": "color",
@@ -3780,7 +3780,7 @@
           "primary": {
             "base": {
               "$type": "color",
-              "$value": "{primitive-color.red.300}"
+              "$value": "{primitive-color.brand.300}"
             },
             "disabled": {
               "$type": "color",
