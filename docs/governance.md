@@ -55,15 +55,17 @@ variable aliased to the new one for one minor release).
 
 ## Token economy
 
-Is 1,395 variables "too many"? It's the right **coverage**, with a leaner
-**representation** available.
+Is the color variable count "too many"? It's the right **coverage**, with a
+leaner **representation** available.
 
-- 1,395 emitted CSS vars = ~417 primitives + ~490 semantics **×2 modes**. The
-  ×2 is an encoding artifact (Light + Midnight as separate names), not extra
-  decisions. A `[data-theme]` role-alias layer collapses it to ~490 semantics.
+- ~1,310 emitted color CSS vars = **330 primitives** (231 solid + 99 alpha) +
+  **490 semantics ×2 modes**. The ×2 is an encoding artifact (Light + Midnight as
+  separate names), not extra decisions. A `[data-theme]` role-alias layer
+  collapses it to ~490 semantics.
 - Consumers touch **semantics only** (~490); primitives are the private palette.
-- Primitive bulk is largely **alpha variants** stored as discrete tokens.
-  Generating alpha via `color-mix()`/relative-color CSS trims primitives ~30–40%.
+- The alpha layer was pruned to the **99 alphas actually referenced by a
+  semantic** (down from ~205) — no speculative per-ramp ladders. A future
+  `color-mix()`/relative-color pass could trim further if desired.
 - Judge health by **coverage + no dead tokens + one-obvious-choice**, not raw
   count. Action: run a usage audit to prune unreferenced semantics; adopt the
   theming alias + alpha-via-CSS to ~halve the published surface with zero loss.

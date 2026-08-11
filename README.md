@@ -8,11 +8,29 @@ npm package. Every value is a **1:1 reflection of the Figma variable library**
 
 **▶ Live Storybook:** https://helloimjolopez-collab.github.io/newco-ds/
 
-> **First-pass status.** This repo is a foundation for review. It ships the full
-> **color system** (417 primitives, 490 semantics, Light + **Midnight** modes) as
-> CSS/JS/JSON, plus Storybook and the CI sync pipeline. Type, spacing, motion,
-> elevation, and the **Web Component** library (starting with Button) are the
-> documented next steps — see [Roadmap](#roadmap).
+## Packages
+
+Both registries publish from the **same build, in lockstep** — identical version, identical values.
+
+| Registry | Package | Install |
+|----------|---------|---------|
+| **npm** | [`@helloimjolopez-newco/newco-tokens`](https://www.npmjs.com/package/@helloimjolopez-newco/newco-tokens) | `npm install @helloimjolopez-newco/newco-tokens` |
+| **NuGet** (.NET / Blazor / Radzen) | [`NewCo.Tokens`](https://www.nuget.org/packages/NewCo.Tokens) | `dotnet add package NewCo.Tokens` |
+
+.NET delivery details (Razor Class Library, static-web-asset stylesheet, C# constants): [nuget/README.md](nuget/README.md).
+
+> **Scope — the full token library.** Every Figma collection ships, not just color:
+>
+> | Collection | Contents |
+> |---|---|
+> | **Color** | 330 primitives (231 solid + 99 alpha) → 490 semantic roles · Light + **Midnight** |
+> | **Type** | 75 primitives → 554 semantic roles · Desktop + Mobile |
+> | **Layout & Units** (incl. **radius** + spacing) | 33 primitives → 74 semantic roles · responsive (Desktop/Tablet/Mobile) |
+> | **Motion** | 14 (durations + easings) |
+> | **Elevation** | Light + Midnight shadow sets |
+> | **Breakpoints** | 5 |
+>
+> Delivered as CSS / JS / JSON (npm) and a Razor Class Library (NuGet), plus Storybook and the CI sync pipeline.
 
 ---
 
@@ -72,16 +90,17 @@ consumes.
 Figma (Spired branch variables)          <- single source of truth
       |  sync-tokens.js  (REST, Plan Access Token, in CI - no manual export)
       v
-tokens/figma-source/*.json               <- raw graph snapshot (primitives + semantics)
+tokens/figma-source/*.json               <- raw graph: color + type + layout/units + motion + elevation + breakpoints
       |  build-token-source.js           <- -> W3C DTCG, validates every alias resolves
       v
 tokens/newco-design-tokens.json          <- DTCG source of truth (committed)
       |  style-dictionary.config.js      <- Style Dictionary v5
       v
-src/tokens/{tokens.css,tokens.js}  ->  build-dist.js  ->  npm/{tokens.css,tokens.js,tokens.json}
-      |
+src/tokens/{tokens.css,tokens.js}
+      |  build-dist.js   ->  npm/{tokens.css,tokens.js,tokens.json}   (npm package)
+      |  build-nuget.js  ->  nuget/  (NewCo.Tokens RCL: newco-tokens.css + C# constants)
       v
-npm publish  ->  consuming tribes
+npm publish  +  dotnet nuget push   ->  consuming teams   (single build, lockstep version)
 ```
 
 Every step is a plain, reviewable Node script. No bespoke build server.
@@ -123,7 +142,8 @@ npm run sync-tokens      # pull latest from Figma (needs FIGMA_TOKEN, FIGMA_FILE
 
 ## Roadmap
 
-- **Type, spacing, motion, elevation** collections (same pipeline).
+- ✅ **Type, spacing/layout (incl. radius), motion, elevation, breakpoints** collections — shipped, same pipeline.
+- ✅ **NuGet delivery** (`NewCo.Tokens` RCL) — shipped, lockstep with npm.
 - **Role-alias theming layer** (`[data-theme="midnight"]`).
 - **Web Components (Lit)** — framework-agnostic, accessible, consumable by Blazor/
   Radzen and everything else. First component: **Button**. Mapped back to Figma
