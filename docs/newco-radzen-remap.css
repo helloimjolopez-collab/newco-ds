@@ -70,6 +70,24 @@
 
   /* ---- Spacing ----------------------------------------------------------- */
   --rz-gap: var(--semantic-layout-units-contextual-button-gap-horizontal);
+
+  /* ---- Elevation / shadows ----------------------------------------------
+     NewCo has 4 elevation roles, subtle -> strong:
+       widget  (cards, widgets)      lift (raised / hover)
+       sheet   (large soft surfaces) overlay (popovers, menus, dialogs)
+     Radzen's shadow variable names vary by theme/version — confirm against
+     your compiled Radzen theme CSS and add/rename as needed. */
+  --rz-shadow-1:      var(--elevation-widget);
+  --rz-shadow-2:      var(--elevation-widget);
+  --rz-shadow-3:      var(--elevation-lift);
+  --rz-shadow-4:      var(--elevation-lift);
+  --rz-shadow-5:      var(--elevation-sheet);
+  --rz-shadow-6:      var(--elevation-overlay);
+  --rz-panel-shadow:  var(--elevation-widget);
+  --rz-card-shadow:   var(--elevation-widget);
+  --rz-menu-shadow:   var(--elevation-overlay);
+  --rz-dialog-shadow: var(--elevation-overlay);
+  --rz-button-shadow: none;   /* NewCo buttons are flat (no elevation role for them) */
 }
 
 /* ============================================================================
@@ -94,6 +112,18 @@
   --rz-success: var(--semantic-color-midnight-mode-fill-static-positive-bold);
   --rz-warning: var(--semantic-color-midnight-mode-fill-static-warning-bold);
   --rz-info:    var(--semantic-color-midnight-mode-fill-static-info-bold);
+
+  /* elevation — Midnight shadow set */
+  --rz-shadow-1:      var(--elevation-midnight-widget);
+  --rz-shadow-2:      var(--elevation-midnight-widget);
+  --rz-shadow-3:      var(--elevation-midnight-lift);
+  --rz-shadow-4:      var(--elevation-midnight-lift);
+  --rz-shadow-5:      var(--elevation-midnight-sheet);
+  --rz-shadow-6:      var(--elevation-midnight-overlay);
+  --rz-panel-shadow:  var(--elevation-midnight-widget);
+  --rz-card-shadow:   var(--elevation-midnight-widget);
+  --rz-menu-shadow:   var(--elevation-midnight-overlay);
+  --rz-dialog-shadow: var(--elevation-midnight-overlay);
 }
 
 /* ============================================================================
