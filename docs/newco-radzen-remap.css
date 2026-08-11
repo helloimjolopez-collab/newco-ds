@@ -1,0 +1,112 @@
+/* ============================================================================
+   newco-radzen-remap.css
+   One-time bridge: point Radzen's own theme variables at NewCo tokens.
+
+   WHY: Radzen components style themselves through their own `--rz-*` CSS
+   variables (e.g. a button's radius = var(--rz-button-border-radius)). If you
+   only override background/color on your own classes, Radzen keeps its default
+   radius, type, spacing. Remapping the `--rz-*` variables ONCE makes every
+   Radzen button / card / input / badge inherit NewCo values automatically —
+   no per-component rules.
+
+   HOW TO USE:
+   1. Ensure the token stylesheet is linked (App.razor / _Host.cshtml / index.html):
+        <link rel="stylesheet" href="_content/NewCo.Tokens/newco-tokens.css" />
+   2. Link this file AFTER it, and wrap your app (or a section) in the scope class:
+        <div class="newco-scope"> ... your Radzen UI ... </div>
+      (or change `.newco-scope` below to `:root` to theme the whole app.)
+
+   NOTE ON NAMES:
+   - NewCo token names (--semantic-*, --primitive-*) are stable and verified.
+   - Radzen `--rz-*` names can vary slightly by Radzen theme/version. If one
+     doesn't take effect, open your compiled Radzen theme CSS, find the real
+     variable name in its `:root {}` block, and map it here the same way.
+   - For anything Radzen does NOT expose as a variable, use the ::deep element
+     fallback at the bottom.
+   ============================================================================ */
+
+.newco-scope {
+  /* ---- Brand / primary action -------------------------------------------- */
+  --rz-primary:          var(--semantic-color-light-mode-fill-action-primary-base);
+  --rz-primary-dark:     var(--semantic-color-light-mode-fill-action-primary-hover);
+  --rz-primary-darker:   var(--semantic-color-light-mode-fill-action-primary-pressed);
+  --rz-primary-light:    var(--primitive-color-brand-300);
+  --rz-primary-lighter:  var(--semantic-color-light-mode-fill-static-brand-light);
+  --rz-on-primary:       var(--semantic-color-light-mode-text-action-primary-inverse-base);
+
+  /* ---- Secondary action -------------------------------------------------- */
+  --rz-secondary:        var(--semantic-color-light-mode-fill-action-secondary-base);
+  --rz-on-secondary:     var(--semantic-color-light-mode-text-action-secondary-base);
+
+  /* ---- Surfaces ---------------------------------------------------------- */
+  --rz-base-background-color:    var(--semantic-color-light-mode-surface-canvas-light);
+  --rz-content-background-color: var(--semantic-color-light-mode-surface-widget-base);
+
+  /* ---- Text -------------------------------------------------------------- */
+  --rz-text-color:           var(--semantic-color-light-mode-text-static-primary-base);
+  --rz-text-secondary-color: var(--semantic-color-light-mode-text-static-secondary-base);
+  --rz-text-disabled-color:  var(--semantic-color-light-mode-text-static-tertiary-base);
+  --rz-text-contrast-color:  var(--semantic-color-light-mode-text-action-primary-inverse-base);
+
+  /* ---- Borders / strokes ------------------------------------------------- */
+  --rz-border-color: var(--semantic-color-light-mode-stroke-static-neutral-base);
+
+  /* ---- Status ------------------------------------------------------------ */
+  --rz-danger:  var(--semantic-color-light-mode-fill-static-negative-bold);
+  --rz-success: var(--semantic-color-light-mode-fill-static-positive-bold);
+  --rz-warning: var(--semantic-color-light-mode-fill-static-warning-bold);
+  --rz-info:    var(--semantic-color-light-mode-fill-static-info-bold);
+
+  /* ---- Radius ------------------------------------------------------------ */
+  --rz-border-radius:        var(--semantic-layout-units-contextual-button-radius-radius);
+  --rz-button-border-radius: var(--semantic-layout-units-contextual-button-radius-radius);
+  --rz-card-border-radius:   var(--semantic-layout-units-contextual-card-cornerradius-cornerradius);
+  --rz-input-border-radius:  var(--semantic-layout-units-contextual-input-radius-radius);
+
+  /* ---- Typography -------------------------------------------------------- */
+  --rz-body-font-family: var(--semantic-type-label-button-base-fontfamily);
+  --rz-body-font-size:   var(--semantic-type-label-button-base-fontsize);
+  --rz-body-line-height: var(--semantic-type-label-button-base-lineheight);
+
+  /* ---- Spacing ----------------------------------------------------------- */
+  --rz-gap: var(--semantic-layout-units-contextual-button-gap-horizontal);
+}
+
+/* ============================================================================
+   MIDNIGHT MODE — identical mappings against the `-midnight-mode-` tokens.
+   Trigger it however your app toggles theme; two common patterns shown.
+   ============================================================================ */
+.newco-scope.mode-midnight,
+:root[data-theme="midnight"] .newco-scope {
+  --rz-primary:          var(--semantic-color-midnight-mode-fill-action-primary-base);
+  --rz-primary-dark:     var(--semantic-color-midnight-mode-fill-action-primary-hover);
+  --rz-primary-darker:   var(--semantic-color-midnight-mode-fill-action-primary-pressed);
+  --rz-on-primary:       var(--semantic-color-midnight-mode-text-action-primary-inverse-base);
+
+  --rz-base-background-color:    var(--semantic-color-midnight-mode-surface-canvas-light);
+  --rz-content-background-color: var(--semantic-color-midnight-mode-surface-widget-base);
+
+  --rz-text-color:           var(--semantic-color-midnight-mode-text-static-primary-base);
+  --rz-text-secondary-color: var(--semantic-color-midnight-mode-text-static-secondary-base);
+  --rz-border-color:         var(--semantic-color-midnight-mode-stroke-static-neutral-base);
+
+  --rz-danger:  var(--semantic-color-midnight-mode-fill-static-negative-bold);
+  --rz-success: var(--semantic-color-midnight-mode-fill-static-positive-bold);
+  --rz-warning: var(--semantic-color-midnight-mode-fill-static-warning-bold);
+  --rz-info:    var(--semantic-color-midnight-mode-fill-static-info-bold);
+}
+
+/* ============================================================================
+   FALLBACK — only for the rare property Radzen doesn't expose as a variable.
+   Prefer the remap above; reach for ::deep element overrides sparingly.
+   ============================================================================ */
+/*
+.newco-scope ::deep .rz-button {
+  border-radius: var(--semantic-layout-units-contextual-button-radius-radius);
+  padding: var(--semantic-layout-units-contextual-button-padding-medium-vertical)
+           var(--semantic-layout-units-contextual-button-padding-medium-horizontal);
+  font-family: var(--semantic-type-label-button-base-fontfamily);
+  font-size:   var(--semantic-type-label-button-base-fontsize);
+  font-weight: var(--semantic-type-label-button-base-fontweight);
+}
+*/
