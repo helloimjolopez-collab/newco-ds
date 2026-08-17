@@ -1,0 +1,43 @@
+name: List Figma branches (one-off helper)
+
+# Prints every branch of a Figma file with its own file key, so the branch key
+# can be copied into FIGMA_FILE_KEY. Branch keys are not secrets and are not
+# exposed in the Figma URL — the REST branch list is the only way to get them.
+# Never echoes FIGMA_TOKEN.
+
+on:
+  workflow_dispatch:
+    inputs:
+      file_key:
+        description: "Figma file key of the PARENT file (not the branch)"
+        required: true
+        default: "3sw45aVcngFAmpbP6cfrXP"
+
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch branch list
+        env:
+          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+          FILE_KEY: ${{ github.event.inputs.file_key }}
+        run: |
+          code=$(curl -s -o resp.json -w "%{http_code}" \
+            -H "X-Figma-Token: $FIGMA_TOKEN" \
+            "https://api.figma.com/v1/files/${FILE_KEY}?depth=1")
+          echo "HTTP $code"
+          if [ "$code" != "200" ]; then
+            echo "Request failed. Response:"; cat resp.json; exit 1
+          fi
+          python3 - <<'PY'
+          import json
+          d = json.load(open("resp.json"))
+          print("\nPARENT FILE:", d.get("name"))
+          bs = d.get("branches") or []
+          if not bs:
+              print("\nNo branches returned for this file.")
+          else:
+              print(f"\n{len(bs)} branch(es):\n")
+              for b in bs:
+                  print(f"  key: {b.get('key')}    name: {b.get('name')}")
+          PY
