@@ -461,6 +461,63 @@ export default {
         },
         path: ["primitive-color", "amethyst", "300-38"],
       },
+      "300-50": {
+        key: "{primitive-color.amethyst.300-50}",
+        $type: "color",
+        $value: "#a18dd680",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#a18dd680",
+          key: "{primitive-color.amethyst.300-50}",
+        },
+        name: "PrimitiveColorAmethyst30050",
+        attributes: {
+          category: "primitive-color",
+          type: "amethyst",
+          item: "300-50",
+        },
+        path: ["primitive-color", "amethyst", "300-50"],
+      },
+      "300-70": {
+        key: "{primitive-color.amethyst.300-70}",
+        $type: "color",
+        $value: "#a18dd6b2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#a18dd6b2",
+          key: "{primitive-color.amethyst.300-70}",
+        },
+        name: "PrimitiveColorAmethyst30070",
+        attributes: {
+          category: "primitive-color",
+          type: "amethyst",
+          item: "300-70",
+        },
+        path: ["primitive-color", "amethyst", "300-70"],
+      },
+      "400-16": {
+        key: "{primitive-color.amethyst.400-16}",
+        $type: "color",
+        $value: "#7c6bab29",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#7c6bab29",
+          key: "{primitive-color.amethyst.400-16}",
+        },
+        name: "PrimitiveColorAmethyst40016",
+        attributes: {
+          category: "primitive-color",
+          type: "amethyst",
+          item: "400-16",
+        },
+        path: ["primitive-color", "amethyst", "400-16"],
+      },
       "400-38": {
         key: "{primitive-color.amethyst.400-38}",
         $type: "color",
@@ -479,6 +536,44 @@ export default {
           item: "400-38",
         },
         path: ["primitive-color", "amethyst", "400-38"],
+      },
+      "400-50": {
+        key: "{primitive-color.amethyst.400-50}",
+        $type: "color",
+        $value: "#7c6bab80",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#7c6bab80",
+          key: "{primitive-color.amethyst.400-50}",
+        },
+        name: "PrimitiveColorAmethyst40050",
+        attributes: {
+          category: "primitive-color",
+          type: "amethyst",
+          item: "400-50",
+        },
+        path: ["primitive-color", "amethyst", "400-50"],
+      },
+      "400-70": {
+        key: "{primitive-color.amethyst.400-70}",
+        $type: "color",
+        $value: "#7c6babb2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#7c6babb2",
+          key: "{primitive-color.amethyst.400-70}",
+        },
+        name: "PrimitiveColorAmethyst40070",
+        attributes: {
+          category: "primitive-color",
+          type: "amethyst",
+          item: "400-70",
+        },
+        path: ["primitive-color", "amethyst", "400-70"],
       },
       "50-16": {
         key: "{primitive-color.amethyst.50-16}",
@@ -938,6 +1033,25 @@ export default {
         },
         path: ["primitive-color", "brand", "0-38"],
       },
+      "0-70": {
+        key: "{primitive-color.brand.0-70}",
+        $type: "color",
+        $value: "#fafafcb2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#fafafcb2",
+          key: "{primitive-color.brand.0-70}",
+        },
+        name: "PrimitiveColorBrand070",
+        attributes: {
+          category: "primitive-color",
+          type: "brand",
+          item: "0-70",
+        },
+        path: ["primitive-color", "brand", "0-70"],
+      },
       "150-38": {
         key: "{primitive-color.brand.150-38}",
         $type: "color",
@@ -956,6 +1070,25 @@ export default {
           item: "150-38",
         },
         path: ["primitive-color", "brand", "150-38"],
+      },
+      "150-70": {
+        key: "{primitive-color.brand.150-70}",
+        $type: "color",
+        $value: "#bab9fab2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#bab9fab2",
+          key: "{primitive-color.brand.150-70}",
+        },
+        name: "PrimitiveColorBrand15070",
+        attributes: {
+          category: "primitive-color",
+          type: "brand",
+          item: "150-70",
+        },
+        path: ["primitive-color", "brand", "150-70"],
       },
       "200-38": {
         key: "{primitive-color.brand.200-38}",
@@ -976,6 +1109,44 @@ export default {
         },
         path: ["primitive-color", "brand", "200-38"],
       },
+      "200-50": {
+        key: "{primitive-color.brand.200-50}",
+        $type: "color",
+        $value: "#aeacf880",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#aeacf880",
+          key: "{primitive-color.brand.200-50}",
+        },
+        name: "PrimitiveColorBrand20050",
+        attributes: {
+          category: "primitive-color",
+          type: "brand",
+          item: "200-50",
+        },
+        path: ["primitive-color", "brand", "200-50"],
+      },
+      "200-70": {
+        key: "{primitive-color.brand.200-70}",
+        $type: "color",
+        $value: "#aeacf8b2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#aeacf8b2",
+          key: "{primitive-color.brand.200-70}",
+        },
+        name: "PrimitiveColorBrand20070",
+        attributes: {
+          category: "primitive-color",
+          type: "brand",
+          item: "200-70",
+        },
+        path: ["primitive-color", "brand", "200-70"],
+      },
       "25-38": {
         key: "{primitive-color.brand.25-38}",
         $type: "color",
@@ -994,6 +1165,44 @@ export default {
           item: "25-38",
         },
         path: ["primitive-color", "brand", "25-38"],
+      },
+      "25-50": {
+        key: "{primitive-color.brand.25-50}",
+        $type: "color",
+        $value: "#ededfc80",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#ededfc80",
+          key: "{primitive-color.brand.25-50}",
+        },
+        name: "PrimitiveColorBrand2550",
+        attributes: {
+          category: "primitive-color",
+          type: "brand",
+          item: "25-50",
+        },
+        path: ["primitive-color", "brand", "25-50"],
+      },
+      "25-70": {
+        key: "{primitive-color.brand.25-70}",
+        $type: "color",
+        $value: "#ededfcb2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#ededfcb2",
+          key: "{primitive-color.brand.25-70}",
+        },
+        name: "PrimitiveColorBrand2570",
+        attributes: {
+          category: "primitive-color",
+          type: "brand",
+          item: "25-70",
+        },
+        path: ["primitive-color", "brand", "25-70"],
       },
       "300-16": {
         key: "{primitive-color.brand.300-16}",
@@ -1128,6 +1337,25 @@ export default {
         },
         path: ["primitive-color", "brand", "300-8"],
       },
+      "400-16": {
+        key: "{primitive-color.brand.400-16}",
+        $type: "color",
+        $value: "#6e64be29",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#6e64be29",
+          key: "{primitive-color.brand.400-16}",
+        },
+        name: "PrimitiveColorBrand40016",
+        attributes: {
+          category: "primitive-color",
+          type: "brand",
+          item: "400-16",
+        },
+        path: ["primitive-color", "brand", "400-16"],
+      },
       "400-38": {
         key: "{primitive-color.brand.400-38}",
         $type: "color",
@@ -1146,6 +1374,25 @@ export default {
           item: "400-38",
         },
         path: ["primitive-color", "brand", "400-38"],
+      },
+      "400-70": {
+        key: "{primitive-color.brand.400-70}",
+        $type: "color",
+        $value: "#6e64beb2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#6e64beb2",
+          key: "{primitive-color.brand.400-70}",
+        },
+        name: "PrimitiveColorBrand40070",
+        attributes: {
+          category: "primitive-color",
+          type: "brand",
+          item: "400-70",
+        },
+        path: ["primitive-color", "brand", "400-70"],
       },
       "500-38": {
         key: "{primitive-color.brand.500-38}",
@@ -1166,6 +1413,25 @@ export default {
         },
         path: ["primitive-color", "brand", "500-38"],
       },
+      "500-70": {
+        key: "{primitive-color.brand.500-70}",
+        $type: "color",
+        $value: "#5c52a8b2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#5c52a8b2",
+          key: "{primitive-color.brand.500-70}",
+        },
+        name: "PrimitiveColorBrand50070",
+        attributes: {
+          category: "primitive-color",
+          type: "brand",
+          item: "500-70",
+        },
+        path: ["primitive-color", "brand", "500-70"],
+      },
       "600-38": {
         key: "{primitive-color.brand.600-38}",
         $type: "color",
@@ -1184,6 +1450,25 @@ export default {
           item: "600-38",
         },
         path: ["primitive-color", "brand", "600-38"],
+      },
+      "600-70": {
+        key: "{primitive-color.brand.600-70}",
+        $type: "color",
+        $value: "#564c9cb2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#564c9cb2",
+          key: "{primitive-color.brand.600-70}",
+        },
+        name: "PrimitiveColorBrand60070",
+        attributes: {
+          category: "primitive-color",
+          type: "brand",
+          item: "600-70",
+        },
+        path: ["primitive-color", "brand", "600-70"],
       },
       "800-16": {
         key: "{primitive-color.brand.800-16}",
@@ -1743,12 +2028,12 @@ export default {
       150: {
         key: "{primitive-color.cool-neutral.150}",
         $type: "color",
-        $value: "#cecece",
+        $value: "#d2d2d2",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#cecece",
+          $value: "#d2d2d2",
           key: "{primitive-color.cool-neutral.150}",
         },
         name: "PrimitiveColorCoolNeutral150",
@@ -1781,12 +2066,12 @@ export default {
       250: {
         key: "{primitive-color.cool-neutral.250}",
         $type: "color",
-        $value: "#adadad",
+        $value: "#b4b4b4",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#adadad",
+          $value: "#b4b4b4",
           key: "{primitive-color.cool-neutral.250}",
         },
         name: "PrimitiveColorCoolNeutral250",
@@ -1857,12 +2142,12 @@ export default {
       500: {
         key: "{primitive-color.cool-neutral.500}",
         $type: "color",
-        $value: "#5c5c5c",
+        $value: "#5a5a5a",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#5c5c5c",
+          $value: "#5a5a5a",
           key: "{primitive-color.cool-neutral.500}",
         },
         name: "PrimitiveColorCoolNeutral500",
@@ -1914,12 +2199,12 @@ export default {
       800: {
         key: "{primitive-color.cool-neutral.800}",
         $type: "color",
-        $value: "#191919",
+        $value: "#1e1e1e",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#191919",
+          $value: "#1e1e1e",
           key: "{primitive-color.cool-neutral.800}",
         },
         name: "PrimitiveColorCoolNeutral800",
@@ -2215,15 +2500,34 @@ export default {
         },
         path: ["primitive-color", "cool-neutral", "400-38"],
       },
-      "500-38": {
-        key: "{primitive-color.cool-neutral.500-38}",
+      "400-70": {
+        key: "{primitive-color.cool-neutral.400-70}",
         $type: "color",
-        $value: "#5c5c5c61",
+        $value: "#777777b2",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#5c5c5c61",
+          $value: "#777777b2",
+          key: "{primitive-color.cool-neutral.400-70}",
+        },
+        name: "PrimitiveColorCoolNeutral40070",
+        attributes: {
+          category: "primitive-color",
+          type: "cool-neutral",
+          item: "400-70",
+        },
+        path: ["primitive-color", "cool-neutral", "400-70"],
+      },
+      "500-38": {
+        key: "{primitive-color.cool-neutral.500-38}",
+        $type: "color",
+        $value: "#5a5a5a61",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#5a5a5a61",
           key: "{primitive-color.cool-neutral.500-38}",
         },
         name: "PrimitiveColorCoolNeutral50038",
@@ -2252,6 +2556,63 @@ export default {
           item: "75-38",
         },
         path: ["primitive-color", "cool-neutral", "75-38"],
+      },
+      "75-50": {
+        key: "{primitive-color.cool-neutral.75-50}",
+        $type: "color",
+        $value: "#e6e6e680",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#e6e6e680",
+          key: "{primitive-color.cool-neutral.75-50}",
+        },
+        name: "PrimitiveColorCoolNeutral7550",
+        attributes: {
+          category: "primitive-color",
+          type: "cool-neutral",
+          item: "75-50",
+        },
+        path: ["primitive-color", "cool-neutral", "75-50"],
+      },
+      "75-70": {
+        key: "{primitive-color.cool-neutral.75-70}",
+        $type: "color",
+        $value: "#e6e6e6b2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#e6e6e6b2",
+          key: "{primitive-color.cool-neutral.75-70}",
+        },
+        name: "PrimitiveColorCoolNeutral7570",
+        attributes: {
+          category: "primitive-color",
+          type: "cool-neutral",
+          item: "75-70",
+        },
+        path: ["primitive-color", "cool-neutral", "75-70"],
+      },
+      "800-70": {
+        key: "{primitive-color.cool-neutral.800-70}",
+        $type: "color",
+        $value: "#1e1e1eb2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#1e1e1eb2",
+          key: "{primitive-color.cool-neutral.800-70}",
+        },
+        name: "PrimitiveColorCoolNeutral80070",
+        attributes: {
+          category: "primitive-color",
+          type: "cool-neutral",
+          item: "800-70",
+        },
+        path: ["primitive-color", "cool-neutral", "800-70"],
       },
     },
     green: {
@@ -2596,6 +2957,25 @@ export default {
           item: "300-38",
         },
         path: ["primitive-color", "green", "300-38"],
+      },
+      "400-16": {
+        key: "{primitive-color.green.400-16}",
+        $type: "color",
+        $value: "#108d5d29",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#108d5d29",
+          key: "{primitive-color.green.400-16}",
+        },
+        name: "PrimitiveColorGreen40016",
+        attributes: {
+          category: "primitive-color",
+          type: "green",
+          item: "400-16",
+        },
+        path: ["primitive-color", "green", "400-16"],
       },
       "50-38": {
         key: "{primitive-color.green.50-38}",
@@ -3188,6 +3568,44 @@ export default {
         },
         path: ["primitive-color", "jade", "200-38"],
       },
+      "200-50": {
+        key: "{primitive-color.jade.200-50}",
+        $type: "color",
+        $value: "#67d5c880",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#67d5c880",
+          key: "{primitive-color.jade.200-50}",
+        },
+        name: "PrimitiveColorJade20050",
+        attributes: {
+          category: "primitive-color",
+          type: "jade",
+          item: "200-50",
+        },
+        path: ["primitive-color", "jade", "200-50"],
+      },
+      "200-70": {
+        key: "{primitive-color.jade.200-70}",
+        $type: "color",
+        $value: "#67d5c8b2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#67d5c8b2",
+          key: "{primitive-color.jade.200-70}",
+        },
+        name: "PrimitiveColorJade20070",
+        attributes: {
+          category: "primitive-color",
+          type: "jade",
+          item: "200-70",
+        },
+        path: ["primitive-color", "jade", "200-70"],
+      },
       "25-38": {
         key: "{primitive-color.jade.25-38}",
         $type: "color",
@@ -3206,6 +3624,44 @@ export default {
           item: "25-38",
         },
         path: ["primitive-color", "jade", "25-38"],
+      },
+      "400-16": {
+        key: "{primitive-color.jade.400-16}",
+        $type: "color",
+        $value: "#038a7f29",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#038a7f29",
+          key: "{primitive-color.jade.400-16}",
+        },
+        name: "PrimitiveColorJade40016",
+        attributes: {
+          category: "primitive-color",
+          type: "jade",
+          item: "400-16",
+        },
+        path: ["primitive-color", "jade", "400-16"],
+      },
+      "400-70": {
+        key: "{primitive-color.jade.400-70}",
+        $type: "color",
+        $value: "#038a7fb2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#038a7fb2",
+          key: "{primitive-color.jade.400-70}",
+        },
+        name: "PrimitiveColorJade40070",
+        attributes: {
+          category: "primitive-color",
+          type: "jade",
+          item: "400-70",
+        },
+        path: ["primitive-color", "jade", "400-70"],
       },
       "500-38": {
         key: "{primitive-color.jade.500-38}",
@@ -3914,6 +4370,25 @@ export default {
         },
         path: ["primitive-color", "mauve", "800"],
       },
+      "400-16": {
+        key: "{primitive-color.mauve.400-16}",
+        $type: "color",
+        $value: "#bb3e9629",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#bb3e9629",
+          key: "{primitive-color.mauve.400-16}",
+        },
+        name: "PrimitiveColorMauve40016",
+        attributes: {
+          category: "primitive-color",
+          type: "mauve",
+          item: "400-16",
+        },
+        path: ["primitive-color", "mauve", "400-16"],
+      },
       "75-16": {
         key: "{primitive-color.mauve.75-16}",
         $type: "color",
@@ -4353,6 +4828,44 @@ export default {
         },
         path: ["primitive-color", "midnight", "100-38"],
       },
+      "100-50": {
+        key: "{primitive-color.midnight.100-50}",
+        $type: "color",
+        $value: "#d9d6e880",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#d9d6e880",
+          key: "{primitive-color.midnight.100-50}",
+        },
+        name: "PrimitiveColorMidnight10050",
+        attributes: {
+          category: "primitive-color",
+          type: "midnight",
+          item: "100-50",
+        },
+        path: ["primitive-color", "midnight", "100-50"],
+      },
+      "100-70": {
+        key: "{primitive-color.midnight.100-70}",
+        $type: "color",
+        $value: "#d9d6e8b2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#d9d6e8b2",
+          key: "{primitive-color.midnight.100-70}",
+        },
+        name: "PrimitiveColorMidnight10070",
+        attributes: {
+          category: "primitive-color",
+          type: "midnight",
+          item: "100-70",
+        },
+        path: ["primitive-color", "midnight", "100-70"],
+      },
     },
     orange: {
       0: {
@@ -4715,6 +5228,25 @@ export default {
           item: "300-38",
         },
         path: ["primitive-color", "orange", "300-38"],
+      },
+      "400-16": {
+        key: "{primitive-color.orange.400-16}",
+        $type: "color",
+        $value: "#b45b2b29",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#b45b2b29",
+          key: "{primitive-color.orange.400-16}",
+        },
+        name: "PrimitiveColorOrange40016",
+        attributes: {
+          category: "primitive-color",
+          type: "orange",
+          item: "400-16",
+        },
+        path: ["primitive-color", "orange", "400-16"],
       },
       "50-16": {
         key: "{primitive-color.orange.50-16}",
@@ -5345,6 +5877,63 @@ export default {
         },
         path: ["primitive-color", "red", "200-38"],
       },
+      "200-50": {
+        key: "{primitive-color.red.200-50}",
+        $type: "color",
+        $value: "#fea49780",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#fea49780",
+          key: "{primitive-color.red.200-50}",
+        },
+        name: "PrimitiveColorRed20050",
+        attributes: {
+          category: "primitive-color",
+          type: "red",
+          item: "200-50",
+        },
+        path: ["primitive-color", "red", "200-50"],
+      },
+      "200-65": {
+        key: "{primitive-color.red.200-65}",
+        $type: "color",
+        $value: "#fea497a6",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#fea497a6",
+          key: "{primitive-color.red.200-65}",
+        },
+        name: "PrimitiveColorRed20065",
+        attributes: {
+          category: "primitive-color",
+          type: "red",
+          item: "200-65",
+        },
+        path: ["primitive-color", "red", "200-65"],
+      },
+      "200-70": {
+        key: "{primitive-color.red.200-70}",
+        $type: "color",
+        $value: "#fea497b2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#fea497b2",
+          key: "{primitive-color.red.200-70}",
+        },
+        name: "PrimitiveColorRed20070",
+        attributes: {
+          category: "primitive-color",
+          type: "red",
+          item: "200-70",
+        },
+        path: ["primitive-color", "red", "200-70"],
+      },
       "25-38": {
         key: "{primitive-color.red.25-38}",
         $type: "color",
@@ -5363,6 +5952,44 @@ export default {
           item: "25-38",
         },
         path: ["primitive-color", "red", "25-38"],
+      },
+      "300-50": {
+        key: "{primitive-color.red.300-50}",
+        $type: "color",
+        $value: "#e4776980",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#e4776980",
+          key: "{primitive-color.red.300-50}",
+        },
+        name: "PrimitiveColorRed30050",
+        attributes: {
+          category: "primitive-color",
+          type: "red",
+          item: "300-50",
+        },
+        path: ["primitive-color", "red", "300-50"],
+      },
+      "300-70": {
+        key: "{primitive-color.red.300-70}",
+        $type: "color",
+        $value: "#e47769b2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#e47769b2",
+          key: "{primitive-color.red.300-70}",
+        },
+        name: "PrimitiveColorRed30070",
+        attributes: {
+          category: "primitive-color",
+          type: "red",
+          item: "300-70",
+        },
+        path: ["primitive-color", "red", "300-70"],
       },
       "400-38": {
         key: "{primitive-color.red.400-38}",
@@ -5383,6 +6010,25 @@ export default {
         },
         path: ["primitive-color", "red", "400-38"],
       },
+      "400-70": {
+        key: "{primitive-color.red.400-70}",
+        $type: "color",
+        $value: "#cb4034b2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#cb4034b2",
+          key: "{primitive-color.red.400-70}",
+        },
+        name: "PrimitiveColorRed40070",
+        attributes: {
+          category: "primitive-color",
+          type: "red",
+          item: "400-70",
+        },
+        path: ["primitive-color", "red", "400-70"],
+      },
       "500-38": {
         key: "{primitive-color.red.500-38}",
         $type: "color",
@@ -5401,6 +6047,44 @@ export default {
           item: "500-38",
         },
         path: ["primitive-color", "red", "500-38"],
+      },
+      "500-65": {
+        key: "{primitive-color.red.500-65}",
+        $type: "color",
+        $value: "#a6241ca6",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#a6241ca6",
+          key: "{primitive-color.red.500-65}",
+        },
+        name: "PrimitiveColorRed50065",
+        attributes: {
+          category: "primitive-color",
+          type: "red",
+          item: "500-65",
+        },
+        path: ["primitive-color", "red", "500-65"],
+      },
+      "500-70": {
+        key: "{primitive-color.red.500-70}",
+        $type: "color",
+        $value: "#a6241cb2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#a6241cb2",
+          key: "{primitive-color.red.500-70}",
+        },
+        name: "PrimitiveColorRed50070",
+        attributes: {
+          category: "primitive-color",
+          type: "red",
+          item: "500-70",
+        },
+        path: ["primitive-color", "red", "500-70"],
       },
     },
     rose: {
@@ -6166,6 +6850,25 @@ export default {
         },
         path: ["primitive-color", "saffron", "350-38"],
       },
+      "400-16": {
+        key: "{primitive-color.saffron.400-16}",
+        $type: "color",
+        $value: "#91723b29",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#91723b29",
+          key: "{primitive-color.saffron.400-16}",
+        },
+        name: "PrimitiveColorSaffron40016",
+        attributes: {
+          category: "primitive-color",
+          type: "saffron",
+          item: "400-16",
+        },
+        path: ["primitive-color", "saffron", "400-16"],
+      },
       "75-38": {
         key: "{primitive-color.saffron.75-38}",
         $type: "color",
@@ -6380,12 +7083,12 @@ export default {
       400: {
         key: "{primitive-color.seabreeze.400}",
         $type: "color",
-        $value: "#3a71dc",
+        $value: "#4571c9",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#3a71dc",
+          $value: "#4571c9",
           key: "{primitive-color.seabreeze.400}",
         },
         name: "PrimitiveColorSeabreeze400",
@@ -6399,12 +7102,12 @@ export default {
       500: {
         key: "{primitive-color.seabreeze.500}",
         $type: "color",
-        $value: "#2957af",
+        $value: "#35509e",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#2957af",
+          $value: "#35509e",
           key: "{primitive-color.seabreeze.500}",
         },
         name: "PrimitiveColorSeabreeze500",
@@ -6418,12 +7121,12 @@ export default {
       600: {
         key: "{primitive-color.seabreeze.600}",
         $type: "color",
-        $value: "#1d4082",
+        $value: "#2e4185",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#1d4082",
+          $value: "#2e4185",
           key: "{primitive-color.seabreeze.600}",
         },
         name: "PrimitiveColorSeabreeze600",
@@ -6437,12 +7140,12 @@ export default {
       700: {
         key: "{primitive-color.seabreeze.700}",
         $type: "color",
-        $value: "#132b5a",
+        $value: "#27326d",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#132b5a",
+          $value: "#27326d",
           key: "{primitive-color.seabreeze.700}",
         },
         name: "PrimitiveColorSeabreeze700",
@@ -6456,12 +7159,12 @@ export default {
       800: {
         key: "{primitive-color.seabreeze.800}",
         $type: "color",
-        $value: "#091835",
+        $value: "#1a2249",
         filePath: "tokens/newco-design-tokens.json",
         isSource: true,
         original: {
           $type: "color",
-          $value: "#091835",
+          $value: "#1a2249",
           key: "{primitive-color.seabreeze.800}",
         },
         name: "PrimitiveColorSeabreeze800",
@@ -6585,6 +7288,25 @@ export default {
           item: "100-8",
         },
         path: ["primitive-color", "seabreeze", "100-8"],
+      },
+      "400-16": {
+        key: "{primitive-color.seabreeze.400-16}",
+        $type: "color",
+        $value: "#4571c929",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#4571c929",
+          key: "{primitive-color.seabreeze.400-16}",
+        },
+        name: "PrimitiveColorSeabreeze40016",
+        attributes: {
+          category: "primitive-color",
+          type: "seabreeze",
+          item: "400-16",
+        },
+        path: ["primitive-color", "seabreeze", "400-16"],
       },
     },
     "warm-neutral": {
@@ -6911,6 +7633,25 @@ export default {
         },
         path: ["primitive-color", "warm-neutral", "200-38"],
       },
+      "200-70": {
+        key: "{primitive-color.warm-neutral.200-70}",
+        $type: "color",
+        $value: "#dbceceb2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#dbceceb2",
+          key: "{primitive-color.warm-neutral.200-70}",
+        },
+        name: "PrimitiveColorWarmNeutral20070",
+        attributes: {
+          category: "primitive-color",
+          type: "warm-neutral",
+          item: "200-70",
+        },
+        path: ["primitive-color", "warm-neutral", "200-70"],
+      },
       "250-16": {
         key: "{primitive-color.warm-neutral.250-16}",
         $type: "color",
@@ -7043,6 +7784,25 @@ export default {
           item: "300-38",
         },
         path: ["primitive-color", "warm-neutral", "300-38"],
+      },
+      "300-70": {
+        key: "{primitive-color.warm-neutral.300-70}",
+        $type: "color",
+        $value: "#ada2a0b2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#ada2a0b2",
+          key: "{primitive-color.warm-neutral.300-70}",
+        },
+        name: "PrimitiveColorWarmNeutral30070",
+        attributes: {
+          category: "primitive-color",
+          type: "warm-neutral",
+          item: "300-70",
+        },
+        path: ["primitive-color", "warm-neutral", "300-70"],
       },
       "50-16": {
         key: "{primitive-color.warm-neutral.50-16}",
@@ -7195,6 +7955,25 @@ export default {
           item: "75-38",
         },
         path: ["primitive-color", "warm-neutral", "75-38"],
+      },
+      "75-70": {
+        key: "{primitive-color.warm-neutral.75-70}",
+        $type: "color",
+        $value: "#f4efefb2",
+        filePath: "tokens/newco-design-tokens.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#f4efefb2",
+          key: "{primitive-color.warm-neutral.75-70}",
+        },
+        name: "PrimitiveColorWarmNeutral7570",
+        attributes: {
+          category: "primitive-color",
+          type: "warm-neutral",
+          item: "75-70",
+        },
+        path: ["primitive-color", "warm-neutral", "75-70"],
       },
       "800-16": {
         key: "{primitive-color.warm-neutral.800-16}",
@@ -7367,12 +8146,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.fill.action.accent-amethyst.disabled}",
               $type: "color",
-              $value: "#7c6bab61",
+              $value: "#7c6babb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.amethyst.400-38}",
+                $value: "{primitive-color.amethyst.400-70}",
                 key: "{semantic-color.light-mode.fill.action.accent-amethyst.disabled}",
               },
               name: "SemanticColorLightModeFillActionAccentAmethystDisabled",
@@ -7481,12 +8260,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.fill.action.accent-amethyst-inverse.disabled}",
               $type: "color",
-              $value: "#faf9fe61",
+              $value: "#edeaf9",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.amethyst.0-38}",
+                $value: "{primitive-color.amethyst.50}",
                 key: "{semantic-color.light-mode.fill.action.accent-amethyst-inverse.disabled}",
               },
               name: "SemanticColorLightModeFillActionAccentAmethystInverseDisabled",
@@ -7595,12 +8374,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.fill.action.accent-jade.disabled}",
               $type: "color",
-              $value: "#67d5c861",
+              $value: "#67d5c8b2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.jade.200-38}",
+                $value: "{primitive-color.jade.200-70}",
                 key: "{semantic-color.light-mode.fill.action.accent-jade.disabled}",
               },
               name: "SemanticColorLightModeFillActionAccentJadeDisabled",
@@ -7709,12 +8488,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.fill.action.accent-jade-inverse.disabled}",
               $type: "color",
-              $value: "#ebf6f461",
+              $value: "#def2ef",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.jade.25-38}",
+                $value: "{primitive-color.jade.50}",
                 key: "{semantic-color.light-mode.fill.action.accent-jade-inverse.disabled}",
               },
               name: "SemanticColorLightModeFillActionAccentJadeInverseDisabled",
@@ -7937,12 +8716,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.fill.action.dangerinverse.disabled}",
               $type: "color",
-              $value: "#fff9f661",
+              $value: "#ffe7dc",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.orange.0-38}",
+                $value: "{primitive-color.orange.50}",
                 key: "{semantic-color.light-mode.fill.action.dangerinverse.disabled}",
               },
               name: "SemanticColorLightModeFillActionDangerinverseDisabled",
@@ -8023,12 +8802,12 @@ export default {
             base: {
               key: "{semantic-color.light-mode.fill.action.negative.base}",
               $type: "color",
-              $value: "#a6241c",
+              $value: "#cb4034",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.500}",
+                $value: "{primitive-color.red.400}",
                 key: "{semantic-color.light-mode.fill.action.negative.base}",
               },
               name: "SemanticColorLightModeFillActionNegativeBase",
@@ -8051,12 +8830,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.fill.action.negative.disabled}",
               $type: "color",
-              $value: "#a6241c61",
+              $value: "#cb4034b2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.500-38}",
+                $value: "{primitive-color.red.400-70}",
                 key: "{semantic-color.light-mode.fill.action.negative.disabled}",
               },
               name: "SemanticColorLightModeFillActionNegativeDisabled",
@@ -8079,12 +8858,12 @@ export default {
             hover: {
               key: "{semantic-color.light-mode.fill.action.negative.hover}",
               $type: "color",
-              $value: "#7f130e",
+              $value: "#a6241c",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.600}",
+                $value: "{primitive-color.red.500}",
                 key: "{semantic-color.light-mode.fill.action.negative.hover}",
               },
               name: "SemanticColorLightModeFillActionNegativeHover",
@@ -8107,12 +8886,12 @@ export default {
             pressed: {
               key: "{semantic-color.light-mode.fill.action.negative.pressed}",
               $type: "color",
-              $value: "#590a06",
+              $value: "#7f130e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.700}",
+                $value: "{primitive-color.red.600}",
                 key: "{semantic-color.light-mode.fill.action.negative.pressed}",
               },
               name: "SemanticColorLightModeFillActionNegativePressed",
@@ -8165,12 +8944,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.fill.action.negativeinverse.disabled}",
               $type: "color",
-              $value: "#fcf0ee61",
+              $value: "#fce7e4",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.25-38}",
+                $value: "{primitive-color.red.50}",
                 key: "{semantic-color.light-mode.fill.action.negativeinverse.disabled}",
               },
               name: "SemanticColorLightModeFillActionNegativeinverseDisabled",
@@ -8279,12 +9058,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.fill.action.positive.disabled}",
               $type: "color",
-              $value: "#14c38261",
+              $value: "#befedb",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.green.250-38}",
+                $value: "{primitive-color.green.50}",
                 key: "{semantic-color.light-mode.fill.action.positive.disabled}",
               },
               name: "SemanticColorLightModeFillActionPositiveDisabled",
@@ -8393,12 +9172,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.fill.action.positiveinverse.disabled}",
               $type: "color",
-              $value: "#d9fee961",
+              $value: "#befedb",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.green.25-38}",
+                $value: "{primitive-color.green.50}",
                 key: "{semantic-color.light-mode.fill.action.positiveinverse.disabled}",
               },
               name: "SemanticColorLightModeFillActionPositiveinverseDisabled",
@@ -8507,12 +9286,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.fill.action.primary.disabled}",
               $type: "color",
-              $value: "#6e64be61",
+              $value: "#6e64beb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.400-38}",
+                $value: "{primitive-color.brand.400-70}",
                 key: "{semantic-color.light-mode.fill.action.primary.disabled}",
               },
               name: "SemanticColorLightModeFillActionPrimaryDisabled",
@@ -8621,12 +9400,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.fill.action.primaryinverse.disabled}",
               $type: "color",
-              $value: "#fafafc61",
+              $value: "#fafafcb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.0-38}",
+                $value: "{primitive-color.brand.0-70}",
                 key: "{semantic-color.light-mode.fill.action.primaryinverse.disabled}",
               },
               name: "SemanticColorLightModeFillActionPrimaryinverseDisabled",
@@ -8735,12 +9514,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.fill.action.secondary.disabled}",
               $type: "color",
-              $value: "#f4efef61",
+              $value: "#f4efefb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.warm-neutral.75-38}",
+                $value: "{primitive-color.warm-neutral.75-70}",
                 key: "{semantic-color.light-mode.fill.action.secondary.disabled}",
               },
               name: "SemanticColorLightModeFillActionSecondaryDisabled",
@@ -8849,12 +9628,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.fill.action.secondaryinverse.disabled}",
               $type: "color",
-              $value: "#f7f3f361",
+              $value: "#f7f3f3b2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.warm-neutral.50-38}",
+                $value: "{primitive-color.warm-neutral.50-70}",
                 key: "{semantic-color.light-mode.fill.action.secondaryinverse.disabled}",
               },
               name: "SemanticColorLightModeFillActionSecondaryinverseDisabled",
@@ -8935,12 +9714,12 @@ export default {
             base: {
               key: "{semantic-color.light-mode.fill.action.tertiary-inverse.base}",
               $type: "color",
-              $value: "#ededfc",
+              $value: "#9691f529",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.25}",
+                $value: "{primitive-color.brand.300-16}",
                 key: "{semantic-color.light-mode.fill.action.tertiary-inverse.base}",
               },
               name: "SemanticColorLightModeFillActionTertiaryInverseBase",
@@ -8963,12 +9742,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.fill.action.tertiary-inverse.disabled}",
               $type: "color",
-              $value: "#ededfc61",
+              $value: "#9691f529",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.25-38}",
+                $value: "{primitive-color.brand.300-16}",
                 key: "{semantic-color.light-mode.fill.action.tertiary-inverse.disabled}",
               },
               name: "SemanticColorLightModeFillActionTertiaryInverseDisabled",
@@ -8991,12 +9770,12 @@ export default {
             hover: {
               key: "{semantic-color.light-mode.fill.action.tertiary-inverse.hover}",
               $type: "color",
-              $value: "#e0e0fc",
+              $value: "#9691f54d",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.50}",
+                $value: "{primitive-color.brand.300-30}",
                 key: "{semantic-color.light-mode.fill.action.tertiary-inverse.hover}",
               },
               name: "SemanticColorLightModeFillActionTertiaryInverseHover",
@@ -9019,12 +9798,12 @@ export default {
             pressed: {
               key: "{semantic-color.light-mode.fill.action.tertiary-inverse.pressed}",
               $type: "color",
-              $value: "#d3d3fb",
+              $value: "#9691f580",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.75}",
+                $value: "{primitive-color.brand.300-50}",
                 key: "{semantic-color.light-mode.fill.action.tertiary-inverse.pressed}",
               },
               name: "SemanticColorLightModeFillActionTertiaryInversePressed",
@@ -9049,12 +9828,12 @@ export default {
             base: {
               key: "{semantic-color.light-mode.fill.action.tertiary.base}",
               $type: "color",
-              $value: "#6e64be",
+              $value: "#9691f529",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.400}",
+                $value: "{primitive-color.brand.300-16}",
                 key: "{semantic-color.light-mode.fill.action.tertiary.base}",
               },
               name: "SemanticColorLightModeFillActionTertiaryBase",
@@ -9077,12 +9856,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.fill.action.tertiary.disabled}",
               $type: "color",
-              $value: "#6e64be61",
+              $value: "#9691f529",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.400-38}",
+                $value: "{primitive-color.brand.300-16}",
                 key: "{semantic-color.light-mode.fill.action.tertiary.disabled}",
               },
               name: "SemanticColorLightModeFillActionTertiaryDisabled",
@@ -9105,12 +9884,12 @@ export default {
             hover: {
               key: "{semantic-color.light-mode.fill.action.tertiary.hover}",
               $type: "color",
-              $value: "#5c52a8",
+              $value: "#9691f54d",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.500}",
+                $value: "{primitive-color.brand.300-30}",
                 key: "{semantic-color.light-mode.fill.action.tertiary.hover}",
               },
               name: "SemanticColorLightModeFillActionTertiaryHover",
@@ -9133,12 +9912,12 @@ export default {
             pressed: {
               key: "{semantic-color.light-mode.fill.action.tertiary.pressed}",
               $type: "color",
-              $value: "#564c9c",
+              $value: "#9691f580",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.600}",
+                $value: "{primitive-color.brand.300-50}",
                 key: "{semantic-color.light-mode.fill.action.tertiary.pressed}",
               },
               name: "SemanticColorLightModeFillActionTertiaryPressed",
@@ -9191,12 +9970,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.fill.action.warning.disabled}",
               $type: "color",
-              $value: "#fed89761",
+              $value: "#feeac8",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.100-38}",
+                $value: "{primitive-color.saffron.50}",
                 key: "{semantic-color.light-mode.fill.action.warning.disabled}",
               },
               name: "SemanticColorLightModeFillActionWarningDisabled",
@@ -9305,12 +10084,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.fill.action.warninginverse.disabled}",
               $type: "color",
-              $value: "#fefaf261",
+              $value: "#feeac8",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.0-38}",
+                $value: "{primitive-color.saffron.50}",
                 key: "{semantic-color.light-mode.fill.action.warninginverse.disabled}",
               },
               name: "SemanticColorLightModeFillActionWarninginverseDisabled",
@@ -9423,12 +10202,12 @@ export default {
             active: {
               key: "{semantic-color.light-mode.fill.contextual.navitem.active}",
               $type: "color",
-              $value: "#e0e0fc",
+              $value: "#6e64be29",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.50}",
+                $value: "#6e64be29",
                 key: "{semantic-color.light-mode.fill.contextual.navitem.active}",
               },
               name: "SemanticColorLightModeFillContextualNavitemActive",
@@ -9507,12 +10286,12 @@ export default {
             hover: {
               key: "{semantic-color.light-mode.fill.contextual.navitem.hover}",
               $type: "color",
-              $value: "#2a262514",
+              $value: "#ece4e4",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.warm-neutral.800-8}",
+                $value: "{primitive-color.warm-neutral.150}",
                 key: "{semantic-color.light-mode.fill.contextual.navitem.hover}",
               },
               name: "SemanticColorLightModeFillContextualNavitemHover",
@@ -9530,6 +10309,34 @@ export default {
                 "contextual",
                 "navitem",
                 "hover",
+              ],
+            },
+            indicator: {
+              key: "{semantic-color.light-mode.fill.contextual.navitem.indicator}",
+              $type: "color",
+              $value: "#6e64be",
+              filePath: "tokens/newco-design-tokens.json",
+              isSource: true,
+              original: {
+                $type: "color",
+                $value: "#6e64be",
+                key: "{semantic-color.light-mode.fill.contextual.navitem.indicator}",
+              },
+              name: "SemanticColorLightModeFillContextualNavitemIndicator",
+              attributes: {
+                category: "semantic-color",
+                type: "light-mode",
+                item: "fill",
+                subitem: "contextual",
+                state: "navitem",
+              },
+              path: [
+                "semantic-color",
+                "light-mode",
+                "fill",
+                "contextual",
+                "navitem",
+                "indicator",
               ],
             },
             trail: {
@@ -10139,7 +10946,7 @@ export default {
             base: {
               key: "{semantic-color.light-mode.fill.static.accent-navy.base}",
               $type: "color",
-              $value: "#2957af",
+              $value: "#35509e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -10167,7 +10974,7 @@ export default {
             bold: {
               key: "{semantic-color.light-mode.fill.static.accent-navy.bold}",
               $type: "color",
-              $value: "#1d4082",
+              $value: "#2e4185",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -10227,7 +11034,7 @@ export default {
             base: {
               key: "{semantic-color.light-mode.fill.static.accent-seabreeze.base}",
               $type: "color",
-              $value: "#2957af",
+              $value: "#35509e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -11851,12 +12658,12 @@ export default {
             base: {
               key: "{semantic-color.light-mode.icon.action.accent-jade.base}",
               $type: "color",
-              $value: "#67d5c8",
+              $value: "#038a7f",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.jade.200}",
+                $value: "{primitive-color.jade.400}",
                 key: "{semantic-color.light-mode.icon.action.accent-jade.base}",
               },
               name: "SemanticColorLightModeIconActionAccentJadeBase",
@@ -11879,12 +12686,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.icon.action.accent-jade.disabled}",
               $type: "color",
-              $value: "#67d5c861",
+              $value: "#038a7fb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.jade.200-38}",
+                $value: "{primitive-color.jade.400-70}",
                 key: "{semantic-color.light-mode.icon.action.accent-jade.disabled}",
               },
               name: "SemanticColorLightModeIconActionAccentJadeDisabled",
@@ -11907,12 +12714,12 @@ export default {
             hover: {
               key: "{semantic-color.light-mode.icon.action.accent-jade.hover}",
               $type: "color",
-              $value: "#47c5b7",
+              $value: "#086b62",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.jade.250}",
+                $value: "{primitive-color.jade.500}",
                 key: "{semantic-color.light-mode.icon.action.accent-jade.hover}",
               },
               name: "SemanticColorLightModeIconActionAccentJadeHover",
@@ -11935,12 +12742,12 @@ export default {
             selected: {
               key: "{semantic-color.light-mode.icon.action.accent-jade.selected}",
               $type: "color",
-              $value: "#1eb2a5",
+              $value: "#084f48",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.jade.300}",
+                $value: "{primitive-color.jade.600}",
                 key: "{semantic-color.light-mode.icon.action.accent-jade.selected}",
               },
               name: "SemanticColorLightModeIconActionAccentJadeSelected",
@@ -11965,12 +12772,12 @@ export default {
             base: {
               key: "{semantic-color.light-mode.icon.action.alert.base}",
               $type: "color",
-              $value: "#aa843e",
+              $value: "#6d5936",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.350}",
+                $value: "{primitive-color.saffron.500}",
                 key: "{semantic-color.light-mode.icon.action.alert.base}",
               },
               name: "SemanticColorLightModeIconActionAlertBase",
@@ -11993,12 +12800,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.icon.action.alert.disabled}",
               $type: "color",
-              $value: "#aa843e61",
+              $value: "#91723b",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.350-38}",
+                $value: "{primitive-color.saffron.400}",
                 key: "{semantic-color.light-mode.icon.action.alert.disabled}",
               },
               name: "SemanticColorLightModeIconActionAlertDisabled",
@@ -12021,12 +12828,12 @@ export default {
             hover: {
               key: "{semantic-color.light-mode.icon.action.alert.hover}",
               $type: "color",
-              $value: "#91723b",
+              $value: "#4e422d",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.400}",
+                $value: "{primitive-color.saffron.600}",
                 key: "{semantic-color.light-mode.icon.action.alert.hover}",
               },
               name: "SemanticColorLightModeIconActionAlertHover",
@@ -12049,12 +12856,12 @@ export default {
             pressed: {
               key: "{semantic-color.light-mode.icon.action.alert.pressed}",
               $type: "color",
-              $value: "#6d5936",
+              $value: "#342d21",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.500}",
+                $value: "{primitive-color.saffron.700}",
                 key: "{semantic-color.light-mode.icon.action.alert.pressed}",
               },
               name: "SemanticColorLightModeIconActionAlertPressed",
@@ -12107,12 +12914,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.icon.action.danger.disabled}",
               $type: "color",
-              $value: "#8a482561",
+              $value: "#b45b2b",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.orange.500-38}",
+                $value: "{primitive-color.orange.400}",
                 key: "{semantic-color.light-mode.icon.action.danger.disabled}",
               },
               name: "SemanticColorLightModeIconActionDangerDisabled",
@@ -12221,12 +13028,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.icon.action.mono.disabled}",
               $type: "color",
-              $value: "#ffffff61",
+              $value: "#ffffffb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.0-38}",
+                $value: "{primitive-color.cool-neutral.0-70}",
                 key: "{semantic-color.light-mode.icon.action.mono.disabled}",
               },
               name: "SemanticColorLightModeIconActionMonoDisabled",
@@ -12365,12 +13172,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.icon.action.negative.disabled}",
               $type: "color",
-              $value: "#a6241c61",
+              $value: "#a6241cb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.500-38}",
+                $value: "{primitive-color.red.500-70}",
                 key: "{semantic-color.light-mode.icon.action.negative.disabled}",
               },
               name: "SemanticColorLightModeIconActionNegativeDisabled",
@@ -12479,12 +13286,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.icon.action.negativeinverse.disabled}",
               $type: "color",
-              $value: "#fdbdb361",
+              $value: "#a6241ca6",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.150-38}",
+                $value: "{primitive-color.red.500-65}",
                 key: "{semantic-color.light-mode.icon.action.negativeinverse.disabled}",
               },
               name: "SemanticColorLightModeIconActionNegativeinverseDisabled",
@@ -12565,12 +13372,12 @@ export default {
             base: {
               key: "{semantic-color.light-mode.icon.action.positive.base}",
               $type: "color",
-              $value: "#0bb87a",
+              $value: "#108d5d",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.green.300}",
+                $value: "{primitive-color.green.400}",
                 key: "{semantic-color.light-mode.icon.action.positive.base}",
               },
               name: "SemanticColorLightModeIconActionPositiveBase",
@@ -12593,12 +13400,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.icon.action.positive.disabled}",
               $type: "color",
-              $value: "#0bb87a61",
+              $value: "#016e47",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.green.300-38}",
+                $value: "{primitive-color.green.500}",
                 key: "{semantic-color.light-mode.icon.action.positive.disabled}",
               },
               name: "SemanticColorLightModeIconActionPositiveDisabled",
@@ -12621,12 +13428,12 @@ export default {
             hover: {
               key: "{semantic-color.light-mode.icon.action.positive.hover}",
               $type: "color",
-              $value: "#00a46c",
+              $value: "#016e47",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.green.350}",
+                $value: "{primitive-color.green.500}",
                 key: "{semantic-color.light-mode.icon.action.positive.hover}",
               },
               name: "SemanticColorLightModeIconActionPositiveHover",
@@ -12649,12 +13456,12 @@ export default {
             pressed: {
               key: "{semantic-color.light-mode.icon.action.positive.pressed}",
               $type: "color",
-              $value: "#108d5d",
+              $value: "#055134",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.green.400}",
+                $value: "{primitive-color.green.600}",
                 key: "{semantic-color.light-mode.icon.action.positive.pressed}",
               },
               name: "SemanticColorLightModeIconActionPositivePressed",
@@ -12707,12 +13514,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.icon.action.positiveinverse.disabled}",
               $type: "color",
-              $value: "#d9fee961",
+              $value: "#016e47",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.green.25-38}",
+                $value: "{primitive-color.green.500}",
                 key: "{semantic-color.light-mode.icon.action.positiveinverse.disabled}",
               },
               name: "SemanticColorLightModeIconActionPositiveinverseDisabled",
@@ -12821,12 +13628,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.icon.action.primary.disabled}",
               $type: "color",
-              $value: "#5c52a861",
+              $value: "#5c52a8b2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.500-38}",
+                $value: "{primitive-color.brand.500-70}",
                 key: "{semantic-color.light-mode.icon.action.primary.disabled}",
               },
               name: "SemanticColorLightModeIconActionPrimaryDisabled",
@@ -12935,12 +13742,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.icon.action.primaryinverse.disabled}",
               $type: "color",
-              $value: "#ffffff61",
+              $value: "#ffffffb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.0-38}",
+                $value: "{primitive-color.cool-neutral.0-70}",
                 key: "{semantic-color.light-mode.icon.action.primaryinverse.disabled}",
               },
               name: "SemanticColorLightModeIconActionPrimaryinverseDisabled",
@@ -13049,12 +13856,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.icon.action.secondary-inverse.disabled}",
               $type: "color",
-              $value: "#77777761",
+              $value: "#777777b2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.400-38}",
+                $value: "{primitive-color.cool-neutral.400-70}",
                 key: "{semantic-color.light-mode.icon.action.secondary-inverse.disabled}",
               },
               name: "SemanticColorLightModeIconActionSecondaryInverseDisabled",
@@ -13077,7 +13884,7 @@ export default {
             hover: {
               key: "{semantic-color.light-mode.icon.action.secondary-inverse.hover}",
               $type: "color",
-              $value: "#5c5c5c",
+              $value: "#5a5a5a",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -13135,12 +13942,12 @@ export default {
             base: {
               key: "{semantic-color.light-mode.icon.action.secondary.base}",
               $type: "color",
-              $value: "#2a2625",
+              $value: "#1e1e1e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.warm-neutral.800}",
+                $value: "{primitive-color.cool-neutral.800}",
                 key: "{semantic-color.light-mode.icon.action.secondary.base}",
               },
               name: "SemanticColorLightModeIconActionSecondaryBase",
@@ -13163,12 +13970,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.icon.action.secondary.disabled}",
               $type: "color",
-              $value: "#2a262561",
+              $value: "#1e1e1eb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.warm-neutral.800-38}",
+                $value: "{primitive-color.cool-neutral.800-70}",
                 key: "{semantic-color.light-mode.icon.action.secondary.disabled}",
               },
               name: "SemanticColorLightModeIconActionSecondaryDisabled",
@@ -13191,12 +13998,12 @@ export default {
             hover: {
               key: "{semantic-color.light-mode.icon.action.secondary.hover}",
               $type: "color",
-              $value: "#3a3332",
+              $value: "#1e1e1e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.warm-neutral.700}",
+                $value: "{primitive-color.cool-neutral.800}",
                 key: "{semantic-color.light-mode.icon.action.secondary.hover}",
               },
               name: "SemanticColorLightModeIconActionSecondaryHover",
@@ -13219,12 +14026,12 @@ export default {
             pressed: {
               key: "{semantic-color.light-mode.icon.action.secondary.pressed}",
               $type: "color",
-              $value: "#4a4140",
+              $value: "#1e1e1e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.warm-neutral.600}",
+                $value: "{primitive-color.cool-neutral.800}",
                 key: "{semantic-color.light-mode.icon.action.secondary.pressed}",
               },
               name: "SemanticColorLightModeIconActionSecondaryPressed",
@@ -13277,12 +14084,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.icon.action.tertiary.disabled}",
               $type: "color",
-              $value: "#564c9c61",
+              $value: "#564c9cb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.600-38}",
+                $value: "{primitive-color.brand.600-70}",
                 key: "{semantic-color.light-mode.icon.action.tertiary.disabled}",
               },
               name: "SemanticColorLightModeIconActionTertiaryDisabled",
@@ -13991,7 +14798,7 @@ export default {
             bold: {
               key: "{semantic-color.light-mode.icon.static.accent-seabreeze.bold}",
               $type: "color",
-              $value: "#2957af",
+              $value: "#35509e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -14759,7 +15566,7 @@ export default {
             bold: {
               key: "{semantic-color.light-mode.icon.static.neutral.bold}",
               $type: "color",
-              $value: "#191919",
+              $value: "#1e1e1e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -14787,7 +15594,7 @@ export default {
             contrast: {
               key: "{semantic-color.light-mode.icon.static.neutral.contrast}",
               $type: "color",
-              $value: "#191919",
+              $value: "#1e1e1e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -14843,7 +15650,7 @@ export default {
             subtle: {
               key: "{semantic-color.light-mode.icon.static.neutral.subtle}",
               $type: "color",
-              $value: "#5c5c5c",
+              $value: "#5a5a5a",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -15299,12 +16106,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.stroke.action.accent-amethyst.disabled}",
               $type: "color",
-              $value: "#a18dd661",
+              $value: "#a18dd6b2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.amethyst.300-38}",
+                $value: "{primitive-color.amethyst.300-70}",
                 key: "{semantic-color.light-mode.stroke.action.accent-amethyst.disabled}",
               },
               name: "SemanticColorLightModeStrokeActionAccentAmethystDisabled",
@@ -15413,12 +16220,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.stroke.action.accent-amethyst-inverse.disabled}",
               $type: "color",
-              $value: "#edeaf961",
+              $value: "#a18dd6",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.amethyst.50-38}",
+                $value: "{primitive-color.amethyst.300}",
                 key: "{semantic-color.light-mode.stroke.action.accent-amethyst-inverse.disabled}",
               },
               name: "SemanticColorLightModeStrokeActionAccentAmethystInverseDisabled",
@@ -15527,12 +16334,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.stroke.action.accent-jade.disabled}",
               $type: "color",
-              $value: "#67d5c861",
+              $value: "#67d5c8b2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.jade.200-38}",
+                $value: "{primitive-color.jade.200-70}",
                 key: "{semantic-color.light-mode.stroke.action.accent-jade.disabled}",
               },
               name: "SemanticColorLightModeStrokeActionAccentJadeDisabled",
@@ -15641,12 +16448,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.stroke.action.accent-jade-inverse.disabled}",
               $type: "color",
-              $value: "#ebf6f461",
+              $value: "#1eb2a5",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.jade.25-38}",
+                $value: "{primitive-color.jade.300}",
                 key: "{semantic-color.light-mode.stroke.action.accent-jade-inverse.disabled}",
               },
               name: "SemanticColorLightModeStrokeActionAccentJadeInverseDisabled",
@@ -15869,12 +16676,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.stroke.action.dangerinverse.disabled}",
               $type: "color",
-              $value: "#ffe7dc61",
+              $value: "#e6793e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.orange.50-38}",
+                $value: "{primitive-color.orange.300}",
                 key: "{semantic-color.light-mode.stroke.action.dangerinverse.disabled}",
               },
               name: "SemanticColorLightModeStrokeActionDangerinverseDisabled",
@@ -15983,12 +16790,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.stroke.action.negative-inverse.disabled}",
               $type: "color",
-              $value: "#fdd3cc61",
+              $value: "#fdd3ccb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.100-38}",
+                $value: "{primitive-color.red.100-70}",
                 key: "{semantic-color.light-mode.stroke.action.negative-inverse.disabled}",
               },
               name: "SemanticColorLightModeStrokeActionNegativeInverseDisabled",
@@ -16097,12 +16904,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.stroke.action.negative.disabled}",
               $type: "color",
-              $value: "#cb403461",
+              $value: "#cb4034b2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.400-38}",
+                $value: "{primitive-color.red.400-70}",
                 key: "{semantic-color.light-mode.stroke.action.negative.disabled}",
               },
               name: "SemanticColorLightModeStrokeActionNegativeDisabled",
@@ -16211,12 +17018,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.stroke.action.positive.disabled}",
               $type: "color",
-              $value: "#14c38261",
+              $value: "#0bb87a",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.green.250-38}",
+                $value: "{primitive-color.green.300}",
                 key: "{semantic-color.light-mode.stroke.action.positive.disabled}",
               },
               name: "SemanticColorLightModeStrokeActionPositiveDisabled",
@@ -16325,12 +17132,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.stroke.action.positiveinverse.disabled}",
               $type: "color",
-              $value: "#d9fee961",
+              $value: "#0bb87a",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.green.25-38}",
+                $value: "{primitive-color.green.300}",
                 key: "{semantic-color.light-mode.stroke.action.positiveinverse.disabled}",
               },
               name: "SemanticColorLightModeStrokeActionPositiveinverseDisabled",
@@ -16439,12 +17246,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.stroke.action.primary-inverse.disabled}",
               $type: "color",
-              $value: "#bab9fa61",
+              $value: "#9691f5",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.150-38}",
+                $value: "{primitive-color.brand.300}",
                 key: "{semantic-color.light-mode.stroke.action.primary-inverse.disabled}",
               },
               name: "SemanticColorLightModeStrokeActionPrimaryInverseDisabled",
@@ -16553,12 +17360,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.stroke.action.primary.disabled}",
               $type: "color",
-              $value: "#6e64be61",
+              $value: "#6e64beb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.400-38}",
+                $value: "{primitive-color.brand.400-70}",
                 key: "{semantic-color.light-mode.stroke.action.primary.disabled}",
               },
               name: "SemanticColorLightModeStrokeActionPrimaryDisabled",
@@ -16667,12 +17474,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.stroke.action.secondary-inverse.disabled}",
               $type: "color",
-              $value: "#dbcece61",
+              $value: "#dbceceb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.warm-neutral.200-38}",
+                $value: "{primitive-color.warm-neutral.200-70}",
                 key: "{semantic-color.light-mode.stroke.action.secondary-inverse.disabled}",
               },
               name: "SemanticColorLightModeStrokeActionSecondaryInverseDisabled",
@@ -16781,12 +17588,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.stroke.action.secondary.disabled}",
               $type: "color",
-              $value: "#ada2a061",
+              $value: "#ada2a0b2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.warm-neutral.300-38}",
+                $value: "{primitive-color.warm-neutral.300-70}",
                 key: "{semantic-color.light-mode.stroke.action.secondary.disabled}",
               },
               name: "SemanticColorLightModeStrokeActionSecondaryDisabled",
@@ -16895,12 +17702,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.stroke.action.tertiary.disabled}",
               $type: "color",
-              $value: "#bab9fa61",
+              $value: "#bab9fab2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.150-38}",
+                $value: "{primitive-color.brand.150-70}",
                 key: "{semantic-color.light-mode.stroke.action.tertiary.disabled}",
               },
               name: "SemanticColorLightModeStrokeActionTertiaryDisabled",
@@ -17009,12 +17816,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.stroke.action.tertiaryinverse.disabled}",
               $type: "color",
-              $value: "#ededfc61",
+              $value: "#9691f5",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.25-38}",
+                $value: "{primitive-color.brand.300}",
                 key: "{semantic-color.light-mode.stroke.action.tertiaryinverse.disabled}",
               },
               name: "SemanticColorLightModeStrokeActionTertiaryinverseDisabled",
@@ -17123,12 +17930,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.stroke.action.warning.disabled}",
               $type: "color",
-              $value: "#fed89761",
+              $value: "#bf9342",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.100-38}",
+                $value: "{primitive-color.saffron.300}",
                 key: "{semantic-color.light-mode.stroke.action.warning.disabled}",
               },
               name: "SemanticColorLightModeStrokeActionWarningDisabled",
@@ -17237,12 +18044,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.stroke.action.warninginverse.disabled}",
               $type: "color",
-              $value: "#fef2de61",
+              $value: "#bf9342",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.25-38}",
+                $value: "{primitive-color.saffron.300}",
                 key: "{semantic-color.light-mode.stroke.action.warninginverse.disabled}",
               },
               name: "SemanticColorLightModeStrokeActionWarninginverseDisabled",
@@ -18407,7 +19214,7 @@ export default {
             contrast: {
               key: "{semantic-color.light-mode.stroke.static.neutral.contrast}",
               $type: "color",
-              $value: "#adadad",
+              $value: "#b4b4b4",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -18893,12 +19700,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.text.action.accent-jade.disabled}",
               $type: "color",
-              $value: "#086b6261",
+              $value: "#086b62",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.jade.500-38}",
+                $value: "{primitive-color.jade.500}",
                 key: "{semantic-color.light-mode.text.action.accent-jade.disabled}",
               },
               name: "SemanticColorLightModeTextActionAccentJadeDisabled",
@@ -18979,12 +19786,12 @@ export default {
             base: {
               key: "{semantic-color.light-mode.text.action.alert.base}",
               $type: "color",
-              $value: "#aa843e",
+              $value: "#6d5936",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.350}",
+                $value: "{primitive-color.saffron.500}",
                 key: "{semantic-color.light-mode.text.action.alert.base}",
               },
               name: "SemanticColorLightModeTextActionAlertBase",
@@ -19007,12 +19814,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.text.action.alert.disabled}",
               $type: "color",
-              $value: "#aa843e61",
+              $value: "#91723b",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.350-38}",
+                $value: "{primitive-color.saffron.400}",
                 key: "{semantic-color.light-mode.text.action.alert.disabled}",
               },
               name: "SemanticColorLightModeTextActionAlertDisabled",
@@ -19035,12 +19842,12 @@ export default {
             hover: {
               key: "{semantic-color.light-mode.text.action.alert.hover}",
               $type: "color",
-              $value: "#91723b",
+              $value: "#4e422d",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.400}",
+                $value: "{primitive-color.saffron.600}",
                 key: "{semantic-color.light-mode.text.action.alert.hover}",
               },
               name: "SemanticColorLightModeTextActionAlertHover",
@@ -19063,12 +19870,12 @@ export default {
             pressed: {
               key: "{semantic-color.light-mode.text.action.alert.pressed}",
               $type: "color",
-              $value: "#6d5936",
+              $value: "#342d21",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.500}",
+                $value: "{primitive-color.saffron.700}",
                 key: "{semantic-color.light-mode.text.action.alert.pressed}",
               },
               name: "SemanticColorLightModeTextActionAlertPressed",
@@ -19121,12 +19928,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.text.action.danger.disabled}",
               $type: "color",
-              $value: "#8a482561",
+              $value: "#b45b2b",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.orange.500-38}",
+                $value: "{primitive-color.orange.400}",
                 key: "{semantic-color.light-mode.text.action.danger.disabled}",
               },
               name: "SemanticColorLightModeTextActionDangerDisabled",
@@ -19235,12 +20042,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.text.action.mono.disabled}",
               $type: "color",
-              $value: "#ffffff61",
+              $value: "#ffffffb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.0-38}",
+                $value: "{primitive-color.cool-neutral.0-70}",
                 key: "{semantic-color.light-mode.text.action.mono.disabled}",
               },
               name: "SemanticColorLightModeTextActionMonoDisabled",
@@ -19379,12 +20186,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.text.action.negative.disabled}",
               $type: "color",
-              $value: "#a6241c61",
+              $value: "#a6241cb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.500-38}",
+                $value: "{primitive-color.red.500-70}",
                 key: "{semantic-color.light-mode.text.action.negative.disabled}",
               },
               name: "SemanticColorLightModeTextActionNegativeDisabled",
@@ -19493,12 +20300,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.text.action.positive.disabled}",
               $type: "color",
-              $value: "#05513461",
+              $value: "#016e47",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.green.600-38}",
+                $value: "{primitive-color.green.500}",
                 key: "{semantic-color.light-mode.text.action.positive.disabled}",
               },
               name: "SemanticColorLightModeTextActionPositiveDisabled",
@@ -19607,12 +20414,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.text.action.primary.disabled}",
               $type: "color",
-              $value: "#5c52a861",
+              $value: "#5c52a8b2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.500-38}",
+                $value: "{primitive-color.brand.500-70}",
                 key: "{semantic-color.light-mode.text.action.primary.disabled}",
               },
               name: "SemanticColorLightModeTextActionPrimaryDisabled",
@@ -19721,12 +20528,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.text.action.primaryinverse.disabled}",
               $type: "color",
-              $value: "#ffffff61",
+              $value: "#ffffffb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.0-38}",
+                $value: "{primitive-color.cool-neutral.0-70}",
                 key: "{semantic-color.light-mode.text.action.primaryinverse.disabled}",
               },
               name: "SemanticColorLightModeTextActionPrimaryinverseDisabled",
@@ -19807,12 +20614,12 @@ export default {
             base: {
               key: "{semantic-color.light-mode.text.action.secondary.base}",
               $type: "color",
-              $value: "#2a2625",
+              $value: "#1e1e1e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.warm-neutral.800}",
+                $value: "{primitive-color.cool-neutral.800}",
                 key: "{semantic-color.light-mode.text.action.secondary.base}",
               },
               name: "SemanticColorLightModeTextActionSecondaryBase",
@@ -19835,12 +20642,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.text.action.secondary.disabled}",
               $type: "color",
-              $value: "#2a262561",
+              $value: "#1e1e1eb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.warm-neutral.800-38}",
+                $value: "{primitive-color.cool-neutral.800-70}",
                 key: "{semantic-color.light-mode.text.action.secondary.disabled}",
               },
               name: "SemanticColorLightModeTextActionSecondaryDisabled",
@@ -19863,12 +20670,12 @@ export default {
             hover: {
               key: "{semantic-color.light-mode.text.action.secondary.hover}",
               $type: "color",
-              $value: "#3a3332",
+              $value: "#1e1e1e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.warm-neutral.700}",
+                $value: "{primitive-color.cool-neutral.800}",
                 key: "{semantic-color.light-mode.text.action.secondary.hover}",
               },
               name: "SemanticColorLightModeTextActionSecondaryHover",
@@ -19891,12 +20698,12 @@ export default {
             pressed: {
               key: "{semantic-color.light-mode.text.action.secondary.pressed}",
               $type: "color",
-              $value: "#4a4140",
+              $value: "#1e1e1e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.warm-neutral.600}",
+                $value: "{primitive-color.cool-neutral.800}",
                 key: "{semantic-color.light-mode.text.action.secondary.pressed}",
               },
               name: "SemanticColorLightModeTextActionSecondaryPressed",
@@ -19921,7 +20728,7 @@ export default {
             base: {
               key: "{semantic-color.light-mode.text.action.secondaryinverse.base}",
               $type: "color",
-              $value: "#5c5c5c",
+              $value: "#5a5a5a",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -19949,12 +20756,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.text.action.secondaryinverse.disabled}",
               $type: "color",
-              $value: "#5c5c5c61",
+              $value: "#2e2e2e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.500-38}",
+                $value: "{primitive-color.cool-neutral.700}",
                 key: "{semantic-color.light-mode.text.action.secondaryinverse.disabled}",
               },
               name: "SemanticColorLightModeTextActionSecondaryinverseDisabled",
@@ -20063,12 +20870,12 @@ export default {
             disabled: {
               key: "{semantic-color.light-mode.text.action.tertiary.disabled}",
               $type: "color",
-              $value: "#564c9c61",
+              $value: "#564c9cb2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.600-38}",
+                $value: "{primitive-color.brand.600-70}",
                 key: "{semantic-color.light-mode.text.action.tertiary.disabled}",
               },
               name: "SemanticColorLightModeTextActionTertiaryDisabled",
@@ -20181,7 +20988,7 @@ export default {
             active: {
               key: "{semantic-color.light-mode.text.contextual.navitem.active}",
               $type: "color",
-              $value: "#191919",
+              $value: "#1e1e1e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -20927,7 +21734,7 @@ export default {
             base: {
               key: "{semantic-color.light-mode.text.static.primary.base}",
               $type: "color",
-              $value: "#191919",
+              $value: "#1e1e1e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -20955,7 +21762,7 @@ export default {
             bold: {
               key: "{semantic-color.light-mode.text.static.primary.bold}",
               $type: "color",
-              $value: "#191919",
+              $value: "#1e1e1e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -20983,7 +21790,7 @@ export default {
             contrast: {
               key: "{semantic-color.light-mode.text.static.primary.contrast}",
               $type: "color",
-              $value: "#191919",
+              $value: "#1e1e1e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -21097,7 +21904,7 @@ export default {
             bold: {
               key: "{semantic-color.light-mode.text.static.secondary.bold}",
               $type: "color",
-              $value: "#191919",
+              $value: "#1e1e1e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -21125,7 +21932,7 @@ export default {
             contrast: {
               key: "{semantic-color.light-mode.text.static.secondary.contrast}",
               $type: "color",
-              $value: "#191919",
+              $value: "#1e1e1e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -21181,7 +21988,7 @@ export default {
             subtle: {
               key: "{semantic-color.light-mode.text.static.secondary.subtle}",
               $type: "color",
-              $value: "#5c5c5c",
+              $value: "#5a5a5a",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -21211,12 +22018,12 @@ export default {
             base: {
               key: "{semantic-color.light-mode.text.static.tertiary.base}",
               $type: "color",
-              $value: "#968b89",
+              $value: "#444444",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.warm-neutral.350}",
+                $value: "{primitive-color.cool-neutral.600}",
                 key: "{semantic-color.light-mode.text.static.tertiary.base}",
               },
               name: "SemanticColorLightModeTextStaticTertiaryBase",
@@ -21275,12 +22082,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.fill.action.accent-amethyst.disabled}",
               $type: "color",
-              $value: "#7c6bab61",
+              $value: "#7c6bab80",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.amethyst.400-38}",
+                $value: "{primitive-color.amethyst.400-50}",
                 key: "{semantic-color.midnight-mode.fill.action.accent-amethyst.disabled}",
               },
               name: "SemanticColorMidnightModeFillActionAccentAmethystDisabled",
@@ -21389,12 +22196,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.fill.action.accent-amethyst-inverse.disabled}",
               $type: "color",
-              $value: "#f4f2fa61",
+              $value: "#302846",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.amethyst.25-38}",
+                $value: "{primitive-color.amethyst.700}",
                 key: "{semantic-color.midnight-mode.fill.action.accent-amethyst-inverse.disabled}",
               },
               name: "SemanticColorMidnightModeFillActionAccentAmethystInverseDisabled",
@@ -21503,12 +22310,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.fill.action.accent-jade.disabled}",
               $type: "color",
-              $value: "#67d5c861",
+              $value: "#67d5c880",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.jade.200-38}",
+                $value: "{primitive-color.jade.200-50}",
                 key: "{semantic-color.midnight-mode.fill.action.accent-jade.disabled}",
               },
               name: "SemanticColorMidnightModeFillActionAccentJadeDisabled",
@@ -21617,12 +22424,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.fill.action.accent-jade-inverse.disabled}",
               $type: "color",
-              $value: "#ebf6f461",
+              $value: "#013631",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.jade.25-38}",
+                $value: "{primitive-color.jade.700}",
                 key: "{semantic-color.midnight-mode.fill.action.accent-jade-inverse.disabled}",
               },
               name: "SemanticColorMidnightModeFillActionAccentJadeInverseDisabled",
@@ -21845,12 +22652,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.fill.action.dangerinverse.disabled}",
               $type: "color",
-              $value: "#fff9f661",
+              $value: "#422517",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.orange.0-38}",
+                $value: "{primitive-color.orange.700}",
                 key: "{semantic-color.midnight-mode.fill.action.dangerinverse.disabled}",
               },
               name: "SemanticColorMidnightModeFillActionDangerinverseDisabled",
@@ -21931,12 +22738,12 @@ export default {
             base: {
               key: "{semantic-color.midnight-mode.fill.action.negative.base}",
               $type: "color",
-              $value: "#fdd3cc4d",
+              $value: "#e47769",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.100-30}",
+                $value: "{primitive-color.red.300}",
                 key: "{semantic-color.midnight-mode.fill.action.negative.base}",
               },
               name: "SemanticColorMidnightModeFillActionNegativeBase",
@@ -21959,12 +22766,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.fill.action.negative.disabled}",
               $type: "color",
-              $value: "#fdd3cc29",
+              $value: "#e4776980",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.100-16}",
+                $value: "{primitive-color.red.300-50}",
                 key: "{semantic-color.midnight-mode.fill.action.negative.disabled}",
               },
               name: "SemanticColorMidnightModeFillActionNegativeDisabled",
@@ -21987,12 +22794,12 @@ export default {
             hover: {
               key: "{semantic-color.midnight-mode.fill.action.negative.hover}",
               $type: "color",
-              $value: "#fdd3cc80",
+              $value: "#f78b7c",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.100-50}",
+                $value: "{primitive-color.red.250}",
                 key: "{semantic-color.midnight-mode.fill.action.negative.hover}",
               },
               name: "SemanticColorMidnightModeFillActionNegativeHover",
@@ -22015,12 +22822,12 @@ export default {
             pressed: {
               key: "{semantic-color.midnight-mode.fill.action.negative.pressed}",
               $type: "color",
-              $value: "#fdd3ccb2",
+              $value: "#fea497",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.100-70}",
+                $value: "{primitive-color.red.200}",
                 key: "{semantic-color.midnight-mode.fill.action.negative.pressed}",
               },
               name: "SemanticColorMidnightModeFillActionNegativePressed",
@@ -22073,12 +22880,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.fill.action.negativeinverse.disabled}",
               $type: "color",
-              $value: "#fcf9f961",
+              $value: "#590a06",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.0-38}",
+                $value: "{primitive-color.red.700}",
                 key: "{semantic-color.midnight-mode.fill.action.negativeinverse.disabled}",
               },
               name: "SemanticColorMidnightModeFillActionNegativeinverseDisabled",
@@ -22187,12 +22994,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.fill.action.positive.disabled}",
               $type: "color",
-              $value: "#14c38261",
+              $value: "#0a3723",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.green.250-38}",
+                $value: "{primitive-color.green.700}",
                 key: "{semantic-color.midnight-mode.fill.action.positive.disabled}",
               },
               name: "SemanticColorMidnightModeFillActionPositiveDisabled",
@@ -22301,12 +23108,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.fill.action.positiveinverse.disabled}",
               $type: "color",
-              $value: "#d9fee961",
+              $value: "#0a3723",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.green.25-38}",
+                $value: "{primitive-color.green.700}",
                 key: "{semantic-color.midnight-mode.fill.action.positiveinverse.disabled}",
               },
               name: "SemanticColorMidnightModeFillActionPositiveinverseDisabled",
@@ -22387,12 +23194,12 @@ export default {
             base: {
               key: "{semantic-color.midnight-mode.fill.action.primary.base}",
               $type: "color",
-              $value: "#9691f5",
+              $value: "#a29ef7",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.300}",
+                $value: "{primitive-color.brand.250}",
                 key: "{semantic-color.midnight-mode.fill.action.primary.base}",
               },
               name: "SemanticColorMidnightModeFillActionPrimaryBase",
@@ -22415,12 +23222,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.fill.action.primary.disabled}",
               $type: "color",
-              $value: "#9691f561",
+              $value: "#9691f580",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.300-38}",
+                $value: "{primitive-color.brand.300-50}",
                 key: "{semantic-color.midnight-mode.fill.action.primary.disabled}",
               },
               name: "SemanticColorMidnightModeFillActionPrimaryDisabled",
@@ -22443,12 +23250,12 @@ export default {
             hover: {
               key: "{semantic-color.midnight-mode.fill.action.primary.hover}",
               $type: "color",
-              $value: "#a29ef7",
+              $value: "#aeacf8",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.250}",
+                $value: "{primitive-color.brand.200}",
                 key: "{semantic-color.midnight-mode.fill.action.primary.hover}",
               },
               name: "SemanticColorMidnightModeFillActionPrimaryHover",
@@ -22471,12 +23278,12 @@ export default {
             pressed: {
               key: "{semantic-color.midnight-mode.fill.action.primary.pressed}",
               $type: "color",
-              $value: "#aeacf8",
+              $value: "#9691f5",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.200}",
+                $value: "{primitive-color.brand.300}",
                 key: "{semantic-color.midnight-mode.fill.action.primary.pressed}",
               },
               name: "SemanticColorMidnightModeFillActionPrimaryPressed",
@@ -22529,12 +23336,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.fill.action.primaryinverse.disabled}",
               $type: "color",
-              $value: "#19143c0a",
+              $value: "#9691f514",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.800-4}",
+                $value: "{primitive-color.brand.300-8}",
                 key: "{semantic-color.midnight-mode.fill.action.primaryinverse.disabled}",
               },
               name: "SemanticColorMidnightModeFillActionPrimaryinverseDisabled",
@@ -22643,12 +23450,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.fill.action.secondary.disabled}",
               $type: "color",
-              $value: "#ffffff14",
+              $value: "#edeaf914",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.0-8}",
+                $value: "{primitive-color.amethyst.50-8}",
                 key: "{semantic-color.midnight-mode.fill.action.secondary.disabled}",
               },
               name: "SemanticColorMidnightModeFillActionSecondaryDisabled",
@@ -22757,12 +23564,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.fill.action.secondaryinverse.disabled}",
               $type: "color",
-              $value: "#ffffff0a",
+              $value: "#ffffff14",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.0-4}",
+                $value: "{primitive-color.cool-neutral.0-8}",
                 key: "{semantic-color.midnight-mode.fill.action.secondaryinverse.disabled}",
               },
               name: "SemanticColorMidnightModeFillActionSecondaryinverseDisabled",
@@ -22843,12 +23650,12 @@ export default {
             base: {
               key: "{semantic-color.midnight-mode.fill.action.tertiary-inverse.base}",
               $type: "color",
-              $value: "#9691f50a",
+              $value: "#9691f514",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.300-4}",
+                $value: "{primitive-color.brand.300-8}",
                 key: "{semantic-color.midnight-mode.fill.action.tertiary-inverse.base}",
               },
               name: "SemanticColorMidnightModeFillActionTertiaryInverseBase",
@@ -22871,12 +23678,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.fill.action.tertiary-inverse.disabled}",
               $type: "color",
-              $value: "#19143c0a",
+              $value: "#9691f514",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.800-4}",
+                $value: "{primitive-color.brand.300-8}",
                 key: "{semantic-color.midnight-mode.fill.action.tertiary-inverse.disabled}",
               },
               name: "SemanticColorMidnightModeFillActionTertiaryInverseDisabled",
@@ -22899,12 +23706,12 @@ export default {
             hover: {
               key: "{semantic-color.midnight-mode.fill.action.tertiary-inverse.hover}",
               $type: "color",
-              $value: "#9691f514",
+              $value: "#9691f529",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.300-8}",
+                $value: "{primitive-color.brand.300-16}",
                 key: "{semantic-color.midnight-mode.fill.action.tertiary-inverse.hover}",
               },
               name: "SemanticColorMidnightModeFillActionTertiaryInverseHover",
@@ -22927,12 +23734,12 @@ export default {
             pressed: {
               key: "{semantic-color.midnight-mode.fill.action.tertiary-inverse.pressed}",
               $type: "color",
-              $value: "#9691f529",
+              $value: "#9691f54d",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.300-16}",
+                $value: "{primitive-color.brand.300-30}",
                 key: "{semantic-color.midnight-mode.fill.action.tertiary-inverse.pressed}",
               },
               name: "SemanticColorMidnightModeFillActionTertiaryInversePressed",
@@ -22957,12 +23764,12 @@ export default {
             base: {
               key: "{semantic-color.midnight-mode.fill.action.tertiary.base}",
               $type: "color",
-              $value: "#9691f50a",
+              $value: "#9691f514",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.300-4}",
+                $value: "{primitive-color.brand.300-8}",
                 key: "{semantic-color.midnight-mode.fill.action.tertiary.base}",
               },
               name: "SemanticColorMidnightModeFillActionTertiaryBase",
@@ -22985,12 +23792,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.fill.action.tertiary.disabled}",
               $type: "color",
-              $value: "#19143c0a",
+              $value: "#9691f514",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.800-4}",
+                $value: "{primitive-color.brand.300-8}",
                 key: "{semantic-color.midnight-mode.fill.action.tertiary.disabled}",
               },
               name: "SemanticColorMidnightModeFillActionTertiaryDisabled",
@@ -23013,12 +23820,12 @@ export default {
             hover: {
               key: "{semantic-color.midnight-mode.fill.action.tertiary.hover}",
               $type: "color",
-              $value: "#9691f514",
+              $value: "#9691f529",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.300-8}",
+                $value: "{primitive-color.brand.300-16}",
                 key: "{semantic-color.midnight-mode.fill.action.tertiary.hover}",
               },
               name: "SemanticColorMidnightModeFillActionTertiaryHover",
@@ -23041,12 +23848,12 @@ export default {
             pressed: {
               key: "{semantic-color.midnight-mode.fill.action.tertiary.pressed}",
               $type: "color",
-              $value: "#9691f529",
+              $value: "#9691f54d",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.300-16}",
+                $value: "{primitive-color.brand.300-30}",
                 key: "{semantic-color.midnight-mode.fill.action.tertiary.pressed}",
               },
               name: "SemanticColorMidnightModeFillActionTertiaryPressed",
@@ -23099,12 +23906,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.fill.action.warning.disabled}",
               $type: "color",
-              $value: "#fefaf261",
+              $value: "#342d21",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.0-38}",
+                $value: "{primitive-color.saffron.700}",
                 key: "{semantic-color.midnight-mode.fill.action.warning.disabled}",
               },
               name: "SemanticColorMidnightModeFillActionWarningDisabled",
@@ -23213,12 +24020,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.fill.action.warninginverse.disabled}",
               $type: "color",
-              $value: "#fefaf261",
+              $value: "#342d21",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.0-38}",
+                $value: "{primitive-color.saffron.700}",
                 key: "{semantic-color.midnight-mode.fill.action.warninginverse.disabled}",
               },
               name: "SemanticColorMidnightModeFillActionWarninginverseDisabled",
@@ -23331,12 +24138,12 @@ export default {
             active: {
               key: "{semantic-color.midnight-mode.fill.contextual.navitem.active}",
               $type: "color",
-              $value: "#edeaf914",
+              $value: "#6e64be29",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.amethyst.50-8}",
+                $value: "#6e64be29",
                 key: "{semantic-color.midnight-mode.fill.contextual.navitem.active}",
               },
               name: "SemanticColorMidnightModeFillContextualNavitemActive",
@@ -23415,12 +24222,12 @@ export default {
             hover: {
               key: "{semantic-color.midnight-mode.fill.contextual.navitem.hover}",
               $type: "color",
-              $value: "#c5bab814",
+              $value: "#3a3645",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.warm-neutral.250-8}",
+                $value: "{primitive-color.midnight.800}",
                 key: "{semantic-color.midnight-mode.fill.contextual.navitem.hover}",
               },
               name: "SemanticColorMidnightModeFillContextualNavitemHover",
@@ -23438,6 +24245,34 @@ export default {
                 "contextual",
                 "navitem",
                 "hover",
+              ],
+            },
+            indicator: {
+              key: "{semantic-color.midnight-mode.fill.contextual.navitem.indicator}",
+              $type: "color",
+              $value: "#6e64be",
+              filePath: "tokens/newco-design-tokens.json",
+              isSource: true,
+              original: {
+                $type: "color",
+                $value: "#6e64be",
+                key: "{semantic-color.midnight-mode.fill.contextual.navitem.indicator}",
+              },
+              name: "SemanticColorMidnightModeFillContextualNavitemIndicator",
+              attributes: {
+                category: "semantic-color",
+                type: "midnight-mode",
+                item: "fill",
+                subitem: "contextual",
+                state: "navitem",
+              },
+              path: [
+                "semantic-color",
+                "midnight-mode",
+                "fill",
+                "contextual",
+                "navitem",
+                "indicator",
               ],
             },
             trail: {
@@ -24649,7 +25484,7 @@ export default {
             base: {
               key: "{semantic-color.midnight-mode.fill.static.coolneutral.base}",
               $type: "color",
-              $value: "#191919",
+              $value: "#1e1e1e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -25273,7 +26108,7 @@ export default {
             base: {
               key: "{semantic-color.midnight-mode.fill.static.neutral.base}",
               $type: "color",
-              $value: "#191919",
+              $value: "#1e1e1e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -25787,12 +26622,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.icon.action.accent-jade.disabled}",
               $type: "color",
-              $value: "#67d5c861",
+              $value: "#67d5c880",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.jade.200-38}",
+                $value: "{primitive-color.jade.200-50}",
                 key: "{semantic-color.midnight-mode.icon.action.accent-jade.disabled}",
               },
               name: "SemanticColorMidnightModeIconActionAccentJadeDisabled",
@@ -25901,12 +26736,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.icon.action.alert.disabled}",
               $type: "color",
-              $value: "#fee2b361",
+              $value: "#eab655",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.75-38}",
+                $value: "{primitive-color.saffron.200}",
                 key: "{semantic-color.midnight-mode.icon.action.alert.disabled}",
               },
               name: "SemanticColorMidnightModeIconActionAlertDisabled",
@@ -26015,12 +26850,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.icon.action.danger.disabled}",
               $type: "color",
-              $value: "#fdc0a261",
+              $value: "#fdc0a2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.orange.150-38}",
+                $value: "{primitive-color.orange.150}",
                 key: "{semantic-color.midnight-mode.icon.action.danger.disabled}",
               },
               name: "SemanticColorMidnightModeIconActionDangerDisabled",
@@ -26101,12 +26936,12 @@ export default {
             base: {
               key: "{semantic-color.midnight-mode.icon.action.mono.base}",
               $type: "color",
-              $value: "#ffffff",
+              $value: "#19143c",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.0}",
+                $value: "{primitive-color.brand.800}",
                 key: "{semantic-color.midnight-mode.icon.action.mono.base}",
               },
               name: "SemanticColorMidnightModeIconActionMonoBase",
@@ -26129,12 +26964,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.icon.action.mono.disabled}",
               $type: "color",
-              $value: "#ffffff61",
+              $value: "#19143c80",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.0-38}",
+                $value: "{primitive-color.brand.800-50}",
                 key: "{semantic-color.midnight-mode.icon.action.mono.disabled}",
               },
               name: "SemanticColorMidnightModeIconActionMonoDisabled",
@@ -26157,12 +26992,12 @@ export default {
             hover: {
               key: "{semantic-color.midnight-mode.icon.action.mono.hover}",
               $type: "color",
-              $value: "#fbfbfb",
+              $value: "#19143c",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.10}",
+                $value: "{primitive-color.brand.800}",
                 key: "{semantic-color.midnight-mode.icon.action.mono.hover}",
               },
               name: "SemanticColorMidnightModeIconActionMonoHover",
@@ -26185,12 +27020,12 @@ export default {
             pressed: {
               key: "{semantic-color.midnight-mode.icon.action.mono.pressed}",
               $type: "color",
-              $value: "#f5f5f5",
+              $value: "#19143c",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.20}",
+                $value: "{primitive-color.brand.800}",
                 key: "{semantic-color.midnight-mode.icon.action.mono.pressed}",
               },
               name: "SemanticColorMidnightModeIconActionMonoPressed",
@@ -26273,12 +27108,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.icon.action.negative.disabled}",
               $type: "color",
-              $value: "#fdd3cc61",
+              $value: "#fdd3cc80",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.100-38}",
+                $value: "{primitive-color.red.100-50}",
                 key: "{semantic-color.midnight-mode.icon.action.negative.disabled}",
               },
               name: "SemanticColorMidnightModeIconActionNegativeDisabled",
@@ -26387,12 +27222,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.icon.action.negativeinverse.disabled}",
               $type: "color",
-              $value: "#fdbdb361",
+              $value: "#fea497a6",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.150-38}",
+                $value: "{primitive-color.red.200-65}",
                 key: "{semantic-color.midnight-mode.icon.action.negativeinverse.disabled}",
               },
               name: "SemanticColorMidnightModeIconActionNegativeinverseDisabled",
@@ -26501,12 +27336,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.icon.action.positive.disabled}",
               $type: "color",
-              $value: "#0bb87a61",
+              $value: "#52dd9d",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.green.300-38}",
+                $value: "{primitive-color.green.200}",
                 key: "{semantic-color.midnight-mode.icon.action.positive.disabled}",
               },
               name: "SemanticColorMidnightModeIconActionPositiveDisabled",
@@ -26615,12 +27450,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.icon.action.positiveinverse.disabled}",
               $type: "color",
-              $value: "#d9fee961",
+              $value: "#52dd9d",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.green.25-38}",
+                $value: "{primitive-color.green.200}",
                 key: "{semantic-color.midnight-mode.icon.action.positiveinverse.disabled}",
               },
               name: "SemanticColorMidnightModeIconActionPositiveinverseDisabled",
@@ -26729,12 +27564,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.icon.action.primary.disabled}",
               $type: "color",
-              $value: "#ededfc61",
+              $value: "#ededfc80",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.25-38}",
+                $value: "{primitive-color.brand.25-50}",
                 key: "{semantic-color.midnight-mode.icon.action.primary.disabled}",
               },
               name: "SemanticColorMidnightModeIconActionPrimaryDisabled",
@@ -26843,12 +27678,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.icon.action.primaryinverse.disabled}",
               $type: "color",
-              $value: "#19143c61",
+              $value: "#19143c80",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.800-38}",
+                $value: "{primitive-color.brand.800-50}",
                 key: "{semantic-color.midnight-mode.icon.action.primaryinverse.disabled}",
               },
               name: "SemanticColorMidnightModeIconActionPrimaryinverseDisabled",
@@ -26957,12 +27792,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.icon.action.secondary-inverse.disabled}",
               $type: "color",
-              $value: "#e6e6e661",
+              $value: "#e6e6e680",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.75-38}",
+                $value: "{primitive-color.cool-neutral.75-50}",
                 key: "{semantic-color.midnight-mode.icon.action.secondary-inverse.disabled}",
               },
               name: "SemanticColorMidnightModeIconActionSecondaryInverseDisabled",
@@ -27071,12 +27906,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.icon.action.secondary.disabled}",
               $type: "color",
-              $value: "#e6e6e661",
+              $value: "#e6e6e680",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.75-38}",
+                $value: "{primitive-color.cool-neutral.75-50}",
                 key: "{semantic-color.midnight-mode.icon.action.secondary.disabled}",
               },
               name: "SemanticColorMidnightModeIconActionSecondaryDisabled",
@@ -27099,12 +27934,12 @@ export default {
             hover: {
               key: "{semantic-color.midnight-mode.icon.action.secondary.hover}",
               $type: "color",
-              $value: "#eeeeee",
+              $value: "#e6e6e6",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.50}",
+                $value: "{primitive-color.cool-neutral.75}",
                 key: "{semantic-color.midnight-mode.icon.action.secondary.hover}",
               },
               name: "SemanticColorMidnightModeIconActionSecondaryHover",
@@ -27127,12 +27962,12 @@ export default {
             pressed: {
               key: "{semantic-color.midnight-mode.icon.action.secondary.pressed}",
               $type: "color",
-              $value: "#f7f7f7",
+              $value: "#e6e6e6",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.25}",
+                $value: "{primitive-color.cool-neutral.75}",
                 key: "{semantic-color.midnight-mode.icon.action.secondary.pressed}",
               },
               name: "SemanticColorMidnightModeIconActionSecondaryPressed",
@@ -27185,12 +28020,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.icon.action.tertiary.disabled}",
               $type: "color",
-              $value: "#9691f561",
+              $value: "#9691f580",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.300-38}",
+                $value: "{primitive-color.brand.300-50}",
                 key: "{semantic-color.midnight-mode.icon.action.tertiary.disabled}",
               },
               name: "SemanticColorMidnightModeIconActionTertiaryDisabled",
@@ -27301,7 +28136,7 @@ export default {
             base: {
               key: "{semantic-color.midnight-mode.icon.contextual.navitem.base}",
               $type: "color",
-              $value: "#cecece",
+              $value: "#d2d2d2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -27899,7 +28734,7 @@ export default {
             bold: {
               key: "{semantic-color.midnight-mode.icon.static.accent-seabreeze.bold}",
               $type: "color",
-              $value: "#2957af",
+              $value: "#35509e",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -29207,12 +30042,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.stroke.action.accent-amethyst.disabled}",
               $type: "color",
-              $value: "#a18dd661",
+              $value: "#a18dd680",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.amethyst.300-38}",
+                $value: "{primitive-color.amethyst.300-50}",
                 key: "{semantic-color.midnight-mode.stroke.action.accent-amethyst.disabled}",
               },
               name: "SemanticColorMidnightModeStrokeActionAccentAmethystDisabled",
@@ -29321,12 +30156,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.stroke.action.accent-amethyst-inverse.disabled}",
               $type: "color",
-              $value: "#edeaf961",
+              $value: "#473b65",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.amethyst.50-38}",
+                $value: "{primitive-color.amethyst.600}",
                 key: "{semantic-color.midnight-mode.stroke.action.accent-amethyst-inverse.disabled}",
               },
               name: "SemanticColorMidnightModeStrokeActionAccentAmethystInverseDisabled",
@@ -29435,12 +30270,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.stroke.action.accent-jade.disabled}",
               $type: "color",
-              $value: "#67d5c861",
+              $value: "#67d5c880",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.jade.200-38}",
+                $value: "{primitive-color.jade.200-50}",
                 key: "{semantic-color.midnight-mode.stroke.action.accent-jade.disabled}",
               },
               name: "SemanticColorMidnightModeStrokeActionAccentJadeDisabled",
@@ -29549,12 +30384,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.stroke.action.accent-jade-inverse.disabled}",
               $type: "color",
-              $value: "#ebf6f461",
+              $value: "#084f48",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.jade.25-38}",
+                $value: "{primitive-color.jade.600}",
                 key: "{semantic-color.midnight-mode.stroke.action.accent-jade-inverse.disabled}",
               },
               name: "SemanticColorMidnightModeStrokeActionAccentJadeInverseDisabled",
@@ -29777,12 +30612,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.stroke.action.dangerinverse.disabled}",
               $type: "color",
-              $value: "#ffe7dc61",
+              $value: "#63361f",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.orange.50-38}",
+                $value: "{primitive-color.orange.600}",
                 key: "{semantic-color.midnight-mode.stroke.action.dangerinverse.disabled}",
               },
               name: "SemanticColorMidnightModeStrokeActionDangerinverseDisabled",
@@ -29891,12 +30726,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.stroke.action.negative-inverse.disabled}",
               $type: "color",
-              $value: "#fea49761",
+              $value: "#fea49780",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.200-38}",
+                $value: "{primitive-color.red.200-50}",
                 key: "{semantic-color.midnight-mode.stroke.action.negative-inverse.disabled}",
               },
               name: "SemanticColorMidnightModeStrokeActionNegativeInverseDisabled",
@@ -30005,12 +30840,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.stroke.action.negative.disabled}",
               $type: "color",
-              $value: "#fea49761",
+              $value: "#fea49780",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.200-38}",
+                $value: "{primitive-color.red.200-50}",
                 key: "{semantic-color.midnight-mode.stroke.action.negative.disabled}",
               },
               name: "SemanticColorMidnightModeStrokeActionNegativeDisabled",
@@ -30119,12 +30954,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.stroke.action.positive.disabled}",
               $type: "color",
-              $value: "#14c38261",
+              $value: "#055134",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.green.250-38}",
+                $value: "{primitive-color.green.600}",
                 key: "{semantic-color.midnight-mode.stroke.action.positive.disabled}",
               },
               name: "SemanticColorMidnightModeStrokeActionPositiveDisabled",
@@ -30233,12 +31068,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.stroke.action.positiveinverse.disabled}",
               $type: "color",
-              $value: "#d9fee961",
+              $value: "#055134",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.green.25-38}",
+                $value: "{primitive-color.green.600}",
                 key: "{semantic-color.midnight-mode.stroke.action.positiveinverse.disabled}",
               },
               name: "SemanticColorMidnightModeStrokeActionPositiveinverseDisabled",
@@ -30347,12 +31182,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.stroke.action.primary-inverse.disabled}",
               $type: "color",
-              $value: "#9691f561",
+              $value: "#564c9c",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.300-38}",
+                $value: "{primitive-color.brand.600}",
                 key: "{semantic-color.midnight-mode.stroke.action.primary-inverse.disabled}",
               },
               name: "SemanticColorMidnightModeStrokeActionPrimaryInverseDisabled",
@@ -30461,12 +31296,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.stroke.action.primary.disabled}",
               $type: "color",
-              $value: "#9691f561",
+              $value: "#9691f580",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.300-38}",
+                $value: "{primitive-color.brand.300-50}",
                 key: "{semantic-color.midnight-mode.stroke.action.primary.disabled}",
               },
               name: "SemanticColorMidnightModeStrokeActionPrimaryDisabled",
@@ -30575,12 +31410,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.stroke.action.secondary-inverse.disabled}",
               $type: "color",
-              $value: "#ffffff0a",
+              $value: "#edeaf980",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.0-4}",
+                $value: "{primitive-color.amethyst.50-50}",
                 key: "{semantic-color.midnight-mode.stroke.action.secondary-inverse.disabled}",
               },
               name: "SemanticColorMidnightModeStrokeActionSecondaryInverseDisabled",
@@ -30689,12 +31524,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.stroke.action.secondary.disabled}",
               $type: "color",
-              $value: "#ffffff0a",
+              $value: "#ffffff80",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.0-4}",
+                $value: "{primitive-color.cool-neutral.0-50}",
                 key: "{semantic-color.midnight-mode.stroke.action.secondary.disabled}",
               },
               name: "SemanticColorMidnightModeStrokeActionSecondaryDisabled",
@@ -30803,12 +31638,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.stroke.action.tertiary.disabled}",
               $type: "color",
-              $value: "#9691f50a",
+              $value: "#9691f580",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.300-4}",
+                $value: "{primitive-color.brand.300-50}",
                 key: "{semantic-color.midnight-mode.stroke.action.tertiary.disabled}",
               },
               name: "SemanticColorMidnightModeStrokeActionTertiaryDisabled",
@@ -30917,12 +31752,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.stroke.action.tertiaryinverse.disabled}",
               $type: "color",
-              $value: "#ededfc61",
+              $value: "#564c9c",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.25-38}",
+                $value: "{primitive-color.brand.600}",
                 key: "{semantic-color.midnight-mode.stroke.action.tertiaryinverse.disabled}",
               },
               name: "SemanticColorMidnightModeStrokeActionTertiaryinverseDisabled",
@@ -31031,12 +31866,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.stroke.action.warning.disabled}",
               $type: "color",
-              $value: "#fed89761",
+              $value: "#4e422d",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.100-38}",
+                $value: "{primitive-color.saffron.600}",
                 key: "{semantic-color.midnight-mode.stroke.action.warning.disabled}",
               },
               name: "SemanticColorMidnightModeStrokeActionWarningDisabled",
@@ -31145,12 +31980,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.stroke.action.warninginverse.disabled}",
               $type: "color",
-              $value: "#fef2de61",
+              $value: "#4e422d",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.25-38}",
+                $value: "{primitive-color.saffron.600}",
                 key: "{semantic-color.midnight-mode.stroke.action.warninginverse.disabled}",
               },
               name: "SemanticColorMidnightModeStrokeActionWarninginverseDisabled",
@@ -31233,12 +32068,12 @@ export default {
             base: {
               key: "{semantic-color.midnight-mode.stroke.contextual.focusring.base}",
               $type: "color",
-              $value: "#ffffff4d",
+              $value: "#bab9fa",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.0-30}",
+                $value: "{primitive-color.brand.150}",
                 key: "{semantic-color.midnight-mode.stroke.contextual.focusring.base}",
               },
               name: "SemanticColorMidnightModeStrokeContextualFocusringBase",
@@ -32315,7 +33150,7 @@ export default {
             contrast: {
               key: "{semantic-color.midnight-mode.stroke.static.neutral.contrast}",
               $type: "color",
-              $value: "#adadad",
+              $value: "#b4b4b4",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
@@ -32825,12 +33660,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.text.action.accent-jade.disabled}",
               $type: "color",
-              $value: "#adede461",
+              $value: "#67d5c8",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.jade.100-38}",
+                $value: "{primitive-color.jade.200}",
                 key: "{semantic-color.midnight-mode.text.action.accent-jade.disabled}",
               },
               name: "SemanticColorMidnightModeTextActionAccentJadeDisabled",
@@ -32939,12 +33774,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.text.action.alert.disabled}",
               $type: "color",
-              $value: "#fee2b361",
+              $value: "#eab655",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.saffron.75-38}",
+                $value: "{primitive-color.saffron.200}",
                 key: "{semantic-color.midnight-mode.text.action.alert.disabled}",
               },
               name: "SemanticColorMidnightModeTextActionAlertDisabled",
@@ -33053,12 +33888,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.text.action.danger.disabled}",
               $type: "color",
-              $value: "#fdc0a261",
+              $value: "#fdc0a2",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.orange.150-38}",
+                $value: "{primitive-color.orange.150}",
                 key: "{semantic-color.midnight-mode.text.action.danger.disabled}",
               },
               name: "SemanticColorMidnightModeTextActionDangerDisabled",
@@ -33139,12 +33974,12 @@ export default {
             base: {
               key: "{semantic-color.midnight-mode.text.action.mono.base}",
               $type: "color",
-              $value: "#ffffff",
+              $value: "#070515",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.0}",
+                $value: "{primitive-color.brand.900}",
                 key: "{semantic-color.midnight-mode.text.action.mono.base}",
               },
               name: "SemanticColorMidnightModeTextActionMonoBase",
@@ -33167,12 +34002,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.text.action.mono.disabled}",
               $type: "color",
-              $value: "#ffffff61",
+              $value: "#19143c80",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.0-38}",
+                $value: "{primitive-color.brand.800-50}",
                 key: "{semantic-color.midnight-mode.text.action.mono.disabled}",
               },
               name: "SemanticColorMidnightModeTextActionMonoDisabled",
@@ -33195,12 +34030,12 @@ export default {
             hover: {
               key: "{semantic-color.midnight-mode.text.action.mono.hover}",
               $type: "color",
-              $value: "#fbfbfb",
+              $value: "#070515",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.10}",
+                $value: "{primitive-color.brand.900}",
                 key: "{semantic-color.midnight-mode.text.action.mono.hover}",
               },
               name: "SemanticColorMidnightModeTextActionMonoHover",
@@ -33223,12 +34058,12 @@ export default {
             pressed: {
               key: "{semantic-color.midnight-mode.text.action.mono.pressed}",
               $type: "color",
-              $value: "#f5f5f5",
+              $value: "#070515",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.20}",
+                $value: "{primitive-color.brand.900}",
                 key: "{semantic-color.midnight-mode.text.action.mono.pressed}",
               },
               name: "SemanticColorMidnightModeTextActionMonoPressed",
@@ -33311,12 +34146,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.text.action.negative.disabled}",
               $type: "color",
-              $value: "#fdd3cc61",
+              $value: "#fdd3cc80",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.red.100-38}",
+                $value: "{primitive-color.red.100-50}",
                 key: "{semantic-color.midnight-mode.text.action.negative.disabled}",
               },
               name: "SemanticColorMidnightModeTextActionNegativeDisabled",
@@ -33425,12 +34260,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.text.action.positive.disabled}",
               $type: "color",
-              $value: "#befedb61",
+              $value: "#52dd9d",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.green.50-38}",
+                $value: "{primitive-color.green.200}",
                 key: "{semantic-color.midnight-mode.text.action.positive.disabled}",
               },
               name: "SemanticColorMidnightModeTextActionPositiveDisabled",
@@ -33539,12 +34374,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.text.action.primary.disabled}",
               $type: "color",
-              $value: "#aeacf861",
+              $value: "#aeacf880",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.200-38}",
+                $value: "{primitive-color.brand.200-50}",
                 key: "{semantic-color.midnight-mode.text.action.primary.disabled}",
               },
               name: "SemanticColorMidnightModeTextActionPrimaryDisabled",
@@ -33653,12 +34488,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.text.action.primaryinverse.disabled}",
               $type: "color",
-              $value: "#19143c61",
+              $value: "#19143c80",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.800-38}",
+                $value: "{primitive-color.brand.800-50}",
                 key: "{semantic-color.midnight-mode.text.action.primaryinverse.disabled}",
               },
               name: "SemanticColorMidnightModeTextActionPrimaryinverseDisabled",
@@ -33767,12 +34602,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.text.action.secondary.disabled}",
               $type: "color",
-              $value: "#d9d6e861",
+              $value: "#d9d6e880",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.midnight.100-38}",
+                $value: "{primitive-color.midnight.100-50}",
                 key: "{semantic-color.midnight-mode.text.action.secondary.disabled}",
               },
               name: "SemanticColorMidnightModeTextActionSecondaryDisabled",
@@ -33795,12 +34630,12 @@ export default {
             hover: {
               key: "{semantic-color.midnight-mode.text.action.secondary.hover}",
               $type: "color",
-              $value: "#e3e0ed",
+              $value: "#d9d6e8",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.midnight.75}",
+                $value: "{primitive-color.midnight.100}",
                 key: "{semantic-color.midnight-mode.text.action.secondary.hover}",
               },
               name: "SemanticColorMidnightModeTextActionSecondaryHover",
@@ -33823,12 +34658,12 @@ export default {
             pressed: {
               key: "{semantic-color.midnight-mode.text.action.secondary.pressed}",
               $type: "color",
-              $value: "#eceaf3",
+              $value: "#d9d6e8",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.midnight.50}",
+                $value: "{primitive-color.midnight.100}",
                 key: "{semantic-color.midnight-mode.text.action.secondary.pressed}",
               },
               name: "SemanticColorMidnightModeTextActionSecondaryPressed",
@@ -33881,12 +34716,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.text.action.secondaryinverse.disabled}",
               $type: "color",
-              $value: "#e6e6e661",
+              $value: "#bfbfbf",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.cool-neutral.75-38}",
+                $value: "{primitive-color.cool-neutral.200}",
                 key: "{semantic-color.midnight-mode.text.action.secondaryinverse.disabled}",
               },
               name: "SemanticColorMidnightModeTextActionSecondaryinverseDisabled",
@@ -33995,12 +34830,12 @@ export default {
             disabled: {
               key: "{semantic-color.midnight-mode.text.action.tertiary.disabled}",
               $type: "color",
-              $value: "#9691f561",
+              $value: "#9691f580",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.brand.300-38}",
+                $value: "{primitive-color.brand.300-50}",
                 key: "{semantic-color.midnight-mode.text.action.tertiary.disabled}",
               },
               name: "SemanticColorMidnightModeTextActionTertiaryDisabled",
@@ -35113,12 +35948,12 @@ export default {
             subtle: {
               key: "{semantic-color.midnight-mode.text.static.secondary.subtle}",
               $type: "color",
-              $value: "#837e96",
+              $value: "#9c97ad",
               filePath: "tokens/newco-design-tokens.json",
               isSource: true,
               original: {
                 $type: "color",
-                $value: "{primitive-color.midnight.400}",
+                $value: "{primitive-color.midnight.300}",
                 key: "{semantic-color.midnight-mode.text.static.secondary.subtle}",
               },
               name: "SemanticColorMidnightModeTextStaticSecondarySubtle",
