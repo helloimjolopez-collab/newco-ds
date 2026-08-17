@@ -1,11 +1,5 @@
 name: List Figma branches (one-off helper)
 
-# 1. Lists every branch of a Figma file with its own file key (branch keys are NOT
-#    exposed in the Figma URL — ?branch_data=true on the file endpoint is the only way).
-# 2. Probes the Variables endpoint and reports its HTTP status, which tells us whether
-#    the Organization plan can use the Variables REST API at all.
-# Never echoes FIGMA_TOKEN.
-
 on:
   workflow_dispatch:
     inputs:
@@ -18,40 +12,12 @@ jobs:
   list:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
       - name: Branches + variables probe
         env:
           FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
           FILE_KEY: ${{ github.event.inputs.file_key }}
-        run: |
-          echo "=============== 1. BRANCH LIST ==============="
-          code=$(curl -s -o resp.json -w "%{http_code}" \
-            -H "X-Figma-Token: $FIGMA_TOKEN" \
-            "https://api.figma.com/v1/files/${FILE_KEY}?branch_data=true&depth=1")
-          echo "HTTP $code"
-          if [ "$code" != "200" ]; then cat resp.json; else
-          python3 - <<'PY'
-          import json
-          d = json.load(open("resp.json"))
-          print("PARENT FILE:", d.get("name"))
-          bs = d.get("branches") or []
-          print(f"\n{len(bs)} branch(es) found:\n")
-          for b in bs:
-              print(f"  key: {b.get('key')}    name: {b.get('name')}")
-          if not bs:
-              print("  (still none — this file may have no branches, or they are")
-              print("   owned by another account and not visible to this token)")
-          PY
-          fi
-
-          echo ""
-          echo "=========== 2. VARIABLES ENDPOINT PROBE ==========="
-          vcode=$(curl -s -o vars.json -w "%{http_code}" \
-            -H "X-Figma-Token: $FIGMA_TOKEN" \
-            "https://api.figma.com/v1/files/${FILE_KEY}/variables/local")
-          echo "GET /variables/local -> HTTP $vcode"
-          case "$vcode" in
-            200) python3 -c "
-import json;d=json.load(open('vars.json')).get('meta',{})
-print('WORKS. variables:',len(d.get('variables',{})),' collections:',len(d.get('variableCollections',{})))" ;;
-            *) echo "Response body:"; cat vars.json ;;
-          esac
+        run: node scripts/figma-probe.mjs
