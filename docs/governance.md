@@ -5,7 +5,7 @@ safe to depend on, maintainable, and ready for org-wide adoption.
 
 ## Ownership & source of truth
 
-- **Design owns the values.** The Figma Spired-branch variable library is the
+- **Design owns the values.** The Figma NewCo-branch variable library is the
   single source of truth. Engineers never hand-edit token values.
 - **This repo owns the delivery.** It transforms Figma → DTCG → CSS/JS/JSON and
   publishes to npm. Code owners approve pipeline/tooling changes.

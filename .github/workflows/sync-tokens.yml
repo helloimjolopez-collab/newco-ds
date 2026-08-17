@@ -1,6 +1,6 @@
 name: Sync tokens from Figma (PR-gated)
 
-# Pulls the Spired variable library straight from Figma via the REST API
+# Pulls the NewCo variable library straight from Figma via the REST API
 # (org Plan Access Token), rebuilds the token artifacts, and — if anything
 # changed — opens a Pull Request with the diff. A maintainer reviews & merges:
 # that merge is the approval gate. No manual export, no watcher.
@@ -40,7 +40,7 @@ jobs:
           branch: bot/token-sync
           title: "Token sync from Figma"
           body: |
-            Automated pull of the Spired variable library from Figma.
+            Automated pull of the NewCo variable library from Figma.
             Review the token diff below and merge to release.
           add-paths: |
             tokens/**

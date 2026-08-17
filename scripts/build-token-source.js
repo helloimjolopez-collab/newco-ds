@@ -3,7 +3,7 @@
  * build-token-source.js
  *
  * Assembles the W3C DTCG token source (`tokens/newco-design-tokens.json`) from
- * the raw Figma variable graph pulled out of the Spired branch:
+ * the raw Figma variable graph pulled out of the NewCo branch:
  *
  *   tokens/figma-source/primitives.json   { "Brand/600": "#41377d", ... }
  *   tokens/figma-source/semantics.json    [ ["Surface/Sheet/Base","=Warm Neutral/100","=Midnight/Sheet"], ... ]

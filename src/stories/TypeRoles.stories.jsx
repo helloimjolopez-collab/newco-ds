@@ -38,7 +38,7 @@ function Group({ name }) {
               <span style={{ color: "#b3a8a6" }}>{s.size} · {s.weight}{s.lh ? ` · lh ${s.lh}` : ""}</span>
             </div>
             <div style={{ fontFamily: s.family, fontSize: parseFloat(s.size) || 16, fontWeight: parseInt(s.weight) || 400, lineHeight: s.lh ? `${parseFloat(s.lh)}px` : "normal", letterSpacing: s.ls ? `${parseFloat(s.ls)}px` : "normal", color: "#19143c" }}>
-              Spired — the quick brown fox
+              NewCo — the quick brown fox
             </div>
           </div>
         );

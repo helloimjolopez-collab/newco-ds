@@ -45,7 +45,7 @@ export const Typography = () => {
       <h3 style={{ font: "600 13px 'Red Hat Text'", color: "#41377d" }}>Size ramp</h3>
       {sizes.map(([n, v]) => <div key={n} style={{ display: "flex", alignItems: "baseline", gap: 16, borderBottom: "1px solid #efe5e5", padding: "6px 0" }}>
         <span style={{ ...mono, width: 90, color: "#8a807e" }}>{n} · {v}</span>
-        <span style={{ fontSize: parseFloat(v), color: "#19143c" }}>Spired {v}</span></div>)}
+        <span style={{ fontSize: parseFloat(v), color: "#19143c" }}>NewCo {v}</span></div>)}
       <h3 style={{ font: "600 13px 'Red Hat Text'", color: "#41377d", marginTop: 20 }}>Weights</h3>
       {weights.map(([n, v]) => <div key={n} style={{ fontSize: 20, fontWeight: parseInt(v), color: "#19143c" }}>{n} — {v} — The quick brown fox</div>)}
     </Page>

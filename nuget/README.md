@@ -1,6 +1,6 @@
 # NewCo.Tokens (.NET / NuGet)
 
-NewCo (Spired) design tokens for .NET, built for **Blazor** and **Radzen** teams.
+NewCo design tokens for .NET, built for **Blazor** and **Radzen** teams.
 Same tokens as the npm package `@helloimjolopez-newco/newco-tokens`, same Figma
 source of truth — just delivered as a NuGet **Razor Class Library**.
 

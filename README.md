@@ -1,10 +1,10 @@
-# NewCo (Spired) Design System — Tokens
+# NewCo Design System — Tokens
 
 `@helloimjolopez-newco/newco-tokens`
 
 The single source of truth for NewCo's visual language, delivered as a versioned
 npm package. Every value is a **1:1 reflection of the Figma variable library**
-(the Spired branch) — pulled programmatically, never hand-maintained.
+(the NewCo branch) — pulled programmatically, never hand-maintained.
 
 **▶ Live Storybook:** https://helloimjolopez-collab.github.io/newco-ds/
 
@@ -74,7 +74,7 @@ point; see [docs/adoption.md](docs/adoption.md).
 ```
 
 Semantics **reference** primitives (`var()`), so the alias chain from Figma is
-preserved in the output. This is the same naming the live Spired demo already
+preserved in the output. This is the same naming the live NewCo demo already
 consumes.
 
 > **Theming note (open design decision).** Modes are currently namespaced *in the
@@ -87,7 +87,7 @@ consumes.
 ## Architecture
 
 ```
-Figma (Spired branch variables)          <- single source of truth
+Figma (NewCo branch variables)          <- single source of truth
       |  sync-tokens.js  (REST, Plan Access Token, in CI - no manual export)
       v
 tokens/figma-source/*.json               <- raw graph: color + type + layout/units + motion + elevation + breakpoints

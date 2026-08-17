@@ -1,5 +1,5 @@
 <!--
-  NewCo.Tokens : .NET / NuGet delivery of the NewCo (Spired) design tokens.
+  NewCo.Tokens : .NET / NuGet delivery of the NewCo design tokens.
   A Razor Class Library (RCL) that bundles the same dist/tokens.css produced by
   the npm pipeline as a static web asset (served at
   _content/NewCo.Tokens/newco-tokens.css), plus a generated C# constants class.
@@ -18,8 +18,8 @@
     <PackageId>NewCo.Tokens</PackageId>
     <Version>0.1.0</Version>
     <Authors>NewCo Design System</Authors>
-    <Description>NewCo (Spired) Design System tokens for .NET / Blazor — CSS custom properties as a static web asset, 1:1 with the Figma variable library. Light + Midnight modes.</Description>
-    <PackageTags>design-tokens;design-system;blazor;radzen;css;newco;spired</PackageTags>
+    <Description>NewCo Design System tokens for .NET / Blazor — CSS custom properties as a static web asset, 1:1 with the Figma variable library. Light + Midnight modes.</Description>
+    <PackageTags>design-tokens;design-system;blazor;radzen;css;newco</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/helloimjolopez-collab/newco-ds</RepositoryUrl>
   </PropertyGroup>
