@@ -88,7 +88,7 @@ consumes.
 
 ```
 Figma (NewCo branch variables)          <- single source of truth
-      |  sync-tokens.js  (REST, Plan Access Token, in CI - no manual export)
+      |  Figma plugin Git sync (Plugin API) -> seed dumps, via adapter
       v
 tokens/figma-source/*.json               <- raw graph: color + type + layout/units + motion + elevation + breakpoints
       |  build-token-source.js           <- -> W3C DTCG, validates every alias resolves
@@ -107,28 +107,57 @@ Every step is a plain, reviewable Node script. No bespoke build server.
 
 ---
 
-## Staying in sync with Figma (no exports, ever)
+## Staying in sync with Figma
 
 The contract: **change a variable in Figma -> it lands in the repo only after an
-approving review.** Mechanism:
+explicit, reviewable step.**
 
-1. A GitHub Action runs `sync-tokens.js` (schedule + manual "Run workflow"). It
-   authenticates with an **org Plan Access Token** (a GitHub *secret*) and pulls
-   variables via the **Figma Variables REST API**.
-2. If anything changed, it opens a **Pull Request** with the token diff.
-3. A maintainer **reviews and merges** — the approval gate.
-4. Merge triggers the publish workflow -> version bump -> `npm publish`.
+`tokens/figma-source/` holds one seed dump per Figma collection. Everything
+downstream of those files is offline and deterministic:
 
-No plugin exports, no local watcher, no hand-edited JSON.
+```
+tokens/figma-source/*.json  ->  build-token-source.js  ->  DTCG  ->  style-dictionary  ->  CSS/JS/JSON
+```
 
-**One thing to verify with the developer:** the `variables/local` REST endpoint
-was historically Enterprise-gated. On an **Organization** plan with a Plan Access
-Token it may or may not be enabled — `sync-tokens.js` fails loudly with the
-fallback if it 403s. Fallbacks (identical output, same PR gate): a Figma->Git
-plugin (TokenNexus / TokenSync) or a Dev-Mode MCP pull. See
-[docs/governance.md](docs/governance.md).
+**Why not the REST API?** The Figma Variables REST endpoint
+(`/v1/files/:key/variables/local`) requires the `file_variables:read` scope, which
+Figma grants on **Enterprise only**. We are on the **Organization** plan, where that
+scope is not offered - no token can unlock it. Verified 2026-08-17 against a live
+403. The REST sync workflow that used to live here has been removed; it could never
+have run on our plan.
 
----
+**The supported route: plugin Git sync.** Figma plugins that push variables straight
+to a repo use the **Plugin API**, which is not plan-gated the way REST is. Options,
+in order of maturity:
+
+| Plugin | Notes |
+|--------|-------|
+| Tokens Studio | Most established, two-way GitHub sync, best documented |
+| TokenNexus | Maps Figma variables to Git-hosted tokens |
+| TokenSync | W3C DTCG, Figma <-> GitHub |
+
+**One adapter is required.** These plugins emit **W3C DTCG** - the same shape as this
+repo's *output* (`tokens/newco-design-tokens.json`), not its *input*. The seed dumps
+use a deliberately compact shape:
+
+```
+primitive-color.json   { "Amethyst/0": "#faf9fe", "Amethyst/150 @ 30%": "#d3c6fd4d" }
+semantic-color.json    [ ["Fill/Action/Primary/Base", "=Brand/400", "=Brand/300"], ... ]
+                         ^ name                        ^ Light        ^ Midnight
+```
+
+Do **not** wire a plugin's DTCG straight into style-dictionary. `build-token-source.js`
+is what produces the published CSS variable names (e.g.
+`--semantic-color-light-mode-surface-sheet-base`), and those are consumed by the demo
+and shipped in both the npm and NuGet packages. Bypassing it would rename every
+emitted variable - a breaking change for all consumers.
+
+Instead: have the plugin write DTCG to a staging path, then convert DTCG -> the two
+seed shapes above. The rest of the pipeline, and every published name, stays
+identical.
+
+Either way the change arrives as a **pull request** with the token diff, and a
+maintainer's merge is the approval gate.
 
 ## Local development
 
@@ -137,7 +166,6 @@ npm install
 npm run build-tokens     # figma-source -> DTCG -> CSS/JS  (validates aliases)
 npm run build-dist       # + assemble npm/
 npm run storybook        # browse the token galleries
-npm run sync-tokens      # pull latest from Figma (needs FIGMA_TOKEN, FIGMA_FILE_KEY)
 ```
 
 ## Roadmap

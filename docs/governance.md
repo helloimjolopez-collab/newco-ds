@@ -15,7 +15,7 @@ safe to depend on, maintainable, and ready for org-wide adoption.
 ## The sync + approval gate
 
 ```
-Figma change → sync-tokens.js (CI) → PR with token diff → human review → merge → publish
+Figma change → plugin Git sync → adapter → PR with token diff → human review → merge → publish
 ```
 
 - Token changes arrive as **reviewable pull requests**, never silent pushes.
@@ -39,9 +39,9 @@ variable aliased to the new one for one minor release).
 
 ## Security posture (for review)
 
-- **Secrets:** the Figma **Plan Access Token** and **npm publish token** live only
-  as GitHub Actions secrets. Prefer an **org Plan Access Token** (admin-managed,
-  revocable, not tied to a person) over personal tokens.
+- **Secrets:** the only secret this repo needs is the **npm publish token**, as a
+  GitHub Actions secret. There is deliberately **no Figma token** — the token sync
+  runs via Dev Mode from a session, not from CI, so no Figma credential is stored.
 - **Supply chain:** package ships only `npm/` + the DTCG JSON (see `files` in
   package.json) — no scripts run on install. Pin CI actions to SHAs; enable
   Dependabot; the token pipeline's only runtime dep is Style Dictionary.
@@ -49,9 +49,13 @@ variable aliased to the new one for one minor release).
   private registry (GitHub Packages / npm org) as part of adoption.
 - **Provenance:** consider `npm publish --provenance` from CI for a verifiable
   build-to-artifact chain.
-- **Plan-gating caveat:** the Figma `variables/local` REST endpoint may be
-  Enterprise-only; `sync-tokens.js` 403s loudly with documented fallbacks
-  (TokenNexus/TokenSync plugin, or Dev-Mode MCP pull) — same PR gate either way.
+- **No Figma REST dependency (resolved):** the `variables/local` REST endpoint
+  requires the `file_variables:read` scope, which Figma grants on **Enterprise only**.
+  On our Organization plan that scope is not offered, so the REST path is closed —
+  verified 2026-08-17 against a live 403. The dead sync workflow and script have been
+  removed. Variables reach the repo via a **Figma plugin Git sync** (Plugin API, not
+  plan-gated), which also means **no long-lived Figma credential in CI** — a stronger
+  posture than the REST design it replaces.
 
 ## Token economy
 
@@ -72,8 +76,9 @@ leaner **representation** available.
 
 ## Maintainability checklist for the reviewer
 
-- [ ] Confirm the Figma REST path (Org plan + Plan Access Token) or pick a fallback.
 - [ ] Decide registry (public npm vs private) + set `publishConfig` accordingly.
 - [ ] Add `CODEOWNERS`, branch protection, required CI on `main`.
 - [ ] Decide auto-publish-on-merge vs manual dispatch.
+- [ ] Pick the plugin Git sync (Tokens Studio / TokenNexus / TokenSync) and connect it.
+- [ ] Write the DTCG → seed-dump adapter so published CSS variable names don't change.
 - [ ] Approve the theming model (mode-in-name vs `[data-theme]` alias layer).
