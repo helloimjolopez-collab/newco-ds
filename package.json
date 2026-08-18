@@ -1,7 +1,7 @@
 {
   "name": "@helloimjolopez-newco/newco-tokens",
   "version": "0.1.14",
-  "description": "NewCo Design System tokens — a 1:1 reflection of the Figma variable library as CSS custom properties, JS/ESM, and W3C DTCG JSON. Light + Midnight modes.",
+  "description": "NewCo Design System tokens \u2014 a 1:1 reflection of the Figma variable library as CSS custom properties, JS/ESM, and W3C DTCG JSON. Light + Midnight modes.",
   "license": "UNLICENSED",
   "type": "module",
   "engines": {
@@ -32,7 +32,6 @@
     "build-dist": "node scripts/build-token-source.js && node style-dictionary.config.js && node scripts/build-dist.js",
     "build-nuget": "node scripts/build-nuget.js",
     "build-all": "npm run build-dist && npm run build-nuget",
-    "sync-tokens": "node scripts/sync-tokens.js",
     "storybook": "npm run build-tokens && storybook dev -p 6006",
     "build-storybook": "npm run build-tokens && storybook build"
   },
