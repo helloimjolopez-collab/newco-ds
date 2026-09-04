@@ -77,6 +77,7 @@ const nc = {
   "Elevation": rd("elevation.json"),
   "Primitive: Type": rd("primitive-type.json"),
   "Semantic: Layout & Units": rd("semantic-layout.json"),
+  "Contextual: Layout & Units": rd("contextual-layout.json"),
 };
 const num = (v) => ({ $type: "number", $value: v });
 const str = (v) => ({ $type: "string", $value: v });
@@ -91,6 +92,7 @@ for (const [n] of nc["Motion"].easings) reg(n, "motion");
 for (const [n] of nc["Elevation"].vars) reg(n, "elevation");
 for (const grp of ["families", "sizes", "weights", "letterSpacing", "lineHeights"]) for (const [n] of nc["Primitive: Type"][grp]) reg(n, "primitive-type");
 for (const [n] of nc["Semantic: Layout & Units"].vars) reg(n, "semantic-layout-units");
+for (const [n] of nc["Contextual: Layout & Units"].vars) reg(n, "contextual-layout-units");
 
 const encNC = (v) => (typeof v === "string" && v.startsWith("=")) ? `{${index[v.slice(1)]}}` : v;
 
@@ -112,12 +114,17 @@ for (const [n, v] of nc["Primitive: Type"].letterSpacing) setLeaf(out["primitive
 for (const [n, v] of nc["Primitive: Type"].lineHeights) setLeaf(out["primitive-type"], pathParts(n), num(v));
 out["semantic-layout-units"] = {};
 for (const [n, v] of nc["Semantic: Layout & Units"].vars) setLeaf(out["semantic-layout-units"], pathParts(n), { $type: "number", $value: encNC(v) });
+out["contextual-layout-units"] = {};
+for (const [n, v] of nc["Contextual: Layout & Units"].vars) setLeaf(out["contextual-layout-units"], pathParts(n), { $type: "number", $value: encNC(v) });
 
 // semantic typography roles (Desktop mode), aliasing Primitive: Type
 const st = JSON.parse(readFileSync(resolve(SRC, "semantic-type.json"), "utf8"));
 out["semantic-type"] = {};
 for (const [n, v] of st.vars) {
-  const isFamily = /FontFamily$/.test(n);
+  // Atomic tokens: font family is the sole STRING; everything else (size, weight,
+  // line-height, letter-spacing) is numeric. Match on the atomic name or its alias
+  // target — the old composite "…/FontFamily" suffix no longer exists.
+  const isFamily = /^Family\//.test(n) || (typeof v === "string" && v.startsWith("=Family/"));
   setLeaf(out["semantic-type"], pathParts(n), { $type: isFamily ? "string" : "number", $value: encNC(v) });
 }
 
@@ -145,7 +152,9 @@ function walk(node, trail) {
     }
   }
 }
-walk(out["semantic-color"], ["semantic-color"]);
+// Validate alias references across every collection, not just color — type,
+// layout and contextual all alias primitives (and contextual aliases layout).
+walk(out, []);
 
 const nPrim = Object.keys(primitives).length;
 const nSem = semantics.length;

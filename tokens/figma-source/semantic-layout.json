@@ -1,6 +1,6 @@
 {
   "mode": "Desktop 1440pt",
-  "note": "Default (Desktop) mode emitted flat, matching the demo. Tablet/Mobile responsive overrides are a documented follow-up.",
+  "note": "Default (Desktop) mode emitted flat. Contextual tokens moved to contextual-layout.json (parity with Pathway main).",
   "vars": [
     [
       "BorderWidth/XThin",
@@ -135,58 +135,6 @@
       "=Unit/120"
     ],
     [
-      "Contextual/Button/Gap/Horizontal",
-      "=Unit/8"
-    ],
-    [
-      "Contextual/Button/Padding/Large/Vertical",
-      "=Unit/12"
-    ],
-    [
-      "Contextual/Button/Padding/Large/Horizontal",
-      "=Unit/14"
-    ],
-    [
-      "Contextual/Button/Padding/Medium/Vertical",
-      "=Unit/10"
-    ],
-    [
-      "Contextual/Button/Padding/Medium/Horizontal",
-      "=Unit/12"
-    ],
-    [
-      "Contextual/Button/Padding/Small/Vertical",
-      "=Unit/6"
-    ],
-    [
-      "Contextual/Button/Padding/Small/Horizontal",
-      "=Unit/8"
-    ],
-    [
-      "Contextual/Button/Padding/XSmall/Vertical",
-      "=Unit/6"
-    ],
-    [
-      "Contextual/Button/Padding/XSmall/Horizontal",
-      "=Unit/8"
-    ],
-    [
-      "Contextual/NavItem/Large/Padding/Vertical",
-      "=Unit/12"
-    ],
-    [
-      "Contextual/NavItem/Large/Padding/Horizontal",
-      "=Unit/14"
-    ],
-    [
-      "Contextual/NavItem/Large/Radius/Radius",
-      "=Unit/8"
-    ],
-    [
-      "Contextual/NavItem/Large/Stroke Width/Stroke Width",
-      "=Unit/1 point 5"
-    ],
-    [
       "Accessibility/Touch Target/AAA/Height",
       "=Unit/48"
     ],
@@ -199,10 +147,6 @@
       "=Unit/44"
     ],
     [
-      "Accessibility/Touch Target/AA/Width",
-      "=Unit/44"
-    ],
-    [
       "Accessibility/Touch Target/Desktop Only/Height",
       "=Unit/36"
     ],
@@ -211,92 +155,8 @@
       "=Unit/36"
     ],
     [
-      "Contextual/Page/Padding/Top",
+      "Accessibility/Touch Target/AA/Width",
       "=Unit/44"
-    ],
-    [
-      "Contextual/Page/Padding/Bottom",
-      "=Unit/56"
-    ],
-    [
-      "Contextual/Page/Padding/Horizontal",
-      "=Unit/32"
-    ],
-    [
-      "Contextual/Focused Element/CornerRadius/CornerRadius",
-      "=Unit/12"
-    ],
-    [
-      "Contextual/Focused Element/BorderWidth/BorderWidth",
-      "=Unit/2"
-    ],
-    [
-      "Contextual/Button/Border Width/Thin/Thin",
-      "=BorderWidth/XThin"
-    ],
-    [
-      "Contextual/Button/Radius/Radius",
-      "=Unit/999"
-    ],
-    [
-      "Contextual/Button/Border Width/Base/Base",
-      "=BorderWidth/Thin"
-    ],
-    [
-      "Contextual/Button/Border Width/Thick/Thick",
-      "=BorderWidth/Base"
-    ],
-    [
-      "Contextual/Card/Gap/Gap",
-      "=Unit/8"
-    ],
-    [
-      "Contextual/Card/Padding/Medium/Vertical",
-      "=Unit/16"
-    ],
-    [
-      "Contextual/Card/Padding/Medium/Horizontal",
-      "=Unit/16"
-    ],
-    [
-      "Contextual/Card/Padding/Small/Vertical",
-      "=Unit/14"
-    ],
-    [
-      "Contextual/Card/Padding/Small/Horizontal",
-      "=Unit/14"
-    ],
-    [
-      "Contextual/Card/Border Width/Base/Base",
-      "=Unit/0 point 5"
-    ],
-    [
-      "Contextual/Card/Border Width/Thick/Thick",
-      "=BorderWidth/Thin"
-    ],
-    [
-      "Contextual/Card/CornerRadius/CornerRadius",
-      "=Unit/16"
-    ],
-    [
-      "Contextual/Input/Radius/Radius",
-      "=Unit/12"
-    ],
-    [
-      "Contextual/Checkbox/Radius/Base",
-      "=Unit/6"
-    ],
-    [
-      "Contextual/Checkbox/Radius/Small",
-      "=Unit/4"
-    ],
-    [
-      "Contextual/Sheet/CornerRadius/CornerRadius",
-      "=Unit/28"
-    ],
-    [
-      "Contextual/ScreenContent/CornerRadius",
-      "=Unit/20"
     ]
   ]
 }

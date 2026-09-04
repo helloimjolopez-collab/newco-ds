@@ -1,0 +1,154 @@
+{
+  "mode": "Desktop 1440pt",
+  "note": "Contextual layout tokens in their own collection (parity with Pathway main). Aliases Primitive: Unit and Semantic BorderWidth.",
+  "vars": [
+    [
+      "NavItem/Large/Padding/Vertical",
+      "=Unit/12"
+    ],
+    [
+      "NavItem/Large/Padding/Horizontal",
+      "=Unit/14"
+    ],
+    [
+      "NavItem/Large/Radius/Radius",
+      "=Unit/999"
+    ],
+    [
+      "NavItem/Large/Stroke Width/Stroke Width",
+      "=Unit/1 point 5"
+    ],
+    [
+      "Page/Padding/Top",
+      "=Unit/8"
+    ],
+    [
+      "Page/Padding/Horizontal",
+      "=Unit/36"
+    ],
+    [
+      "Page/Padding/Bottom",
+      "=Unit/56"
+    ],
+    [
+      "Button/Padding/Medium/Vertical",
+      "=Unit/10"
+    ],
+    [
+      "Button/Padding/Medium/Horizontal",
+      "=Unit/12"
+    ],
+    [
+      "Button/Padding/Small/Vertical",
+      "=Unit/6"
+    ],
+    [
+      "Button/Padding/Small/Horizontal",
+      "=Unit/8"
+    ],
+    [
+      "Button/Gap/Horizontal",
+      "=Unit/8"
+    ],
+    [
+      "Focused Element/CornerRadius/CornerRadius",
+      "=Unit/999"
+    ],
+    [
+      "Focused Element/BorderWidth/BorderWidth",
+      "=Unit/2"
+    ],
+    [
+      "Button/Border Width/Base/Base",
+      "=BorderWidth/Thin"
+    ],
+    [
+      "Button/Border Width/Thick/Thick",
+      "=BorderWidth/Base"
+    ],
+    [
+      "Card/Gap/Gap",
+      "=Unit/8"
+    ],
+    [
+      "Card/Padding/Medium/Vertical",
+      "=Unit/16"
+    ],
+    [
+      "Card/Padding/Medium/Horizontal",
+      "=Unit/16"
+    ],
+    [
+      "Card/Padding/Small/Vertical",
+      "=Unit/14"
+    ],
+    [
+      "Card/Padding/Small/Horizontal",
+      "=Unit/14"
+    ],
+    [
+      "Card/Border Width/Base/Base",
+      "=Unit/0 point 5"
+    ],
+    [
+      "Card/Border Width/Thick/Thick",
+      "=BorderWidth/Thin"
+    ],
+    [
+      "Card/CornerRadius/CornerRadius",
+      "=Unit/16"
+    ],
+    [
+      "Button/Border Width/Thin/Thin",
+      "=BorderWidth/XThin"
+    ],
+    [
+      "Button/Radius/Radius",
+      "=Unit/999"
+    ],
+    [
+      "Button/Padding/Large/Vertical",
+      "=Unit/12"
+    ],
+    [
+      "Button/Padding/Large/Horizontal",
+      "=Unit/14"
+    ],
+    [
+      "Button/Padding/XSmall/Vertical",
+      "=Unit/6"
+    ],
+    [
+      "Button/Padding/XSmall/Horizontal",
+      "=Unit/8"
+    ],
+    [
+      "Input/Radius/Radius",
+      "=Unit/12"
+    ],
+    [
+      "Checkbox/Radius/Base",
+      "=Unit/6"
+    ],
+    [
+      "Checkbox/Radius/Small",
+      "=Unit/4"
+    ],
+    [
+      "Sheet/CornerRadius/CornerRadius",
+      "=Unit/28"
+    ],
+    [
+      "ScreenContent/CornerRadius",
+      "=Unit/20"
+    ],
+    [
+      "NavItem/Gap-IndicatorToContent",
+      8
+    ],
+    [
+      "NavItem/Gap-IconToLabel",
+      8
+    ]
+  ]
+}
