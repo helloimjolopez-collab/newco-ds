@@ -15,11 +15,6 @@
     "=Brand/100"
   ],
   [
-    "Foreground/Action/Primary/Disabled",
-    "=Brand/400 @ 36%",
-    "=Brand/400 @ 36%"
-  ],
-  [
     "Foreground/Static/Primary/Light",
     "=Cool Neutral/700",
     "=Cool Neutral/25"
@@ -175,49 +170,19 @@
     "=Jade/75"
   ],
   [
-    "Foreground/Action/PrimaryInverse/Rest",
+    "Foreground/Action/Primary Dim/Rest",
     "=Cool Neutral/0",
     "=Brand/800"
   ],
   [
-    "Foreground/Action/PrimaryInverse/Hover",
-    "=Cool Neutral/25",
-    "=Brand/700"
-  ],
-  [
-    "Foreground/Action/PrimaryInverse/Pressed",
+    "Foreground/Action/Primary Dim/Pressed",
     "=Cool Neutral/25",
     "=Brand/600"
-  ],
-  [
-    "Foreground/Action/PrimaryInverse/Disabled",
-    "=Brand/400 @ 36%",
-    "=Brand/400 @ 36%"
   ],
   [
     "Foreground/Action/Secondary/Rest",
     "=Cool Neutral/800",
     "=Midnight/150"
-  ],
-  [
-    "Foreground/Action/SecondaryInverse/Rest",
-    "=Cool Neutral/500",
-    "=Cool Neutral/75"
-  ],
-  [
-    "Foreground/Action/SecondaryInverse/Hover",
-    "=Cool Neutral/600",
-    "=Cool Neutral/50"
-  ],
-  [
-    "Foreground/Action/SecondaryInverse/Pressed",
-    "=Cool Neutral/700",
-    "=Cool Neutral/25"
-  ],
-  [
-    "Foreground/Action/SecondaryInverse/Disabled",
-    "=Cool Neutral/0 @ 50%",
-    "=Cool Neutral/0 @ 50%"
   ],
   [
     "Foreground/Action/Secondary/Hover",
@@ -228,31 +193,6 @@
     "Foreground/Action/Secondary/Pressed",
     "=Cool Neutral/800",
     "=Midnight/100"
-  ],
-  [
-    "Foreground/Action/Secondary/Disabled",
-    "=Cool Neutral/0 @ 50%",
-    "=Cool Neutral/0 @ 24%"
-  ],
-  [
-    "Foreground/Action/Tertiary/Rest",
-    "=Brand/700",
-    "=Brand/300"
-  ],
-  [
-    "Foreground/Action/Tertiary/Hover",
-    "=Brand/800",
-    "=Brand/250"
-  ],
-  [
-    "Foreground/Action/Tertiary/Pressed",
-    "=Brand/800",
-    "=Brand/200"
-  ],
-  [
-    "Foreground/Action/Tertiary/Disabled",
-    "=Brand/400 @ 36%",
-    "=Brand/400 @ 36%"
   ],
   [
     "Foreground/Action/Mono/Rest",
@@ -270,11 +210,6 @@
     "=Cool Neutral/800"
   ],
   [
-    "Foreground/Action/Mono/Disabled",
-    "=Cool Neutral/0 @ 36%",
-    "=Cool Neutral/0 @ 36%"
-  ],
-  [
     "Foreground/Action/Status/Alert/Rest",
     "=Saffron/500",
     "=Saffron/75"
@@ -288,11 +223,6 @@
     "Foreground/Action/Status/Alert/Pressed",
     "=Saffron/700",
     "=Saffron/25"
-  ],
-  [
-    "Foreground/Action/Status/Alert/Disabled",
-    "=Saffron/350 @ 70%",
-    "=Saffron/350 @ 70%"
   ],
   [
     "Foreground/Action/Status/Danger/Rest",
@@ -310,11 +240,6 @@
     "=Orange/75"
   ],
   [
-    "Foreground/Action/Status/Danger/Disabled",
-    "#7c7684",
-    "#9c97a6"
-  ],
-  [
     "Foreground/Action/Status/Negative/Rest",
     "=Red/500",
     "=Red/300"
@@ -328,11 +253,6 @@
     "Foreground/Action/Status/Negative/Pressed",
     "=Red/700",
     "=Red/50"
-  ],
-  [
-    "Foreground/Action/Status/Negative/Disabled",
-    "=Red/300 @ 70%",
-    "=Red/300 @ 36%"
   ],
   [
     "Foreground/Action/Status/Positive/Rest",
@@ -350,11 +270,6 @@
     "=Green/0"
   ],
   [
-    "Foreground/Action/Status/Positive/Disabled",
-    "#7c7684",
-    "#9c97a6"
-  ],
-  [
     "Foreground/Action/Accent/Jade/Rest",
     "=Jade/500",
     "=Jade/100"
@@ -370,19 +285,9 @@
     "=Jade/50"
   ],
   [
-    "Foreground/Action/Accent/Jade/Disabled",
-    "=Jade/300 @ 70%",
-    "=Jade/300 @ 70%"
-  ],
-  [
     "Fill/Action/Primary/Rest",
     "=Brand/400",
     "=Brand/250"
-  ],
-  [
-    "Fill/Action/PrimaryInverse/Rest",
-    "=Brand/0",
-    "=Brand/0"
   ],
   [
     "Fill/Action/Secondary/Rest",
@@ -400,26 +305,6 @@
     "=Amethyst/350 @ 36%"
   ],
   [
-    "Fill/Action/Secondary/Disabled",
-    "=Warm Neutral/75",
-    "=Amethyst/350 @ 6%"
-  ],
-  [
-    "Fill/Action/PrimaryInverse/Hover",
-    "=Brand/25",
-    "=Brand/25"
-  ],
-  [
-    "Fill/Action/PrimaryInverse/Pressed",
-    "=Brand/50",
-    "=Brand/50"
-  ],
-  [
-    "Fill/Action/PrimaryInverse/Disabled",
-    "=Brand/400 @ 24%",
-    "=Brand/400 @ 16%"
-  ],
-  [
     "Fill/Action/Primary/Hover",
     "=Brand/500",
     "=Brand/200"
@@ -430,54 +315,9 @@
     "=Brand/300"
   ],
   [
-    "Fill/Action/Primary/Disabled",
-    "=Brand/400 @ 50%",
-    "=Brand/400 @ 36%"
-  ],
-  [
-    "Fill/Action/SecondaryInverse/Rest",
-    "=Warm Neutral/100",
-    "=Amethyst/350 @ 16%"
-  ],
-  [
-    "Fill/Action/SecondaryInverse/Hover",
-    "=Warm Neutral/150",
-    "=Amethyst/350 @ 24%"
-  ],
-  [
-    "Fill/Action/SecondaryInverse/Pressed",
-    "=Warm Neutral/200",
-    "=Amethyst/350 @ 36%"
-  ],
-  [
-    "Fill/Action/SecondaryInverse/Disabled",
-    "=Warm Neutral/75",
-    "=Amethyst/350 @ 6%"
-  ],
-  [
-    "Fill/Action/Tertiary/Rest",
+    "Fill/Action/Primary Dim/Rest",
     "=Brand/50",
     "=Brand/400 @ 16%"
-  ],
-  [
-    "Fill/Action/Tertiary Inverse/Rest",
-    "=Brand/25",
-    "=Brand/400 @ 6%"
-  ],
-  [
-    "Fill/Action/Tertiary Inverse/Hover",
-    "=Brand/50",
-    "=Brand/400 @ 16%"
-  ],
-  [
-    "Fill/Action/Tertiary Inverse/Pressed",
-    "=Brand/100",
-    "=Brand/400 @ 24%"
-  ],
-  [
-    "Fill/Action/Tertiary Inverse/Disabled",
-    "=Brand/400 @ 24%",
-    "=Brand/400 @ 6%"
   ],
   [
     "Fill/Action/Status/Warning/Rest",
@@ -485,24 +325,19 @@
     "#fed897"
   ],
   [
-    "Fill/Action/Status/Warning Inverse/Rest",
-    "=Saffron/0",
-    "=Saffron/0"
-  ],
-  [
-    "Fill/Action/Status/Warning Inverse/Hover",
-    "=Saffron/25",
-    "=Saffron/25"
-  ],
-  [
-    "Fill/Action/Status/Warning Inverse/Pressed",
+    "Fill/Action/Status/Warning Dim/Rest",
     "=Saffron/50",
-    "=Saffron/50"
+    "=Saffron/350 @ 16%"
   ],
   [
-    "Fill/Action/Status/Warning Inverse/Disabled",
-    "=Saffron/350 @ 36%",
+    "Fill/Action/Status/Warning Dim/Hover",
+    "=Saffron/75",
     "=Saffron/350 @ 24%"
+  ],
+  [
+    "Fill/Action/Status/Warning Dim/Pressed",
+    "=Saffron/150",
+    "=Saffron/350 @ 36%"
   ],
   [
     "Fill/Action/Status/Danger/Rest",
@@ -510,24 +345,19 @@
     "#e6793e"
   ],
   [
-    "Fill/Action/Status/Danger Inverse/Rest",
-    "=Orange/0",
-    "=Orange/0"
-  ],
-  [
-    "Fill/Action/Status/Danger Inverse/Hover",
-    "=Orange/25",
-    "=Orange/25"
-  ],
-  [
-    "Fill/Action/Status/Danger Inverse/Pressed",
+    "Fill/Action/Status/Danger Dim/Rest",
     "=Orange/50",
-    "=Orange/50"
+    "=Orange/350 @ 16%"
   ],
   [
-    "Fill/Action/Status/Danger Inverse/Disabled",
-    "=Orange/350 @ 36%",
+    "Fill/Action/Status/Danger Dim/Hover",
+    "=Orange/75",
     "=Orange/350 @ 24%"
+  ],
+  [
+    "Fill/Action/Status/Danger Dim/Pressed",
+    "=Orange/150",
+    "=Orange/350 @ 36%"
   ],
   [
     "Fill/Action/Status/Danger/Hover",
@@ -540,11 +370,6 @@
     "=Orange/50"
   ],
   [
-    "Fill/Action/Status/Danger/Disabled",
-    "#fea77d29",
-    "#fea77d29"
-  ],
-  [
     "Fill/Action/Status/Warning/Hover",
     "=Saffron/150",
     "=Saffron/25"
@@ -555,34 +380,24 @@
     "=Saffron/50"
   ],
   [
-    "Fill/Action/Status/Warning/Disabled",
-    "#aa843e29",
-    "#aa843e29"
-  ],
-  [
     "Fill/Action/Status/Negative/Rest",
     "=Red/400",
     "=Red/300"
   ],
   [
-    "Fill/Action/Status/Negative Inverse/Rest",
-    "=Red/25",
-    "=Red/0"
-  ],
-  [
-    "Fill/Action/Status/Negative Inverse/Hover",
+    "Fill/Action/Status/Negative Dim/Rest",
     "=Red/50",
-    "=Red/25"
+    "=Red/300 @ 16%"
   ],
   [
-    "Fill/Action/Status/Negative Inverse/Pressed",
+    "Fill/Action/Status/Negative Dim/Hover",
     "=Red/75",
-    "=Red/50"
+    "=Red/300 @ 24%"
   ],
   [
-    "Fill/Action/Status/Negative Inverse/Disabled",
-    "=Red/300 @ 24%",
-    "=Red/300 @ 24%"
+    "Fill/Action/Status/Negative Dim/Pressed",
+    "=Red/150",
+    "=Red/300 @ 36%"
   ],
   [
     "Fill/Action/Status/Negative/Hover",
@@ -595,24 +410,14 @@
     "=Red/200"
   ],
   [
-    "Fill/Action/Status/Negative/Disabled",
-    "=Red/300 @ 24%",
-    "=Red/300 @ 24%"
-  ],
-  [
-    "Fill/Action/Tertiary/Hover",
+    "Fill/Action/Primary Dim/Hover",
     "=Brand/75",
     "=Brand/400 @ 24%"
   ],
   [
-    "Fill/Action/Tertiary/Pressed",
+    "Fill/Action/Primary Dim/Pressed",
     "=Brand/150",
     "=Brand/400 @ 36%"
-  ],
-  [
-    "Fill/Action/Tertiary/Disabled",
-    "=Brand/400 @ 24%",
-    "=Brand/400 @ 6%"
   ],
   [
     "Stroke/Action/Primary/Rest",
@@ -630,29 +435,14 @@
     "=Brand/200"
   ],
   [
-    "Stroke/Action/Primary/Disabled",
-    "=Brand/400 @ 24%",
-    "=Brand/400 @ 24%"
-  ],
-  [
-    "Stroke/Action/Primary Inverse/Rest",
+    "Stroke/Action/Primary Dim/Rest",
     "=Brand/150",
     "=Brand/300"
   ],
   [
-    "Stroke/Action/Primary Inverse/Hover",
+    "Stroke/Action/Primary Dim/Hover",
     "=Brand/200",
     "=Brand/250"
-  ],
-  [
-    "Stroke/Action/Primary Inverse/Pressed",
-    "=Brand/250",
-    "=Brand/200"
-  ],
-  [
-    "Stroke/Action/Primary Inverse/Disabled",
-    "=Brand/400 @ 16%",
-    "=Brand/400 @ 16%"
   ],
   [
     "Stroke/Action/Secondary/Rest",
@@ -670,69 +460,19 @@
     "=Cool Neutral/0 @ 24%"
   ],
   [
-    "Stroke/Action/Secondary/Disabled",
-    "=Warm Neutral/200",
-    "=Cool Neutral/0 @ 6%"
-  ],
-  [
-    "Stroke/Action/Secondary Inverse/Rest",
+    "Stroke/Action/Secondary Dim/Rest",
     "=Warm Neutral/150",
     "=Amethyst/350 @ 24%"
   ],
   [
-    "Stroke/Action/Secondary Inverse/Hover",
+    "Stroke/Action/Secondary Dim/Hover",
     "=Warm Neutral/200",
     "=Cool Neutral/0 @ 6%"
   ],
   [
-    "Stroke/Action/Secondary Inverse/Pressed",
+    "Stroke/Action/Secondary Dim/Pressed",
     "=Warm Neutral/250",
     "=Cool Neutral/0 @ 24%"
-  ],
-  [
-    "Stroke/Action/Secondary Inverse/Disabled",
-    "=Warm Neutral/350 @ 24%",
-    "=Amethyst/350 @ 50%"
-  ],
-  [
-    "Stroke/Action/Tertiary/Rest",
-    "=Brand/150",
-    "=Brand/400 @ 16%"
-  ],
-  [
-    "Stroke/Action/TertiaryInverse/Rest",
-    "=Brand/25",
-    "=Brand/25"
-  ],
-  [
-    "Stroke/Action/TertiaryInverse/Hover",
-    "=Brand/50",
-    "=Brand/50"
-  ],
-  [
-    "Stroke/Action/TertiaryInverse/Pressed",
-    "=Brand/75",
-    "=Brand/75"
-  ],
-  [
-    "Stroke/Action/TertiaryInverse/Disabled",
-    "=Brand/400 @ 16%",
-    "=Brand/400 @ 6%"
-  ],
-  [
-    "Stroke/Action/Tertiary/Hover",
-    "=Brand/200",
-    "=Brand/400 @ 24%"
-  ],
-  [
-    "Stroke/Action/Tertiary/Pressed",
-    "=Brand/250",
-    "=Brand/400 @ 50%"
-  ],
-  [
-    "Stroke/Action/Tertiary/Disabled",
-    "=Brand/400 @ 16%",
-    "=Brand/400 @ 6%"
   ],
   [
     "Stroke/Action/Status/Warning/Rest",
@@ -750,31 +490,6 @@
     "=Saffron/50"
   ],
   [
-    "Stroke/Action/Status/Warning/Disabled",
-    "#aa843e4d",
-    "#aa843e4d"
-  ],
-  [
-    "Stroke/Action/Status/Warning Inverse/Rest",
-    "=Saffron/25",
-    "=Saffron/25"
-  ],
-  [
-    "Stroke/Action/Status/Warning Inverse/Hover",
-    "=Saffron/50",
-    "=Saffron/50"
-  ],
-  [
-    "Stroke/Action/Status/Warning Inverse/Pressed",
-    "=Saffron/75",
-    "=Saffron/75"
-  ],
-  [
-    "Stroke/Action/Status/Warning Inverse/Disabled",
-    "=Saffron/350 @ 16%",
-    "=Saffron/350 @ 16%"
-  ],
-  [
     "Stroke/Action/Status/Danger/Rest",
     "=Orange/250",
     "=Orange/250"
@@ -790,54 +505,9 @@
     "=Orange/150"
   ],
   [
-    "Stroke/Action/Status/Danger/Disabled",
-    "#fea77d4d",
-    "#fea77d4d"
-  ],
-  [
-    "Stroke/Action/Status/Danger Inverse/Rest",
-    "=Orange/50",
-    "=Orange/50"
-  ],
-  [
-    "Stroke/Action/Status/Danger Inverse/Hover",
-    "=Orange/75",
-    "=Orange/25"
-  ],
-  [
-    "Stroke/Action/Status/Danger Inverse/Pressed",
-    "=Orange/100",
-    "=Orange/0"
-  ],
-  [
-    "Stroke/Action/Status/Danger Inverse/Disabled",
-    "=Orange/350 @ 16%",
-    "=Orange/350 @ 16%"
-  ],
-  [
     "Stroke/Action/Status/Negative/Rest",
     "=Red/400",
     "=Red/200"
-  ],
-  [
-    "Stroke/Action/Status/Negative Inverse/Rest",
-    "=Red/100",
-    "=Red/200"
-  ],
-  [
-    "Stroke/Action/Status/Negative Inverse/Hover",
-    "=Red/150",
-    "=Red/150"
-  ],
-  [
-    "Stroke/Action/Status/Negative Inverse/Pressed",
-    "=Red/200",
-    "=Red/100"
-  ],
-  [
-    "Stroke/Action/Status/Negative Inverse/Disabled",
-    "=Red/300 @ 50%",
-    "=Red/300 @ 24%"
   ],
   [
     "Stroke/Action/Status/Negative/Hover",
@@ -848,11 +518,6 @@
     "Stroke/Action/Status/Negative/Pressed",
     "=Red/600",
     "=Red/100"
-  ],
-  [
-    "Stroke/Action/Status/Negative/Disabled",
-    "=Red/300 @ 50%",
-    "=Red/300 @ 24%"
   ],
   [
     "Stroke/Action/Status/Positive/Rest",
@@ -870,31 +535,6 @@
     "=Green/150"
   ],
   [
-    "Stroke/Action/Status/Positive/Disabled",
-    "#00a46c4d",
-    "#00a46c4d"
-  ],
-  [
-    "Stroke/Action/Status/Positive Inverse/Rest",
-    "=Green/25",
-    "=Green/25"
-  ],
-  [
-    "Stroke/Action/Status/Positive Inverse/Hover",
-    "=Green/50",
-    "=Green/50"
-  ],
-  [
-    "Stroke/Action/Status/Positive Inverse/Pressed",
-    "=Green/75",
-    "=Green/75"
-  ],
-  [
-    "Stroke/Action/Status/Positive Inverse/Disabled",
-    "=Green/350 @ 16%",
-    "=Green/350 @ 16%"
-  ],
-  [
     "Stroke/Action/Accent/Amethyst/Rest",
     "=Amethyst/300",
     "=Amethyst/300"
@@ -908,31 +548,6 @@
     "Stroke/Action/Accent/Amethyst/Pressed",
     "=Amethyst/400",
     "=Amethyst/200"
-  ],
-  [
-    "Stroke/Action/Accent/Amethyst/Disabled",
-    "=Amethyst/350 @ 36%",
-    "=Amethyst/350 @ 36%"
-  ],
-  [
-    "Stroke/Action/Accent/Amethyst Inverse/Rest",
-    "=Amethyst/50",
-    "=Amethyst/50"
-  ],
-  [
-    "Stroke/Action/Accent/Amethyst Inverse/Hover",
-    "=Amethyst/75",
-    "=Amethyst/25"
-  ],
-  [
-    "Stroke/Action/Accent/Amethyst Inverse/Pressed",
-    "=Amethyst/100",
-    "=Amethyst/0"
-  ],
-  [
-    "Stroke/Action/Accent/Amethyst Inverse/Disabled",
-    "=Amethyst/350 @ 16%",
-    "=Amethyst/350 @ 16%"
   ],
   [
     "Stroke/Action/Accent/Jade/Rest",
@@ -950,37 +565,12 @@
     "=Jade/100"
   ],
   [
-    "Stroke/Action/Accent/Jade/Disabled",
-    "=Jade/300 @ 36%",
-    "=Jade/300 @ 36%"
-  ],
-  [
-    "Stroke/Action/Accent/Jade Inverse/Rest",
-    "=Jade/25",
-    "=Jade/25"
-  ],
-  [
-    "Stroke/Action/Accent/Jade Inverse/Hover",
-    "=Jade/50",
-    "=Jade/50"
-  ],
-  [
-    "Stroke/Action/Accent/Jade Inverse/Pressed",
-    "=Jade/75",
-    "=Jade/75"
-  ],
-  [
-    "Stroke/Action/Accent/Jade Inverse/Disabled",
-    "=Jade/300 @ 16%",
-    "=Jade/300 @ 16%"
-  ],
-  [
     "Stroke/Static/Neutral/Light",
     "#dbcece",
     "=Midnight/600"
   ],
   [
-    "Stroke/Contextual/FocusRing/Base",
+    "Stroke/FocusRing/Base",
     "=Brand/350",
     "=Brand/150"
   ],
@@ -1205,64 +795,29 @@
     "=Jade/250"
   ],
   [
-    "Foreground/Action/Secondary Inverse/Rest",
+    "Foreground/Action/Secondary Dim/Rest",
     "=Cool Neutral/400",
     "=Cool Neutral/75"
   ],
   [
-    "Foreground/Action/Secondary Inverse/Hover",
+    "Foreground/Action/Secondary Dim/Hover",
     "=Cool Neutral/500",
     "=Cool Neutral/50"
   ],
   [
-    "Foreground/Action/Secondary Inverse/Pressed",
+    "Foreground/Action/Secondary Dim/Pressed",
     "=Cool Neutral/600",
     "=Cool Neutral/25"
   ],
   [
-    "Foreground/Action/Secondary Inverse/Disabled",
-    "=Cool Neutral/0 @ 50%",
-    "=Cool Neutral/0 @ 50%"
-  ],
-  [
-    "Foreground/Action/Status/Negative Inverse/Rest",
-    "=Red/150",
-    "=Red/150"
-  ],
-  [
-    "Foreground/Action/Status/Negative Inverse/Hover",
-    "=Red/200",
-    "=Red/100"
-  ],
-  [
-    "Foreground/Action/Status/Negative Inverse/Pressed",
-    "=Red/250",
-    "=Red/75"
-  ],
-  [
-    "Foreground/Action/Status/Negative Inverse/Disabled",
-    "=Red/300 @ 50%",
-    "=Red/300 @ 36%"
-  ],
-  [
-    "Foreground/Action/Status/Positive Inverse/Rest",
+    "Foreground/Action/Status/Positive Dim/Rest",
     "=Green/25",
     "=Green/25"
   ],
   [
-    "Foreground/Action/Status/Positive Inverse/Hover",
+    "Foreground/Action/Status/Positive Dim/Hover",
     "=Green/50",
     "=Green/50"
-  ],
-  [
-    "Foreground/Action/Status/Positive Inverse/Pressed",
-    "=Green/75",
-    "=Green/75"
-  ],
-  [
-    "Foreground/Action/Status/Positive Inverse/Disabled",
-    "=Green/350 @ 70%",
-    "=Green/350 @ 70%"
   ],
   [
     "Foreground/Action/Accent/Jade/Selected",
@@ -1445,29 +1000,19 @@
     "=Green/150"
   ],
   [
-    "Fill/Action/Status/Positive/Disabled",
-    "#00a46c29",
-    "#00a46c29"
-  ],
-  [
-    "Fill/Action/Status/Positive Inverse/Rest",
-    "=Green/25",
-    "=Green/25"
-  ],
-  [
-    "Fill/Action/Status/Positive Inverse/Hover",
+    "Fill/Action/Status/Positive Dim/Rest",
     "=Green/50",
-    "=Green/50"
+    "=Green/350 @ 16%"
   ],
   [
-    "Fill/Action/Status/Positive Inverse/Pressed",
+    "Fill/Action/Status/Positive Dim/Hover",
     "=Green/75",
-    "=Green/75"
+    "=Green/350 @ 24%"
   ],
   [
-    "Fill/Action/Status/Positive Inverse/Disabled",
-    "=Green/350 @ 36%",
-    "=Green/350 @ 24%"
+    "Fill/Action/Status/Positive Dim/Pressed",
+    "=Green/150",
+    "=Green/350 @ 36%"
   ],
   [
     "Fill/Action/Accent/Amethyst/Rest",
@@ -1475,24 +1020,19 @@
     "=Amethyst/400"
   ],
   [
-    "Fill/Action/Accent/Amethyst Inverse/Rest",
-    "=Amethyst/0",
-    "=Amethyst/25"
-  ],
-  [
-    "Fill/Action/Accent/Amethyst Inverse/Hover",
-    "=Amethyst/25",
-    "=Amethyst/50"
-  ],
-  [
-    "Fill/Action/Accent/Amethyst Inverse/Pressed",
+    "Fill/Action/Accent/Amethyst Dim/Rest",
     "=Amethyst/50",
-    "=Amethyst/75"
+    "=Amethyst/350 @ 16%"
   ],
   [
-    "Fill/Action/Accent/Amethyst Inverse/Disabled",
-    "=Amethyst/350 @ 36%",
+    "Fill/Action/Accent/Amethyst Dim/Hover",
+    "=Amethyst/75",
     "=Amethyst/350 @ 24%"
+  ],
+  [
+    "Fill/Action/Accent/Amethyst Dim/Pressed",
+    "=Amethyst/150",
+    "=Amethyst/350 @ 36%"
   ],
   [
     "Fill/Action/Accent/Amethyst/Hover",
@@ -1503,11 +1043,6 @@
     "Fill/Action/Accent/Amethyst/Pressed",
     "=Amethyst/600",
     "=Amethyst/300"
-  ],
-  [
-    "Fill/Action/Accent/Amethyst/Disabled",
-    "=Amethyst/350 @ 36%",
-    "=Amethyst/350 @ 24%"
   ],
   [
     "Fill/Action/Accent/Jade/Rest",
@@ -1525,34 +1060,24 @@
     "=Jade/100"
   ],
   [
-    "Fill/Action/Accent/Jade/Disabled",
-    "=Jade/300 @ 36%",
+    "Fill/Action/Accent/Jade Dim/Rest",
+    "=Jade/50",
+    "=Jade/300 @ 16%"
+  ],
+  [
+    "Fill/Action/Accent/Jade Dim/Hover",
+    "=Jade/75",
     "=Jade/300 @ 24%"
   ],
   [
-    "Fill/Action/Accent/Jade Inverse/Rest",
-    "=Jade/25",
-    "=Jade/25"
-  ],
-  [
-    "Fill/Action/Accent/Jade Inverse/Hover",
-    "=Jade/50",
-    "=Jade/50"
-  ],
-  [
-    "Fill/Action/Accent/Jade Inverse/Pressed",
-    "=Jade/75",
-    "=Jade/75"
+    "Fill/Action/Accent/Jade Dim/Pressed",
+    "=Jade/150",
+    "=Jade/300 @ 36%"
   ],
   [
     "Fill/Static/Neutral/Light",
     "=Warm Neutral/0",
     "=Midnight/700"
-  ],
-  [
-    "Fill/Action/Accent/Jade Inverse/Disabled",
-    "=Jade/300 @ 36%",
-    "=Jade/300 @ 24%"
   ],
   [
     "Fill/Static/Neutral/Subtle",
@@ -1805,37 +1330,37 @@
     "=Jade/150"
   ],
   [
-    "Fill/Contextual/NavItem/Hover",
+    "Fill/Action/Selection/Hover",
     "=Warm Neutral/350 @ 12%",
     "#393640"
   ],
   [
-    "Fill/Contextual/NavItem/Active",
+    "Fill/Action/Selection/Selected",
     "=Brand/75",
     "=Brand/400 @ 50%"
   ],
   [
-    "Fill/Contextual/NavItem/Trail",
+    "Fill/Action/Selection/Trail",
     "=Warm Neutral/350 @ 16%",
     "=Midnight/800"
   ],
   [
-    "Foreground/Contextual/NavItem/Base",
+    "Foreground/Action/Selection/Base",
     "#524e59",
     "#b7b3ab"
   ],
   [
-    "Foreground/Contextual/NavItem/Hover",
+    "Foreground/Action/Selection/Hover",
     "#1b1822",
     "#f1efe9"
   ],
   [
-    "Foreground/Contextual/NavItem/Active",
+    "Foreground/Action/Selection/Selected",
     "#1b1822",
     "#f1efe9"
   ],
   [
-    "Foreground/Contextual/NavItem/Disabled",
+    "Foreground/Action/Selection/Disabled",
     "=Cool Neutral/0 @ 50%",
     "=Cool Neutral/0 @ 50%"
   ],
@@ -2005,12 +1530,12 @@
     "=Amethyst/25"
   ],
   [
-    "Foreground/Action/MonoInverse/Rest",
+    "Foreground/Action/Mono Dim/Rest",
     "=Cool Neutral/0",
     "=Cool Neutral/0"
   ],
   [
-    "Fill/Contextual/NavItem/Indicator",
+    "Fill/Action/Selection/Indicator",
     "#6e64be",
     "#6e64be"
   ],
@@ -2415,7 +1940,7 @@
     "=Seabreeze/300"
   ],
   [
-    "Fill/Contextual/NavItem/Base",
+    "Fill/Action/Selection/Base",
     "=Warm Neutral/50",
     "=Midnight/900"
   ],
@@ -2450,29 +1975,19 @@
     "=Citrine/300"
   ],
   [
-    "Fill/Action/Accent/Citrine/Disabled",
-    "=Citrine/350 @ 36%",
-    "=Citrine/350 @ 24%"
-  ],
-  [
-    "Fill/Action/Accent/Citrine Inverse/Rest",
-    "=Citrine/0",
-    "=Citrine/25"
-  ],
-  [
-    "Fill/Action/Accent/Citrine Inverse/Hover",
-    "=Citrine/25",
-    "=Citrine/50"
-  ],
-  [
-    "Fill/Action/Accent/Citrine Inverse/Pressed",
+    "Fill/Action/Accent/Citrine Dim/Rest",
     "=Citrine/50",
-    "=Citrine/75"
+    "=Citrine/350 @ 16%"
   ],
   [
-    "Fill/Action/Accent/Citrine Inverse/Disabled",
-    "=Citrine/350 @ 36%",
+    "Fill/Action/Accent/Citrine Dim/Hover",
+    "=Citrine/75",
     "=Citrine/350 @ 24%"
+  ],
+  [
+    "Fill/Action/Accent/Citrine Dim/Pressed",
+    "=Citrine/150",
+    "=Citrine/350 @ 36%"
   ],
   [
     "Stroke/Action/Accent/Citrine/Rest",
@@ -2490,31 +2005,6 @@
     "=Citrine/200"
   ],
   [
-    "Stroke/Action/Accent/Citrine/Disabled",
-    "=Citrine/350 @ 36%",
-    "=Citrine/350 @ 36%"
-  ],
-  [
-    "Stroke/Action/Accent/Citrine Inverse/Rest",
-    "=Citrine/50",
-    "=Citrine/50"
-  ],
-  [
-    "Stroke/Action/Accent/Citrine Inverse/Hover",
-    "=Citrine/75",
-    "=Citrine/25"
-  ],
-  [
-    "Stroke/Action/Accent/Citrine Inverse/Pressed",
-    "=Citrine/100",
-    "=Citrine/0"
-  ],
-  [
-    "Stroke/Action/Accent/Citrine Inverse/Disabled",
-    "=Citrine/350 @ 16%",
-    "=Citrine/350 @ 16%"
-  ],
-  [
     "Fill/Action/Accent/Lagoon/Rest",
     "=Lagoon/400",
     "=Lagoon/400"
@@ -2530,29 +2020,19 @@
     "=Lagoon/300"
   ],
   [
-    "Fill/Action/Accent/Lagoon/Disabled",
-    "=Lagoon/300 @ 36%",
-    "=Lagoon/300 @ 24%"
-  ],
-  [
-    "Fill/Action/Accent/Lagoon Inverse/Rest",
-    "=Lagoon/0",
-    "=Lagoon/25"
-  ],
-  [
-    "Fill/Action/Accent/Lagoon Inverse/Hover",
-    "=Lagoon/25",
-    "=Lagoon/50"
-  ],
-  [
-    "Fill/Action/Accent/Lagoon Inverse/Pressed",
+    "Fill/Action/Accent/Lagoon Dim/Rest",
     "=Lagoon/50",
-    "=Lagoon/75"
+    "=Lagoon/300 @ 16%"
   ],
   [
-    "Fill/Action/Accent/Lagoon Inverse/Disabled",
-    "=Lagoon/300 @ 36%",
+    "Fill/Action/Accent/Lagoon Dim/Hover",
+    "=Lagoon/75",
     "=Lagoon/300 @ 24%"
+  ],
+  [
+    "Fill/Action/Accent/Lagoon Dim/Pressed",
+    "=Lagoon/150",
+    "=Lagoon/300 @ 36%"
   ],
   [
     "Stroke/Action/Accent/Lagoon/Rest",
@@ -2570,31 +2050,6 @@
     "=Lagoon/200"
   ],
   [
-    "Stroke/Action/Accent/Lagoon/Disabled",
-    "=Lagoon/300 @ 36%",
-    "=Lagoon/300 @ 36%"
-  ],
-  [
-    "Stroke/Action/Accent/Lagoon Inverse/Rest",
-    "=Lagoon/50",
-    "=Lagoon/50"
-  ],
-  [
-    "Stroke/Action/Accent/Lagoon Inverse/Hover",
-    "=Lagoon/75",
-    "=Lagoon/25"
-  ],
-  [
-    "Stroke/Action/Accent/Lagoon Inverse/Pressed",
-    "=Lagoon/100",
-    "=Lagoon/0"
-  ],
-  [
-    "Stroke/Action/Accent/Lagoon Inverse/Disabled",
-    "=Lagoon/300 @ 16%",
-    "=Lagoon/300 @ 16%"
-  ],
-  [
     "Fill/Action/Accent/Mauve/Rest",
     "=Mauve/400",
     "=Mauve/400"
@@ -2610,29 +2065,19 @@
     "=Mauve/300"
   ],
   [
-    "Fill/Action/Accent/Mauve/Disabled",
-    "=Mauve/350 @ 36%",
-    "=Mauve/350 @ 24%"
-  ],
-  [
-    "Fill/Action/Accent/Mauve Inverse/Rest",
-    "=Mauve/0",
-    "=Mauve/25"
-  ],
-  [
-    "Fill/Action/Accent/Mauve Inverse/Hover",
-    "=Mauve/25",
-    "=Mauve/50"
-  ],
-  [
-    "Fill/Action/Accent/Mauve Inverse/Pressed",
+    "Fill/Action/Accent/Mauve Dim/Rest",
     "=Mauve/50",
-    "=Mauve/75"
+    "=Mauve/350 @ 16%"
   ],
   [
-    "Fill/Action/Accent/Mauve Inverse/Disabled",
-    "=Mauve/350 @ 36%",
+    "Fill/Action/Accent/Mauve Dim/Hover",
+    "=Mauve/75",
     "=Mauve/350 @ 24%"
+  ],
+  [
+    "Fill/Action/Accent/Mauve Dim/Pressed",
+    "=Mauve/150",
+    "=Mauve/350 @ 36%"
   ],
   [
     "Stroke/Action/Accent/Mauve/Rest",
@@ -2650,31 +2095,6 @@
     "=Mauve/200"
   ],
   [
-    "Stroke/Action/Accent/Mauve/Disabled",
-    "=Mauve/350 @ 36%",
-    "=Mauve/350 @ 36%"
-  ],
-  [
-    "Stroke/Action/Accent/Mauve Inverse/Rest",
-    "=Mauve/50",
-    "=Mauve/50"
-  ],
-  [
-    "Stroke/Action/Accent/Mauve Inverse/Hover",
-    "=Mauve/75",
-    "=Mauve/25"
-  ],
-  [
-    "Stroke/Action/Accent/Mauve Inverse/Pressed",
-    "=Mauve/100",
-    "=Mauve/0"
-  ],
-  [
-    "Stroke/Action/Accent/Mauve Inverse/Disabled",
-    "=Mauve/350 @ 16%",
-    "=Mauve/350 @ 16%"
-  ],
-  [
     "Fill/Action/Accent/Rose/Rest",
     "=Rose/400",
     "=Rose/400"
@@ -2690,29 +2110,19 @@
     "=Rose/300"
   ],
   [
-    "Fill/Action/Accent/Rose/Disabled",
-    "=Rose/350 @ 36%",
-    "=Rose/350 @ 24%"
-  ],
-  [
-    "Fill/Action/Accent/Rose Inverse/Rest",
-    "=Rose/0",
-    "=Rose/25"
-  ],
-  [
-    "Fill/Action/Accent/Rose Inverse/Hover",
-    "=Rose/25",
-    "=Rose/50"
-  ],
-  [
-    "Fill/Action/Accent/Rose Inverse/Pressed",
+    "Fill/Action/Accent/Rose Dim/Rest",
     "=Rose/50",
-    "=Rose/75"
+    "=Rose/350 @ 16%"
   ],
   [
-    "Fill/Action/Accent/Rose Inverse/Disabled",
-    "=Rose/350 @ 36%",
+    "Fill/Action/Accent/Rose Dim/Hover",
+    "=Rose/75",
     "=Rose/350 @ 24%"
+  ],
+  [
+    "Fill/Action/Accent/Rose Dim/Pressed",
+    "=Rose/150",
+    "=Rose/350 @ 36%"
   ],
   [
     "Stroke/Action/Accent/Rose/Rest",
@@ -2730,31 +2140,6 @@
     "=Rose/200"
   ],
   [
-    "Stroke/Action/Accent/Rose/Disabled",
-    "=Rose/350 @ 36%",
-    "=Rose/350 @ 36%"
-  ],
-  [
-    "Stroke/Action/Accent/Rose Inverse/Rest",
-    "=Rose/50",
-    "=Rose/50"
-  ],
-  [
-    "Stroke/Action/Accent/Rose Inverse/Hover",
-    "=Rose/75",
-    "=Rose/25"
-  ],
-  [
-    "Stroke/Action/Accent/Rose Inverse/Pressed",
-    "=Rose/100",
-    "=Rose/0"
-  ],
-  [
-    "Stroke/Action/Accent/Rose Inverse/Disabled",
-    "=Rose/350 @ 16%",
-    "=Rose/350 @ 16%"
-  ],
-  [
     "Fill/Action/Accent/Seabreeze/Rest",
     "=Seabreeze/400",
     "=Seabreeze/400"
@@ -2770,29 +2155,19 @@
     "=Seabreeze/300"
   ],
   [
-    "Fill/Action/Accent/Seabreeze/Disabled",
-    "=Seabreeze/300 @ 36%",
-    "=Seabreeze/300 @ 24%"
-  ],
-  [
-    "Fill/Action/Accent/Seabreeze Inverse/Rest",
-    "=Seabreeze/0",
-    "=Seabreeze/25"
-  ],
-  [
-    "Fill/Action/Accent/Seabreeze Inverse/Hover",
-    "=Seabreeze/25",
-    "=Seabreeze/50"
-  ],
-  [
-    "Fill/Action/Accent/Seabreeze Inverse/Pressed",
+    "Fill/Action/Accent/Seabreeze Dim/Rest",
     "=Seabreeze/50",
-    "=Seabreeze/75"
+    "=Seabreeze/300 @ 16%"
   ],
   [
-    "Fill/Action/Accent/Seabreeze Inverse/Disabled",
-    "=Seabreeze/300 @ 36%",
+    "Fill/Action/Accent/Seabreeze Dim/Hover",
+    "=Seabreeze/75",
     "=Seabreeze/300 @ 24%"
+  ],
+  [
+    "Fill/Action/Accent/Seabreeze Dim/Pressed",
+    "=Seabreeze/150",
+    "=Seabreeze/300 @ 36%"
   ],
   [
     "Stroke/Action/Accent/Seabreeze/Rest",
@@ -2808,31 +2183,6 @@
     "Stroke/Action/Accent/Seabreeze/Pressed",
     "=Seabreeze/400",
     "=Seabreeze/200"
-  ],
-  [
-    "Stroke/Action/Accent/Seabreeze/Disabled",
-    "=Seabreeze/300 @ 36%",
-    "=Seabreeze/300 @ 36%"
-  ],
-  [
-    "Stroke/Action/Accent/Seabreeze Inverse/Rest",
-    "=Seabreeze/50",
-    "=Seabreeze/50"
-  ],
-  [
-    "Stroke/Action/Accent/Seabreeze Inverse/Hover",
-    "=Seabreeze/75",
-    "=Seabreeze/25"
-  ],
-  [
-    "Stroke/Action/Accent/Seabreeze Inverse/Pressed",
-    "=Seabreeze/100",
-    "=Seabreeze/0"
-  ],
-  [
-    "Stroke/Action/Accent/Seabreeze Inverse/Disabled",
-    "=Seabreeze/300 @ 16%",
-    "=Seabreeze/300 @ 16%"
   ],
   [
     "Foreground/Static/Neutral/Base",
@@ -2860,7 +2210,7 @@
     "#4a4657"
   ],
   [
-    "Fill/Surface/Overlay/Inverse",
+    "Fill/Surface/Overlay/Dark",
     "#19143c",
     "#2a2740"
   ],
@@ -2880,11 +2230,6 @@
     "#dbc2a4"
   ],
   [
-    "Foreground/Action/Status/Warning/Disabled",
-    "#7c7684",
-    "#9c97a6"
-  ],
-  [
     "Foreground/Action/Status/Positive/On Fill",
     "#013d28",
     "#013d28"
@@ -2898,5 +2243,20 @@
     "Foreground/Action/Status/Danger/On Fill",
     "#4a1a08",
     "#4a1a08"
+  ],
+  [
+    "Fill/Action/Disabled",
+    "=Warm Neutral/350 @ 6%",
+    "=Warm Neutral/350 @ 12%"
+  ],
+  [
+    "Foreground/Action/Disabled",
+    "=Cool Neutral/800 @ 50%",
+    "=Cool Neutral/0 @ 50%"
+  ],
+  [
+    "Stroke/Action/Disabled",
+    "=Warm Neutral/350 @ 16%",
+    "=Warm Neutral/350 @ 24%"
   ]
 ]
