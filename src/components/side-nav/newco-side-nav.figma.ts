@@ -25,10 +25,7 @@ figma.connect("https://www.figma.com/design/zbfRuhk4GeEXSA3D1s7hmu?node-id=40004
   },
   example: ({ collapsed, items }) => html`
     <newco-side-nav label="Primary" theme="light" collapsed=${collapsed}>
-      <span slot="brand">
-        <span class="material-symbols-rounded">hub</span>
-        <span class="brand-text">NewCo</span>
-      </span>
+      <div slot="header">…logo / module switcher…</div>
       ${items}
     </newco-side-nav>
   `,

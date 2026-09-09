@@ -10,12 +10,14 @@ import "../components/side-nav/newco-side-nav.js";
  */
 
 const DEFAULT_ITEMS = [
-  { icon: "home", label: "Home" },
-  { icon: "groups", label: "People" },
+  { icon: "dashboard", label: "Home" },
+  { icon: "groups", label: "People", expandable: true },
+  { label: "Members", level: 1 },
+  { label: "Households", level: 1 },
   { icon: "volunteer_activism", label: "Giving" },
-  { icon: "event", label: "Calendar" },
+  { icon: "event", label: "Calendar", expandable: true },
   { icon: "bar_chart", label: "Reporting" },
-  { icon: "settings", label: "Settings" },
+  { icon: "settings", label: "Settings", disabled: true },
 ];
 
 function Backdrop({ theme, children }) {
@@ -44,17 +46,20 @@ function SideNav({ theme = "light", collapsed = false, elevated = false, activeI
   return (
     <Backdrop theme={theme}>
       <newco-side-nav ref={ref} theme={theme} {...(collapsed ? { collapsed: true } : {})} {...(elevated ? { elevated: true } : {})} label="Primary">
-        <span slot="brand">
-          <span className="material-symbols-rounded" aria-hidden style={{ color: "var(--semantic-color-light-mode-fill-action-selection-indicator)" }}>
+        <div slot="header" style={{ display: "flex", alignItems: "center", gap: 10, padding: "4px 6px", minWidth: 0 }}>
+          <span className="material-symbols-rounded" aria-hidden style={{ fontSize: 26, color: "var(--semantic-color-light-mode-fill-action-selection-indicator)" }}>
             hub
           </span>
-          <span className="brand-text">{brand}</span>
-        </span>
+          {!collapsed && <strong style={{ font: "600 15px 'Red Hat Text',sans-serif", color: "var(--newco-nav-item-fg-selected)" }}>{brand}</strong>}
+        </div>
         {items.map((it, i) => (
           <newco-side-nav-item
-            key={it.label}
-            icon={it.icon}
+            key={it.label + i}
+            {...(it.icon ? { icon: it.icon } : {})}
             label={it.label}
+            {...(it.level ? { level: it.level } : {})}
+            {...(it.expandable ? { expandable: true } : {})}
+            {...(it.disabled ? { disabled: true } : {})}
             {...(i === activeIndex ? { active: true } : {})}
           />
         ))}

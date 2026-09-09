@@ -56,13 +56,12 @@ import "@helloimjolopez-newco/newco-tokens/components/side-nav";
 
 ```html
 <newco-side-nav label="Primary" theme="light">
-  <span slot="brand">
-    <span class="material-symbols-rounded">hub</span>
-    <span class="brand-text">NewCo</span>
-  </span>
+  <div slot="header">…logo / module switcher…</div>
 
-  <newco-side-nav-item icon="home" label="Home"></newco-side-nav-item>
-  <newco-side-nav-item icon="groups" label="People" active></newco-side-nav-item>
+  <newco-side-nav-item icon="dashboard" label="Home" active></newco-side-nav-item>
+  <newco-side-nav-item icon="groups" label="People" expandable></newco-side-nav-item>
+  <newco-side-nav-item label="Members" level="1"></newco-side-nav-item>
+  <newco-side-nav-item label="Households" level="1"></newco-side-nav-item>
   <newco-side-nav-item icon="event" label="Calendar"></newco-side-nav-item>
   <newco-side-nav-item icon="settings" label="Settings" disabled></newco-side-nav-item>
 </newco-side-nav>
@@ -81,14 +80,17 @@ That is the whole integration. No component CSS to import, no theme provider.
 | `theme` | `"light" \| "midnight"` | `"light"` | Colour mode. Drive it from your app theme. |
 | `collapsed` | boolean | `false` | Icon-only rail. Labels hidden but kept accessible. |
 | `elevated` | boolean | `false` | Floating/overlay presentation — adds the overlay elevation shadow (`--elevation-overlay` / `--elevation-midnight-overlay`) and drops the flush divider. Use for a drawer or the mobile overlay; leave off for a persistent flush rail. |
+| `stroked` | boolean | `false` | Adds the trailing divider border (`Stroke/Static/Neutral/Subtle`) — the Figma "Stroked" mode. |
 | `label` | string | `"Primary navigation"` | `aria-label` for the `<nav>` region. |
 
-- **Slot `brand`** — logo / product name at the top (optional). Wrap the wordmark
-  in `.brand-text` so it hides cleanly when collapsed.
+- **Slot `header`** — the top of the rail (logo / module switcher), matching the
+  Figma `Slot.NavHeader`. Optional; hidden when empty.
 - **Default slot** — your `<newco-side-nav-item>`s.
 - **Method** `el.toggle()` — flip collapsed.
 - **Event** `newco-collapse` — `detail: { collapsed }`.
-- **CSS parts** — `rail`, `header`, `toggle`, `nav` for escape-hatch styling.
+- **CSS parts** — `rail`, `header`, `nav` for escape-hatch styling.
+- There is no built-in collapse button (as in Figma, the collapse control is
+  yours to place, e.g. in the `header` slot); drive `collapsed` from your app.
 
 ### `<newco-side-nav-item>`
 
@@ -96,10 +98,12 @@ That is the whole integration. No component CSS to import, no theme provider.
 |---|---|---|---|
 | `icon` | string | — | Material Symbols ligature name. |
 | `label` | string | — | Visible text (and collapsed tooltip). |
-| `active` | boolean | `false` | Current destination (`aria-current="page"`, brand indicator). |
+| `active` | boolean | `false` | Current destination (`aria-current="page"`, brand indicator stripe + selection pill). |
 | `disabled` | boolean | `false` | Non-interactive. |
+| `expandable` | boolean | `false` | Shows a trailing expand/collapse chevron (a group parent). |
+| `expanded` | boolean | `false` | Rotates the chevron; toggles on click. |
 | `href` | string | — | Render as a link; omit to render a `<button>`. |
-| `level` | `0 \| 1` | `0` | `1` indents a child destination under a group. |
+| `level` | `0 \| 1` | `0` | `1` indents a child destination under a group and drops the leading icon (matches Figma nesting). |
 | `value` | string | `label` | Payload sent on select. |
 
 - **Event `newco-select`** — bubbles & composed, `detail: { value, label, item }`.
