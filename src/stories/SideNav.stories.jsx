@@ -31,7 +31,7 @@ function Backdrop({ theme, children }) {
   );
 }
 
-function SideNav({ theme = "light", collapsed = false, activeIndex = 1, brand = "NewCo", items = DEFAULT_ITEMS }) {
+function SideNav({ theme = "light", collapsed = false, elevated = false, activeIndex = 1, brand = "NewCo", items = DEFAULT_ITEMS }) {
   const ref = React.useRef(null);
   // Log selection so the Actions panel shows the event contract.
   React.useEffect(() => {
@@ -43,7 +43,7 @@ function SideNav({ theme = "light", collapsed = false, activeIndex = 1, brand = 
   }, []);
   return (
     <Backdrop theme={theme}>
-      <newco-side-nav ref={ref} theme={theme} {...(collapsed ? { collapsed: true } : {})} label="Primary">
+      <newco-side-nav ref={ref} theme={theme} {...(collapsed ? { collapsed: true } : {})} {...(elevated ? { elevated: true } : {})} label="Primary">
         <span slot="brand">
           <span className="material-symbols-rounded" aria-hidden style={{ color: "var(--semantic-color-light-mode-fill-action-selection-indicator)" }}>
             hub
@@ -77,10 +77,11 @@ export default {
   argTypes: {
     theme: { control: { type: "inline-radio" }, options: ["light", "midnight"], description: "Colour mode" },
     collapsed: { control: "boolean", description: "Icon-only rail" },
+    elevated: { control: "boolean", description: "Floating/overlay presentation (overlay elevation shadow)" },
     activeIndex: { control: { type: "number", min: 0, max: 5 }, description: "Which item is current" },
     brand: { control: "text" },
   },
-  args: { theme: "light", collapsed: false, activeIndex: 1, brand: "NewCo" },
+  args: { theme: "light", collapsed: false, elevated: false, activeIndex: 1, brand: "NewCo" },
 };
 
 // First story = Playground ("Try it"), per docs/storybook-authoring.md.
@@ -96,6 +97,28 @@ export const Collapsed = {
 export const Midnight = {
   args: { theme: "midnight" },
   render: (args) => <SideNav {...args} />,
+};
+
+// The rail as a floating overlay/drawer — carries the overlay elevation shadow.
+export const Overlay = {
+  name: "Overlay (elevated)",
+  args: { elevated: true },
+  parameters: {
+    docs: {
+      description: {
+        story:
+          "Use `elevated` when the rail floats over content (a drawer, or the mobile overlay). It lifts off the canvas with the `--elevation-overlay` token and drops its flush divider — matching the demo's drawer.",
+      },
+    },
+  },
+  render: (args) => (
+    <div style={{ position: "relative", height: 560, background: "var(--semantic-color-light-mode-fill-surface-canvas-contrast)", overflow: "hidden" }}>
+      <div style={{ position: "absolute", inset: 0, padding: 40, color: "#8a8080", font: "600 22px 'Red Hat Text',sans-serif" }}>Page content behind the drawer…</div>
+      <div style={{ position: "absolute", insetBlock: 0, insetInlineStart: 0, width: 260 }}>
+        <SideNav {...args} />
+      </div>
+    </div>
+  ),
 };
 
 export const LightAndMidnight = {

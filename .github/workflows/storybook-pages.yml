@@ -1,0 +1,40 @@
+name: Deploy Storybook to Pages
+
+# Publishes Storybook (the component library + token docs) to GitHub Pages on
+# every change to the component / story / docs sources. Pages serves the
+# `gh-pages` branch → https://helloimjolopez-collab.github.io/newco-ds/
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "docs/**"
+      - ".storybook/**"
+      - "tokens/figma-source/**"
+      - "package.json"
+      - ".github/workflows/storybook-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: storybook-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm ci
+      - run: npm run build-storybook
+      - run: touch storybook-static/.nojekyll
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./storybook-static
+          publish_branch: gh-pages

@@ -35,7 +35,12 @@ import { LitElement, html, css, nothing } from "lit";
    midnight when the host (or an ancestor via data-theme) is midnight. Each role
    falls back to the theme-agnostic alias from theme.css when present, else the
    explicit light-mode token, so the component works with or without theme.css. */
-const ROLE_VARS = (mode) => `
+const ROLE_VARS = (mode) => {
+  // Elevation lives outside the color-mode namespace: `--elevation-overlay`
+  // (light) / `--elevation-midnight-overlay` (midnight). Used only when the rail
+  // floats over content (the `elevated` attribute / overlay + mobile drawer).
+  const elev = mode === "midnight" ? "--elevation-midnight-overlay" : "--elevation-overlay";
+  return `
   --newco-nav-surface: var(--semantic-color-${mode}-mode-fill-surface-canvas-base);
   --newco-nav-border: var(--semantic-color-${mode}-mode-stroke-static-neutral-subtle);
   --newco-nav-item-fg: var(--semantic-color-${mode}-mode-foreground-action-selection-base);
@@ -47,11 +52,14 @@ const ROLE_VARS = (mode) => `
   --newco-nav-item-bg-trail: var(--semantic-color-${mode}-mode-fill-action-selection-trail);
   --newco-nav-indicator: var(--semantic-color-${mode}-mode-fill-action-selection-indicator);
   --newco-nav-focus: var(--semantic-color-${mode}-mode-stroke-focusring-base);
+  --newco-nav-shadow: var(${elev});
 `;
+};
 
 export class NewcoSideNav extends LitElement {
   static properties = {
     collapsed: { type: Boolean, reflect: true },
+    elevated: { type: Boolean, reflect: true },
     theme: { type: String, reflect: true },
     label: { type: String },
   };
@@ -59,6 +67,7 @@ export class NewcoSideNav extends LitElement {
   constructor() {
     super();
     this.collapsed = false;
+    this.elevated = false;
     this.theme = "light";
     this.label = "Primary navigation";
   }
@@ -147,6 +156,12 @@ export class NewcoSideNav extends LitElement {
     }
     :host([collapsed]) { --newco-nav-width: 72px; }
     :host([collapsed]) .brand > .brand-text { display: none; }
+    /* Overlay / drawer presentation: lift off the canvas with the overlay
+       elevation token, and drop the flush divider since it now floats. */
+    :host([elevated]) .rail {
+      box-shadow: var(--newco-nav-shadow);
+      border-inline-end: 0;
+    }
   `;
 
   /* Emit midnight role tokens when theme=midnight (or a data-theme ancestor). */

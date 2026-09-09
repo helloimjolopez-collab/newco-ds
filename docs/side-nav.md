@@ -80,6 +80,7 @@ That is the whole integration. No component CSS to import, no theme provider.
 |---|---|---|---|
 | `theme` | `"light" \| "midnight"` | `"light"` | Colour mode. Drive it from your app theme. |
 | `collapsed` | boolean | `false` | Icon-only rail. Labels hidden but kept accessible. |
+| `elevated` | boolean | `false` | Floating/overlay presentation — adds the overlay elevation shadow (`--elevation-overlay` / `--elevation-midnight-overlay`) and drops the flush divider. Use for a drawer or the mobile overlay; leave off for a persistent flush rail. |
 | `label` | string | `"Primary navigation"` | `aria-label` for the `<nav>` region. |
 
 - **Slot `brand`** — logo / product name at the top (optional). Wrap the wordmark
