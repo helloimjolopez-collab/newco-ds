@@ -1525,11 +1525,6 @@
     "=Red/300"
   ],
   [
-    "Foreground/Contextual/Avatar/Base",
-    "=Amethyst/800",
-    "=Amethyst/25"
-  ],
-  [
     "Foreground/Action/Mono Dim/Rest",
     "=Cool Neutral/0",
     "=Cool Neutral/0"
@@ -2258,5 +2253,20 @@
     "Stroke/Action/Disabled",
     "=Warm Neutral/350 @ 16%",
     "=Warm Neutral/350 @ 24%"
+  ],
+  [
+    "Foreground/Action/Accent/Amethyst/Rest",
+    "=Amethyst/500",
+    "=Amethyst/100"
+  ],
+  [
+    "Foreground/Action/Accent/Amethyst/Hover",
+    "=Amethyst/600",
+    "=Amethyst/75"
+  ],
+  [
+    "Foreground/Action/Accent/Amethyst/Pressed",
+    "=Amethyst/700",
+    "=Amethyst/50"
   ]
 ]
