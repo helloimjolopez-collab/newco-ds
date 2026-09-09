@@ -9,6 +9,7 @@
   },
   "files": [
     "npm",
+    "src/components",
     "tokens/newco-design-tokens.json"
   ],
   "main": "./npm/tokens.js",
@@ -16,7 +17,8 @@
   "exports": {
     ".": "./npm/tokens.js",
     "./css": "./npm/tokens.css",
-    "./json": "./npm/tokens.json"
+    "./json": "./npm/tokens.json",
+    "./components/side-nav": "./src/components/side-nav/newco-side-nav.js"
   },
   "publishConfig": {
     "access": "public",
@@ -34,11 +36,14 @@
     "build-all": "npm run build-dist && npm run build-nuget",
     "sync-tokens": "node scripts/sync-tokens.js",
     "storybook": "npm run build-tokens && storybook dev -p 6006",
-    "build-storybook": "npm run build-tokens && storybook build"
+    "build-storybook": "npm run build-tokens && storybook build",
+    "figma:connect": "figma connect publish",
+    "figma:connect:dry": "figma connect publish --dry-run"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.29.2",
     "@babel/preset-react": "^7.28.5",
+    "@figma/code-connect": "^1.5.3",
     "@storybook/addon-a11y": "^8.6.18",
     "@storybook/addon-docs": "^8.6.18",
     "@storybook/addon-webpack5-compiler-babel": "^4.0.1",
@@ -48,5 +53,8 @@
     "react-dom": "^18.3.1",
     "storybook": "^8.6.18",
     "style-dictionary": "^5.5.0"
+  },
+  "dependencies": {
+    "lit": "^3.3.3"
   }
 }

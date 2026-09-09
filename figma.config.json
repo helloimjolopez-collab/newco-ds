@@ -1,0 +1,7 @@
+{
+  "codeConnect": {
+    "parser": "html",
+    "include": ["src/components/**/*.figma.ts"],
+    "interactiveSetupFigmaFileUrl": "https://www.figma.com/design/zbfRuhk4GeEXSA3D1s7hmu"
+  }
+}
