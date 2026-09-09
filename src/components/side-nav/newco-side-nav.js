@@ -65,15 +65,12 @@ export class NewcoSideNav extends LitElement {
 
   static styles = css`
     :host {
-      ${/* light is the default role set */ ""}
       display: block;
       box-sizing: border-box;
       inline-size: var(--newco-nav-width, 260px);
       block-size: 100%;
       font-family: "Red Hat Text", system-ui, -apple-system, sans-serif;
     }
-    /* role tokens — light default, midnight override (attribute or ancestor) */
-    :host { ${""} }
     .rail {
       box-sizing: border-box;
       display: flex;
