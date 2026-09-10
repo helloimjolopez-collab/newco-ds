@@ -28,20 +28,20 @@ function Category({ cat }) {
   }
   return (
     <div style={{ padding: 28, background: "#fcf9f9", minHeight: "100vh" }}>
-      <h2 style={{ font: "700 20px/1.2 'Red Hat Text',sans-serif", margin: "0 0 6px", color: "#19143c", textTransform: "capitalize" }}>
+      <h2 style={{ font: "700 20px/1.2 'Google Sans Flex',sans-serif", margin: "0 0 6px", color: "#19143c", textTransform: "capitalize" }}>
         Semantic · {cat}
       </h2>
-      <p style={{ font: "400 13px/1.5 'Red Hat Text',sans-serif", color: "#605756", margin: "0 0 22px" }}>
+      <p style={{ font: "400 13px/1.5 'Google Sans Flex',sans-serif", color: "#605756", margin: "0 0 22px" }}>
         Role tokens for <strong>{cat}</strong>, shown in Light and Midnight, with the primitive each one references.
         Consume these — they carry the theming.
       </p>
       {Object.keys(groups).sort().map((g) => (
         <section key={g} style={{ marginBottom: 26 }}>
-          <h3 style={{ font: "600 13px/1.3 'Red Hat Text',sans-serif", margin: "0 0 10px", color: "#41377d", textTransform: "capitalize" }}>{g}</h3>
+          <h3 style={{ font: "600 13px/1.3 'Google Sans Flex',sans-serif", margin: "0 0 10px", color: "#41377d", textTransform: "capitalize" }}>{g}</h3>
           <div style={{ display: "grid", gridTemplateColumns: "minmax(240px,1.4fr) 1fr 1fr", gap: "8px 16px", alignItems: "center" }}>
-            <div style={{ font: "600 11px 'Red Hat Text'", color: "#928b92" }}>token</div>
-            <div style={{ font: "600 11px 'Red Hat Text'", color: "#928b92" }}>Light</div>
-            <div style={{ font: "600 11px 'Red Hat Text'", color: "#928b92" }}>Midnight</div>
+            <div style={{ font: "600 11px 'Google Sans Flex'", color: "#928b92" }}>token</div>
+            <div style={{ font: "600 11px 'Google Sans Flex'", color: "#928b92" }}>Light</div>
+            <div style={{ font: "600 11px 'Google Sans Flex'", color: "#928b92" }}>Midnight</div>
             {groups[g].map(([path, lleaf]) => {
               const mleaf = getByPath(SEM_MIDNIGHT[cat], path);
               return (

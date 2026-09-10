@@ -50,7 +50,7 @@ function SideNav({ theme = "light", collapsed = false, elevated = false, activeI
           <span className="material-symbols-rounded" aria-hidden style={{ fontSize: 26, color: "var(--semantic-color-light-mode-fill-action-selection-indicator)" }}>
             hub
           </span>
-          {!collapsed && <strong style={{ font: "600 15px 'Red Hat Text',sans-serif", color: "var(--newco-nav-item-fg-selected)" }}>{brand}</strong>}
+          {!collapsed && <strong style={{ font: "600 15px 'Google Sans Flex',sans-serif", color: "var(--newco-nav-item-fg-selected)" }}>{brand}</strong>}
         </div>
         {items.map((it, i) => (
           <newco-side-nav-item
@@ -118,7 +118,7 @@ export const Overlay = {
   },
   render: (args) => (
     <div style={{ position: "relative", height: 560, background: "var(--semantic-color-light-mode-fill-surface-elevated-sheet)", overflow: "hidden" }}>
-      <div style={{ position: "absolute", inset: 0, padding: 40, color: "#8a8080", font: "600 22px 'Red Hat Text',sans-serif" }}>Page content behind the drawer…</div>
+      <div style={{ position: "absolute", inset: 0, padding: 40, color: "#8a8080", font: "600 22px 'Google Sans Flex',sans-serif" }}>Page content behind the drawer…</div>
       <div style={{ position: "absolute", insetBlock: 0, insetInlineStart: 0, width: 260 }}>
         <SideNav {...args} />
       </div>

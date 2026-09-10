@@ -1,12 +1,12 @@
 <!--
-  Load Red Hat Text (Figma's brand font) and Material Symbols Rounded into
-  every Storybook story iframe. Without this, components fall back to the
-  system sans-serif and font weights render visibly differently from Figma.
+  Load Google Sans Flex (NewCo's brand font, per --primitive-type-family-brand)
+  and Material Symbols Rounded into every Storybook story iframe. Without this,
+  components fall back to the system sans-serif and render differently from Figma.
 -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
-  href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=block"
+  href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@300..800&display=block"
   rel="stylesheet"
 />
 <link
@@ -17,7 +17,7 @@
   /* Match Figma's macOS text rendering — without these, "Medium" (500) renders
      visibly heavier in browsers than it does in Figma. */
   html, body {
-    font-family: "Red Hat Text", sans-serif;
+    font-family: "Google Sans Flex", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;

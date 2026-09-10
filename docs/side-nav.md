@@ -38,7 +38,7 @@ Blazor / Radzen (NuGet consumers) link the static asset instead:
 <link rel="stylesheet" href="_content/NewCo.Tokens/newco-tokens.css" />
 ```
 
-You also need the two brand fonts (Red Hat Text + Material Symbols Rounded) —
+You also need the two brand fonts (Google Sans Flex + Material Symbols Rounded) —
 the same `<link>`s the rest of NewCo uses. The item `icon` attribute is a
 [Material Symbols](https://fonts.google.com/icons) ligature name (`home`,
 `groups`, `settings`, …).

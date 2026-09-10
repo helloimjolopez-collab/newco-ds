@@ -20,7 +20,7 @@ function Family({ name, ramp }) {
   const steps = Object.keys(ramp).sort(stepSort);
   return (
     <section style={{ marginBottom: 30 }}>
-      <h3 style={{ font: "600 15px/1.3 'Red Hat Text',sans-serif", margin: "0 0 4px", color: "#19143c" }}>{name}</h3>
+      <h3 style={{ font: "600 15px/1.3 'Google Sans Flex',sans-serif", margin: "0 0 4px", color: "#19143c" }}>{name}</h3>
       <div style={{ fontFamily: "monospace", fontSize: 11, color: "#b3a8a6", margin: "0 0 12px" }}>
         --primitive-color-{name.toLowerCase().replace(/ /g, "-")}-*
       </div>
@@ -36,10 +36,10 @@ const FAMILIES = Object.keys(PRIMITIVES);
 
 export const Palette = () => (
   <div style={{ padding: 28, background: "#fcf9f9", minHeight: "100vh" }}>
-    <h2 style={{ font: "700 20px/1.2 'Red Hat Text',sans-serif", margin: "0 0 6px", color: "#19143c" }}>
+    <h2 style={{ font: "700 20px/1.2 'Google Sans Flex',sans-serif", margin: "0 0 6px", color: "#19143c" }}>
       Primitives — the raw palette
     </h2>
-    <p style={{ font: "400 13px/1.5 'Red Hat Text',sans-serif", color: "#605756", maxWidth: 720, margin: "0 0 26px" }}>
+    <p style={{ font: "400 13px/1.5 'Google Sans Flex',sans-serif", color: "#605756", maxWidth: 720, margin: "0 0 26px" }}>
       The private layer: brand ramp, warm/cool neutrals, status hues, accents, and the Midnight canvas set.
       Apps should reference <strong>semantics</strong>, not these directly. {FAMILIES.length} families.
     </p>

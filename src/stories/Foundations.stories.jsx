@@ -4,9 +4,9 @@ import { dtcg, leaves, resolveVal } from "./tokens-data";
 export default { title: "Tokens/Foundations", parameters: { layout: "fullscreen" } };
 
 const Page = ({ title, blurb, children }) => (
-  <div style={{ padding: 28, background: "#fcf9f9", minHeight: "100vh", fontFamily: "'Red Hat Text',sans-serif" }}>
-    <h2 style={{ font: "700 20px/1.2 'Red Hat Text'", margin: "0 0 6px", color: "#19143c" }}>{title}</h2>
-    {blurb && <p style={{ font: "400 13px/1.5 'Red Hat Text'", color: "#605756", margin: "0 0 22px", maxWidth: 720 }}>{blurb}</p>}
+  <div style={{ padding: 28, background: "#fcf9f9", minHeight: "100vh", fontFamily: "'Google Sans Flex',sans-serif" }}>
+    <h2 style={{ font: "700 20px/1.2 'Google Sans Flex'", margin: "0 0 6px", color: "#19143c" }}>{title}</h2>
+    {blurb && <p style={{ font: "400 13px/1.5 'Google Sans Flex'", color: "#605756", margin: "0 0 22px", maxWidth: 720 }}>{blurb}</p>}
     {children}
   </div>
 );
@@ -25,8 +25,8 @@ export const SpacingAndRadius = () => {
   );
   return (
     <Page title="Spacing, Padding & Radius" blurb="Semantic layout tokens (Desktop mode) resolving to the Unit scale. Bar length = px value.">
-      <h3 style={{ font: "600 13px 'Red Hat Text'", color: "#41377d" }}>Gap & Padding</h3>{gaps.map(Bar)}
-      <h3 style={{ font: "600 13px 'Red Hat Text'", color: "#41377d", marginTop: 20 }}>Corner Radius</h3>
+      <h3 style={{ font: "600 13px 'Google Sans Flex'", color: "#41377d" }}>Gap & Padding</h3>{gaps.map(Bar)}
+      <h3 style={{ font: "600 13px 'Google Sans Flex'", color: "#41377d", marginTop: 20 }}>Corner Radius</h3>
       <div style={{ display: "flex", flexWrap: "wrap", gap: 16 }}>{radii.map(([n, v]) => (
         <div key={n} style={{ textAlign: "center" }}>
           <div style={{ width: 72, height: 72, background: "#e7e8fb", border: "1px solid #6e64be", borderRadius: Math.min(parseFloat(v), 36) }} />
@@ -42,11 +42,11 @@ export const Typography = () => {
   const fam = rowsOf("primitive-type").find(([n]) => n.startsWith("family"));
   return (
     <Page title="Typography (primitives)" blurb={`Brand font: ${fam ? fam[1] : ""}. Size ramp (aliases the Unit scale) and weight ramp. Semantic type roles (Heading/Text/Label) are the next integration.`}>
-      <h3 style={{ font: "600 13px 'Red Hat Text'", color: "#41377d" }}>Size ramp</h3>
+      <h3 style={{ font: "600 13px 'Google Sans Flex'", color: "#41377d" }}>Size ramp</h3>
       {sizes.map(([n, v]) => <div key={n} style={{ display: "flex", alignItems: "baseline", gap: 16, borderBottom: "1px solid #efe5e5", padding: "6px 0" }}>
         <span style={{ ...mono, width: 90, color: "#8a807e" }}>{n} · {v}</span>
         <span style={{ fontSize: parseFloat(v), color: "#19143c" }}>NewCo {v}</span></div>)}
-      <h3 style={{ font: "600 13px 'Red Hat Text'", color: "#41377d", marginTop: 20 }}>Weights</h3>
+      <h3 style={{ font: "600 13px 'Google Sans Flex'", color: "#41377d", marginTop: 20 }}>Weights</h3>
       {weights.map(([n, v]) => <div key={n} style={{ fontSize: 20, fontWeight: parseInt(v), color: "#19143c" }}>{n} — {v} — The quick brown fox</div>)}
     </Page>
   );
@@ -57,9 +57,9 @@ export const Motion = () => {
   const eas = rowsOf("motion").filter(([n]) => n.startsWith("easing"));
   return (
     <Page title="Motion" blurb="Durations (ms) and easing curves.">
-      <h3 style={{ font: "600 13px 'Red Hat Text'", color: "#41377d" }}>Durations</h3>
+      <h3 style={{ font: "600 13px 'Google Sans Flex'", color: "#41377d" }}>Durations</h3>
       {durs.map(([n, v]) => <div key={n} style={mono}>{n} — {v}</div>)}
-      <h3 style={{ font: "600 13px 'Red Hat Text'", color: "#41377d", marginTop: 16 }}>Easings</h3>
+      <h3 style={{ font: "600 13px 'Google Sans Flex'", color: "#41377d", marginTop: 16 }}>Easings</h3>
       {eas.map(([n, v]) => <div key={n} style={mono}>{n} — {v}</div>)}
     </Page>
   );

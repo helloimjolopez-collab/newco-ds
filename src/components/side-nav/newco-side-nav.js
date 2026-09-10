@@ -40,9 +40,11 @@ const ROLE_VARS = (mode) => {
   --newco-nav-item-fg-disabled: var(--semantic-color-${mode}-mode-foreground-action-selection-disabled);
   --newco-nav-item-bg-hover: var(--semantic-color-${mode}-mode-fill-action-selection-hover);
   --newco-nav-item-bg-selected: var(--semantic-color-${mode}-mode-fill-action-selection-selected);
+  --newco-nav-item-bg-trail: var(--semantic-color-${mode}-mode-fill-action-selection-trail);
   --newco-nav-indicator: var(--semantic-color-${mode}-mode-fill-action-selection-indicator);
   --newco-nav-focus: var(--semantic-color-${mode}-mode-stroke-focusring-base);
   --newco-nav-shadow: var(${elev});
+  --newco-nav-font: var(--primitive-type-family-brand, "Google Sans Flex");
 `;
 };
 
@@ -70,14 +72,14 @@ export class NewcoSideNav extends LitElement {
       box-sizing: border-box;
       inline-size: var(--newco-nav-width, 260px);
       block-size: 100%;
-      font-family: "Red Hat Text", system-ui, -apple-system, sans-serif;
+      font-family: var(--newco-nav-font, "Google Sans Flex"), system-ui, -apple-system, sans-serif;
     }
     .rail {
       box-sizing: border-box;
       display: flex;
       flex-direction: column;
       block-size: 100%;
-      /* Figma: padding 8 (top) / 16 (sides) / 56 (bottom); gap 0 between items. */
+      /* Figma: rail padding 8 (top) / 16 (sides) / 56 (bottom). */
       padding: 8px 16px 56px;
       background: var(--newco-nav-surface, #f7f3f3);
       transition: inline-size 160ms ease;
@@ -92,7 +94,9 @@ export class NewcoSideNav extends LitElement {
     nav {
       display: flex;
       flex-direction: column;
-      gap: 0;
+      /* Figma SideNavMenu slot: 6px gap between items, 8px top padding. */
+      gap: 6px;
+      padding-block-start: 8px;
       overflow-y: auto;
       overflow-x: hidden;
       flex: 1 1 auto;
@@ -191,7 +195,7 @@ export class NewcoSideNavItem extends LitElement {
       border: 0;
       background: transparent;
       color: var(--newco-nav-item-fg, #524e59);
-      font-family: "Red Hat Text", system-ui, sans-serif;
+      font-family: var(--newco-nav-font, "Google Sans Flex"), system-ui, sans-serif;
       font-size: 14px;
       font-weight: 500;
       line-height: 1.35;
@@ -271,12 +275,19 @@ export class NewcoSideNavItem extends LitElement {
       outline: 2px solid var(--newco-nav-focus, #827ad9);
       outline-offset: -2px;
     }
+    /* Trail = an expanded group parent (Figma State=Trail): distinct pill fill,
+       selected foreground, chevron flipped to expand_less. Active overrides it. */
+    :host([expandable][expanded]) .pill {
+      background: var(--newco-nav-item-bg-trail, rgba(0, 0, 0, 0.035));
+    }
+    :host([expandable][expanded]) .item {
+      color: var(--newco-nav-item-fg-selected, #1b1822);
+    }
     :host([active]) .pill {
       background: var(--newco-nav-item-bg-selected, #dddbfa);
     }
     :host([active]) .item {
       color: var(--newco-nav-item-fg-selected, #1b1822);
-      font-weight: 600;
     }
     :host([disabled]) .item {
       color: var(--newco-nav-item-fg-disabled, rgba(0, 0, 0, 0.35));

@@ -28,7 +28,7 @@ function Group({ name }) {
   collectRoles(ST[name] || {}, [], out);
   return (
     <div style={{ marginBottom: 32 }}>
-      <h3 style={{ font: "600 14px 'Red Hat Text'", color: "#41377d", textTransform: "capitalize", margin: "0 0 12px" }}>{name}</h3>
+      <h3 style={{ font: "600 14px 'Google Sans Flex'", color: "#41377d", textTransform: "capitalize", margin: "0 0 12px" }}>{name}</h3>
       {out.map(([trail, node]) => {
         const s = sample(node);
         return (
@@ -47,6 +47,6 @@ function Group({ name }) {
   );
 }
 
-export const Headings = () => <div style={{ padding: 28, background: "#fcf9f9", minHeight: "100vh" }}><h2 style={{ font: "700 20px 'Red Hat Text'", color: "#19143c" }}>Semantic Type — Headings</h2><Group name="heading" /></div>;
-export const BodyText = () => <div style={{ padding: 28, background: "#fcf9f9", minHeight: "100vh" }}><h2 style={{ font: "700 20px 'Red Hat Text'", color: "#19143c" }}>Semantic Type — Text</h2><Group name="text" /></div>;
-export const Labels = () => <div style={{ padding: 28, background: "#fcf9f9", minHeight: "100vh" }}><h2 style={{ font: "700 20px 'Red Hat Text'", color: "#19143c" }}>Semantic Type — Labels</h2><Group name="label" /></div>;
+export const Headings = () => <div style={{ padding: 28, background: "#fcf9f9", minHeight: "100vh" }}><h2 style={{ font: "700 20px 'Google Sans Flex'", color: "#19143c" }}>Semantic Type — Headings</h2><Group name="heading" /></div>;
+export const BodyText = () => <div style={{ padding: 28, background: "#fcf9f9", minHeight: "100vh" }}><h2 style={{ font: "700 20px 'Google Sans Flex'", color: "#19143c" }}>Semantic Type — Text</h2><Group name="text" /></div>;
+export const Labels = () => <div style={{ padding: 28, background: "#fcf9f9", minHeight: "100vh" }}><h2 style={{ font: "700 20px 'Google Sans Flex'", color: "#19143c" }}>Semantic Type — Labels</h2><Group name="label" /></div>;
