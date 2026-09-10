@@ -177,19 +177,18 @@ export class NewcoSideNavItem extends LitElement {
 
   static styles = css`
     :host { display: block; }
-    /* Row: 44px tall; a 4px indicator gutter on the leading edge, then the pill. */
+    /* Figma SideNavItem: a 44px row = [4px indicator gutter] + 4px gap + pill.
+       The pill (Container.Main) carries the hover/selected fill + 999 radius and
+       is inset from the item edge; the stripe sits OUTSIDE the pill in the gutter. */
     .item {
-      position: relative;
       box-sizing: border-box;
       display: flex;
       align-items: center;
-      gap: 6px;
+      gap: 4px;
       inline-size: 100%;
       min-block-size: 44px;
-      padding-block: 4px;
-      padding-inline: 8px 8px;
+      padding: 4px 0;
       border: 0;
-      border-radius: 999px;
       background: transparent;
       color: var(--newco-nav-item-fg, #524e59);
       font-family: "Red Hat Text", system-ui, sans-serif;
@@ -200,21 +199,40 @@ export class NewcoSideNavItem extends LitElement {
       text-decoration: none;
       white-space: nowrap;
       cursor: pointer;
-      transition: background 120ms ease, color 120ms ease;
     }
-    /* Level-1 (nested): no icon, indented under the parent's label. */
-    :host([level="1"]) .item { padding-inline-start: 34px; }
+    /* 4px-wide gutter column; the short stripe is vertically centred within it. */
     .indicator {
-      position: absolute;
-      inset-inline-start: -8px;
-      inset-block-start: 50%;
-      transform: translateY(-50%);
+      flex: 0 0 4px;
+      inline-size: 4px;
+      align-self: stretch;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .stripe {
       inline-size: 4px;
       block-size: 16px;
       border-radius: 0 4px 4px 0;
       background: var(--newco-nav-indicator, #6e64be);
       opacity: 0;
     }
+    :host([active]) .stripe { opacity: 1; }
+    /* The pill = Container.Main: the fill + radius live here, not on the row. */
+    .pill {
+      flex: 1 1 auto;
+      min-inline-size: 0;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      min-block-size: 36px;
+      padding-inline: 8px;
+      border-radius: 999px;
+      background: transparent;
+      transition: background 120ms ease, color 120ms ease;
+    }
+    /* Level-1 (nested): no icon, label indented to line up under the parent label. */
+    :host([level="1"]) .pill { padding-inline-start: 38px; }
     .lead {
       flex: 0 0 auto;
       inline-size: 24px;
@@ -244,27 +262,30 @@ export class NewcoSideNavItem extends LitElement {
       font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
       user-select: none;
     }
-    .item:hover {
+    .item:hover .pill {
       background: var(--newco-nav-item-bg-hover, rgba(0, 0, 0, 0.05));
-      color: var(--newco-nav-item-fg-hover, #1b1822);
     }
-    .item:focus-visible {
+    .item:hover { color: var(--newco-nav-item-fg-hover, #1b1822); }
+    .item:focus-visible { outline: none; }
+    .item:focus-visible .pill {
       outline: 2px solid var(--newco-nav-focus, #827ad9);
       outline-offset: -2px;
     }
-    :host([active]) .item {
+    :host([active]) .pill {
       background: var(--newco-nav-item-bg-selected, #dddbfa);
+    }
+    :host([active]) .item {
       color: var(--newco-nav-item-fg-selected, #1b1822);
       font-weight: 600;
     }
-    :host([active]) .indicator { opacity: 1; }
     :host([disabled]) .item {
       color: var(--newco-nav-item-fg-disabled, rgba(0, 0, 0, 0.35));
       cursor: not-allowed;
       pointer-events: none;
     }
-    /* Collapsed rail: icon over a small 2-line label, centred. */
-    :host([collapsed]) .item {
+    /* Collapsed rail: no gutter; icon over a small 2-line label, centred pill. */
+    :host([collapsed]) .indicator { display: none; }
+    :host([collapsed]) .pill {
       flex-direction: column;
       gap: 4px;
       padding: 6px 2px;
@@ -285,7 +306,6 @@ export class NewcoSideNavItem extends LitElement {
       -webkit-box-orient: vertical;
     }
     :host([collapsed]) .chev { display: none; }
-    :host([collapsed]) .indicator { inset-block: 6px; block-size: auto; transform: none; }
   `;
 
   _onClick(e) {
@@ -301,14 +321,16 @@ export class NewcoSideNavItem extends LitElement {
   render() {
     const showIcon = this.icon && this.level !== 1;
     const inner = html`
-      <span class="indicator" aria-hidden="true"></span>
-      ${showIcon
-        ? html`<span class="lead"><span class="material-symbols-rounded" aria-hidden="true">${this.icon}</span></span>`
-        : nothing}
-      <span class="label">${this.label}</span>
-      ${this.expandable && !this.collapsed
-        ? html`<span class="chev"><span class="material-symbols-rounded" aria-hidden="true">expand_more</span></span>`
-        : nothing}
+      <span class="indicator" aria-hidden="true"><span class="stripe"></span></span>
+      <span class="pill">
+        ${showIcon
+          ? html`<span class="lead"><span class="material-symbols-rounded" aria-hidden="true">${this.icon}</span></span>`
+          : nothing}
+        <span class="label">${this.label}</span>
+        ${this.expandable && !this.collapsed
+          ? html`<span class="chev"><span class="material-symbols-rounded" aria-hidden="true">expand_more</span></span>`
+          : nothing}
+      </span>
     `;
     const title = this.collapsed ? this.label : nothing;
     return this.href && !this.disabled
