@@ -32,7 +32,7 @@ import { LitElement, html, css, nothing } from "lit";
 const ROLE_VARS = (mode) => {
   const elev = mode === "midnight" ? "--elevation-midnight-overlay" : "--elevation-overlay";
   return `
-  --newco-nav-surface: var(--semantic-color-${mode}-mode-fill-surface-canvas-base);
+  --newco-nav-surface: var(--semantic-color-${mode}-mode-fill-surface-canvas);
   --newco-nav-border: var(--semantic-color-${mode}-mode-stroke-static-neutral-subtle);
   --newco-nav-item-fg: var(--semantic-color-${mode}-mode-foreground-action-selection-base);
   --newco-nav-item-fg-hover: var(--semantic-color-${mode}-mode-foreground-action-selection-hover);

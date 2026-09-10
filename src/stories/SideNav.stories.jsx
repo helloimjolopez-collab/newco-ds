@@ -23,8 +23,8 @@ const DEFAULT_ITEMS = [
 function Backdrop({ theme, children }) {
   const bg =
     theme === "midnight"
-      ? "var(--semantic-color-midnight-mode-fill-surface-canvas-base)"
-      : "var(--semantic-color-light-mode-fill-surface-canvas-base)";
+      ? "var(--semantic-color-midnight-mode-fill-surface-canvas)"
+      : "var(--semantic-color-light-mode-fill-surface-canvas)";
   return (
     <div style={{ display: "flex", height: "560px", background: bg }}>
       {children}
@@ -117,7 +117,7 @@ export const Overlay = {
     },
   },
   render: (args) => (
-    <div style={{ position: "relative", height: 560, background: "var(--semantic-color-light-mode-fill-surface-canvas-contrast)", overflow: "hidden" }}>
+    <div style={{ position: "relative", height: 560, background: "var(--semantic-color-light-mode-fill-surface-elevated-sheet)", overflow: "hidden" }}>
       <div style={{ position: "absolute", inset: 0, padding: 40, color: "#8a8080", font: "600 22px 'Red Hat Text',sans-serif" }}>Page content behind the drawer…</div>
       <div style={{ position: "absolute", insetBlock: 0, insetInlineStart: 0, width: 260 }}>
         <SideNav {...args} />

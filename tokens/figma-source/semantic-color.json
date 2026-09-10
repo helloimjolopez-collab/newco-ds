@@ -1365,7 +1365,7 @@
     "=Cool Neutral/0 @ 50%"
   ],
   [
-    "Fill/Surface/Canvas/Base",
+    "Fill/Surface/Canvas",
     "#f7f3f3",
     "#29252f"
   ],
@@ -1420,17 +1420,62 @@
     "#3a3645"
   ],
   [
-    "Fill/Surface/Elevated/Sheet/Base",
+    "Fill/Surface/Elevated/Card/Info",
+    "=Brand/50",
+    "=Brand/400 @ 16%"
+  ],
+  [
+    "Fill/Surface/Elevated/Card/Warning",
+    "=Saffron/50",
+    "=Saffron/350 @ 16%"
+  ],
+  [
+    "Fill/Surface/Elevated/Card/Danger",
+    "=Orange/50",
+    "=Orange/350 @ 16%"
+  ],
+  [
+    "Fill/Surface/Elevated/Card/Negative",
+    "=Red/50",
+    "=Red/300 @ 16%"
+  ],
+  [
+    "Fill/Surface/Elevated/Card/Positive",
+    "=Green/50",
+    "=Green/350 @ 16%"
+  ],
+  [
+    "Fill/Surface/Elevated/Overlay/Info",
+    "=Brand/50",
+    "=Brand/400 @ 16%"
+  ],
+  [
+    "Fill/Surface/Elevated/Overlay/Warning",
+    "=Saffron/50",
+    "=Saffron/350 @ 16%"
+  ],
+  [
+    "Fill/Surface/Elevated/Overlay/Danger",
+    "=Orange/50",
+    "=Orange/350 @ 16%"
+  ],
+  [
+    "Fill/Surface/Elevated/Overlay/Negative",
+    "=Red/50",
+    "=Red/300 @ 16%"
+  ],
+  [
+    "Fill/Surface/Elevated/Overlay/Positive",
+    "=Green/50",
+    "=Green/350 @ 16%"
+  ],
+  [
+    "Fill/Surface/Elevated/Sheet",
     "#fcf9f9",
     "#322e3c"
   ],
   [
-    "Fill/Surface/Elevated/Raised/Contrast",
-    "#fbf7f7",
-    "#443f52"
-  ],
-  [
-    "Fill/Surface/Elevated/Raised/Base",
+    "Fill/Surface/Elevated/Card/Base",
     "#fefcfc",
     "#383442"
   ],
@@ -2188,36 +2233,6 @@
     "Foreground/Static/Neutral/Subtle",
     "=Cool Neutral/600",
     "=Midnight/200"
-  ],
-  [
-    "Fill/Surface/Canvas/Contrast",
-    "#ece7e7",
-    "#393544"
-  ],
-  [
-    "Fill/Surface/Elevated/Sheet/Contrast",
-    "#f1ecec",
-    "#423e4e"
-  ],
-  [
-    "Fill/Surface/Elevated/Overlay/Contrast",
-    "#f6f1f1",
-    "#4a4657"
-  ],
-  [
-    "Fill/Surface/Elevated/Overlay/Dark",
-    "#19143c",
-    "#2a2740"
-  ],
-  [
-    "Fill/Surface/Elevated/Overlay/Positive",
-    "#016e47",
-    "#016e47"
-  ],
-  [
-    "Fill/Surface/Elevated/Overlay/Negative",
-    "#cb4034",
-    "#cb4034"
   ],
   [
     "Foreground/Action/Status/Warning/Rest",
