@@ -2957,46 +2957,48 @@
               "$value": "#ece7e7"
             }
           },
-          "overlay": {
-            "base": {
-              "$type": "color",
-              "$value": "#ffffff"
-            },
-            "contrast": {
-              "$type": "color",
-              "$value": "#f6f1f1"
-            },
-            "dark": {
-              "$type": "color",
-              "$value": "#19143c"
-            },
-            "positive": {
-              "$type": "color",
-              "$value": "#016e47"
-            },
-            "negative": {
-              "$type": "color",
-              "$value": "#cb4034"
-            }
-          },
-          "sheet": {
-            "base": {
-              "$type": "color",
-              "$value": "#fcf9f9"
-            },
-            "contrast": {
-              "$type": "color",
-              "$value": "#f1ecec"
-            }
-          },
           "elevated": {
-            "contrast": {
-              "$type": "color",
-              "$value": "#fbf7f7"
+            "overlay": {
+              "base": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "contrast": {
+                "$type": "color",
+                "$value": "#f6f1f1"
+              },
+              "dark": {
+                "$type": "color",
+                "$value": "#19143c"
+              },
+              "positive": {
+                "$type": "color",
+                "$value": "#016e47"
+              },
+              "negative": {
+                "$type": "color",
+                "$value": "#cb4034"
+              }
             },
-            "base": {
-              "$type": "color",
-              "$value": "#fefcfc"
+            "sheet": {
+              "base": {
+                "$type": "color",
+                "$value": "#fcf9f9"
+              },
+              "contrast": {
+                "$type": "color",
+                "$value": "#f1ecec"
+              }
+            },
+            "raised": {
+              "contrast": {
+                "$type": "color",
+                "$value": "#fbf7f7"
+              },
+              "base": {
+                "$type": "color",
+                "$value": "#fefcfc"
+              }
             }
           }
         }
@@ -5055,46 +5057,48 @@
               "$value": "#393544"
             }
           },
-          "overlay": {
-            "base": {
-              "$type": "color",
-              "$value": "#3a3645"
-            },
-            "contrast": {
-              "$type": "color",
-              "$value": "#4a4657"
-            },
-            "dark": {
-              "$type": "color",
-              "$value": "#2a2740"
-            },
-            "positive": {
-              "$type": "color",
-              "$value": "#016e47"
-            },
-            "negative": {
-              "$type": "color",
-              "$value": "#cb4034"
-            }
-          },
-          "sheet": {
-            "base": {
-              "$type": "color",
-              "$value": "#322e3c"
-            },
-            "contrast": {
-              "$type": "color",
-              "$value": "#423e4e"
-            }
-          },
           "elevated": {
-            "contrast": {
-              "$type": "color",
-              "$value": "#443f52"
+            "overlay": {
+              "base": {
+                "$type": "color",
+                "$value": "#3a3645"
+              },
+              "contrast": {
+                "$type": "color",
+                "$value": "#4a4657"
+              },
+              "dark": {
+                "$type": "color",
+                "$value": "#2a2740"
+              },
+              "positive": {
+                "$type": "color",
+                "$value": "#016e47"
+              },
+              "negative": {
+                "$type": "color",
+                "$value": "#cb4034"
+              }
             },
-            "base": {
-              "$type": "color",
-              "$value": "#383442"
+            "sheet": {
+              "base": {
+                "$type": "color",
+                "$value": "#322e3c"
+              },
+              "contrast": {
+                "$type": "color",
+                "$value": "#423e4e"
+              }
+            },
+            "raised": {
+              "contrast": {
+                "$type": "color",
+                "$value": "#443f52"
+              },
+              "base": {
+                "$type": "color",
+                "$value": "#383442"
+              }
             }
           }
         }

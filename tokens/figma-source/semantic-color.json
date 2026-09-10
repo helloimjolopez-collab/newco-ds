@@ -1415,22 +1415,22 @@
     "=Lagoon/350"
   ],
   [
-    "Fill/Surface/Overlay/Base",
+    "Fill/Surface/Elevated/Overlay/Base",
     "#ffffff",
     "#3a3645"
   ],
   [
-    "Fill/Surface/Sheet/Base",
+    "Fill/Surface/Elevated/Sheet/Base",
     "#fcf9f9",
     "#322e3c"
   ],
   [
-    "Fill/Surface/Elevated/Contrast",
+    "Fill/Surface/Elevated/Raised/Contrast",
     "#fbf7f7",
     "#443f52"
   ],
   [
-    "Fill/Surface/Elevated/Base",
+    "Fill/Surface/Elevated/Raised/Base",
     "#fefcfc",
     "#383442"
   ],
@@ -2195,27 +2195,27 @@
     "#393544"
   ],
   [
-    "Fill/Surface/Sheet/Contrast",
+    "Fill/Surface/Elevated/Sheet/Contrast",
     "#f1ecec",
     "#423e4e"
   ],
   [
-    "Fill/Surface/Overlay/Contrast",
+    "Fill/Surface/Elevated/Overlay/Contrast",
     "#f6f1f1",
     "#4a4657"
   ],
   [
-    "Fill/Surface/Overlay/Dark",
+    "Fill/Surface/Elevated/Overlay/Dark",
     "#19143c",
     "#2a2740"
   ],
   [
-    "Fill/Surface/Overlay/Positive",
+    "Fill/Surface/Elevated/Overlay/Positive",
     "#016e47",
     "#016e47"
   ],
   [
-    "Fill/Surface/Overlay/Negative",
+    "Fill/Surface/Elevated/Overlay/Negative",
     "#cb4034",
     "#cb4034"
   ],

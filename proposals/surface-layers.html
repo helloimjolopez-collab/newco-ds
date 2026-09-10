@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Surface layers</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500;600;700&family=Red+Hat+Mono:wght@400;500&display=swap');
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #e9e4e4; font-family: 'Red Hat Text', system-ui, sans-serif; color: #201c26; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 28px 24px 60px; }
+  h1 { font-size: 22px; font-weight: 700; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .sub { font-size: 13.5px; color: #6a636b; margin: 0 0 22px; max-width: 720px; line-height: 1.5; }
+  .modes { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+  @media (max-width: 900px){ .modes { grid-template-columns: 1fr; } }
+  .modecap { font: 600 11px 'Red Hat Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: #8a828a; margin: 0 0 8px 2px; }
+
+  /* ---- App frame = CANVAS (chrome) ---- */
+  .app { border-radius: 14px; overflow: hidden; border: 1px solid rgba(0,0,0,.06);
+         display: grid; grid-template-columns: 150px 1fr; height: 470px; }
+  .app.light  { background: var(--canvas); }
+  .app.dark   { background: var(--canvas); }
+  /* light-mode tokens */
+  .light { --canvas:#f7f3f3; --sheet:#fcf9f9; --elev:#fefcfc; --raised:#ffffff; --overlay:#ffffff;
+           --ink:#201c26; --muted:#6a636b; --line:rgba(30,24,32,.08); --brand:#7a4fd6;
+           --sh-card:0 1px 2px rgba(28,22,34,.06),0 2px 6px rgba(28,22,34,.05);
+           --sh-raise:0 4px 10px rgba(28,22,34,.10),0 10px 24px rgba(28,22,34,.08);
+           --sh-overlay:0 12px 28px rgba(28,22,34,.16),0 24px 60px rgba(28,22,34,.14); }
+  /* midnight-mode tokens (elevation carried by lightening fills) */
+  .dark  { --canvas:#29252f; --sheet:#322e3c; --elev:#383442; --raised:#423e50; --overlay:#3a3645;
+           --ink:#f3eef4; --muted:#a79fac; --line:rgba(255,255,255,.09); --brand:#c8a6ff;
+           --sh-card:0 1px 2px rgba(0,0,0,.3);
+           --sh-raise:0 6px 16px rgba(0,0,0,.42);
+           --sh-overlay:0 16px 40px rgba(0,0,0,.55); }
+
+  .nav { padding: 14px 10px; display: flex; flex-direction: column; gap: 3px; border-right: 1px solid var(--line); }
+  .brand { display:flex; align-items:center; gap:8px; padding: 4px 8px 14px; }
+  .dot { width: 20px; height: 20px; border-radius: 6px; background: var(--brand); }
+  .brand b { font-size: 14px; color: var(--ink); }
+  .nav a { font-size: 12.5px; color: var(--muted); padding: 8px 10px; border-radius: 999px; }
+  .nav a.on { background: color-mix(in srgb, var(--brand) 16%, transparent); color: var(--ink); font-weight: 600; }
+
+  /* ---- SHEET = the page ---- */
+  .sheet { background: var(--sheet); padding: 16px 18px; overflow: hidden; position: relative; }
+  .pagetitle { font-size: 15px; font-weight: 700; color: var(--ink); margin: 2px 2px 12px; }
+
+  /* KPI tiles = ELEVATED/Base */
+  .tiles { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; margin-bottom: 14px; }
+  .tile { background: var(--elev); border-radius: 10px; padding: 12px; box-shadow: var(--sh-card);
+          border: 1px solid var(--line); }
+  .tile .k { font: 600 10px 'Red Hat Mono',monospace; letter-spacing:.08em; text-transform:uppercase; color: var(--muted); }
+  .tile .v { font-size: 22px; font-weight: 700; color: var(--ink); margin-top: 4px; font-variant-numeric: tabular-nums; }
+
+  /* a card = ELEVATED/Base, holding a raised child */
+  .card { background: var(--elev); border-radius: 12px; padding: 14px; box-shadow: var(--sh-card);
+          border: 1px solid var(--line); position: relative; }
+  .card h3 { font-size: 13px; font-weight: 700; color: var(--ink); margin: 0 0 4px; }
+  .card p { font-size: 12px; color: var(--muted); margin: 0 0 12px; line-height: 1.45; }
+  /* card-on-card = ELEVATED/Raised (lighter in midnight, shadow-lifted in light) */
+  .raised { background: var(--raised); border-radius: 10px; padding: 11px 12px; box-shadow: var(--sh-raise);
+            border: 1px solid var(--line); }
+  .raised .rk { font: 600 10px 'Red Hat Mono',monospace; letter-spacing:.08em; text-transform:uppercase; color: var(--muted); }
+  .raised .rv { font-size: 13px; color: var(--ink); margin-top: 3px; font-weight: 600; }
+
+  /* popover = OVERLAY/Base */
+  .pop { position: absolute; right: 16px; top: 120px; width: 168px; background: var(--overlay);
+         border-radius: 12px; padding: 10px; box-shadow: var(--sh-overlay); border: 1px solid var(--line); }
+  .pop .ph { font: 600 10px 'Red Hat Mono',monospace; letter-spacing:.08em; text-transform:uppercase; color: var(--muted); margin-bottom: 6px; }
+  .pop a { display:block; font-size: 12.5px; color: var(--ink); padding: 6px 8px; border-radius: 7px; }
+  .pop a:hover { background: color-mix(in srgb, var(--brand) 14%, transparent); }
+
+  .lyr { position:absolute; font: 600 9.5px 'Red Hat Mono',monospace; letter-spacing:.06em;
+         color: var(--muted); background: color-mix(in srgb, var(--canvas) 70%, transparent);
+         padding: 2px 5px; border-radius: 5px; }
+
+  /* legend */
+  .legend { margin-top: 26px; }
+  .legend h2 { font-size: 13px; font-weight: 700; margin: 0 0 10px; }
+  .lg { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; }
+  @media (max-width: 900px){ .lg { grid-template-columns: repeat(2,1fr); } }
+  .lgc { border: 1px solid rgba(0,0,0,.09); border-radius: 10px; padding: 12px; background:#fff; }
+  .lgc .name { font-size: 12.5px; font-weight: 700; }
+  .lgc .role { font-size: 11.5px; color: #6a636b; margin: 3px 0 9px; line-height: 1.4; min-height: 32px; }
+  .sw { display:flex; gap:6px; align-items:center; font: 500 10.5px 'Red Hat Mono',monospace; color:#6a636b; margin-top: 5px; }
+  .chip { width: 20px; height: 20px; border-radius: 5px; border: 1px solid rgba(0,0,0,.12); }
+  .note { margin-top: 20px; padding: 13px 15px; border-radius: 10px; background: #fbf6ec; border: 1px solid #ecdcbb;
+          font-size: 12.5px; color: #6a5a38; line-height: 1.55; }
+  .note b { color: #4a3d1e; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Surface layers — proposed model</h1>
+  <p class="sub">Four named layers stay as the depth ladder (Canvas &rarr; Sheet &rarr; Elevated &rarr; Overlay), rendered here in real context. Elevated gains a <b>Raised</b> rung for a child that lifts above its parent (card-on-card, a KPI hero, a raised inner panel). Watch how depth reads: in Light it is carried by <b>shadow</b> (fills are all near-white), in Midnight by the fill stepping <b>lighter</b> each layer.</p>
+
+  <div class="modes">
+    <!-- LIGHT -->
+    <div>
+      <p class="modecap">Light</p>
+      <div class="app light">
+        <div class="nav">
+          <div class="brand"><span class="dot"></span><b>NewCo</b></div>
+          <a>Home</a><a class="on">People</a><a>Giving</a><a>Calendar</a><a>Reporting</a>
+        </div>
+        <div class="sheet">
+          <span class="lyr" style="left:8px;bottom:8px;">Sheet — the page</span>
+          <div class="pagetitle">People</div>
+          <div class="tiles">
+            <div class="tile"><div class="k">Members</div><div class="v">4,281</div></div>
+            <div class="tile"><div class="k">Households</div><div class="v">1,905</div></div>
+            <div class="tile"><div class="k">New (30d)</div><div class="v">62</div></div>
+          </div>
+          <div class="card">
+            <h3>Attendance</h3>
+            <p>A card sits on the page (Elevated/Base). The panel below lifts above it.</p>
+            <div class="raised">
+              <div class="rk">Elevated / Raised</div>
+              <div class="rv">Card-on-card &middot; +18% this quarter</div>
+            </div>
+          </div>
+          <div class="pop">
+            <div class="ph">Overlay / Base</div>
+            <a>Edit person</a><a>Add to group</a><a>Message</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MIDNIGHT -->
+    <div>
+      <p class="modecap">Midnight</p>
+      <div class="app dark">
+        <div class="nav">
+          <div class="brand"><span class="dot"></span><b>NewCo</b></div>
+          <a>Home</a><a class="on">People</a><a>Giving</a><a>Calendar</a><a>Reporting</a>
+        </div>
+        <div class="sheet">
+          <span class="lyr" style="left:8px;bottom:8px;">Sheet — the page</span>
+          <div class="pagetitle">People</div>
+          <div class="tiles">
+            <div class="tile"><div class="k">Members</div><div class="v">4,281</div></div>
+            <div class="tile"><div class="k">Households</div><div class="v">1,905</div></div>
+            <div class="tile"><div class="k">New (30d)</div><div class="v">62</div></div>
+          </div>
+          <div class="card">
+            <h3>Attendance</h3>
+            <p>A card sits on the page (Elevated/Base). The panel below lifts above it.</p>
+            <div class="raised">
+              <div class="rk">Elevated / Raised</div>
+              <div class="rv">Card-on-card &middot; +18% this quarter</div>
+            </div>
+          </div>
+          <div class="pop">
+            <div class="ph">Overlay / Base</div>
+            <a>Edit person</a><a>Add to group</a><a>Message</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="legend">
+    <h2>The four layers (Light / Midnight)</h2>
+    <div class="lg">
+      <div class="lgc">
+        <div class="name">Canvas</div>
+        <div class="role">App chrome &mdash; the frame the product lives in (nav rail, top bar).</div>
+        <div class="sw"><span class="chip" style="background:#f7f3f3"></span>#f7f3f3</div>
+        <div class="sw"><span class="chip" style="background:#29252f"></span>#29252f</div>
+      </div>
+      <div class="lgc">
+        <div class="name">Sheet</div>
+        <div class="role">The content page sitting on the canvas. Slightly lighter than Canvas.</div>
+        <div class="sw"><span class="chip" style="background:#fcf9f9"></span>#fcf9f9</div>
+        <div class="sw"><span class="chip" style="background:#322e3c"></span>#322e3c</div>
+      </div>
+      <div class="lgc">
+        <div class="name">Elevated &middot; Base</div>
+        <div class="role">Cards, tables, lists, KPI tiles resting on the page.</div>
+        <div class="sw"><span class="chip" style="background:#fefcfc"></span>#fefcfc</div>
+        <div class="sw"><span class="chip" style="background:#383442"></span>#383442</div>
+      </div>
+      <div class="lgc">
+        <div class="name">Elevated &middot; Raised <span style="color:#7a4fd6">NEW</span></div>
+        <div class="role">A child lifting above a card: card-on-card, a hero tile, a raised inner panel.</div>
+        <div class="sw"><span class="chip" style="background:#ffffff"></span>#ffffff <span style="opacity:.6">+ shadow</span></div>
+        <div class="sw"><span class="chip" style="background:#423e50"></span>#423e50</div>
+      </div>
+      <div class="lgc">
+        <div class="name">Overlay &middot; Base</div>
+        <div class="role">True floating layers: modals, dialogs, popovers, menus. Pure white in Light.</div>
+        <div class="sw"><span class="chip" style="background:#ffffff"></span>#ffffff</div>
+        <div class="sw"><span class="chip" style="background:#3a3645"></span>#3a3645</div>
+      </div>
+      <div class="lgc">
+        <div class="name">&hellip; / Contrast <span style="color:#6a636b">(each layer)</span></div>
+        <div class="role">The recessed companion &mdash; table header, zebra row, input well. Steps <b>darker</b>, on purpose. Kept as-is; it is not an elevation step.</div>
+        <div class="sw"><span class="chip" style="background:#f1ecec"></span>e.g. Sheet #f1ecec</div>
+        <div class="sw"><span class="chip" style="background:#423e4e"></span>#423e4e</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="note">
+    <b>The one honest constraint:</b> in Light, Elevated/Base is already #fefcfc, a hair off pure white, so you cannot stack three ever-lighter fills &mdash; there is no room below the ceiling. Depth in Light is read from the <b>elevation shadow</b> (you already ship <code>--elevation-sheet/widget/lift/overlay</code>), which is why Elevated/Raised is #ffffff + a lift shadow. In Midnight there are no real shadows, so the same rung is a visibly lighter grey. That is the correct split, and it is why the old darker &ldquo;medium/Contrast&rdquo; never read as elevation.
+  </div>
+</div>
+</body>
+</html>
