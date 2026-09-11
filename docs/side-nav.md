@@ -56,18 +56,35 @@ import "@helloimjolopez-newco/newco-tokens/components/side-nav";
 
 ```html
 <newco-side-nav label="Primary" theme="light">
-  <div slot="header">…logo / module switcher…</div>
+  <div slot="header">…logo…</div>
 
-  <newco-side-nav-item icon="dashboard" label="Home" active></newco-side-nav-item>
-  <newco-side-nav-item icon="groups" label="People" expandable></newco-side-nav-item>
-  <newco-side-nav-item label="Members" level="1"></newco-side-nav-item>
-  <newco-side-nav-item label="Households" level="1"></newco-side-nav-item>
-  <newco-side-nav-item icon="event" label="Calendar"></newco-side-nav-item>
+  <!-- DESTINATIONS: clicking selects/navigates -->
+  <newco-side-nav-item icon="dashboard" label="Home" value="home" active></newco-side-nav-item>
+
+  <!-- GROUPER: clicking expands/collapses the group it contains -->
+  <newco-side-nav-group icon="groups" label="People" value="people" expanded>
+    <newco-side-nav-item label="Members" value="members" level="1"></newco-side-nav-item>
+    <newco-side-nav-item label="Households" value="households" level="1"></newco-side-nav-item>
+  </newco-side-nav-group>
+
+  <newco-side-nav-item icon="event" label="Calendar" value="calendar"></newco-side-nav-item>
   <newco-side-nav-item icon="settings" label="Settings" disabled></newco-side-nav-item>
 </newco-side-nav>
 ```
 
-That is the whole integration. No component CSS to import, no theme provider.
+Two kinds of row, exactly as the NewCo demo:
+
+- **`<newco-side-nav-item>` is a destination.** Clicking it selects/navigates
+  (active + a distinct pressed state) and fires **`newco-select`**.
+- **`<newco-side-nav-group>` is a grouper.** Clicking it expands/collapses the
+  group it *contains* (its own child items are its default slot), showing the
+  **Trail** state while open; it does not navigate, it fires **`newco-toggle`**.
+  When the rail is `collapsed`, hovering a grouper opens a **flyout** listing its
+  items so they stay reachable.
+
+State is yours to own: listen for the events and set `active` on the chosen item
+and `expanded` on the chosen group (React example in Framework notes). That is
+the whole integration. No component CSS to import, no theme provider.
 
 ---
 
@@ -83,16 +100,16 @@ That is the whole integration. No component CSS to import, no theme provider.
 | `stroked` | boolean | `false` | Adds the trailing divider border (`Stroke/Static/Neutral/Subtle`) — the Figma "Stroked" mode. |
 | `label` | string | `"Primary navigation"` | `aria-label` for the `<nav>` region. |
 
-- **Slot `header`** — the top of the rail (logo / module switcher), matching the
+- **Slot `header`** — the top of the rail (logo / collapse control), matching the
   Figma `Slot.NavHeader`. Optional; hidden when empty.
-- **Default slot** — your `<newco-side-nav-item>`s.
+- **Default slot** — your `<newco-side-nav-item>`s and `<newco-side-nav-group>`s.
 - **Method** `el.toggle()` — flip collapsed.
 - **Event** `newco-collapse` — `detail: { collapsed }`.
 - **CSS parts** — `rail`, `header`, `nav` for escape-hatch styling.
-- There is no built-in collapse button (as in Figma, the collapse control is
-  yours to place, e.g. in the `header` slot); drive `collapsed` from your app.
+- No built-in collapse button; place your own control in the `header` slot and
+  drive `collapsed` (or call `toggle()`), as in the demo.
 
-### `<newco-side-nav-item>`
+### `<newco-side-nav-item>` — a destination
 
 | Attribute / prop | Type | Default | Purpose |
 |---|---|---|---|
@@ -100,16 +117,33 @@ That is the whole integration. No component CSS to import, no theme provider.
 | `label` | string | — | Visible text (and collapsed tooltip). |
 | `active` | boolean | `false` | Current destination (`aria-current="page"`, brand indicator stripe + selection pill). |
 | `disabled` | boolean | `false` | Non-interactive. |
-| `expandable` | boolean | `false` | Shows a trailing expand/collapse chevron (a group parent). |
-| `expanded` | boolean | `false` | Rotates the chevron; toggles on click. |
 | `href` | string | — | Render as a link; omit to render a `<button>`. |
-| `level` | `0 \| 1` | `0` | `1` indents a child destination under a group and drops the leading icon (matches Figma nesting). |
+| `level` | `0 \| 1` | `0` | `1` indents a child destination under a group and drops the leading icon. |
 | `value` | string | `label` | Payload sent on select. |
 
 - **Event `newco-select`** — bubbles & composed, `detail: { value, label, item }`.
   Call `preventDefault()` in your handler to stop link navigation (e.g. to route
-  client-side).
+  client-side). Clicking also gives a pressed state distinct from the resting
+  `active` selection.
 - **CSS part** — `item`.
+
+### `<newco-side-nav-group>` — a grouper
+
+| Attribute / prop | Type | Default | Purpose |
+|---|---|---|---|
+| `icon` | string | — | Material Symbols ligature name for the group header. |
+| `label` | string | — | Group name (and collapsed flyout title / tooltip). |
+| `expanded` | boolean | `false` | Whether the contained group is open. Toggles on click; shows the Trail state + flips the chevron while open. |
+| `disabled` | boolean | `false` | Non-interactive. |
+| `value` | string | `label` | Payload sent on toggle. |
+
+- **Default slot** — the group's child `<newco-side-nav-item level="1">`s.
+- **Event `newco-toggle`** — bubbles & composed, `detail: { value, label, expanded, group }`.
+  A grouper does **not** fire `newco-select`; it only opens/closes its group.
+- **Collapsed rail** — when the parent `<newco-side-nav>` is `collapsed`, a grouper
+  shows icon-only and, on hover/focus, opens a **flyout** (overlay elevation) that
+  lists its child items so they remain reachable.
+- **CSS parts** — `item` (the header row), `group`.
 
 ---
 
