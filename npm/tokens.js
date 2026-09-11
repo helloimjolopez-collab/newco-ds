@@ -3393,7 +3393,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-foreground-action-status-attention-on-fill": {
-    "value": "#3a2a08",
+    "value": "#2f3011",
     "type": "color",
     "path": [
       "semantic-color",
@@ -3445,7 +3445,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-foreground-action-status-severe-on-fill": {
-    "value": "#4a1a08",
+    "value": "#422517",
     "type": "color",
     "path": [
       "semantic-color",
@@ -3536,7 +3536,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-foreground-action-status-positive-on-fill": {
-    "value": "#013d28",
+    "value": "#013631",
     "type": "color",
     "path": [
       "semantic-color",
@@ -3702,7 +3702,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-foreground-action-selection-base": {
-    "value": "#524e59",
+    "value": "#525252",
     "type": "color",
     "path": [
       "semantic-color",
@@ -3714,7 +3714,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-foreground-action-selection-hover": {
-    "value": "#1b1822",
+    "value": "#1b152a",
     "type": "color",
     "path": [
       "semantic-color",
@@ -3726,7 +3726,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-foreground-action-selection-selected": {
-    "value": "#1b1822",
+    "value": "#1b152a",
     "type": "color",
     "path": [
       "semantic-color",
@@ -7503,7 +7503,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-stroke-static-neutral-light": {
-    "value": "#dbcece",
+    "value": "#d8cccc",
     "type": "color",
     "path": [
       "semantic-color",
@@ -8649,7 +8649,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-foreground-action-status-attention-on-fill": {
-    "value": "#3a2a08",
+    "value": "#2f3011",
     "type": "color",
     "path": [
       "semantic-color",
@@ -8701,7 +8701,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-foreground-action-status-severe-on-fill": {
-    "value": "#4a1a08",
+    "value": "#422517",
     "type": "color",
     "path": [
       "semantic-color",
@@ -8792,7 +8792,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-foreground-action-status-positive-on-fill": {
-    "value": "#013d28",
+    "value": "#013631",
     "type": "color",
     "path": [
       "semantic-color",
@@ -8958,7 +8958,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-foreground-action-selection-base": {
-    "value": "#b7b3ab",
+    "value": "#c0b5b5",
     "type": "color",
     "path": [
       "semantic-color",
@@ -8970,7 +8970,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-foreground-action-selection-hover": {
-    "value": "#f1efe9",
+    "value": "#f1eaea",
     "type": "color",
     "path": [
       "semantic-color",
@@ -8982,7 +8982,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-foreground-action-selection-selected": {
-    "value": "#f1efe9",
+    "value": "#f1eaea",
     "type": "color",
     "path": [
       "semantic-color",
@@ -11099,7 +11099,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-fill-action-selection-hover": {
-    "value": "#393640",
+    "value": "#3a3645",
     "type": "color",
     "path": [
       "semantic-color",

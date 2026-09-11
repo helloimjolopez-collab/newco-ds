@@ -262,7 +262,7 @@
   [
     "Fill/Action/Status/Attention/Rest",
     "=Saffron/100",
-    "#fed897"
+    "=Saffron/100"
   ],
   [
     "Fill/Action/Status/Attention Dim/Rest",
@@ -282,7 +282,7 @@
   [
     "Fill/Action/Status/Severe/Rest",
     "=Orange/300",
-    "#e6793e"
+    "=Orange/300"
   ],
   [
     "Fill/Action/Status/Severe Dim/Rest",
@@ -506,7 +506,7 @@
   ],
   [
     "Stroke/Static/Neutral/Light",
-    "#dbcece",
+    "=Warm Neutral/175",
     "=Midnight/600"
   ],
   [
@@ -947,7 +947,7 @@
   [
     "Fill/Action/Selection/Hover",
     "=Warm Neutral/350 @ 12%",
-    "#393640"
+    "=Midnight/800"
   ],
   [
     "Fill/Action/Selection/Selected",
@@ -961,18 +961,18 @@
   ],
   [
     "Foreground/Action/Selection/Base",
-    "#524e59",
-    "#b7b3ab"
+    "=Cool Neutral/600",
+    "=Warm Neutral/250"
   ],
   [
     "Foreground/Action/Selection/Hover",
-    "#1b1822",
-    "#f1efe9"
+    "=Amethyst/800",
+    "=Warm Neutral/75"
   ],
   [
     "Foreground/Action/Selection/Selected",
-    "#1b1822",
-    "#f1efe9"
+    "=Amethyst/800",
+    "=Warm Neutral/75"
   ],
   [
     "Foreground/Action/Selection/Disabled",
@@ -1061,8 +1061,8 @@
   ],
   [
     "Fill/Action/Selection/Indicator",
-    "#6e64be",
-    "#6e64be"
+    "=Brand/400",
+    "=Brand/400"
   ],
   [
     "Fill/Action/Selection/Base",
@@ -1321,18 +1321,18 @@
   ],
   [
     "Foreground/Action/Status/Positive/On Fill",
-    "#013d28",
-    "#013d28"
+    "=Jade/700",
+    "=Jade/700"
   ],
   [
     "Foreground/Action/Status/Attention/On Fill",
-    "#3a2a08",
-    "#3a2a08"
+    "=Citrine/700",
+    "=Citrine/700"
   ],
   [
     "Foreground/Action/Status/Severe/On Fill",
-    "#4a1a08",
-    "#4a1a08"
+    "=Orange/700",
+    "=Orange/700"
   ],
   [
     "Fill/Action/Disabled",

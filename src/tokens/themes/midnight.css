@@ -16,16 +16,6 @@
  ==========================================================================
 */
 [data-theme="midnight"], [data-theme="dark"] {
-  --semantic-color-foreground-action-status-attention-on-fill: #3a2a08;
-  --semantic-color-foreground-action-status-severe-on-fill: #4a1a08;
-  --semantic-color-foreground-action-status-positive-on-fill: #013d28;
-  --semantic-color-foreground-action-selection-base: #b7b3ab;
-  --semantic-color-foreground-action-selection-hover: #f1efe9;
-  --semantic-color-foreground-action-selection-selected: #f1efe9;
-  --semantic-color-fill-action-status-attention-rest: #fed897;
-  --semantic-color-fill-action-status-severe-rest: #e6793e;
-  --semantic-color-fill-action-selection-hover: #393640;
-  --semantic-color-fill-action-selection-indicator: #6e64be;
   --semantic-color-fill-surface-canvas: #29252f;
   --semantic-color-fill-surface-elevated-overlay-base: #3a3645;
   --semantic-color-fill-surface-elevated-card-base: #383442;
@@ -49,15 +39,18 @@
   --semantic-color-foreground-action-status-attention-rest: var(--primitive-color-saffron-75);
   --semantic-color-foreground-action-status-attention-hover: var(--primitive-color-saffron-50);
   --semantic-color-foreground-action-status-attention-pressed: var(--primitive-color-saffron-25);
+  --semantic-color-foreground-action-status-attention-on-fill: var(--primitive-color-citrine-700);
   --semantic-color-foreground-action-status-severe-rest: var(--primitive-color-orange-150);
   --semantic-color-foreground-action-status-severe-hover: var(--primitive-color-orange-100);
   --semantic-color-foreground-action-status-severe-pressed: var(--primitive-color-orange-75);
+  --semantic-color-foreground-action-status-severe-on-fill: var(--primitive-color-orange-700);
   --semantic-color-foreground-action-status-negative-rest: var(--primitive-color-red-300);
   --semantic-color-foreground-action-status-negative-hover: var(--primitive-color-red-75);
   --semantic-color-foreground-action-status-negative-pressed: var(--primitive-color-red-50);
   --semantic-color-foreground-action-status-positive-rest: var(--primitive-color-green-50);
   --semantic-color-foreground-action-status-positive-hover: var(--primitive-color-green-25);
   --semantic-color-foreground-action-status-positive-pressed: var(--primitive-color-green-0);
+  --semantic-color-foreground-action-status-positive-on-fill: var(--primitive-color-jade-700);
   --semantic-color-foreground-action-status-positive-dim-rest: var(--primitive-color-green-25);
   --semantic-color-foreground-action-status-positive-dim-hover: var(--primitive-color-green-50);
   --semantic-color-foreground-action-accent-jade-rest: var(--primitive-color-jade-100);
@@ -70,6 +63,9 @@
   --semantic-color-foreground-action-secondary-dim-rest: var(--primitive-color-cool-neutral-75);
   --semantic-color-foreground-action-secondary-dim-hover: var(--primitive-color-cool-neutral-50);
   --semantic-color-foreground-action-secondary-dim-pressed: var(--primitive-color-cool-neutral-25);
+  --semantic-color-foreground-action-selection-base: var(--primitive-color-warm-neutral-250);
+  --semantic-color-foreground-action-selection-hover: var(--primitive-color-warm-neutral-75);
+  --semantic-color-foreground-action-selection-selected: var(--primitive-color-warm-neutral-75);
   --semantic-color-foreground-action-selection-disabled: var(--primitive-color-cool-neutral-0-50);
   --semantic-color-foreground-action-mono-dim-rest: var(--primitive-color-cool-neutral-0);
   --semantic-color-foreground-action-disabled: var(--primitive-color-cool-neutral-0-50);
@@ -169,11 +165,13 @@
   --semantic-color-fill-action-primary-dim-rest: var(--primitive-color-brand-400-16);
   --semantic-color-fill-action-primary-dim-hover: var(--primitive-color-brand-400-24);
   --semantic-color-fill-action-primary-dim-pressed: var(--primitive-color-brand-400-36);
+  --semantic-color-fill-action-status-attention-rest: var(--primitive-color-saffron-100);
   --semantic-color-fill-action-status-attention-hover: var(--primitive-color-saffron-25);
   --semantic-color-fill-action-status-attention-selected: var(--primitive-color-saffron-50);
   --semantic-color-fill-action-status-attention-dim-rest: var(--primitive-color-saffron-350-16);
   --semantic-color-fill-action-status-attention-dim-hover: var(--primitive-color-saffron-350-24);
   --semantic-color-fill-action-status-attention-dim-pressed: var(--primitive-color-saffron-350-36);
+  --semantic-color-fill-action-status-severe-rest: var(--primitive-color-orange-300);
   --semantic-color-fill-action-status-severe-hover: var(--primitive-color-orange-25);
   --semantic-color-fill-action-status-severe-pressed: var(--primitive-color-orange-50);
   --semantic-color-fill-action-status-severe-dim-rest: var(--primitive-color-orange-350-16);
@@ -233,8 +231,10 @@
   --semantic-color-fill-action-accent-seabreeze-dim-rest: var(--primitive-color-seabreeze-300-16);
   --semantic-color-fill-action-accent-seabreeze-dim-hover: var(--primitive-color-seabreeze-300-24);
   --semantic-color-fill-action-accent-seabreeze-dim-pressed: var(--primitive-color-seabreeze-300-36);
+  --semantic-color-fill-action-selection-hover: var(--primitive-color-midnight-800);
   --semantic-color-fill-action-selection-selected: var(--primitive-color-brand-400-50);
   --semantic-color-fill-action-selection-trail: var(--primitive-color-midnight-800);
+  --semantic-color-fill-action-selection-indicator: var(--primitive-color-brand-400);
   --semantic-color-fill-action-selection-base: var(--primitive-color-midnight-900);
   --semantic-color-fill-action-disabled: var(--primitive-color-warm-neutral-350-12);
   --semantic-color-fill-static-brand-light: var(--primitive-color-amethyst-350-6);
