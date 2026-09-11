@@ -48,7 +48,7 @@ A raised surface is a **recipe** — fill + elevation + radius:
 ```css
 background:    var(--semantic-color-fill-surface-elevated-sheet);
 box-shadow:    var(--elevation-sheet);      /* cards: --elevation-widget; overlays: --elevation-overlay */
-border-radius: var(--contextual-layout-units-sheet-cornerradius);
+border-radius: var(--contextual-layout-units-sheet-cornerradius-cornerradius);
 ```
 
 ## Type is a scale — compose it

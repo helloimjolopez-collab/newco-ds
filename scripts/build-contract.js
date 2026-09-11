@@ -101,7 +101,7 @@ elevation shadow and (for the page) the sheet radius:
 \`\`\`css
 background:    var(--semantic-color-fill-surface-elevated-sheet);
 box-shadow:    var(--elevation-sheet);      /* page / sheet */
-border-radius: var(--contextual-layout-units-sheet-cornerradius);
+border-radius: var(--contextual-layout-units-sheet-cornerradius-cornerradius);
 \`\`\`
 
 Cards use \`--elevation-widget\`, overlays/popovers use \`--elevation-overlay\`.

@@ -1872,11 +1872,11 @@
               "$type": "color",
               "$value": "{primitive-color.brand.350}"
             },
-            "subtle": {
+            "faint": {
               "$type": "color",
               "$value": "{primitive-color.brand.350}"
             },
-            "base": {
+            "medium": {
               "$type": "color",
               "$value": "{primitive-color.brand.400}"
             },
@@ -2456,11 +2456,11 @@
               "$type": "color",
               "$value": "{primitive-color.brand.25}"
             },
-            "subtle": {
+            "faint": {
               "$type": "color",
               "$value": "{primitive-color.brand.400}"
             },
-            "base": {
+            "medium": {
               "$type": "color",
               "$value": "{primitive-color.brand.700}"
             },
@@ -3056,11 +3056,11 @@
               "$type": "color",
               "$value": "{primitive-color.brand.150}"
             },
-            "subtle": {
+            "faint": {
               "$type": "color",
               "$value": "{primitive-color.brand.300}"
             },
-            "base": {
+            "medium": {
               "$type": "color",
               "$value": "{primitive-color.brand.300}"
             },
@@ -3786,11 +3786,11 @@
               "$type": "color",
               "$value": "{primitive-color.brand.350}"
             },
-            "subtle": {
+            "faint": {
               "$type": "color",
               "$value": "{primitive-color.brand.350}"
             },
-            "base": {
+            "medium": {
               "$type": "color",
               "$value": "{primitive-color.brand.400}"
             },
@@ -4370,11 +4370,11 @@
               "$type": "color",
               "$value": "{primitive-color.amethyst.350-6}"
             },
-            "subtle": {
+            "faint": {
               "$type": "color",
               "$value": "{primitive-color.brand.400}"
             },
-            "base": {
+            "medium": {
               "$type": "color",
               "$value": "{primitive-color.brand.700}"
             },
@@ -4970,11 +4970,11 @@
               "$type": "color",
               "$value": "{primitive-color.brand.150}"
             },
-            "subtle": {
+            "faint": {
               "$type": "color",
               "$value": "{primitive-color.brand.300}"
             },
-            "base": {
+            "medium": {
               "$type": "color",
               "$value": "{primitive-color.brand.300}"
             },
@@ -6100,7 +6100,7 @@
         "$value": 8
       }
     },
-    "page": {
+    "sheet": {
       "padding": {
         "top": {
           "$type": "number",
@@ -6113,6 +6113,12 @@
         "bottom": {
           "$type": "number",
           "$value": "{primitive-unit.unit.56}"
+        }
+      },
+      "cornerradius": {
+        "cornerradius": {
+          "$type": "number",
+          "$value": "{primitive-unit.unit.28}"
         }
       }
     },
@@ -6276,18 +6282,18 @@
         }
       }
     },
-    "sheet": {
-      "cornerradius": {
-        "cornerradius": {
+    "canvas": {
+      "gap": {
+        "topnavtocontent": {
           "$type": "number",
-          "$value": "{primitive-unit.unit.28}"
+          "$value": "{primitive-unit.unit.16}"
         }
-      }
-    },
-    "screencontent": {
-      "cornerradius": {
-        "$type": "number",
-        "$value": "{primitive-unit.unit.20}"
+      },
+      "padding": {
+        "right": {
+          "$type": "number",
+          "$value": "{primitive-unit.unit.16}"
+        }
       }
     }
   },

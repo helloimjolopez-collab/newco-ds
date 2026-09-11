@@ -19,15 +19,15 @@
       "=Unit/1 point 5"
     ],
     [
-      "Page/Padding/Top",
+      "Sheet/Padding/Top",
       "=Unit/8"
     ],
     [
-      "Page/Padding/Horizontal",
+      "Sheet/Padding/Horizontal",
       "=Unit/36"
     ],
     [
-      "Page/Padding/Bottom",
+      "Sheet/Padding/Bottom",
       "=Unit/56"
     ],
     [
@@ -139,16 +139,20 @@
       "=Unit/28"
     ],
     [
-      "ScreenContent/CornerRadius",
-      "=Unit/20"
-    ],
-    [
       "NavItem/Gap-IndicatorToContent",
       8
     ],
     [
       "NavItem/Gap-IconToLabel",
       8
+    ],
+    [
+      "Canvas/Gap/TopnavToContent",
+      "=Unit/16"
+    ],
+    [
+      "Canvas/Padding/Right",
+      "=Unit/16"
     ]
   ]
 }

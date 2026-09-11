@@ -1,11 +1,11 @@
 {
   "$comment": "The names a consumer may use. Generated from the emitted CSS by scripts/build-contract.js — do not hand-edit. Lint against `contract` if you want the boundary enforced; nothing here blocks a primitive.",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "generated": "2026-09-11",
   "counts": {
     "contract": 514,
-    "infrastructure": 503,
-    "declarationsAcrossAllFiles": 1434
+    "infrastructure": 504,
+    "declarationsAcrossAllFiles": 1435
   },
   "loadOrder": [
     "primitives.css",
@@ -50,7 +50,7 @@
     "layout-contextual.css": {
       "contract": false,
       "mustLoad": false,
-      "count": 37,
+      "count": 38,
       "role": "Per-component metrics. This repo's components use these."
     },
     "motion.css": {
@@ -207,13 +207,13 @@
     "--semantic-color-fill-static-accent-seabreeze-faint",
     "--semantic-color-fill-static-accent-seabreeze-medium",
     "--semantic-color-fill-static-accent-seabreeze-subtle",
-    "--semantic-color-fill-static-brand-base",
     "--semantic-color-fill-static-brand-black",
     "--semantic-color-fill-static-brand-bold",
     "--semantic-color-fill-static-brand-contrast",
     "--semantic-color-fill-static-brand-dark",
+    "--semantic-color-fill-static-brand-faint",
     "--semantic-color-fill-static-brand-light",
-    "--semantic-color-fill-static-brand-subtle",
+    "--semantic-color-fill-static-brand-medium",
     "--semantic-color-fill-static-status-attention-bold",
     "--semantic-color-fill-static-status-attention-contrast",
     "--semantic-color-fill-static-status-attention-faint",
@@ -330,11 +330,11 @@
     "--semantic-color-foreground-static-accent-seabreeze-faint",
     "--semantic-color-foreground-static-accent-seabreeze-medium",
     "--semantic-color-foreground-static-accent-seabreeze-subtle",
-    "--semantic-color-foreground-static-brand-base",
     "--semantic-color-foreground-static-brand-bold",
     "--semantic-color-foreground-static-brand-contrast",
+    "--semantic-color-foreground-static-brand-faint",
     "--semantic-color-foreground-static-brand-light",
-    "--semantic-color-foreground-static-brand-subtle",
+    "--semantic-color-foreground-static-brand-medium",
     "--semantic-color-foreground-static-mono-base",
     "--semantic-color-foreground-static-mono-light",
     "--semantic-color-foreground-static-neutral-base",
@@ -467,11 +467,11 @@
     "--semantic-color-stroke-static-accent-seabreeze-faint",
     "--semantic-color-stroke-static-accent-seabreeze-medium",
     "--semantic-color-stroke-static-accent-seabreeze-subtle",
-    "--semantic-color-stroke-static-brand-base",
     "--semantic-color-stroke-static-brand-bold",
     "--semantic-color-stroke-static-brand-contrast",
+    "--semantic-color-stroke-static-brand-faint",
     "--semantic-color-stroke-static-brand-light",
-    "--semantic-color-stroke-static-brand-subtle",
+    "--semantic-color-stroke-static-brand-medium",
     "--semantic-color-stroke-static-neutral-base",
     "--semantic-color-stroke-static-neutral-bold",
     "--semantic-color-stroke-static-neutral-contrast",

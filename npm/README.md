@@ -2,7 +2,7 @@
 
 **The themed contract (colour + elevation) is 417 names.** Your full working
 vocabulary across every file below is **514**. If you add up every
-declaration in this folder you get 1434 — that number is not the contract, and the
+declaration in this folder you get 1435 — that number is not the contract, and the
 table says why. Or load everything with one line: `import "@helloimjolopez-newco/newco-tokens/css"`.
 
 ## Link these, in this order
@@ -30,7 +30,7 @@ unstyled **with no console error**.
 | `themes/midnight.css` | 417 | yes | yes | Colour + elevation contract, Midnight Mode. Same names. |
 | `type.css` | 39 | yes | yes | Type scale. Compose from these. |
 | `layout.css` | 39 | yes | yes | Spacing, radii, border widths. |
-| `layout-contextual.css` | 37 | **no** | **no** | Per-component metrics. This repo's components use these. |
+| `layout-contextual.css` | 38 | **no** | **no** | Per-component metrics. This repo's components use these. |
 | `motion.css` | 14 | yes | yes | Durations and easings. |
 | `breakpoints.css` | 5 | yes | yes | Breakpoint values. |
 
@@ -52,7 +52,7 @@ elevation shadow and (for the page) the sheet radius:
 ```css
 background:    var(--semantic-color-fill-surface-elevated-sheet);
 box-shadow:    var(--elevation-sheet);      /* page / sheet */
-border-radius: var(--contextual-layout-units-sheet-cornerradius);
+border-radius: var(--contextual-layout-units-sheet-cornerradius-cornerradius);
 ```
 
 Cards use `--elevation-widget`, overlays/popovers use `--elevation-overlay`.

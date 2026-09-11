@@ -4325,7 +4325,7 @@ const tokens = {
       "light"
     ]
   },
-  "semantic-color-light-mode-foreground-static-brand-subtle": {
+  "semantic-color-light-mode-foreground-static-brand-faint": {
     "value": "#827ad9",
     "type": "color",
     "path": [
@@ -4334,10 +4334,10 @@ const tokens = {
       "foreground",
       "static",
       "brand",
-      "subtle"
+      "faint"
     ]
   },
-  "semantic-color-light-mode-foreground-static-brand-base": {
+  "semantic-color-light-mode-foreground-static-brand-medium": {
     "value": "#6e64be",
     "type": "color",
     "path": [
@@ -4346,7 +4346,7 @@ const tokens = {
       "foreground",
       "static",
       "brand",
-      "base"
+      "medium"
     ]
   },
   "semantic-color-light-mode-foreground-static-brand-contrast": {
@@ -5925,7 +5925,7 @@ const tokens = {
       "light"
     ]
   },
-  "semantic-color-light-mode-fill-static-brand-subtle": {
+  "semantic-color-light-mode-fill-static-brand-faint": {
     "value": "#6e64be",
     "type": "color",
     "path": [
@@ -5934,10 +5934,10 @@ const tokens = {
       "fill",
       "static",
       "brand",
-      "subtle"
+      "faint"
     ]
   },
-  "semantic-color-light-mode-fill-static-brand-base": {
+  "semantic-color-light-mode-fill-static-brand-medium": {
     "value": "#2e285d",
     "type": "color",
     "path": [
@@ -5946,7 +5946,7 @@ const tokens = {
       "fill",
       "static",
       "brand",
-      "base"
+      "medium"
     ]
   },
   "semantic-color-light-mode-fill-static-brand-contrast": {
@@ -7586,7 +7586,7 @@ const tokens = {
       "light"
     ]
   },
-  "semantic-color-light-mode-stroke-static-brand-subtle": {
+  "semantic-color-light-mode-stroke-static-brand-faint": {
     "value": "#9691f5",
     "type": "color",
     "path": [
@@ -7595,10 +7595,10 @@ const tokens = {
       "stroke",
       "static",
       "brand",
-      "subtle"
+      "faint"
     ]
   },
-  "semantic-color-light-mode-stroke-static-brand-base": {
+  "semantic-color-light-mode-stroke-static-brand-medium": {
     "value": "#9691f5",
     "type": "color",
     "path": [
@@ -7607,7 +7607,7 @@ const tokens = {
       "stroke",
       "static",
       "brand",
-      "base"
+      "medium"
     ]
   },
   "semantic-color-light-mode-stroke-static-brand-contrast": {
@@ -9581,7 +9581,7 @@ const tokens = {
       "light"
     ]
   },
-  "semantic-color-midnight-mode-foreground-static-brand-subtle": {
+  "semantic-color-midnight-mode-foreground-static-brand-faint": {
     "value": "#827ad9",
     "type": "color",
     "path": [
@@ -9590,10 +9590,10 @@ const tokens = {
       "foreground",
       "static",
       "brand",
-      "subtle"
+      "faint"
     ]
   },
-  "semantic-color-midnight-mode-foreground-static-brand-base": {
+  "semantic-color-midnight-mode-foreground-static-brand-medium": {
     "value": "#6e64be",
     "type": "color",
     "path": [
@@ -9602,7 +9602,7 @@ const tokens = {
       "foreground",
       "static",
       "brand",
-      "base"
+      "medium"
     ]
   },
   "semantic-color-midnight-mode-foreground-static-brand-contrast": {
@@ -11181,7 +11181,7 @@ const tokens = {
       "light"
     ]
   },
-  "semantic-color-midnight-mode-fill-static-brand-subtle": {
+  "semantic-color-midnight-mode-fill-static-brand-faint": {
     "value": "#6e64be",
     "type": "color",
     "path": [
@@ -11190,10 +11190,10 @@ const tokens = {
       "fill",
       "static",
       "brand",
-      "subtle"
+      "faint"
     ]
   },
-  "semantic-color-midnight-mode-fill-static-brand-base": {
+  "semantic-color-midnight-mode-fill-static-brand-medium": {
     "value": "#2e285d",
     "type": "color",
     "path": [
@@ -11202,7 +11202,7 @@ const tokens = {
       "fill",
       "static",
       "brand",
-      "base"
+      "medium"
     ]
   },
   "semantic-color-midnight-mode-fill-static-brand-contrast": {
@@ -12842,7 +12842,7 @@ const tokens = {
       "light"
     ]
   },
-  "semantic-color-midnight-mode-stroke-static-brand-subtle": {
+  "semantic-color-midnight-mode-stroke-static-brand-faint": {
     "value": "#9691f5",
     "type": "color",
     "path": [
@@ -12851,10 +12851,10 @@ const tokens = {
       "stroke",
       "static",
       "brand",
-      "subtle"
+      "faint"
     ]
   },
-  "semantic-color-midnight-mode-stroke-static-brand-base": {
+  "semantic-color-midnight-mode-stroke-static-brand-medium": {
     "value": "#9691f5",
     "type": "color",
     "path": [
@@ -12863,7 +12863,7 @@ const tokens = {
       "stroke",
       "static",
       "brand",
-      "base"
+      "medium"
     ]
   },
   "semantic-color-midnight-mode-stroke-static-brand-contrast": {
@@ -15420,34 +15420,44 @@ const tokens = {
       "gap-icontolabel"
     ]
   },
-  "contextual-layout-units-page-padding-top": {
+  "contextual-layout-units-sheet-padding-top": {
     "value": 8,
     "type": "number",
     "path": [
       "contextual-layout-units",
-      "page",
+      "sheet",
       "padding",
       "top"
     ]
   },
-  "contextual-layout-units-page-padding-horizontal": {
+  "contextual-layout-units-sheet-padding-horizontal": {
     "value": 36,
     "type": "number",
     "path": [
       "contextual-layout-units",
-      "page",
+      "sheet",
       "padding",
       "horizontal"
     ]
   },
-  "contextual-layout-units-page-padding-bottom": {
+  "contextual-layout-units-sheet-padding-bottom": {
     "value": 56,
     "type": "number",
     "path": [
       "contextual-layout-units",
-      "page",
+      "sheet",
       "padding",
       "bottom"
+    ]
+  },
+  "contextual-layout-units-sheet-cornerradius-cornerradius": {
+    "value": 28,
+    "type": "number",
+    "path": [
+      "contextual-layout-units",
+      "sheet",
+      "cornerradius",
+      "cornerradius"
     ]
   },
   "contextual-layout-units-button-padding-medium-vertical": {
@@ -15727,23 +15737,24 @@ const tokens = {
       "small"
     ]
   },
-  "contextual-layout-units-sheet-cornerradius-cornerradius": {
-    "value": 28,
+  "contextual-layout-units-canvas-gap-topnavtocontent": {
+    "value": 16,
     "type": "number",
     "path": [
       "contextual-layout-units",
-      "sheet",
-      "cornerradius",
-      "cornerradius"
+      "canvas",
+      "gap",
+      "topnavtocontent"
     ]
   },
-  "contextual-layout-units-screencontent-cornerradius": {
-    "value": 20,
+  "contextual-layout-units-canvas-padding-right": {
+    "value": 16,
     "type": "number",
     "path": [
       "contextual-layout-units",
-      "screencontent",
-      "cornerradius"
+      "canvas",
+      "padding",
+      "right"
     ]
   },
   "semantic-type-letter-spacing-standard": {

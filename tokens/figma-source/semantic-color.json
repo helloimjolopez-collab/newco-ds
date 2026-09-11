@@ -540,12 +540,12 @@
     "=Brand/150"
   ],
   [
-    "Stroke/Static/Brand/Subtle",
+    "Stroke/Static/Brand/Faint",
     "=Brand/300",
     "=Brand/300"
   ],
   [
-    "Stroke/Static/Brand/Base",
+    "Stroke/Static/Brand/Medium",
     "=Brand/300",
     "=Brand/300"
   ],
@@ -725,12 +725,12 @@
     "=Cool Neutral/0"
   ],
   [
-    "Foreground/Static/Brand/Subtle",
+    "Foreground/Static/Brand/Faint",
     "=Brand/350",
     "=Brand/350"
   ],
   [
-    "Foreground/Static/Brand/Base",
+    "Foreground/Static/Brand/Medium",
     "=Brand/400",
     "=Brand/400"
   ],
@@ -915,12 +915,12 @@
     "=Amethyst/350 @ 6%"
   ],
   [
-    "Fill/Static/Brand/Subtle",
+    "Fill/Static/Brand/Faint",
     "=Brand/400",
     "=Brand/400"
   ],
   [
-    "Fill/Static/Brand/Base",
+    "Fill/Static/Brand/Medium",
     "=Brand/700",
     "=Brand/700"
   ],
