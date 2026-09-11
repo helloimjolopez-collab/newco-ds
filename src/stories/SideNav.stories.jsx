@@ -1,70 +1,86 @@
 import React from "react";
-// Side-effect import: registers <newco-side-nav> and <newco-side-nav-item>.
+// Side-effect import: registers <newco-side-nav>, <newco-side-nav-item>, <newco-side-nav-group>.
 import "../components/side-nav/newco-side-nav.js";
 
 /**
  * Library / Side Nav
  *
- * <newco-side-nav> is a real Web Component (custom element). These stories render
- * the actual element — the same one you ship — not a React re-implementation.
+ * A real Web Component (custom element) — the same one you ship. Destinations
+ * (<newco-side-nav-item>) select/navigate; groupers (<newco-side-nav-group>)
+ * expand/collapse a contained group. Collapsed, a grouper reveals a flyout.
  */
 
-const DEFAULT_ITEMS = [
-  { icon: "dashboard", label: "Home" },
-  { icon: "groups", label: "People", expandable: true },
-  { label: "Members", level: 1 },
-  { label: "Households", level: 1 },
-  { icon: "volunteer_activism", label: "Giving" },
-  { icon: "event", label: "Calendar", expandable: true },
-  { icon: "bar_chart", label: "Reporting" },
-  { icon: "settings", label: "Settings", disabled: true },
-];
-
-function Backdrop({ theme, children }) {
-  const bg =
-    theme === "midnight"
-      ? "var(--semantic-color-midnight-mode-fill-surface-canvas)"
-      : "var(--semantic-color-light-mode-fill-surface-canvas)";
+// A small, on-brand logo mark (not a random icon): a rounded brand tile + wordmark.
+function Logo({ collapsed }) {
   return (
-    <div style={{ display: "flex", height: "560px", background: bg }}>
-      {children}
-      <div style={{ flex: 1 }} />
+    <div slot="header" style={{ display: "flex", alignItems: "center", gap: 10, padding: "4px 6px", minWidth: 0 }}>
+      <span aria-hidden style={{
+        width: 28, height: 28, borderRadius: 8, flex: "0 0 auto", display: "grid", placeItems: "center",
+        background: "var(--semantic-color-light-mode-fill-action-primary-rest)",
+        color: "#fff", font: "700 15px 'Google Sans Flex',sans-serif",
+      }}>N</span>
+      {!collapsed && <strong style={{ font: "700 16px 'Google Sans Flex',sans-serif", letterSpacing: "-0.2px", color: "var(--newco-nav-item-fg-selected)" }}>NewCo</strong>}
     </div>
   );
 }
 
-function SideNav({ theme = "light", collapsed = false, elevated = false, activeIndex = 1, brand = "NewCo", items = DEFAULT_ITEMS }) {
+/**
+ * Stateful wrapper so the stories actually WORK: clicking a destination sets it
+ * active; clicking a grouper toggles it open; the header button collapses the rail.
+ */
+function SideNav({ theme = "light", collapsed: collapsedArg = false, elevated = false }) {
   const ref = React.useRef(null);
-  // Log selection so the Actions panel shows the event contract.
+  const [collapsed, setCollapsed] = React.useState(collapsedArg);
+  const [active, setActive] = React.useState("home");
+  const [open, setOpen] = React.useState({ people: true, calendar: false });
+  React.useEffect(() => setCollapsed(collapsedArg), [collapsedArg]);
+
   React.useEffect(() => {
     const el = ref.current;
     if (!el) return;
-    const onSel = (e) => console.log("newco-select", e.detail.value);
+    const onSel = (e) => { setActive(e.detail.value); console.log("newco-select", e.detail.value); };
+    const onTog = (e) => { setOpen((o) => ({ ...o, [e.detail.value]: e.detail.expanded })); };
     el.addEventListener("newco-select", onSel);
-    return () => el.removeEventListener("newco-select", onSel);
+    el.addEventListener("newco-toggle", onTog);
+    return () => { el.removeEventListener("newco-select", onSel); el.removeEventListener("newco-toggle", onTog); };
   }, []);
+
+  const bg = theme === "midnight"
+    ? "var(--semantic-color-midnight-mode-fill-surface-canvas)"
+    : "var(--semantic-color-light-mode-fill-surface-canvas)";
+  const A = (v) => (active === v ? { active: true } : {});
+
   return (
-    <Backdrop theme={theme}>
-      <newco-side-nav ref={ref} theme={theme} {...(collapsed ? { collapsed: true } : {})} {...(elevated ? { elevated: true } : {})} label="Primary">
-        <div slot="header" style={{ display: "flex", alignItems: "center", gap: 10, padding: "4px 6px", minWidth: 0 }}>
-          <span className="material-symbols-rounded" aria-hidden style={{ fontSize: 26, color: "var(--semantic-color-light-mode-fill-action-selection-indicator)" }}>
-            hub
-          </span>
-          {!collapsed && <strong style={{ font: "600 15px 'Google Sans Flex',sans-serif", color: "var(--newco-nav-item-fg-selected)" }}>{brand}</strong>}
+    <div style={{ display: "flex", height: 620, background: bg }}>
+      <newco-side-nav ref={ref} theme={theme} label="Primary" {...(collapsed ? { collapsed: true } : {})} {...(elevated ? { elevated: true } : {})}>
+        <div slot="header" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", width: "100%", gap: 8 }}>
+          <Logo collapsed={collapsed} />
+          <button onClick={() => setCollapsed((c) => !c)} aria-label="Collapse" title="Collapse"
+            style={{ flex: "0 0 auto", width: 32, height: 32, display: "grid", placeItems: "center", border: 0, borderRadius: 8, background: "transparent", cursor: "pointer", color: "var(--newco-nav-item-fg)" }}>
+            <span className="material-symbols-rounded" aria-hidden style={{ fontSize: 20 }}>{collapsed ? "menu" : "menu_open"}</span>
+          </button>
         </div>
-        {items.map((it, i) => (
-          <newco-side-nav-item
-            key={it.label + i}
-            {...(it.icon ? { icon: it.icon } : {})}
-            label={it.label}
-            {...(it.level ? { level: it.level } : {})}
-            {...(it.expandable ? { expandable: true } : {})}
-            {...(it.disabled ? { disabled: true } : {})}
-            {...(i === activeIndex ? { active: true } : {})}
-          />
-        ))}
+
+        <newco-side-nav-item icon="dashboard" label="Home" value="home" {...A("home")} />
+
+        <newco-side-nav-group icon="groups" label="People" value="people" {...(open.people ? { expanded: true } : {})}>
+          <newco-side-nav-item label="Members" value="members" level={1} {...A("members")} />
+          <newco-side-nav-item label="Households" value="households" level={1} {...A("households")} />
+          <newco-side-nav-item label="Directory" value="directory" level={1} {...A("directory")} />
+        </newco-side-nav-group>
+
+        <newco-side-nav-item icon="volunteer_activism" label="Giving" value="giving" {...A("giving")} />
+
+        <newco-side-nav-group icon="event" label="Calendar" value="calendar" {...(open.calendar ? { expanded: true } : {})}>
+          <newco-side-nav-item label="Events" value="events" level={1} {...A("events")} />
+          <newco-side-nav-item label="Registrations" value="registrations" level={1} {...A("registrations")} />
+        </newco-side-nav-group>
+
+        <newco-side-nav-item icon="bar_chart" label="Reporting" value="reporting" {...A("reporting")} />
+        <newco-side-nav-item icon="settings" label="Settings" value="settings" disabled />
       </newco-side-nav>
-    </Backdrop>
+      <div style={{ flex: 1 }} />
+    </div>
   );
 }
 
@@ -72,67 +88,27 @@ export default {
   title: "Library/Side Nav",
   parameters: {
     layout: "fullscreen",
-    docs: {
-      description: {
-        component:
-          "App side navigation as a framework-agnostic Web Component. Icon + label items, an active state with a brand indicator, a collapsible icon rail, and Light/Midnight theming — all driven by NewCo tokens. See docs/side-nav.md for how to absorb it into any stack.",
-      },
-    },
+    docs: { description: { component: "App side navigation as a framework-agnostic Web Component. Destinations select; groupers expand/collapse a contained group (Trail state) and, when the rail is collapsed, reveal a flyout of their items. Light/Midnight via one attribute; everything is token-driven. See docs/side-nav.md." } },
   },
   argTypes: {
     theme: { control: { type: "inline-radio" }, options: ["light", "midnight"], description: "Colour mode" },
-    collapsed: { control: "boolean", description: "Icon-only rail" },
-    elevated: { control: "boolean", description: "Floating/overlay presentation (overlay elevation shadow)" },
-    activeIndex: { control: { type: "number", min: 0, max: 5 }, description: "Which item is current" },
-    brand: { control: "text" },
+    collapsed: { control: "boolean", description: "Icon-only rail (hover a group for its flyout)" },
+    elevated: { control: "boolean", description: "Floating/overlay presentation (overlay shadow)" },
   },
-  args: { theme: "light", collapsed: false, elevated: false, activeIndex: 1, brand: "NewCo" },
+  args: { theme: "light", collapsed: false, elevated: false },
 };
 
-// First story = Playground ("Try it"), per docs/storybook-authoring.md.
-export const Playground = {
-  render: (args) => <SideNav {...args} />,
-};
-
-export const Collapsed = {
-  args: { collapsed: true },
-  render: (args) => <SideNav {...args} />,
-};
-
-export const Midnight = {
-  args: { theme: "midnight" },
-  render: (args) => <SideNav {...args} />,
-};
-
-// The rail as a floating overlay/drawer — carries the overlay elevation shadow.
-export const Overlay = {
-  name: "Overlay (elevated)",
-  args: { elevated: true },
-  parameters: {
-    docs: {
-      description: {
-        story:
-          "Use `elevated` when the rail floats over content (a drawer, or the mobile overlay). It lifts off the canvas with the `--elevation-overlay` token and drops its flush divider — matching the demo's drawer.",
-      },
-    },
-  },
-  render: (args) => (
-    <div style={{ position: "relative", height: 560, background: "var(--semantic-color-light-mode-fill-surface-elevated-sheet)", overflow: "hidden" }}>
-      <div style={{ position: "absolute", inset: 0, padding: 40, color: "#8a8080", font: "600 22px 'Google Sans Flex',sans-serif" }}>Page content behind the drawer…</div>
-      <div style={{ position: "absolute", insetBlock: 0, insetInlineStart: 0, width: 260 }}>
-        <SideNav {...args} />
-      </div>
-    </div>
-  ),
-};
+export const Playground = { render: (a) => <SideNav {...a} /> };
+export const Collapsed = { name: "Collapsed (hover a group)", args: { collapsed: true }, render: (a) => <SideNav {...a} /> };
+export const Midnight = { args: { theme: "midnight" }, render: (a) => <SideNav {...a} /> };
 
 export const LightAndMidnight = {
   name: "Light + Midnight",
   parameters: { controls: { disable: true } },
   render: () => (
     <div style={{ display: "flex", gap: 24, padding: 24, flexWrap: "wrap", background: "#eae6e6" }}>
-      <div style={{ width: 260, height: 520 }}><SideNav theme="light" /></div>
-      <div style={{ width: 260, height: 520 }}><SideNav theme="midnight" /></div>
+      <div style={{ width: 260, height: 600 }}><SideNav theme="light" /></div>
+      <div style={{ width: 260, height: 600 }}><SideNav theme="midnight" /></div>
     </div>
   ),
 };
