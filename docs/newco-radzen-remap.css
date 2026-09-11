@@ -16,67 +16,68 @@
         <div class="newco-scope"> ... your Radzen UI ... </div>
       (or change `.newco-scope` below to `:root` to theme the whole app.)
 
-   NOTE ON NAMES:
-   - NewCo token names (--semantic-*, --primitive-*) are stable and verified.
-   - Radzen `--rz-*` names can vary slightly by Radzen theme/version. If one
-     doesn't take effect, open your compiled Radzen theme CSS, find the real
-     variable name in its `:root {}` block, and map it here the same way.
-   - For anything Radzen does NOT expose as a variable, use the ::deep element
-     fallback at the bottom.
+   TOKEN NAMES: mapped to the CURRENT NewCo architecture —
+   - Surfaces live under `fill-surface-*` (canvas / elevated-sheet /
+     elevated-card-base / elevated-overlay-base). There is no `surface-*` or
+     `-widget` group any more.
+   - Text/Icon are unified under `foreground-*` (no `text-*` group).
+   - Action fills use `-rest` (not `-base`); on-primary text is the Dim/rest
+     foreground (white in light). There are no `inverse` or `tertiary` tokens.
+   - Type is atomic: `semantic-type-{family,font-size,line-height}-*`
+     (no composite `-label-button-*` role tokens).
    ============================================================================ */
 
 .newco-scope {
   /* ---- Brand / primary action -------------------------------------------- */
-  --rz-primary:          var(--semantic-color-light-mode-fill-action-primary-base);
+  --rz-primary:          var(--semantic-color-light-mode-fill-action-primary-rest);
   --rz-primary-dark:     var(--semantic-color-light-mode-fill-action-primary-hover);
   --rz-primary-darker:   var(--semantic-color-light-mode-fill-action-primary-pressed);
   --rz-primary-light:    var(--primitive-color-brand-300);
   --rz-primary-lighter:  var(--semantic-color-light-mode-fill-static-brand-light);
-  --rz-on-primary:       var(--semantic-color-light-mode-text-action-primary-inverse-base);
+  --rz-on-primary:       var(--semantic-color-light-mode-foreground-action-primary-dim-rest);
 
   /* ---- Secondary action -------------------------------------------------- */
-  --rz-secondary:        var(--semantic-color-light-mode-fill-action-secondary-base);
-  --rz-on-secondary:     var(--semantic-color-light-mode-text-action-secondary-base);
+  --rz-secondary:        var(--semantic-color-light-mode-fill-action-secondary-rest);
+  --rz-on-secondary:     var(--semantic-color-light-mode-foreground-action-secondary-rest);
 
   /* ---- Surfaces ---------------------------------------------------------- */
-  --rz-base-background-color:    var(--semantic-color-light-mode-surface-canvas-light);
-  --rz-content-background-color: var(--semantic-color-light-mode-surface-widget-base);
+  --rz-base-background-color:    var(--semantic-color-light-mode-fill-surface-canvas);
+  --rz-content-background-color: var(--semantic-color-light-mode-fill-surface-elevated-sheet);
+  --rz-panel-background-color:   var(--semantic-color-light-mode-fill-surface-elevated-card-base);
 
-  /* ---- Text -------------------------------------------------------------- */
-  --rz-text-color:           var(--semantic-color-light-mode-text-static-primary-base);
-  --rz-text-secondary-color: var(--semantic-color-light-mode-text-static-secondary-base);
-  --rz-text-disabled-color:  var(--semantic-color-light-mode-text-static-tertiary-base);
-  --rz-text-contrast-color:  var(--semantic-color-light-mode-text-action-primary-inverse-base);
+  /* ---- Text (foreground) ------------------------------------------------- */
+  --rz-text-color:           var(--semantic-color-light-mode-foreground-static-primary-base);
+  --rz-text-secondary-color: var(--semantic-color-light-mode-foreground-static-secondary-base);
+  --rz-text-disabled-color:  var(--semantic-color-light-mode-foreground-static-primary-disabled);
+  --rz-text-contrast-color:  var(--semantic-color-light-mode-foreground-action-primary-dim-rest);
 
   /* ---- Borders / strokes ------------------------------------------------- */
   --rz-border-color: var(--semantic-color-light-mode-stroke-static-neutral-base);
 
   /* ---- Status ------------------------------------------------------------ */
-  --rz-danger:  var(--semantic-color-light-mode-fill-static-negative-bold);
-  --rz-success: var(--semantic-color-light-mode-fill-static-positive-bold);
-  --rz-warning: var(--semantic-color-light-mode-fill-static-warning-bold);
-  --rz-info:    var(--semantic-color-light-mode-fill-static-info-bold);
+  --rz-danger:  var(--semantic-color-light-mode-fill-static-status-negative-bold);
+  --rz-success: var(--semantic-color-light-mode-fill-static-status-positive-bold);
+  --rz-warning: var(--semantic-color-light-mode-fill-static-status-warning-bold);
+  --rz-info:    var(--semantic-color-light-mode-fill-static-status-info-bold);
 
   /* ---- Radius ------------------------------------------------------------ */
-  --rz-border-radius:        var(--semantic-layout-units-contextual-button-radius-radius);
-  --rz-button-border-radius: var(--semantic-layout-units-contextual-button-radius-radius);
-  --rz-card-border-radius:   var(--semantic-layout-units-contextual-card-cornerradius-cornerradius);
-  --rz-input-border-radius:  var(--semantic-layout-units-contextual-input-radius-radius);
+  --rz-border-radius:        var(--contextual-layout-units-button-radius-radius);
+  --rz-button-border-radius: var(--contextual-layout-units-button-radius-radius);
+  --rz-card-border-radius:   var(--contextual-layout-units-card-cornerradius-cornerradius);
+  --rz-input-border-radius:  var(--contextual-layout-units-input-radius-radius);
 
-  /* ---- Typography -------------------------------------------------------- */
-  --rz-body-font-family: var(--semantic-type-label-button-base-fontfamily);
-  --rz-body-font-size:   var(--semantic-type-label-button-base-fontsize);
-  --rz-body-line-height: var(--semantic-type-label-button-base-lineheight);
+  /* ---- Typography (atomic scales) ---------------------------------------- */
+  --rz-body-font-family: var(--semantic-type-family-brand);
+  --rz-body-font-size:   var(--semantic-type-font-size-14);
+  --rz-body-line-height: var(--semantic-type-line-height-20pt-single);
 
   /* ---- Spacing ----------------------------------------------------------- */
-  --rz-gap: var(--semantic-layout-units-contextual-button-gap-horizontal);
+  --rz-gap: var(--contextual-layout-units-button-gap-horizontal);
 
   /* ---- Elevation / shadows ----------------------------------------------
-     NewCo has 4 elevation roles, subtle -> strong:
-       widget  (cards, widgets)      lift (raised / hover)
-       sheet   (large soft surfaces) overlay (popovers, menus, dialogs)
-     Radzen's shadow variable names vary by theme/version — confirm against
-     your compiled Radzen theme CSS and add/rename as needed. */
+     NewCo ships 4 elevation roles, subtle -> strong: widget, lift, sheet,
+     overlay (each with a Midnight set). Radzen's shadow variable names vary by
+     theme/version — confirm against your compiled Radzen theme CSS. */
   --rz-shadow-1:      var(--elevation-widget);
   --rz-shadow-2:      var(--elevation-widget);
   --rz-shadow-3:      var(--elevation-lift);
@@ -96,22 +97,27 @@
    ============================================================================ */
 .newco-scope.mode-midnight,
 :root[data-theme="midnight"] .newco-scope {
-  --rz-primary:          var(--semantic-color-midnight-mode-fill-action-primary-base);
+  --rz-primary:          var(--semantic-color-midnight-mode-fill-action-primary-rest);
   --rz-primary-dark:     var(--semantic-color-midnight-mode-fill-action-primary-hover);
   --rz-primary-darker:   var(--semantic-color-midnight-mode-fill-action-primary-pressed);
-  --rz-on-primary:       var(--semantic-color-midnight-mode-text-action-primary-inverse-base);
+  --rz-on-primary:       var(--semantic-color-midnight-mode-foreground-action-primary-dim-rest);
 
-  --rz-base-background-color:    var(--semantic-color-midnight-mode-surface-canvas-light);
-  --rz-content-background-color: var(--semantic-color-midnight-mode-surface-widget-base);
+  --rz-secondary:        var(--semantic-color-midnight-mode-fill-action-secondary-rest);
+  --rz-on-secondary:     var(--semantic-color-midnight-mode-foreground-action-secondary-rest);
 
-  --rz-text-color:           var(--semantic-color-midnight-mode-text-static-primary-base);
-  --rz-text-secondary-color: var(--semantic-color-midnight-mode-text-static-secondary-base);
+  --rz-base-background-color:    var(--semantic-color-midnight-mode-fill-surface-canvas);
+  --rz-content-background-color: var(--semantic-color-midnight-mode-fill-surface-elevated-sheet);
+  --rz-panel-background-color:   var(--semantic-color-midnight-mode-fill-surface-elevated-card-base);
+
+  --rz-text-color:           var(--semantic-color-midnight-mode-foreground-static-primary-base);
+  --rz-text-secondary-color: var(--semantic-color-midnight-mode-foreground-static-secondary-base);
+  --rz-text-disabled-color:  var(--semantic-color-midnight-mode-foreground-static-primary-disabled);
   --rz-border-color:         var(--semantic-color-midnight-mode-stroke-static-neutral-base);
 
-  --rz-danger:  var(--semantic-color-midnight-mode-fill-static-negative-bold);
-  --rz-success: var(--semantic-color-midnight-mode-fill-static-positive-bold);
-  --rz-warning: var(--semantic-color-midnight-mode-fill-static-warning-bold);
-  --rz-info:    var(--semantic-color-midnight-mode-fill-static-info-bold);
+  --rz-danger:  var(--semantic-color-midnight-mode-fill-static-status-negative-bold);
+  --rz-success: var(--semantic-color-midnight-mode-fill-static-status-positive-bold);
+  --rz-warning: var(--semantic-color-midnight-mode-fill-static-status-warning-bold);
+  --rz-info:    var(--semantic-color-midnight-mode-fill-static-status-info-bold);
 
   /* elevation — Midnight shadow set */
   --rz-shadow-1:      var(--elevation-midnight-widget);
@@ -132,11 +138,8 @@
    ============================================================================ */
 /*
 .newco-scope ::deep .rz-button {
-  border-radius: var(--semantic-layout-units-contextual-button-radius-radius);
-  padding: var(--semantic-layout-units-contextual-button-padding-medium-vertical)
-           var(--semantic-layout-units-contextual-button-padding-medium-horizontal);
-  font-family: var(--semantic-type-label-button-base-fontfamily);
-  font-size:   var(--semantic-type-label-button-base-fontsize);
-  font-weight: var(--semantic-type-label-button-base-fontweight);
+  border-radius: var(--contextual-layout-units-button-radius-radius);
+  font-family:   var(--semantic-type-family-brand);
+  font-size:     var(--semantic-type-font-size-14);
 }
 */

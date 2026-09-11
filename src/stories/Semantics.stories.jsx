@@ -59,9 +59,10 @@ function Category({ cat }) {
   );
 }
 
-export const Surface = () => <Category cat="surface" />;
-export const Text = () => <Category cat="text" />;
+// One page per REAL top-level semantic-color group (foreground, fill, stroke,
+// scrim). Text+Icon are folded into Foreground and Surface lives under Fill, so
+// there are no separate Text/Icon/Surface pages any more.
+export const Foreground = () => <Category cat="foreground" />;
 export const Fill = () => <Category cat="fill" />;
 export const Stroke = () => <Category cat="stroke" />;
-export const Icon = () => <Category cat="icon" />;
 export const Scrim = () => <Category cat="scrim" />;

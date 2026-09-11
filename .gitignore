@@ -1,6 +1,11 @@
 node_modules/
 storybook-static/
-src/tokens/
+_site/
+# src/tokens/tokens.css IS committed so the generated token output is visible in
+# the repo (rebuild with `npm run build-all`). tokens.js is the large ESM dump —
+# it ships in npm/tokens.js, so we keep the source copy out of git.
+src/tokens/tokens.js
+src/tokens/theme.css
 nuget/wwwroot/
 nuget/NewCoTokens.g.cs
 nuget/bin/

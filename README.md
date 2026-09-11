@@ -107,26 +107,23 @@ Every step is a plain, reviewable Node script. No bespoke build server.
 
 ---
 
-## Staying in sync with Figma (no exports, ever)
+## Staying in sync with Figma
 
-The contract: **change a variable in Figma -> it lands in the repo only after an
-approving review.** Mechanism:
+There is **no Figma REST/Variables API sync** in this repo. The org is not on the
+Enterprise plan, so the `variables/local` REST endpoint is not available to us —
+any REST-based auto-sync is impossible, and none is wired up.
 
-1. A GitHub Action runs `sync-tokens.js` (schedule + manual "Run workflow"). It
-   authenticates with an **org Plan Access Token** (a GitHub *secret*) and pulls
-   variables via the **Figma Variables REST API**.
-2. If anything changed, it opens a **Pull Request** with the token diff.
-3. A maintainer **reviews and merges** — the approval gate.
-4. Merge triggers the publish workflow -> version bump -> `npm publish`.
+Instead, the seed dumps under `tokens/figma-source/*.json` are refreshed from the
+Figma variable library through the **Dev-Mode / plugin (MCP) pull**, run from a
+session against the NewCo file. That writes the same seed shape the pipeline
+already expects, then:
 
-No plugin exports, no local watcher, no hand-edited JSON.
+```bash
+npm run build-all   # figma-source -> DTCG -> CSS/JS/JSON + NuGet (validates every alias)
+```
 
-**One thing to verify with the developer:** the `variables/local` REST endpoint
-was historically Enterprise-gated. On an **Organization** plan with a Plan Access
-Token it may or may not be enabled — `sync-tokens.js` fails loudly with the
-fallback if it 403s. Fallbacks (identical output, same PR gate): a Figma->Git
-plugin (TokenNexus / TokenSync) or a Dev-Mode MCP pull. See
-[docs/governance.md](docs/governance.md).
+The build fails loudly if any alias does not resolve, so a bad pull cannot ship.
+Nothing in the build reads a Figma file — the committed seeds are the input.
 
 ---
 
