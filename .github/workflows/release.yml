@@ -60,6 +60,8 @@ jobs:
 
       - name: Build both artifacts
         run: npm run build-all
+      - name: Verify token headers (a new output file cannot ship unlabelled)
+        run: npm run check-tokens
 
       - name: Publish to npm
         run: npm publish --access public

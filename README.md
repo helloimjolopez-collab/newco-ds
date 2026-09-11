@@ -19,18 +19,30 @@ Both registries publish from the **same build, in lockstep** — identical versi
 
 .NET delivery details (Razor Class Library, static-web-asset stylesheet, C# constants): [nuget/README.md](nuget/README.md).
 
-> **Scope — the full token library.** Every Figma collection ships, not just color:
->
-> | Collection | Contents |
-> |---|---|
-> | **Color** | 330 primitives (231 solid + 99 alpha) → 490 semantic roles · Light + **Midnight** |
-> | **Type** | 75 primitives → 554 semantic roles · Desktop + Mobile |
-> | **Layout & Units** (incl. **radius** + spacing) | 33 primitives → 74 semantic roles · responsive (Desktop/Tablet/Mobile) |
-> | **Motion** | 14 (durations + easings) |
-> | **Elevation** | Light + Midnight shadow sets |
-> | **Breakpoints** | 5 |
->
-> Delivered as CSS / JS / JSON (npm) and a Razor Class Library (NuGet), plus Storybook and the CI sync pipeline.
+## The contract is **514 names**
+
+That is the number to quote a developer — the names you may actually use, not the
+line count. The rest is infrastructure you load but never name. The CSS ships as
+small, self-describing files (each with a stamped CONTRACT / INFRASTRUCTURE /
+COMPONENT-INTERNALS header and a computed count), never one giant `tokens.css`:
+
+| File | Names | Name it? | What it is |
+|---|---|---|---|
+| `primitives.css` | 466 | no | Raw ramps. Load it; never name it. |
+| `themes/light.css` + `themes/midnight.css` | 417 | **yes** | Colour + elevation, one name per token, flipped by `data-theme`. |
+| `type.css` | 39 | **yes** | Type scale (compose the atomic tokens). |
+| `layout.css` | 39 | **yes** | Spacing, radii, border widths. |
+| `layout-contextual.css` | 37 | no | Per-component metrics. |
+| `motion.css` / `breakpoints.css` | 14 / 5 | **yes** | Durations + easings / breakpoints. |
+
+Load order, the region→surface map, and the theming/type recipes are in
+[`src/tokens/README.md`](src/tokens/README.md) (and repeated inside the published
+package as `npm/README.md` + machine-readable `npm/contract.json`). One import
+loads everything in order: `@import "@helloimjolopez-newco/newco-tokens/css";`.
+
+Delivered as CSS / JS / JSON (npm) and a Razor Class Library (NuGet), from one
+lockstep build. Colour + elevation theme by `data-theme` (`midnight` / `dark`); no
+mode is ever baked into a property name.
 
 ---
 
