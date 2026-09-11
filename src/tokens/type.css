@@ -1,0 +1,61 @@
+/*
+ ==========================================================================
+ NEWCO DESIGN TOKENS — CONTRACT
+ ==========================================================================
+
+ The type SCALE (atomic). Name these freely.
+
+ There are no composite text styles and no type classes — compose at the call site:
+
+   font-family:    var(--semantic-type-family-brand);
+   font-size:      var(--semantic-type-font-size-14);
+   font-weight:    var(--semantic-type-weight-500);
+   line-height:    var(--semantic-type-line-height-20pt-single);
+
+ The named text styles live in Figma text styles, where a designer applies them.
+
+ Declares 39 custom properties.
+ Generated — do not edit. Run `npm run build-tokens`.
+ ==========================================================================
+*/
+:root {
+  --semantic-type-letter-spacing-standard: var(--primitive-type-letter-spacing-standard);
+  --semantic-type-letter-spacing-wide: var(--primitive-type-letter-spacing-wide);
+  --semantic-type-letter-spacing-extrawide: var(--primitive-type-letter-spacing-extrawide);
+  --semantic-type-weight-400: var(--primitive-type-weight-400);
+  --semantic-type-weight-500: var(--primitive-type-weight-500);
+  --semantic-type-weight-600: var(--primitive-type-weight-600);
+  --semantic-type-weight-700: var(--primitive-type-weight-700);
+  --semantic-type-line-height-32pt-single: var(--primitive-type-line-height-32pt-single);
+  --semantic-type-line-height-24pt-single: var(--primitive-type-line-height-24pt-single);
+  --semantic-type-line-height-36pt-single: var(--primitive-type-line-height-36pt-single);
+  --semantic-type-line-height-20pt-single: var(--primitive-type-line-height-20pt-single);
+  --semantic-type-line-height-16pt-single: var(--primitive-type-line-height-16pt-single);
+  --semantic-type-line-height-14pt-tight: var(--primitive-type-line-height-14pt-tight);
+  --semantic-type-line-height-14pt-single: var(--primitive-type-line-height-14pt-single);
+  --semantic-type-line-height-12pt-tight: var(--primitive-type-line-height-12pt-tight);
+  --semantic-type-line-height-12pt-single: var(--primitive-type-line-height-12pt-single);
+  --semantic-type-line-height-11pt-tight: var(--primitive-type-line-height-11pt-tight);
+  --semantic-type-line-height-11pt-single: var(--primitive-type-line-height-11pt-single);
+  --semantic-type-line-height-18pt-relaxed: var(--primitive-type-line-height-18pt-relaxed);
+  --semantic-type-line-height-18pt-single: var(--primitive-type-line-height-18pt-single);
+  --semantic-type-line-height-10pt-single: var(--primitive-type-line-height-10pt-single);
+  --semantic-type-line-height-10pt-tight: var(--primitive-type-line-height-10pt-tight);
+  --semantic-type-line-height-56pt-single: var(--primitive-type-line-height-56pt-single);
+  --semantic-type-line-height-48pt-single: var(--primitive-type-line-height-48pt-single);
+  --semantic-type-line-height-40pt-single: var(--primitive-type-line-height-40pt-single);
+  --semantic-type-family-brand: var(--primitive-type-family-brand);
+  --semantic-type-font-size-10: var(--primitive-type-size-10);
+  --semantic-type-font-size-11: var(--primitive-type-size-11);
+  --semantic-type-font-size-12: var(--primitive-type-size-12);
+  --semantic-type-font-size-14: var(--primitive-type-size-14);
+  --semantic-type-font-size-16: var(--primitive-type-size-16);
+  --semantic-type-font-size-18: var(--primitive-type-size-18);
+  --semantic-type-font-size-20: var(--primitive-type-size-20);
+  --semantic-type-font-size-24: var(--primitive-type-size-24);
+  --semantic-type-font-size-32: var(--primitive-type-size-32);
+  --semantic-type-font-size-36: var(--primitive-type-size-36);
+  --semantic-type-font-size-40: var(--primitive-type-size-40);
+  --semantic-type-font-size-48: var(--primitive-type-size-48);
+  --semantic-type-font-size-56: var(--primitive-type-size-56);
+}

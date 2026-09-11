@@ -1,4 +1,6 @@
-import "../src/tokens/tokens.css";
+// Single entry: @imports primitives + themes + scales in load order (primitives
+// first). This is the same file consumers get via the package "./css" export.
+import "../src/tokens/index.css";
 
 /** @type {import('@storybook/react').Preview} */
 const preview = {

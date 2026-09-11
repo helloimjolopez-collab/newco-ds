@@ -28,25 +28,27 @@
  */
 import { LitElement, html, css, nothing } from "lit";
 
-const ROLE_VARS = (mode) => {
-  const elev = mode === "midnight" ? "--elevation-midnight-overlay" : "--elevation-overlay";
-  return `
-  --newco-nav-surface: var(--semantic-color-${mode}-mode-fill-surface-canvas);
-  --newco-nav-border: var(--semantic-color-${mode}-mode-stroke-static-neutral-subtle);
-  --newco-nav-item-fg: var(--semantic-color-${mode}-mode-foreground-action-selection-base);
-  --newco-nav-item-fg-hover: var(--semantic-color-${mode}-mode-foreground-action-selection-hover);
-  --newco-nav-item-fg-selected: var(--semantic-color-${mode}-mode-foreground-action-selection-selected);
-  --newco-nav-item-fg-disabled: var(--semantic-color-${mode}-mode-foreground-action-selection-disabled);
-  --newco-nav-item-bg-hover: var(--semantic-color-${mode}-mode-fill-action-selection-hover);
-  --newco-nav-item-bg-selected: var(--semantic-color-${mode}-mode-fill-action-selection-selected);
-  --newco-nav-item-bg-trail: var(--semantic-color-${mode}-mode-fill-action-selection-trail);
-  --newco-nav-indicator: var(--semantic-color-${mode}-mode-fill-action-selection-indicator);
-  --newco-nav-focus: var(--semantic-color-${mode}-mode-stroke-focusring-base);
-  --newco-nav-flyout-surface: var(--semantic-color-${mode}-mode-fill-surface-elevated-overlay-base);
-  --newco-nav-shadow: var(${elev});
+// Role vars are MODELESS: they point at the one-name-per-token contract, and the
+// theme is chosen by the `data-theme` attribute the container reflects onto itself
+// (see NewcoSideNav.updated). The loaded themes/*.css then resolve every
+// --semantic-color-* and --elevation-* to the Light or Midnight value, which
+// inherits into the slotted items. No mode-in-name property is referenced.
+const ROLE_VARS = `
+  --newco-nav-surface: var(--semantic-color-contextual-fill-surface-chrome);
+  --newco-nav-border: var(--semantic-color-stroke-static-neutral-subtle);
+  --newco-nav-item-fg: var(--semantic-color-foreground-action-selection-base);
+  --newco-nav-item-fg-hover: var(--semantic-color-foreground-action-selection-hover);
+  --newco-nav-item-fg-selected: var(--semantic-color-foreground-action-selection-selected);
+  --newco-nav-item-fg-disabled: var(--semantic-color-foreground-action-selection-disabled);
+  --newco-nav-item-bg-hover: var(--semantic-color-fill-action-selection-hover);
+  --newco-nav-item-bg-selected: var(--semantic-color-fill-action-selection-selected);
+  --newco-nav-item-bg-trail: var(--semantic-color-fill-action-selection-trail);
+  --newco-nav-indicator: var(--semantic-color-fill-action-selection-indicator);
+  --newco-nav-focus: var(--semantic-color-stroke-focusring-base);
+  --newco-nav-flyout-surface: var(--semantic-color-fill-surface-elevated-overlay-base);
+  --newco-nav-shadow: var(--elevation-overlay);
   --newco-nav-font: var(--primitive-type-family-brand, "Google Sans Flex");
 `;
-};
 
 // Shared row CSS used by both the destination item and the group header.
 const ROW_CSS = css`
@@ -156,8 +158,8 @@ export class NewcoSideNav extends LitElement {
   `;
 
   _themeStyle() {
-    const mode = this.theme === "midnight" ? "midnight" : "light";
-    return html`<style>:host{${ROLE_VARS(mode)}}</style>`;
+    // Static, modeless. The theme is selected by the data-theme attribute below.
+    return html`<style>:host{${ROLE_VARS}}</style>`;
   }
 
   toggle() {
@@ -175,7 +177,15 @@ export class NewcoSideNav extends LitElement {
     if (hdr && slot) hdr.classList.toggle("has-content", slot.assignedNodes({ flatten: true }).length > 0);
   }
 
-  updated(changed) { if (changed.has("collapsed")) this._syncChildren(); }
+  updated(changed) {
+    if (changed.has("collapsed")) this._syncChildren();
+    // Reflect the theme to data-theme on the host so the loaded themes/*.css
+    // resolve --semantic-color-* / --elevation-* to the right mode, which then
+    // inherits into the slotted items. This is how the modeless contract themes.
+    if (changed.has("theme")) this.setAttribute("data-theme", this.theme === "midnight" ? "midnight" : "light");
+  }
+
+  firstUpdated() { this.setAttribute("data-theme", this.theme === "midnight" ? "midnight" : "light"); }
 
   render() {
     return html`

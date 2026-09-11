@@ -1,0 +1,56 @@
+/*
+ ==========================================================================
+ NEWCO DESIGN TOKENS — CONTRACT
+ ==========================================================================
+
+ Spacing, radii and border widths. Name these freely.
+
+ Values already carry their unit — use them directly. Do NOT wrap in
+ calc(... * 1px): that yields calc(4px * 1px), which is not a length, so the
+ browser silently drops the declaration.
+
+ Declares 39 custom properties.
+ Generated — do not edit. Run `npm run build-tokens`.
+ ==========================================================================
+*/
+:root {
+  --semantic-layout-units-borderwidth-xthin: var(--primitive-unit-unit-0-point-5);
+  --semantic-layout-units-borderwidth-thin: var(--primitive-unit-unit-0-point-75);
+  --semantic-layout-units-borderwidth-base: var(--primitive-unit-unit-1);
+  --semantic-layout-units-borderwidth-medium: var(--primitive-unit-unit-1-point-5);
+  --semantic-layout-units-borderwidth-thick: var(--primitive-unit-unit-2);
+  --semantic-layout-units-borderwidth-xthick: var(--primitive-unit-unit-4);
+  --semantic-layout-units-borderwidth-xxthick: var(--primitive-unit-unit-6);
+  --semantic-layout-units-cornerradius-xsmall: var(--primitive-unit-unit-2);
+  --semantic-layout-units-cornerradius-small: var(--primitive-unit-unit-4);
+  --semantic-layout-units-cornerradius-medium: var(--primitive-unit-unit-8);
+  --semantic-layout-units-cornerradius-large: var(--primitive-unit-unit-12);
+  --semantic-layout-units-cornerradius-xlarge: var(--primitive-unit-unit-16);
+  --semantic-layout-units-cornerradius-full: var(--primitive-unit-unit-999);
+  --semantic-layout-units-gap-xxxtight: var(--primitive-unit-unit-2);
+  --semantic-layout-units-gap-xxtight: var(--primitive-unit-unit-4);
+  --semantic-layout-units-gap-xtight: var(--primitive-unit-unit-6);
+  --semantic-layout-units-gap-tight: var(--primitive-unit-unit-8);
+  --semantic-layout-units-gap-medium: var(--primitive-unit-unit-12);
+  --semantic-layout-units-gap-base: var(--primitive-unit-unit-16);
+  --semantic-layout-units-gap-relaxed: var(--primitive-unit-unit-24);
+  --semantic-layout-units-gap-wide: var(--primitive-unit-unit-36);
+  --semantic-layout-units-padding-xxxtight: var(--primitive-unit-unit-2);
+  --semantic-layout-units-padding-xxtight: var(--primitive-unit-unit-4);
+  --semantic-layout-units-padding-xtight: var(--primitive-unit-unit-6);
+  --semantic-layout-units-padding-tight: var(--primitive-unit-unit-8);
+  --semantic-layout-units-padding-medium: var(--primitive-unit-unit-12);
+  --semantic-layout-units-padding-base: var(--primitive-unit-unit-16);
+  --semantic-layout-units-padding-relaxed: var(--primitive-unit-unit-24);
+  --semantic-layout-units-padding-wide: var(--primitive-unit-unit-36);
+  --semantic-layout-units-padding-xwide: var(--primitive-unit-unit-48);
+  --semantic-layout-units-padding-xxwide: var(--primitive-unit-unit-56);
+  --semantic-layout-units-padding-ginormous: var(--primitive-unit-unit-64);
+  --semantic-layout-units-padding-collosal: var(--primitive-unit-unit-120);
+  --semantic-layout-units-accessibility-touch-target-aaa-height: var(--primitive-unit-unit-48);
+  --semantic-layout-units-accessibility-touch-target-aaa-width: var(--primitive-unit-unit-48);
+  --semantic-layout-units-accessibility-touch-target-aa-height: var(--primitive-unit-unit-44);
+  --semantic-layout-units-accessibility-touch-target-aa-width: var(--primitive-unit-unit-44);
+  --semantic-layout-units-accessibility-touch-target-desktop-only-height: var(--primitive-unit-unit-36);
+  --semantic-layout-units-accessibility-touch-target-desktop-only-width: var(--primitive-unit-unit-36);
+}

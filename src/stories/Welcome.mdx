@@ -37,8 +37,8 @@ Components (starting with **Button**, as Lit Web Components) land under a
 npm install @helloimjolopez-newco/newco-tokens
 ```
 ```css
-@import "@helloimjolopez-newco/newco-tokens/css";
-.card { background: var(--semantic-color-light-mode-surface-widget-base); }
+@import "@helloimjolopez-newco/newco-tokens/css";  /* loads every file, primitives first */
+.card { background: var(--semantic-color-fill-surface-elevated-card-base); }
 ```
 
 **NuGet** (Blazor / Radzen):
@@ -59,16 +59,15 @@ Both packages are built from the same source and released **in lockstep**.
 Two layers, mirroring Figma exactly:
 
 1. **Primitives** (`--primitive-color-*`) — the raw palette (Brand ramp, Warm/Cool
-   Neutrals, status hues, Midnight canvas set). ~417 values. Apps rarely touch
-   these directly.
-2. **Semantics** (`--semantic-color-{mode}-*`) — role-based tokens (surface, text,
-   fill, stroke, icon × primary/info/positive/negative/…) that **reference**
-   primitives via `var()`. ~490 roles, in **Light** and **Midnight** modes.
+   Neutrals, status hues, Midnight set). Load them; don't name them in product code.
+2. **Semantics** — role-based tokens (`foreground`, `fill`, `stroke`, surfaces under
+   `fill-surface-*`) that **reference** primitives via `var()`. 457 colour roles, each
+   a **single name** whose value flips by `data-theme` — Light values in
+   `themes/light.css`, the same names with Midnight values in `themes/midnight.css`.
 
 ```
---primitive-color-warm-neutral-100:            #fcf9f9;
---semantic-color-light-mode-surface-sheet-base: var(--primitive-color-warm-neutral-100);
---semantic-color-midnight-mode-surface-sheet-base: var(--primitive-color-midnight-sheet);
+--primitive-color-warm-neutral-75:            #f1eaea;                       /* raw, one value */
+--semantic-color-fill-action-secondary-rest:  var(--primitive-color-warm-neutral-75);  /* one name, flips by theme */
 ```
 
 The alias chain from Figma is preserved in the output — change a primitive and

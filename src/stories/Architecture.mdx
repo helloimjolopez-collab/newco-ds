@@ -11,14 +11,13 @@ A quick, complete mental model — readable by any developer or AI agent.
 1. **Primitives** — `--primitive-color-{family}-{step}` (e.g. `--primitive-color-brand-600`).
    The raw palette: Brand ramp, Warm/Cool neutrals, status hues, accents, and the
    Midnight canvas set. **Don't consume these directly.**
-2. **Semantics** — `--semantic-color-{mode}-{category}-{role}-{variant}`
-   (e.g. `--semantic-color-light-mode-surface-sheet-base`). Role-based tokens that
-   **reference** a primitive via `var()`. **This is what you build with.**
+2. **Semantics** — `--semantic-color-{category}-{role}-{variant}`
+   (e.g. `--semantic-color-fill-surface-elevated-sheet`). One name per token, no mode
+   in the name. Role-based, **references** a primitive via `var()`. **Build with these.**
 
 ```
---primitive-color-warm-neutral-100:              #fcf9f9;              /* raw */
---semantic-color-light-mode-surface-sheet-base:  var(--primitive-color-warm-neutral-100);
---semantic-color-midnight-mode-surface-sheet-base: var(--primitive-color-midnight-sheet);
+--primitive-color-warm-neutral-75:            #f1eaea;                       /* raw */
+--semantic-color-fill-action-secondary-rest:  var(--primitive-color-warm-neutral-75);  /* one name; value set per theme */
 ```
 
 Change a primitive → every semantic that references it moves with it. The alias
@@ -26,22 +25,33 @@ chain from Figma is preserved end-to-end.
 
 ## Modes
 
-Two modes ship today: **Light** and **Midnight**. Each semantic exists in both,
-namespaced in the variable name (`…-light-mode-…` / `…-midnight-mode-…`). A thin
-`[data-theme="midnight"]` alias layer (so apps flip themes with one attribute) is
-the planned next iteration.
+Two modes ship: **Light** and **Midnight**. Each semantic is **one name** whose
+value is chosen by a `data-theme` selector, not by the name. Light values live in
+`themes/light.css` (`:root, [data-theme="light"]`); the same names carry Midnight
+values in `themes/midnight.css` (`[data-theme="midnight"], [data-theme="dark"]`).
+Flip the page by setting `data-theme` on `<html>`, or a subtree by setting it on any
+element — it composes both ways. Colour and the four `--elevation-*` shadows flip
+together.
 
 ## Categories (semantic)
 
-`surface` · `text` · `fill` · `stroke` · `icon` · `scrim` — each split by role
-(Action / Static / Contextual) and status family (primary, info, positive,
-negative, danger, alert, accents). Browse them under **Tokens → Semantics**.
+`foreground` (text + icon, unified) · `fill` (incl. surfaces under `fill-surface-*`)
+· `stroke` · `scrim` — each split by role (Action / Static) and status family
+(info, positive, negative, danger, warning, accents). Browse them under
+**Tokens → Semantics**.
 
 ## The pipeline (Figma is the source of truth)
 
+There is no Figma REST sync (the org is not on Enterprise). The Variables panel is
+read via the Figma plugin / Dev-Mode (MCP) into the seeds under
+`tokens/figma-source/`, then:
+
 ```
-Figma (NewCo branch)  --REST, Plan Access Token, in CI-->  PR (approval gate)  -->  merge
-   --> Style Dictionary build --> npm/{tokens.css, tokens.js, tokens.json}
+tokens/figma-source/*.json  --build-token-source-->  newco-design-tokens.json (DTCG)
+   --Style Dictionary + stamp-headers + build-index-->  primitives.css · themes/{light,midnight}.css
+     · layout.css · layout-contextual.css · type.css · motion.css · breakpoints.css · index.css
+   --build-dist + build-contract-->  npm/ (+ README.md, contract.json)
+   --build-nuget-->  nuget/ (concatenated newco-tokens.css + C# constants)
    --> npm publish  +  NuGet publish  (lockstep)
 ```
 

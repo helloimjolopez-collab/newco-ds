@@ -1,0 +1,30 @@
+/*
+ ==========================================================================
+ NEWCO DESIGN TOKENS — CONTRACT
+ ==========================================================================
+
+ Durations and easings. Name these freely.
+
+ These DO live in the Figma Variables panel (the Motion collection), so unlike
+ some systems, a Figma export carries them.
+
+ Declares 14 custom properties.
+ Generated — do not edit. Run `npm run build-tokens`.
+ ==========================================================================
+*/
+:root {
+  --motion-duration-1: 120ms;
+  --motion-duration-2: 180ms;
+  --motion-duration-3: 240ms;
+  --motion-duration-4: 360ms;
+  --motion-duration-5: 560ms;
+  --motion-duration-6: 740ms;
+  --motion-easing-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --motion-easing-decelerate: cubic-bezier(0, 0, 0.2, 1);
+  --motion-easing-emphasized: cubic-bezier(0.32, 0.72, 0, 1);
+  --motion-easing-breath: cubic-bezier(0.37, 0, 0.63, 1);
+  --motion-easing-burst: cubic-bezier(0.30, 0, 0.5, 1.18);
+  --motion-easing-spring: cubic-bezier(0.34, 1.08, 0.64, 1);
+  --motion-easing-spring-soft: cubic-bezier(0.30, 1.05, 0.40, 1);
+  --motion-easing-inout: cubic-bezier(0.62, 0.02, 0.23, 1);
+}

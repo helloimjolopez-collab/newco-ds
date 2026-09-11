@@ -3,62 +3,59 @@
    One-time bridge: point Radzen's own theme variables at NewCo tokens.
 
    WHY: Radzen components style themselves through their own `--rz-*` CSS
-   variables (e.g. a button's radius = var(--rz-button-border-radius)). If you
-   only override background/color on your own classes, Radzen keeps its default
-   radius, type, spacing. Remapping the `--rz-*` variables ONCE makes every
-   Radzen button / card / input / badge inherit NewCo values automatically —
-   no per-component rules.
+   variables (e.g. a button's radius = var(--rz-button-border-radius)). Remapping
+   the `--rz-*` variables ONCE makes every Radzen button / card / input / badge
+   inherit NewCo values automatically — no per-component rules.
 
    HOW TO USE:
-   1. Ensure the token stylesheet is linked (App.razor / _Host.cshtml / index.html):
+   1. Link the tokens once (App.razor / _Host.cshtml / index.html):
         <link rel="stylesheet" href="_content/NewCo.Tokens/newco-tokens.css" />
    2. Link this file AFTER it, and wrap your app (or a section) in the scope class:
         <div class="newco-scope"> ... your Radzen UI ... </div>
       (or change `.newco-scope` below to `:root` to theme the whole app.)
 
-   TOKEN NAMES: mapped to the CURRENT NewCo architecture —
-   - Surfaces live under `fill-surface-*` (canvas / elevated-sheet /
-     elevated-card-base / elevated-overlay-base). There is no `surface-*` or
-     `-widget` group any more.
-   - Text/Icon are unified under `foreground-*` (no `text-*` group).
-   - Action fills use `-rest` (not `-base`); on-primary text is the Dim/rest
-     foreground (white in light). There are no `inverse` or `tertiary` tokens.
-   - Type is atomic: `semantic-type-{family,font-size,line-height}-*`
-     (no composite `-label-button-*` role tokens).
+   THEMING IS AUTOMATIC. NewCo colour + elevation are MODELESS: one name per
+   token, the value chosen by `data-theme`. So there is no Midnight block here —
+   set `data-theme="midnight"` (or `"dark"`) on <html> (or any wrapper) and every
+   `--rz-*` below flips with it, because each points at a modeless token that
+   flips. Adding a second mode-specific block would be redundant.
+
+   TOKEN NAMES follow the current NewCo architecture: surfaces under `fill-surface-*`,
+   text/icon unified under `foreground-*`, action fills use `-rest`, type is atomic.
    ============================================================================ */
 
 .newco-scope {
   /* ---- Brand / primary action -------------------------------------------- */
-  --rz-primary:          var(--semantic-color-light-mode-fill-action-primary-rest);
-  --rz-primary-dark:     var(--semantic-color-light-mode-fill-action-primary-hover);
-  --rz-primary-darker:   var(--semantic-color-light-mode-fill-action-primary-pressed);
+  --rz-primary:          var(--semantic-color-fill-action-primary-rest);
+  --rz-primary-dark:     var(--semantic-color-fill-action-primary-hover);
+  --rz-primary-darker:   var(--semantic-color-fill-action-primary-pressed);
   --rz-primary-light:    var(--primitive-color-brand-300);
-  --rz-primary-lighter:  var(--semantic-color-light-mode-fill-static-brand-light);
-  --rz-on-primary:       var(--semantic-color-light-mode-foreground-action-primary-dim-rest);
+  --rz-primary-lighter:  var(--semantic-color-fill-static-brand-light);
+  --rz-on-primary:       var(--semantic-color-foreground-action-primary-dim-rest);
 
   /* ---- Secondary action -------------------------------------------------- */
-  --rz-secondary:        var(--semantic-color-light-mode-fill-action-secondary-rest);
-  --rz-on-secondary:     var(--semantic-color-light-mode-foreground-action-secondary-rest);
+  --rz-secondary:        var(--semantic-color-fill-action-secondary-rest);
+  --rz-on-secondary:     var(--semantic-color-foreground-action-secondary-rest);
 
   /* ---- Surfaces ---------------------------------------------------------- */
-  --rz-base-background-color:    var(--semantic-color-light-mode-fill-surface-canvas);
-  --rz-content-background-color: var(--semantic-color-light-mode-fill-surface-elevated-sheet);
-  --rz-panel-background-color:   var(--semantic-color-light-mode-fill-surface-elevated-card-base);
+  --rz-base-background-color:    var(--semantic-color-fill-surface-canvas);
+  --rz-content-background-color: var(--semantic-color-fill-surface-elevated-sheet);
+  --rz-panel-background-color:   var(--semantic-color-fill-surface-elevated-card-base);
 
   /* ---- Text (foreground) ------------------------------------------------- */
-  --rz-text-color:           var(--semantic-color-light-mode-foreground-static-primary-base);
-  --rz-text-secondary-color: var(--semantic-color-light-mode-foreground-static-secondary-base);
-  --rz-text-disabled-color:  var(--semantic-color-light-mode-foreground-static-primary-disabled);
-  --rz-text-contrast-color:  var(--semantic-color-light-mode-foreground-action-primary-dim-rest);
+  --rz-text-color:           var(--semantic-color-foreground-static-primary-base);
+  --rz-text-secondary-color: var(--semantic-color-foreground-static-secondary-base);
+  --rz-text-disabled-color:  var(--semantic-color-foreground-static-primary-disabled);
+  --rz-text-contrast-color:  var(--semantic-color-foreground-action-primary-dim-rest);
 
   /* ---- Borders / strokes ------------------------------------------------- */
-  --rz-border-color: var(--semantic-color-light-mode-stroke-static-neutral-base);
+  --rz-border-color: var(--semantic-color-stroke-static-neutral-base);
 
   /* ---- Status ------------------------------------------------------------ */
-  --rz-danger:  var(--semantic-color-light-mode-fill-static-status-negative-bold);
-  --rz-success: var(--semantic-color-light-mode-fill-static-status-positive-bold);
-  --rz-warning: var(--semantic-color-light-mode-fill-static-status-warning-bold);
-  --rz-info:    var(--semantic-color-light-mode-fill-static-status-info-bold);
+  --rz-danger:  var(--semantic-color-fill-static-status-negative-bold);
+  --rz-success: var(--semantic-color-fill-static-status-positive-bold);
+  --rz-warning: var(--semantic-color-fill-static-status-attention-bold);
+  --rz-info:    var(--semantic-color-fill-static-accent-seabreeze-bold);
 
   /* ---- Radius ------------------------------------------------------------ */
   --rz-border-radius:        var(--contextual-layout-units-button-radius-radius);
@@ -66,7 +63,7 @@
   --rz-card-border-radius:   var(--contextual-layout-units-card-cornerradius-cornerradius);
   --rz-input-border-radius:  var(--contextual-layout-units-input-radius-radius);
 
-  /* ---- Typography (atomic scales) ---------------------------------------- */
+  /* ---- Typography (atomic scale) ----------------------------------------- */
   --rz-body-font-family: var(--semantic-type-family-brand);
   --rz-body-font-size:   var(--semantic-type-font-size-14);
   --rz-body-line-height: var(--semantic-type-line-height-20pt-single);
@@ -74,10 +71,7 @@
   /* ---- Spacing ----------------------------------------------------------- */
   --rz-gap: var(--contextual-layout-units-button-gap-horizontal);
 
-  /* ---- Elevation / shadows ----------------------------------------------
-     NewCo ships 4 elevation roles, subtle -> strong: widget, lift, sheet,
-     overlay (each with a Midnight set). Radzen's shadow variable names vary by
-     theme/version — confirm against your compiled Radzen theme CSS. */
+  /* ---- Elevation / shadows (modeless — flip with the theme) -------------- */
   --rz-shadow-1:      var(--elevation-widget);
   --rz-shadow-2:      var(--elevation-widget);
   --rz-shadow-3:      var(--elevation-lift);
@@ -88,48 +82,7 @@
   --rz-card-shadow:   var(--elevation-widget);
   --rz-menu-shadow:   var(--elevation-overlay);
   --rz-dialog-shadow: var(--elevation-overlay);
-  --rz-button-shadow: none;   /* NewCo buttons are flat (no elevation role for them) */
-}
-
-/* ============================================================================
-   MIDNIGHT MODE — identical mappings against the `-midnight-mode-` tokens.
-   Trigger it however your app toggles theme; two common patterns shown.
-   ============================================================================ */
-.newco-scope.mode-midnight,
-:root[data-theme="midnight"] .newco-scope {
-  --rz-primary:          var(--semantic-color-midnight-mode-fill-action-primary-rest);
-  --rz-primary-dark:     var(--semantic-color-midnight-mode-fill-action-primary-hover);
-  --rz-primary-darker:   var(--semantic-color-midnight-mode-fill-action-primary-pressed);
-  --rz-on-primary:       var(--semantic-color-midnight-mode-foreground-action-primary-dim-rest);
-
-  --rz-secondary:        var(--semantic-color-midnight-mode-fill-action-secondary-rest);
-  --rz-on-secondary:     var(--semantic-color-midnight-mode-foreground-action-secondary-rest);
-
-  --rz-base-background-color:    var(--semantic-color-midnight-mode-fill-surface-canvas);
-  --rz-content-background-color: var(--semantic-color-midnight-mode-fill-surface-elevated-sheet);
-  --rz-panel-background-color:   var(--semantic-color-midnight-mode-fill-surface-elevated-card-base);
-
-  --rz-text-color:           var(--semantic-color-midnight-mode-foreground-static-primary-base);
-  --rz-text-secondary-color: var(--semantic-color-midnight-mode-foreground-static-secondary-base);
-  --rz-text-disabled-color:  var(--semantic-color-midnight-mode-foreground-static-primary-disabled);
-  --rz-border-color:         var(--semantic-color-midnight-mode-stroke-static-neutral-base);
-
-  --rz-danger:  var(--semantic-color-midnight-mode-fill-static-status-negative-bold);
-  --rz-success: var(--semantic-color-midnight-mode-fill-static-status-positive-bold);
-  --rz-warning: var(--semantic-color-midnight-mode-fill-static-status-warning-bold);
-  --rz-info:    var(--semantic-color-midnight-mode-fill-static-status-info-bold);
-
-  /* elevation — Midnight shadow set */
-  --rz-shadow-1:      var(--elevation-midnight-widget);
-  --rz-shadow-2:      var(--elevation-midnight-widget);
-  --rz-shadow-3:      var(--elevation-midnight-lift);
-  --rz-shadow-4:      var(--elevation-midnight-lift);
-  --rz-shadow-5:      var(--elevation-midnight-sheet);
-  --rz-shadow-6:      var(--elevation-midnight-overlay);
-  --rz-panel-shadow:  var(--elevation-midnight-widget);
-  --rz-card-shadow:   var(--elevation-midnight-widget);
-  --rz-menu-shadow:   var(--elevation-midnight-overlay);
-  --rz-dialog-shadow: var(--elevation-midnight-overlay);
+  --rz-button-shadow: none;   /* NewCo buttons are flat (no elevation role) */
 }
 
 /* ============================================================================

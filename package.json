@@ -13,11 +13,20 @@
     "tokens/newco-design-tokens.json"
   ],
   "main": "./npm/tokens.js",
-  "style": "./npm/tokens.css",
+  "style": "./npm/index.css",
   "exports": {
     ".": "./npm/tokens.js",
-    "./css": "./npm/tokens.css",
+    "./css": "./npm/index.css",
     "./json": "./npm/tokens.json",
+    "./contract": "./npm/contract.json",
+    "./primitives": "./npm/primitives.css",
+    "./themes/light": "./npm/themes/light.css",
+    "./themes/midnight": "./npm/themes/midnight.css",
+    "./layout": "./npm/layout.css",
+    "./layout-contextual": "./npm/layout-contextual.css",
+    "./type": "./npm/type.css",
+    "./motion": "./npm/motion.css",
+    "./breakpoints": "./npm/breakpoints.css",
     "./components/side-nav": "./src/components/side-nav/newco-side-nav.js"
   },
   "publishConfig": {
@@ -30,10 +39,10 @@
   },
   "scripts": {
     "build-source": "node scripts/build-token-source.js",
-    "build-tokens": "node scripts/build-token-source.js && node style-dictionary.config.js",
-    "build-dist": "node scripts/build-token-source.js && node style-dictionary.config.js && node scripts/build-dist.js",
+    "build-tokens": "node scripts/build-token-source.js && node style-dictionary.config.js && node scripts/stamp-headers.js && node scripts/build-index.js",
+    "build-dist": "npm run build-tokens && node scripts/build-dist.js && node scripts/build-contract.js",
     "build-nuget": "node scripts/build-nuget.js",
-    "build-theme-alias": "node scripts/build-theme-alias.js",
+    "check-tokens": "node scripts/stamp-headers.js --check",
     "build-all": "npm run build-dist && npm run build-nuget",
     "storybook": "npm run build-tokens && storybook dev -p 6006",
     "build-storybook": "npm run build-tokens && storybook build",

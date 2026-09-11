@@ -104,8 +104,13 @@ for (const [n, v] of nc["Breakpoints"].vars) setLeaf(out["breakpoints"], pathPar
 out["motion"] = {};
 for (const [n, v] of nc["Motion"].durations) setLeaf(out["motion"], pathParts(n), str(`${v}ms`));
 for (const [n, v] of nc["Motion"].easings) setLeaf(out["motion"], pathParts(n), str(v));
-out["elevation"] = {}; out["elevation-midnight"] = {};
-for (const [n, l, m] of nc["Elevation"].vars) { setLeaf(out["elevation"], pathParts(n), str(l)); setLeaf(out["elevation-midnight"], pathParts(n), str(m)); }
+// Elevation is a moded collection (Light / Midnight) exactly like colour, so it
+// nests the mode under ONE `elevation` key — mirroring semantic-color above. The
+// modeless transform in style-dictionary.config.js then strips the mode segment
+// and the theme files scope each mode by selector, so a shadow has ONE name that
+// flips with the theme (never a separate `elevation-midnight-*` name set).
+out["elevation"] = { "light-mode": {}, "midnight-mode": {} };
+for (const [n, l, m] of nc["Elevation"].vars) { setLeaf(out["elevation"]["light-mode"], pathParts(n), str(l)); setLeaf(out["elevation"]["midnight-mode"], pathParts(n), str(m)); }
 out["primitive-type"] = {};
 for (const [n, v] of nc["Primitive: Type"].families) setLeaf(out["primitive-type"], pathParts(n), str(v));
 for (const [n, v] of nc["Primitive: Type"].sizes) setLeaf(out["primitive-type"], pathParts(n), { $type: "number", $value: encNC(v) });

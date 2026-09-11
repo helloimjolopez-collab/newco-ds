@@ -1,0 +1,54 @@
+/*
+ ==========================================================================
+ NEWCO DESIGN TOKENS — COMPONENT INTERNALS
+ ==========================================================================
+
+ Per-component metrics (Button, Card, Input, NavItem, Page, Sheet, focus ring).
+
+ This repo's own components use these. Product code generally should not —
+ prefer layout.css. They exist so a component's geometry can be tuned without
+ moving the whole scale. This is where sheet cornerradius lives.
+
+ Declares 37 custom properties.
+ Generated — do not edit. Run `npm run build-tokens`.
+ ==========================================================================
+*/
+:root {
+  --contextual-layout-units-navitem-gap-indicatortocontent: 8px;
+  --contextual-layout-units-navitem-gap-icontolabel: 8px;
+  --contextual-layout-units-navitem-large-padding-vertical: var(--primitive-unit-unit-12);
+  --contextual-layout-units-navitem-large-padding-horizontal: var(--primitive-unit-unit-14);
+  --contextual-layout-units-navitem-large-radius-radius: var(--primitive-unit-unit-999);
+  --contextual-layout-units-navitem-large-stroke-width-stroke-width: var(--primitive-unit-unit-1-point-5);
+  --contextual-layout-units-page-padding-top: var(--primitive-unit-unit-8);
+  --contextual-layout-units-page-padding-horizontal: var(--primitive-unit-unit-36);
+  --contextual-layout-units-page-padding-bottom: var(--primitive-unit-unit-56);
+  --contextual-layout-units-button-padding-medium-vertical: var(--primitive-unit-unit-10);
+  --contextual-layout-units-button-padding-medium-horizontal: var(--primitive-unit-unit-12);
+  --contextual-layout-units-button-padding-small-vertical: var(--primitive-unit-unit-6);
+  --contextual-layout-units-button-padding-small-horizontal: var(--primitive-unit-unit-8);
+  --contextual-layout-units-button-padding-large-vertical: var(--primitive-unit-unit-12);
+  --contextual-layout-units-button-padding-large-horizontal: var(--primitive-unit-unit-14);
+  --contextual-layout-units-button-padding-xsmall-vertical: var(--primitive-unit-unit-6);
+  --contextual-layout-units-button-padding-xsmall-horizontal: var(--primitive-unit-unit-8);
+  --contextual-layout-units-button-gap-horizontal: var(--primitive-unit-unit-8);
+  --contextual-layout-units-button-radius-radius: var(--primitive-unit-unit-999);
+  --contextual-layout-units-focused-element-cornerradius-cornerradius: var(--primitive-unit-unit-999);
+  --contextual-layout-units-focused-element-borderwidth-borderwidth: var(--primitive-unit-unit-2);
+  --contextual-layout-units-card-gap-gap: var(--primitive-unit-unit-8);
+  --contextual-layout-units-card-padding-medium-vertical: var(--primitive-unit-unit-16);
+  --contextual-layout-units-card-padding-medium-horizontal: var(--primitive-unit-unit-16);
+  --contextual-layout-units-card-padding-small-vertical: var(--primitive-unit-unit-14);
+  --contextual-layout-units-card-padding-small-horizontal: var(--primitive-unit-unit-14);
+  --contextual-layout-units-card-border-width-base-base: var(--primitive-unit-unit-0-point-5);
+  --contextual-layout-units-card-cornerradius-cornerradius: var(--primitive-unit-unit-16);
+  --contextual-layout-units-input-radius-radius: var(--primitive-unit-unit-12);
+  --contextual-layout-units-checkbox-radius-base: var(--primitive-unit-unit-6);
+  --contextual-layout-units-checkbox-radius-small: var(--primitive-unit-unit-4);
+  --contextual-layout-units-sheet-cornerradius-cornerradius: var(--primitive-unit-unit-28);
+  --contextual-layout-units-screencontent-cornerradius: var(--primitive-unit-unit-20);
+  --contextual-layout-units-button-border-width-base-base: var(--semantic-layout-units-borderwidth-thin);
+  --contextual-layout-units-button-border-width-thick-thick: var(--semantic-layout-units-borderwidth-base);
+  --contextual-layout-units-button-border-width-thin-thin: var(--semantic-layout-units-borderwidth-xthin);
+  --contextual-layout-units-card-border-width-thick-thick: var(--semantic-layout-units-borderwidth-thin);
+}

@@ -65,22 +65,7 @@
     "=Cool Neutral/0"
   ],
   [
-    "Foreground/Static/Status/Info/Base",
-    "=Brand/600",
-    "=Brand/300"
-  ],
-  [
-    "Foreground/Static/Status/Info/Subtle",
-    "=Brand/400",
-    "=Brand/150"
-  ],
-  [
-    "Foreground/Static/Status/Info/Contrast",
-    "=Brand/700",
-    "=Brand/300"
-  ],
-  [
-    "Foreground/Static/Status/Alert/Base",
+    "Foreground/Static/Status/Alert/Medium",
     "=Saffron/600",
     "=Saffron/100"
   ],
@@ -95,22 +80,22 @@
     "=Saffron/150"
   ],
   [
-    "Foreground/Static/Status/Danger/Base",
+    "Foreground/Static/Status/Severe/Medium",
     "=Orange/500",
     "=Orange/150"
   ],
   [
-    "Foreground/Static/Status/Danger/Subtle",
+    "Foreground/Static/Status/Severe/Subtle",
     "=Orange/400",
     "=Orange/250"
   ],
   [
-    "Foreground/Static/Status/Danger/Contrast",
+    "Foreground/Static/Status/Severe/Contrast",
     "=Orange/600",
     "=Orange/300"
   ],
   [
-    "Foreground/Static/Status/Negative/Base",
+    "Foreground/Static/Status/Negative/Medium",
     "=Red/600",
     "=Red/150"
   ],
@@ -125,7 +110,7 @@
     "=Red/100"
   ],
   [
-    "Foreground/Static/Status/Positive/Base",
+    "Foreground/Static/Status/Positive/Medium",
     "=Green/500",
     "=Green/250"
   ],
@@ -291,7 +276,7 @@
   ],
   [
     "Fill/Action/Secondary/Rest",
-    "=Warm Neutral/100",
+    "=Warm Neutral/75",
     "=Amethyst/350 @ 16%"
   ],
   [
@@ -620,32 +605,7 @@
     "=Brand/400"
   ],
   [
-    "Stroke/Static/Status/Info/Light",
-    "=Brand/0",
-    "=Brand/0"
-  ],
-  [
-    "Stroke/Static/Status/Info/Subtle",
-    "=Brand/25",
-    "=Brand/25"
-  ],
-  [
-    "Stroke/Static/Status/Info/Base",
-    "=Brand/50",
-    "=Brand/50"
-  ],
-  [
-    "Stroke/Static/Status/Info/Contrast",
-    "=Brand/150",
-    "=Brand/150"
-  ],
-  [
-    "Stroke/Static/Status/Info/Bold",
-    "=Brand/300",
-    "=Brand/300"
-  ],
-  [
-    "Stroke/Static/Status/Alert/Light",
+    "Stroke/Static/Status/Alert/Faint",
     "=Saffron/25",
     "=Saffron/25"
   ],
@@ -655,7 +615,7 @@
     "=Saffron/25"
   ],
   [
-    "Stroke/Static/Status/Alert/Base",
+    "Stroke/Static/Status/Alert/Medium",
     "=Saffron/50",
     "=Saffron/50"
   ],
@@ -670,32 +630,32 @@
     "=Saffron/150"
   ],
   [
-    "Stroke/Static/Status/Danger/Light",
+    "Stroke/Static/Status/Severe/Faint",
     "=Orange/0",
     "=Orange/0"
   ],
   [
-    "Stroke/Static/Status/Danger/Subtle",
+    "Stroke/Static/Status/Severe/Subtle",
     "=Orange/100",
     "=Orange/100"
   ],
   [
-    "Stroke/Static/Status/Danger/Base",
+    "Stroke/Static/Status/Severe/Medium",
     "=Orange/200",
     "=Orange/200"
   ],
   [
-    "Stroke/Static/Status/Danger/Contrast",
+    "Stroke/Static/Status/Severe/Contrast",
     "=Orange/300",
     "=Orange/300"
   ],
   [
-    "Stroke/Static/Status/Danger/Bold",
+    "Stroke/Static/Status/Severe/Bold",
     "=Orange/400",
     "=Orange/400"
   ],
   [
-    "Stroke/Static/Status/Negative/Light",
+    "Stroke/Static/Status/Negative/Faint",
     "=Red/200",
     "=Red/200"
   ],
@@ -705,7 +665,7 @@
     "=Red/300"
   ],
   [
-    "Stroke/Static/Status/Negative/Base",
+    "Stroke/Static/Status/Negative/Medium",
     "=Red/300",
     "=Red/300"
   ],
@@ -720,7 +680,7 @@
     "=Red/500"
   ],
   [
-    "Stroke/Static/Status/Positive/Light",
+    "Stroke/Static/Status/Positive/Faint",
     "=Green/25",
     "=Green/25"
   ],
@@ -730,7 +690,7 @@
     "=Green/25"
   ],
   [
-    "Stroke/Static/Status/Positive/Base",
+    "Stroke/Static/Status/Positive/Medium",
     "=Green/50",
     "=Green/50"
   ],
@@ -880,52 +840,42 @@
     "=Brand/600"
   ],
   [
-    "Foreground/Static/Status/Info/Light",
-    "=Brand/350",
-    "=Brand/350"
-  ],
-  [
-    "Foreground/Static/Status/Info/Bold",
-    "=Brand/600",
-    "=Brand/600"
-  ],
-  [
-    "Foreground/Static/Status/Warning/Light",
+    "Foreground/Static/Status/Attention/Faint",
     "=Saffron/100",
     "=Saffron/50"
   ],
   [
-    "Foreground/Static/Status/Warning/Subtle",
+    "Foreground/Static/Status/Attention/Subtle",
     "=Saffron/100",
     "=Saffron/75"
   ],
   [
-    "Foreground/Static/Status/Warning/Base",
+    "Foreground/Static/Status/Attention/Medium",
     "=Saffron/150",
     "=Saffron/100"
   ],
   [
-    "Foreground/Static/Status/Warning/Contrast",
+    "Foreground/Static/Status/Attention/Contrast",
     "=Saffron/250",
     "=Saffron/150"
   ],
   [
-    "Foreground/Static/Status/Warning/Bold",
+    "Foreground/Static/Status/Attention/Bold",
     "=Saffron/350",
     "=Saffron/150"
   ],
   [
-    "Foreground/Static/Status/Danger/Light",
+    "Foreground/Static/Status/Severe/Faint",
     "=Orange/200",
     "=Orange/200"
   ],
   [
-    "Foreground/Static/Status/Danger/Bold",
+    "Foreground/Static/Status/Severe/Bold",
     "=Orange/500",
     "=Orange/500"
   ],
   [
-    "Foreground/Static/Status/Negative/Light",
+    "Foreground/Static/Status/Negative/Faint",
     "=Red/300",
     "=Red/350"
   ],
@@ -935,7 +885,7 @@
     "=Red/700"
   ],
   [
-    "Foreground/Static/Status/Positive/Light",
+    "Foreground/Static/Status/Positive/Faint",
     "=Green/150",
     "=Green/150"
   ],
@@ -1075,64 +1025,9 @@
     "=Jade/300 @ 36%"
   ],
   [
-    "Fill/Static/Neutral/Light",
-    "=Warm Neutral/0",
-    "=Midnight/700"
-  ],
-  [
-    "Fill/Static/Neutral/Subtle",
-    "=Warm Neutral/50",
-    "=Midnight/800"
-  ],
-  [
-    "Fill/Static/Neutral/Base",
-    "=Warm Neutral/50",
-    "=Midnight/800"
-  ],
-  [
-    "Fill/Static/CoolNeutral/Light",
-    "=Cool Neutral/0",
-    "=Cool Neutral/700"
-  ],
-  [
-    "Fill/Static/CoolNeutral/Subtle",
-    "=Cool Neutral/0",
-    "=Cool Neutral/700"
-  ],
-  [
-    "Fill/Static/CoolNeutral/Base",
-    "=Cool Neutral/25",
-    "=Cool Neutral/800"
-  ],
-  [
     "Fill/Static/Brand/Light",
     "=Brand/25",
     "=Amethyst/350 @ 6%"
-  ],
-  [
-    "Fill/Static/Status/Info/Light",
-    "=Brand/25",
-    "=Seabreeze/300 @ 12%"
-  ],
-  [
-    "Fill/Static/Status/Info/Subtle",
-    "=Brand/25",
-    "=Seabreeze/300 @ 16%"
-  ],
-  [
-    "Fill/Static/Status/Info/Base",
-    "=Brand/150",
-    "=Seabreeze/300 @ 24%"
-  ],
-  [
-    "Fill/Static/Status/Info/Contrast",
-    "=Brand/350",
-    "=Brand/350"
-  ],
-  [
-    "Fill/Static/Status/Info/Bold",
-    "=Brand/350",
-    "=Brand/350"
   ],
   [
     "Fill/Static/Brand/Subtle",
@@ -1163,106 +1058,6 @@
     "Fill/Static/Brand/Black",
     "=Brand/800",
     "=Brand/700"
-  ],
-  [
-    "Fill/Static/Status/Warning/Light",
-    "=Saffron/0",
-    "=Saffron/350 @ 12%"
-  ],
-  [
-    "Fill/Static/Status/Danger/Light",
-    "=Orange/0",
-    "=Orange/350 @ 12%"
-  ],
-  [
-    "Fill/Static/Status/Negative/Light",
-    "=Red/25",
-    "=Red/300 @ 12%"
-  ],
-  [
-    "Fill/Static/Status/Negative/Subtle",
-    "=Red/50",
-    "=Red/300 @ 16%"
-  ],
-  [
-    "Fill/Static/Status/Negative/Base",
-    "=Red/100",
-    "=Red/300 @ 24%"
-  ],
-  [
-    "Fill/Static/Status/Negative/Contrast",
-    "=Red/300",
-    "=Red/300"
-  ],
-  [
-    "Fill/Static/Status/Negative/Bold",
-    "=Red/400",
-    "=Red/400"
-  ],
-  [
-    "Fill/Static/Status/Danger/Subtle",
-    "=Orange/50",
-    "=Orange/350 @ 16%"
-  ],
-  [
-    "Fill/Static/Status/Danger/Base",
-    "=Orange/100",
-    "=Orange/350 @ 24%"
-  ],
-  [
-    "Fill/Static/Status/Danger/Contrast",
-    "=Orange/150",
-    "=Orange/150"
-  ],
-  [
-    "Fill/Static/Status/Danger/Bold",
-    "=Orange/250",
-    "=Orange/250"
-  ],
-  [
-    "Fill/Static/Status/Warning/Subtle",
-    "=Saffron/25",
-    "=Saffron/350 @ 16%"
-  ],
-  [
-    "Fill/Static/Status/Warning/Base",
-    "=Saffron/25",
-    "=Saffron/350 @ 24%"
-  ],
-  [
-    "Fill/Static/Status/Warning/Contrast",
-    "=Saffron/75",
-    "=Saffron/75"
-  ],
-  [
-    "Fill/Static/Status/Warning/Bold",
-    "=Saffron/100",
-    "=Saffron/100"
-  ],
-  [
-    "Fill/Static/Status/Positive/Light",
-    "=Green/0",
-    "=Green/350 @ 12%"
-  ],
-  [
-    "Fill/Static/Status/Positive/Subtle",
-    "=Green/25",
-    "=Green/350 @ 16%"
-  ],
-  [
-    "Fill/Static/Status/Positive/Base",
-    "=Green/25",
-    "=Green/350 @ 24%"
-  ],
-  [
-    "Fill/Static/Status/Positive/Contrast",
-    "=Green/150",
-    "=Green/150"
-  ],
-  [
-    "Fill/Static/Status/Positive/Bold",
-    "=Green/250",
-    "=Green/250"
   ],
   [
     "Fill/Static/Accent/Amethyst/Light",
@@ -1366,6 +1161,11 @@
   ],
   [
     "Fill/Surface/Canvas",
+    "#f7f3f3",
+    "#29252f"
+  ],
+  [
+    "Contextual/Fill/Surface/Chrome",
     "#f7f3f3",
     "#29252f"
   ],
@@ -2283,5 +2083,180 @@
     "Foreground/Action/Accent/Amethyst/Pressed",
     "=Amethyst/700",
     "=Amethyst/50"
+  ],
+  [
+    "Fill/Static/Status/Negative/Faint",
+    "=Red/25",
+    "=Red/800"
+  ],
+  [
+    "Fill/Static/Status/Negative/Subtle",
+    "=Red/50",
+    "=Red/700"
+  ],
+  [
+    "Fill/Static/Status/Negative/Medium",
+    "=Red/75",
+    "=Red/600"
+  ],
+  [
+    "Fill/Static/Status/Negative/Contrast",
+    "=Red/250",
+    "=Red/400"
+  ],
+  [
+    "Fill/Static/Status/Negative/Bold",
+    "=Red/350",
+    "=Red/300"
+  ],
+  [
+    "Fill/Static/Status/Positive/Faint",
+    "=Green/0",
+    "=Green/800"
+  ],
+  [
+    "Fill/Static/Status/Positive/Subtle",
+    "=Green/25",
+    "=Green/700"
+  ],
+  [
+    "Fill/Static/Status/Positive/Medium",
+    "=Green/50",
+    "=Green/600"
+  ],
+  [
+    "Fill/Static/Status/Positive/Contrast",
+    "=Green/100",
+    "=Green/400"
+  ],
+  [
+    "Fill/Static/Status/Positive/Bold",
+    "=Green/200",
+    "=Green/300"
+  ],
+  [
+    "Fill/Static/Status/Attention/Faint",
+    "=Saffron/0",
+    "=Saffron/700"
+  ],
+  [
+    "Fill/Static/Status/Attention/Subtle",
+    "=Saffron/25",
+    "=Saffron/500"
+  ],
+  [
+    "Fill/Static/Status/Attention/Medium",
+    "=Saffron/75",
+    "=Saffron/400"
+  ],
+  [
+    "Fill/Static/Status/Attention/Contrast",
+    "=Saffron/100",
+    "=Saffron/350"
+  ],
+  [
+    "Fill/Static/Status/Attention/Bold",
+    "=Saffron/150",
+    "=Saffron/300"
+  ],
+  [
+    "Fill/Static/Status/Severe/Faint",
+    "=Orange/25",
+    "=Orange/800"
+  ],
+  [
+    "Fill/Static/Status/Severe/Subtle",
+    "=Orange/50",
+    "=Orange/700"
+  ],
+  [
+    "Fill/Static/Status/Severe/Medium",
+    "=Orange/75",
+    "=Orange/600"
+  ],
+  [
+    "Fill/Static/Status/Severe/Contrast",
+    "=Orange/100",
+    "=Orange/400"
+  ],
+  [
+    "Fill/Static/Status/Severe/Bold",
+    "=Orange/200",
+    "=Orange/300"
+  ],
+  [
+    "Fill/Static/Status/Neutral/Faint",
+    "=Warm Neutral/25",
+    "=Warm Neutral/800"
+  ],
+  [
+    "Fill/Static/Status/Neutral/Subtle",
+    "=Warm Neutral/50",
+    "=Warm Neutral/700"
+  ],
+  [
+    "Fill/Static/Status/Neutral/Medium",
+    "=Warm Neutral/75",
+    "=Warm Neutral/600"
+  ],
+  [
+    "Fill/Static/Status/Neutral/Contrast",
+    "=Warm Neutral/150",
+    "=Warm Neutral/400"
+  ],
+  [
+    "Fill/Static/Status/Neutral/Bold",
+    "=Warm Neutral/250",
+    "=Warm Neutral/300"
+  ],
+  [
+    "Foreground/Static/Status/Neutral/Faint",
+    "=Warm Neutral/400",
+    "=Warm Neutral/350"
+  ],
+  [
+    "Foreground/Static/Status/Neutral/Subtle",
+    "=Warm Neutral/500",
+    "=Warm Neutral/300"
+  ],
+  [
+    "Foreground/Static/Status/Neutral/Medium",
+    "=Warm Neutral/600",
+    "=Warm Neutral/250"
+  ],
+  [
+    "Foreground/Static/Status/Neutral/Contrast",
+    "=Warm Neutral/700",
+    "=Warm Neutral/150"
+  ],
+  [
+    "Foreground/Static/Status/Neutral/Bold",
+    "=Warm Neutral/800",
+    "=Warm Neutral/100"
+  ],
+  [
+    "Stroke/Static/Status/Neutral/Faint",
+    "=Warm Neutral/150",
+    "=Warm Neutral/600"
+  ],
+  [
+    "Stroke/Static/Status/Neutral/Subtle",
+    "=Warm Neutral/200",
+    "=Warm Neutral/500"
+  ],
+  [
+    "Stroke/Static/Status/Neutral/Medium",
+    "=Warm Neutral/300",
+    "=Warm Neutral/400"
+  ],
+  [
+    "Stroke/Static/Status/Neutral/Contrast",
+    "=Warm Neutral/400",
+    "=Warm Neutral/300"
+  ],
+  [
+    "Stroke/Static/Status/Neutral/Bold",
+    "=Warm Neutral/500",
+    "=Warm Neutral/250"
   ]
 ]

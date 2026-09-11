@@ -16,7 +16,7 @@ function Logo({ collapsed }) {
     <div slot="header" style={{ display: "flex", alignItems: "center", gap: 10, padding: "4px 6px", minWidth: 0 }}>
       <span aria-hidden style={{
         width: 28, height: 28, borderRadius: 8, flex: "0 0 auto", display: "grid", placeItems: "center",
-        background: "var(--semantic-color-light-mode-fill-action-primary-rest)",
+        background: "var(--semantic-color-fill-action-primary-rest)",
         color: "#fff", font: "700 15px 'Google Sans Flex',sans-serif",
       }}>N</span>
       {!collapsed && <strong style={{ font: "700 16px 'Google Sans Flex',sans-serif", letterSpacing: "-0.2px", color: "var(--newco-nav-item-fg-selected)" }}>NewCo</strong>}
@@ -45,13 +45,11 @@ function SideNav({ theme = "light", collapsed: collapsedArg = false, elevated = 
     return () => { el.removeEventListener("newco-select", onSel); el.removeEventListener("newco-toggle", onTog); };
   }, []);
 
-  const bg = theme === "midnight"
-    ? "var(--semantic-color-midnight-mode-fill-surface-canvas)"
-    : "var(--semantic-color-light-mode-fill-surface-canvas)";
   const A = (v) => (active === v ? { active: true } : {});
 
+  // data-theme on the wrapper resolves the modeless canvas colour for the backdrop.
   return (
-    <div style={{ display: "flex", height: 620, background: bg }}>
+    <div data-theme={theme} style={{ display: "flex", height: 620, background: "var(--semantic-color-fill-surface-canvas)" }}>
       <newco-side-nav ref={ref} theme={theme} label="Primary" {...(collapsed ? { collapsed: true } : {})} {...(elevated ? { elevated: true } : {})}>
         <div slot="header" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", width: "100%", gap: 8 }}>
           <Logo collapsed={collapsed} />
