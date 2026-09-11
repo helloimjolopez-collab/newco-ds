@@ -2487,10 +2487,6 @@
                 "$type": "color",
                 "$value": "{primitive-color.red.25}"
               },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.red.50}"
-              },
               "medium": {
                 "$type": "color",
                 "$value": "{primitive-color.red.75}"
@@ -2508,10 +2504,6 @@
               "faint": {
                 "$type": "color",
                 "$value": "{primitive-color.green.0}"
-              },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.green.25}"
               },
               "medium": {
                 "$type": "color",
@@ -2531,10 +2523,6 @@
                 "$type": "color",
                 "$value": "{primitive-color.saffron.0}"
               },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.saffron.25}"
-              },
               "medium": {
                 "$type": "color",
                 "$value": "{primitive-color.saffron.75}"
@@ -2553,10 +2541,6 @@
                 "$type": "color",
                 "$value": "{primitive-color.orange.25}"
               },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.orange.50}"
-              },
               "medium": {
                 "$type": "color",
                 "$value": "{primitive-color.orange.75}"
@@ -2574,10 +2558,6 @@
               "faint": {
                 "$type": "color",
                 "$value": "{primitive-color.warm-neutral.25}"
-              },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.warm-neutral.50}"
               },
               "medium": {
                 "$type": "color",
@@ -2599,10 +2579,6 @@
                 "$type": "color",
                 "$value": "{primitive-color.amethyst.25}"
               },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.amethyst.50}"
-              },
               "medium": {
                 "$type": "color",
                 "$value": "{primitive-color.amethyst.100}"
@@ -2620,10 +2596,6 @@
               "faint": {
                 "$type": "color",
                 "$value": "{primitive-color.jade.25}"
-              },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.jade.50}"
               },
               "medium": {
                 "$type": "color",
@@ -2643,10 +2615,6 @@
                 "$type": "color",
                 "$value": "{primitive-color.seabreeze.25}"
               },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.seabreeze.50}"
-              },
               "medium": {
                 "$type": "color",
                 "$value": "{primitive-color.seabreeze.100}"
@@ -2664,10 +2632,6 @@
               "faint": {
                 "$type": "color",
                 "$value": "{primitive-color.mauve.25}"
-              },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.mauve.50}"
               },
               "medium": {
                 "$type": "color",
@@ -2687,10 +2651,6 @@
                 "$type": "color",
                 "$value": "{primitive-color.lagoon.25}"
               },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.lagoon.50}"
-              },
               "medium": {
                 "$type": "color",
                 "$value": "{primitive-color.lagoon.100}"
@@ -2709,10 +2669,6 @@
                 "$type": "color",
                 "$value": "{primitive-color.saffron.25}"
               },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.saffron.50}"
-              },
               "medium": {
                 "$type": "color",
                 "$value": "{primitive-color.saffron.100}"
@@ -2730,10 +2686,6 @@
               "faint": {
                 "$type": "color",
                 "$value": "{primitive-color.orange.25}"
-              },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.orange.50}"
               },
               "medium": {
                 "$type": "color",
@@ -4401,10 +4353,6 @@
                 "$type": "color",
                 "$value": "{primitive-color.red.800}"
               },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.red.700}"
-              },
               "medium": {
                 "$type": "color",
                 "$value": "{primitive-color.red.600}"
@@ -4422,10 +4370,6 @@
               "faint": {
                 "$type": "color",
                 "$value": "{primitive-color.green.800}"
-              },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.green.700}"
               },
               "medium": {
                 "$type": "color",
@@ -4445,10 +4389,6 @@
                 "$type": "color",
                 "$value": "{primitive-color.saffron.700}"
               },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.saffron.500}"
-              },
               "medium": {
                 "$type": "color",
                 "$value": "{primitive-color.saffron.400}"
@@ -4467,10 +4407,6 @@
                 "$type": "color",
                 "$value": "{primitive-color.orange.800}"
               },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.orange.700}"
-              },
               "medium": {
                 "$type": "color",
                 "$value": "{primitive-color.orange.600}"
@@ -4488,10 +4424,6 @@
               "faint": {
                 "$type": "color",
                 "$value": "{primitive-color.warm-neutral.800}"
-              },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.warm-neutral.700}"
               },
               "medium": {
                 "$type": "color",
@@ -4513,10 +4445,6 @@
                 "$type": "color",
                 "$value": "{primitive-color.amethyst.800}"
               },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.amethyst.700}"
-              },
               "medium": {
                 "$type": "color",
                 "$value": "{primitive-color.amethyst.600}"
@@ -4534,10 +4462,6 @@
               "faint": {
                 "$type": "color",
                 "$value": "{primitive-color.jade.800}"
-              },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.jade.700}"
               },
               "medium": {
                 "$type": "color",
@@ -4557,10 +4481,6 @@
                 "$type": "color",
                 "$value": "{primitive-color.seabreeze.800}"
               },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.seabreeze.700}"
-              },
               "medium": {
                 "$type": "color",
                 "$value": "{primitive-color.seabreeze.600}"
@@ -4578,10 +4498,6 @@
               "faint": {
                 "$type": "color",
                 "$value": "{primitive-color.mauve.800}"
-              },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.mauve.700}"
               },
               "medium": {
                 "$type": "color",
@@ -4601,10 +4517,6 @@
                 "$type": "color",
                 "$value": "{primitive-color.lagoon.800}"
               },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.lagoon.700}"
-              },
               "medium": {
                 "$type": "color",
                 "$value": "{primitive-color.lagoon.600}"
@@ -4623,10 +4535,6 @@
                 "$type": "color",
                 "$value": "{primitive-color.saffron.800}"
               },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.saffron.700}"
-              },
               "medium": {
                 "$type": "color",
                 "$value": "{primitive-color.saffron.600}"
@@ -4644,10 +4552,6 @@
               "faint": {
                 "$type": "color",
                 "$value": "{primitive-color.orange.800}"
-              },
-              "subtle": {
-                "$type": "color",
-                "$value": "{primitive-color.orange.700}"
               },
               "medium": {
                 "$type": "color",

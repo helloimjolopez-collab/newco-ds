@@ -6010,19 +6010,6 @@ const tokens = {
       "faint"
     ]
   },
-  "semantic-color-light-mode-fill-static-status-negative-subtle": {
-    "value": "#fce7e4",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "static",
-      "status",
-      "negative",
-      "subtle"
-    ]
-  },
   "semantic-color-light-mode-fill-static-status-negative-medium": {
     "value": "#fdded9",
     "type": "color",
@@ -6073,19 +6060,6 @@ const tokens = {
       "status",
       "positive",
       "faint"
-    ]
-  },
-  "semantic-color-light-mode-fill-static-status-positive-subtle": {
-    "value": "#d9fee9",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "static",
-      "status",
-      "positive",
-      "subtle"
     ]
   },
   "semantic-color-light-mode-fill-static-status-positive-medium": {
@@ -6140,19 +6114,6 @@ const tokens = {
       "faint"
     ]
   },
-  "semantic-color-light-mode-fill-static-status-attention-subtle": {
-    "value": "#fef2de",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "static",
-      "status",
-      "attention",
-      "subtle"
-    ]
-  },
   "semantic-color-light-mode-fill-static-status-attention-medium": {
     "value": "#fee2b3",
     "type": "color",
@@ -6203,19 +6164,6 @@ const tokens = {
       "status",
       "severe",
       "faint"
-    ]
-  },
-  "semantic-color-light-mode-fill-static-status-severe-subtle": {
-    "value": "#ffe7dc",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "static",
-      "status",
-      "severe",
-      "subtle"
     ]
   },
   "semantic-color-light-mode-fill-static-status-severe-medium": {
@@ -6270,19 +6218,6 @@ const tokens = {
       "faint"
     ]
   },
-  "semantic-color-light-mode-fill-static-status-neutral-subtle": {
-    "value": "#f5f1f1",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "static",
-      "status",
-      "neutral",
-      "subtle"
-    ]
-  },
   "semantic-color-light-mode-fill-static-status-neutral-medium": {
     "value": "#f1eaea",
     "type": "color",
@@ -6333,19 +6268,6 @@ const tokens = {
       "accent",
       "amethyst",
       "faint"
-    ]
-  },
-  "semantic-color-light-mode-fill-static-accent-amethyst-subtle": {
-    "value": "#edeaf9",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "static",
-      "accent",
-      "amethyst",
-      "subtle"
     ]
   },
   "semantic-color-light-mode-fill-static-accent-amethyst-medium": {
@@ -6400,19 +6322,6 @@ const tokens = {
       "faint"
     ]
   },
-  "semantic-color-light-mode-fill-static-accent-jade-subtle": {
-    "value": "#def2ef",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "static",
-      "accent",
-      "jade",
-      "subtle"
-    ]
-  },
   "semantic-color-light-mode-fill-static-accent-jade-medium": {
     "value": "#adede4",
     "type": "color",
@@ -6463,19 +6372,6 @@ const tokens = {
       "accent",
       "seabreeze",
       "faint"
-    ]
-  },
-  "semantic-color-light-mode-fill-static-accent-seabreeze-subtle": {
-    "value": "#e5edfc",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "static",
-      "accent",
-      "seabreeze",
-      "subtle"
     ]
   },
   "semantic-color-light-mode-fill-static-accent-seabreeze-medium": {
@@ -6530,19 +6426,6 @@ const tokens = {
       "faint"
     ]
   },
-  "semantic-color-light-mode-fill-static-accent-mauve-subtle": {
-    "value": "#fde5f3",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "static",
-      "accent",
-      "mauve",
-      "subtle"
-    ]
-  },
   "semantic-color-light-mode-fill-static-accent-mauve-medium": {
     "value": "#ffcdeb",
     "type": "color",
@@ -6593,19 +6476,6 @@ const tokens = {
       "accent",
       "lagoon",
       "faint"
-    ]
-  },
-  "semantic-color-light-mode-fill-static-accent-lagoon-subtle": {
-    "value": "#dff0f6",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "static",
-      "accent",
-      "lagoon",
-      "subtle"
     ]
   },
   "semantic-color-light-mode-fill-static-accent-lagoon-medium": {
@@ -6660,19 +6530,6 @@ const tokens = {
       "faint"
     ]
   },
-  "semantic-color-light-mode-fill-static-accent-saffron-subtle": {
-    "value": "#feeac8",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "static",
-      "accent",
-      "saffron",
-      "subtle"
-    ]
-  },
   "semantic-color-light-mode-fill-static-accent-saffron-medium": {
     "value": "#fed897",
     "type": "color",
@@ -6723,19 +6580,6 @@ const tokens = {
       "accent",
       "orange",
       "faint"
-    ]
-  },
-  "semantic-color-light-mode-fill-static-accent-orange-subtle": {
-    "value": "#ffe7dc",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "static",
-      "accent",
-      "orange",
-      "subtle"
     ]
   },
   "semantic-color-light-mode-fill-static-accent-orange-medium": {
@@ -11266,19 +11110,6 @@ const tokens = {
       "faint"
     ]
   },
-  "semantic-color-midnight-mode-fill-static-status-negative-subtle": {
-    "value": "#590a06",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "static",
-      "status",
-      "negative",
-      "subtle"
-    ]
-  },
   "semantic-color-midnight-mode-fill-static-status-negative-medium": {
     "value": "#7f130e",
     "type": "color",
@@ -11329,19 +11160,6 @@ const tokens = {
       "status",
       "positive",
       "faint"
-    ]
-  },
-  "semantic-color-midnight-mode-fill-static-status-positive-subtle": {
-    "value": "#0a3723",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "static",
-      "status",
-      "positive",
-      "subtle"
     ]
   },
   "semantic-color-midnight-mode-fill-static-status-positive-medium": {
@@ -11396,19 +11214,6 @@ const tokens = {
       "faint"
     ]
   },
-  "semantic-color-midnight-mode-fill-static-status-attention-subtle": {
-    "value": "#6d5936",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "static",
-      "status",
-      "attention",
-      "subtle"
-    ]
-  },
   "semantic-color-midnight-mode-fill-static-status-attention-medium": {
     "value": "#91723b",
     "type": "color",
@@ -11459,19 +11264,6 @@ const tokens = {
       "status",
       "severe",
       "faint"
-    ]
-  },
-  "semantic-color-midnight-mode-fill-static-status-severe-subtle": {
-    "value": "#422517",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "static",
-      "status",
-      "severe",
-      "subtle"
     ]
   },
   "semantic-color-midnight-mode-fill-static-status-severe-medium": {
@@ -11526,19 +11318,6 @@ const tokens = {
       "faint"
     ]
   },
-  "semantic-color-midnight-mode-fill-static-status-neutral-subtle": {
-    "value": "#3d3636",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "static",
-      "status",
-      "neutral",
-      "subtle"
-    ]
-  },
   "semantic-color-midnight-mode-fill-static-status-neutral-medium": {
     "value": "#594f4f",
     "type": "color",
@@ -11589,19 +11368,6 @@ const tokens = {
       "accent",
       "amethyst",
       "faint"
-    ]
-  },
-  "semantic-color-midnight-mode-fill-static-accent-amethyst-subtle": {
-    "value": "#302846",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "static",
-      "accent",
-      "amethyst",
-      "subtle"
     ]
   },
   "semantic-color-midnight-mode-fill-static-accent-amethyst-medium": {
@@ -11656,19 +11422,6 @@ const tokens = {
       "faint"
     ]
   },
-  "semantic-color-midnight-mode-fill-static-accent-jade-subtle": {
-    "value": "#013631",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "static",
-      "accent",
-      "jade",
-      "subtle"
-    ]
-  },
   "semantic-color-midnight-mode-fill-static-accent-jade-medium": {
     "value": "#084f48",
     "type": "color",
@@ -11719,19 +11472,6 @@ const tokens = {
       "accent",
       "seabreeze",
       "faint"
-    ]
-  },
-  "semantic-color-midnight-mode-fill-static-accent-seabreeze-subtle": {
-    "value": "#27326d",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "static",
-      "accent",
-      "seabreeze",
-      "subtle"
     ]
   },
   "semantic-color-midnight-mode-fill-static-accent-seabreeze-medium": {
@@ -11786,19 +11526,6 @@ const tokens = {
       "faint"
     ]
   },
-  "semantic-color-midnight-mode-fill-static-accent-mauve-subtle": {
-    "value": "#540040",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "static",
-      "accent",
-      "mauve",
-      "subtle"
-    ]
-  },
   "semantic-color-midnight-mode-fill-static-accent-mauve-medium": {
     "value": "#78005c",
     "type": "color",
@@ -11849,19 +11576,6 @@ const tokens = {
       "accent",
       "lagoon",
       "faint"
-    ]
-  },
-  "semantic-color-midnight-mode-fill-static-accent-lagoon-subtle": {
-    "value": "#003440",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "static",
-      "accent",
-      "lagoon",
-      "subtle"
     ]
   },
   "semantic-color-midnight-mode-fill-static-accent-lagoon-medium": {
@@ -11916,19 +11630,6 @@ const tokens = {
       "faint"
     ]
   },
-  "semantic-color-midnight-mode-fill-static-accent-saffron-subtle": {
-    "value": "#342d21",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "static",
-      "accent",
-      "saffron",
-      "subtle"
-    ]
-  },
   "semantic-color-midnight-mode-fill-static-accent-saffron-medium": {
     "value": "#4e422d",
     "type": "color",
@@ -11979,19 +11680,6 @@ const tokens = {
       "accent",
       "orange",
       "faint"
-    ]
-  },
-  "semantic-color-midnight-mode-fill-static-accent-orange-subtle": {
-    "value": "#422517",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "static",
-      "accent",
-      "orange",
-      "subtle"
     ]
   },
   "semantic-color-midnight-mode-fill-static-accent-orange-medium": {

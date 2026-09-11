@@ -12,7 +12,7 @@
  and both modes resolve by selector. Never put a mode in a property name — that
  form is gone and resolves to nothing.
 
- Declares 417 custom properties.
+ Declares 405 custom properties.
  Generated — do not edit. Run `npm run build-tokens`.
  ==========================================================================
 */
@@ -246,62 +246,50 @@
   --semantic-color-fill-static-brand-dark: var(--primitive-color-brand-800);
   --semantic-color-fill-static-brand-black: var(--primitive-color-brand-800);
   --semantic-color-fill-static-status-negative-faint: var(--primitive-color-red-25);
-  --semantic-color-fill-static-status-negative-subtle: var(--primitive-color-red-50);
   --semantic-color-fill-static-status-negative-medium: var(--primitive-color-red-75);
   --semantic-color-fill-static-status-negative-contrast: var(--primitive-color-red-250);
   --semantic-color-fill-static-status-negative-bold: var(--primitive-color-red-350);
   --semantic-color-fill-static-status-positive-faint: var(--primitive-color-green-0);
-  --semantic-color-fill-static-status-positive-subtle: var(--primitive-color-green-25);
   --semantic-color-fill-static-status-positive-medium: var(--primitive-color-green-50);
   --semantic-color-fill-static-status-positive-contrast: var(--primitive-color-green-100);
   --semantic-color-fill-static-status-positive-bold: var(--primitive-color-green-200);
   --semantic-color-fill-static-status-attention-faint: var(--primitive-color-saffron-0);
-  --semantic-color-fill-static-status-attention-subtle: var(--primitive-color-saffron-25);
   --semantic-color-fill-static-status-attention-medium: var(--primitive-color-saffron-75);
   --semantic-color-fill-static-status-attention-contrast: var(--primitive-color-saffron-100);
   --semantic-color-fill-static-status-attention-bold: var(--primitive-color-saffron-150);
   --semantic-color-fill-static-status-severe-faint: var(--primitive-color-orange-25);
-  --semantic-color-fill-static-status-severe-subtle: var(--primitive-color-orange-50);
   --semantic-color-fill-static-status-severe-medium: var(--primitive-color-orange-75);
   --semantic-color-fill-static-status-severe-contrast: var(--primitive-color-orange-100);
   --semantic-color-fill-static-status-severe-bold: var(--primitive-color-orange-200);
   --semantic-color-fill-static-status-neutral-faint: var(--primitive-color-warm-neutral-25);
-  --semantic-color-fill-static-status-neutral-subtle: var(--primitive-color-warm-neutral-50);
   --semantic-color-fill-static-status-neutral-medium: var(--primitive-color-warm-neutral-75);
   --semantic-color-fill-static-status-neutral-contrast: var(--primitive-color-warm-neutral-150);
   --semantic-color-fill-static-status-neutral-bold: var(--primitive-color-warm-neutral-250);
   --semantic-color-fill-static-accent-amethyst-faint: var(--primitive-color-amethyst-25);
-  --semantic-color-fill-static-accent-amethyst-subtle: var(--primitive-color-amethyst-50);
   --semantic-color-fill-static-accent-amethyst-medium: var(--primitive-color-amethyst-100);
   --semantic-color-fill-static-accent-amethyst-contrast: var(--primitive-color-amethyst-300);
   --semantic-color-fill-static-accent-amethyst-bold: var(--primitive-color-amethyst-500);
   --semantic-color-fill-static-accent-jade-faint: var(--primitive-color-jade-25);
-  --semantic-color-fill-static-accent-jade-subtle: var(--primitive-color-jade-50);
   --semantic-color-fill-static-accent-jade-medium: var(--primitive-color-jade-100);
   --semantic-color-fill-static-accent-jade-contrast: var(--primitive-color-jade-300);
   --semantic-color-fill-static-accent-jade-bold: var(--primitive-color-jade-500);
   --semantic-color-fill-static-accent-seabreeze-faint: var(--primitive-color-seabreeze-25);
-  --semantic-color-fill-static-accent-seabreeze-subtle: var(--primitive-color-seabreeze-50);
   --semantic-color-fill-static-accent-seabreeze-medium: var(--primitive-color-seabreeze-100);
   --semantic-color-fill-static-accent-seabreeze-contrast: var(--primitive-color-seabreeze-300);
   --semantic-color-fill-static-accent-seabreeze-bold: var(--primitive-color-seabreeze-500);
   --semantic-color-fill-static-accent-mauve-faint: var(--primitive-color-mauve-25);
-  --semantic-color-fill-static-accent-mauve-subtle: var(--primitive-color-mauve-50);
   --semantic-color-fill-static-accent-mauve-medium: var(--primitive-color-mauve-100);
   --semantic-color-fill-static-accent-mauve-contrast: var(--primitive-color-mauve-300);
   --semantic-color-fill-static-accent-mauve-bold: var(--primitive-color-mauve-500);
   --semantic-color-fill-static-accent-lagoon-faint: var(--primitive-color-lagoon-25);
-  --semantic-color-fill-static-accent-lagoon-subtle: var(--primitive-color-lagoon-50);
   --semantic-color-fill-static-accent-lagoon-medium: var(--primitive-color-lagoon-100);
   --semantic-color-fill-static-accent-lagoon-contrast: var(--primitive-color-lagoon-300);
   --semantic-color-fill-static-accent-lagoon-bold: var(--primitive-color-lagoon-500);
   --semantic-color-fill-static-accent-saffron-faint: var(--primitive-color-saffron-25);
-  --semantic-color-fill-static-accent-saffron-subtle: var(--primitive-color-saffron-50);
   --semantic-color-fill-static-accent-saffron-medium: var(--primitive-color-saffron-100);
   --semantic-color-fill-static-accent-saffron-contrast: var(--primitive-color-saffron-300);
   --semantic-color-fill-static-accent-saffron-bold: var(--primitive-color-saffron-500);
   --semantic-color-fill-static-accent-orange-faint: var(--primitive-color-orange-25);
-  --semantic-color-fill-static-accent-orange-subtle: var(--primitive-color-orange-50);
   --semantic-color-fill-static-accent-orange-medium: var(--primitive-color-orange-100);
   --semantic-color-fill-static-accent-orange-contrast: var(--primitive-color-orange-300);
   --semantic-color-fill-static-accent-orange-bold: var(--primitive-color-orange-500);

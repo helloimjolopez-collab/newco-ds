@@ -1370,11 +1370,6 @@
     "=Red/800"
   ],
   [
-    "Fill/Static/Status/Negative/Subtle",
-    "=Red/50",
-    "=Red/700"
-  ],
-  [
     "Fill/Static/Status/Negative/Medium",
     "=Red/75",
     "=Red/600"
@@ -1393,11 +1388,6 @@
     "Fill/Static/Status/Positive/Faint",
     "=Green/0",
     "=Green/800"
-  ],
-  [
-    "Fill/Static/Status/Positive/Subtle",
-    "=Green/25",
-    "=Green/700"
   ],
   [
     "Fill/Static/Status/Positive/Medium",
@@ -1420,11 +1410,6 @@
     "=Saffron/700"
   ],
   [
-    "Fill/Static/Status/Attention/Subtle",
-    "=Saffron/25",
-    "=Saffron/500"
-  ],
-  [
     "Fill/Static/Status/Attention/Medium",
     "=Saffron/75",
     "=Saffron/400"
@@ -1445,11 +1430,6 @@
     "=Orange/800"
   ],
   [
-    "Fill/Static/Status/Severe/Subtle",
-    "=Orange/50",
-    "=Orange/700"
-  ],
-  [
     "Fill/Static/Status/Severe/Medium",
     "=Orange/75",
     "=Orange/600"
@@ -1468,11 +1448,6 @@
     "Fill/Static/Status/Neutral/Faint",
     "=Warm Neutral/25",
     "=Warm Neutral/800"
-  ],
-  [
-    "Fill/Static/Status/Neutral/Subtle",
-    "=Warm Neutral/50",
-    "=Warm Neutral/700"
   ],
   [
     "Fill/Static/Status/Neutral/Medium",
@@ -1545,11 +1520,6 @@
     "=Amethyst/800"
   ],
   [
-    "Fill/Static/Accent/Amethyst/Subtle",
-    "=Amethyst/50",
-    "=Amethyst/700"
-  ],
-  [
     "Fill/Static/Accent/Amethyst/Medium",
     "=Amethyst/100",
     "=Amethyst/600"
@@ -1568,11 +1538,6 @@
     "Fill/Static/Accent/Jade/Faint",
     "=Jade/25",
     "=Jade/800"
-  ],
-  [
-    "Fill/Static/Accent/Jade/Subtle",
-    "=Jade/50",
-    "=Jade/700"
   ],
   [
     "Fill/Static/Accent/Jade/Medium",
@@ -1595,11 +1560,6 @@
     "=Seabreeze/800"
   ],
   [
-    "Fill/Static/Accent/Seabreeze/Subtle",
-    "=Seabreeze/50",
-    "=Seabreeze/700"
-  ],
-  [
     "Fill/Static/Accent/Seabreeze/Medium",
     "=Seabreeze/100",
     "=Seabreeze/600"
@@ -1618,11 +1578,6 @@
     "Fill/Static/Accent/Mauve/Faint",
     "=Mauve/25",
     "=Mauve/800"
-  ],
-  [
-    "Fill/Static/Accent/Mauve/Subtle",
-    "=Mauve/50",
-    "=Mauve/700"
   ],
   [
     "Fill/Static/Accent/Mauve/Medium",
@@ -1645,11 +1600,6 @@
     "=Lagoon/800"
   ],
   [
-    "Fill/Static/Accent/Lagoon/Subtle",
-    "=Lagoon/50",
-    "=Lagoon/700"
-  ],
-  [
     "Fill/Static/Accent/Lagoon/Medium",
     "=Lagoon/100",
     "=Lagoon/600"
@@ -1670,11 +1620,6 @@
     "=Saffron/800"
   ],
   [
-    "Fill/Static/Accent/Saffron/Subtle",
-    "=Saffron/50",
-    "=Saffron/700"
-  ],
-  [
     "Fill/Static/Accent/Saffron/Medium",
     "=Saffron/100",
     "=Saffron/600"
@@ -1693,11 +1638,6 @@
     "Fill/Static/Accent/Orange/Faint",
     "=Orange/25",
     "=Orange/800"
-  ],
-  [
-    "Fill/Static/Accent/Orange/Subtle",
-    "=Orange/50",
-    "=Orange/700"
   ],
   [
     "Fill/Static/Accent/Orange/Medium",
