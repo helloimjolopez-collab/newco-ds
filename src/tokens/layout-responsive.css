@@ -5,6 +5,7 @@
 */
 :root {
   --responsive-layout-units-sheet-padding-horizontal: 36px;
+  --responsive-layout-units-sheet-padding-top: 8px;
   --responsive-layout-units-topnav-padding-horizontal: 24px;
 }
 

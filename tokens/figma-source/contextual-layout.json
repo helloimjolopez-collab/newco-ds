@@ -123,19 +123,15 @@
       "=Unit/4"
     ],
     [
-      "NavItem/Gap-IndicatorToContent",
-      8
-    ],
-    [
       "NavItem/Gap-IconToLabel",
-      8
+      "=Unit/8"
     ],
     [
       "SideNav/Width/Expanded",
-      250
+      "=Unit/250"
     ],
     [
-      "SideNav/Padding/Horizontal/Expanded",
+      "SideNav/Padding/Horizontal",
       "=Unit/16"
     ],
     [
@@ -144,7 +140,7 @@
     ],
     [
       "SideNav/Gap/Vertical",
-      "=Unit/6"
+      "=Unit/0"
     ],
     [
       "Selector/BorderWidth/BorderWidth",
@@ -156,31 +152,11 @@
     ],
     [
       "SideNav/Width/Collapsed",
-      72
-    ],
-    [
-      "SideNav/Padding/Horizontal/Collapsed",
-      "=Unit/12"
-    ],
-    [
-      "SheetContainer/Padding/Horizontal",
-      0
-    ],
-    [
-      "SheetContainer/Padding/Top",
-      0
-    ],
-    [
-      "Sheet/Padding/Top",
-      "=Unit/8"
+      "=Unit/72"
     ],
     [
       "Sheet/CornerRadius/CornerRadius",
       "=Unit/20"
-    ],
-    [
-      "TopNav/Padding/Vertical",
-      0
     ],
     [
       "TopNav/Gap/Horizontal",

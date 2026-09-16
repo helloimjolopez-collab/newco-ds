@@ -13,7 +13,7 @@
  that purple in Midnight, while `var(--semantic-color-fill-action-primary-rest)`
  flips. Reach for a primitive only when you want a value that ignores the theme.
 
- Declares 466 custom properties.
+ Declares 468 custom properties.
  Generated — do not edit. Run `npm run build-tokens`.
  ==========================================================================
 */
@@ -376,6 +376,7 @@
   --primitive-color-rose-350-36: rgba(210, 91, 140, 0.36);
   --primitive-color-rose-350-50: rgba(210, 91, 140, 0.5);
   --primitive-color-rose-350-70: rgba(210, 91, 140, 0.7);
+  --primitive-unit-unit-0: 0px;
   --primitive-unit-unit-1: 1px;
   --primitive-unit-unit-2: 2px;
   --primitive-unit-unit-4: 4px;
@@ -405,6 +406,7 @@
   --primitive-unit-unit-104: 104px;
   --primitive-unit-unit-112: 112px;
   --primitive-unit-unit-120: 120px;
+  --primitive-unit-unit-250: 250px;
   --primitive-unit-unit-999: 999px;
   --primitive-unit-unit-0-point-5: 0.5px;
   --primitive-unit-unit-0-point-75: 0.75px;

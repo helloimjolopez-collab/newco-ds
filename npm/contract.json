@@ -1,11 +1,11 @@
 {
   "$comment": "The names a consumer may use. Generated from the emitted CSS by scripts/build-contract.js — do not hand-edit. Lint against `contract` if you want the boundary enforced; nothing here blocks a primitive.",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "generated": "2026-09-16",
   "counts": {
-    "contract": 295,
-    "infrastructure": 513,
-    "declarationsAcrossAllFiles": 1004
+    "contract": 296,
+    "infrastructure": 509,
+    "declarationsAcrossAllFiles": 1001
   },
   "loadOrder": [
     "primitives.css",
@@ -21,7 +21,7 @@
     "primitives.css": {
       "contract": false,
       "mustLoad": true,
-      "count": 466,
+      "count": 468,
       "role": "Raw ramps (colour/type/unit). Load it; do not name it."
     },
     "themes/light.css": {
@@ -51,13 +51,13 @@
     "layout-contextual.css": {
       "contract": false,
       "mustLoad": false,
-      "count": 47,
+      "count": 41,
       "role": "Per-component metrics. This repo's components use these."
     },
     "layout-responsive.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 2,
+      "count": 3,
       "role": "Per-breakpoint chrome + sheet metrics (TopNav / SheetContainer / Sheet)."
     },
     "motion.css": {
@@ -98,6 +98,7 @@
     "--motion-easing-spring-soft",
     "--motion-easing-standard",
     "--responsive-layout-units-sheet-padding-horizontal",
+    "--responsive-layout-units-sheet-padding-top",
     "--responsive-layout-units-topnav-padding-horizontal",
     "--semantic-color-fill-action-disabled",
     "--semantic-color-fill-action-primary-strong-hover",

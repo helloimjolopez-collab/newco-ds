@@ -8073,6 +8073,15 @@ const tokens = {
       "base"
     ]
   },
+  "primitive-unit-unit-0": {
+    "value": 0,
+    "type": "number",
+    "path": [
+      "primitive-unit",
+      "unit",
+      "0"
+    ]
+  },
   "primitive-unit-unit-1": {
     "value": 1,
     "type": "number",
@@ -8332,6 +8341,15 @@ const tokens = {
       "primitive-unit",
       "unit",
       "120"
+    ]
+  },
+  "primitive-unit-unit-250": {
+    "value": 250,
+    "type": "number",
+    "path": [
+      "primitive-unit",
+      "unit",
+      "250"
     ]
   },
   "primitive-unit-unit-999": {
@@ -9742,15 +9760,6 @@ const tokens = {
       "stroke-width"
     ]
   },
-  "contextual-layout-units-navitem-gap-indicatortocontent": {
-    "value": 8,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "navitem",
-      "gap-indicatortocontent"
-    ]
-  },
   "contextual-layout-units-navitem-gap-icontolabel": {
     "value": 8,
     "type": "number",
@@ -10077,26 +10086,14 @@ const tokens = {
       "collapsed"
     ]
   },
-  "contextual-layout-units-sidenav-padding-horizontal-expanded": {
+  "contextual-layout-units-sidenav-padding-horizontal": {
     "value": 16,
     "type": "number",
     "path": [
       "contextual-layout-units",
       "sidenav",
       "padding",
-      "horizontal",
-      "expanded"
-    ]
-  },
-  "contextual-layout-units-sidenav-padding-horizontal-collapsed": {
-    "value": 12,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "sidenav",
-      "padding",
-      "horizontal",
-      "collapsed"
+      "horizontal"
     ]
   },
   "contextual-layout-units-sidenav-padding-vertical": {
@@ -10110,43 +10107,13 @@ const tokens = {
     ]
   },
   "contextual-layout-units-sidenav-gap-vertical": {
-    "value": 6,
+    "value": 0,
     "type": "number",
     "path": [
       "contextual-layout-units",
       "sidenav",
       "gap",
       "vertical"
-    ]
-  },
-  "contextual-layout-units-sheetcontainer-padding-horizontal": {
-    "value": 0,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "sheetcontainer",
-      "padding",
-      "horizontal"
-    ]
-  },
-  "contextual-layout-units-sheetcontainer-padding-top": {
-    "value": 0,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "sheetcontainer",
-      "padding",
-      "top"
-    ]
-  },
-  "contextual-layout-units-sheet-padding-top": {
-    "value": 8,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "sheet",
-      "padding",
-      "top"
     ]
   },
   "contextual-layout-units-sheet-cornerradius-cornerradius": {
@@ -10157,16 +10124,6 @@ const tokens = {
       "sheet",
       "cornerradius",
       "cornerradius"
-    ]
-  },
-  "contextual-layout-units-topnav-padding-vertical": {
-    "value": 0,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "topnav",
-      "padding",
-      "vertical"
     ]
   },
   "contextual-layout-units-topnav-gap-horizontal": {

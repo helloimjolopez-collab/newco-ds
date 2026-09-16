@@ -1,8 +1,8 @@
 # NewCo design tokens
 
 **The themed contract (colour + elevation) is 196 names.** Your full working
-vocabulary across every file below is **295**. If you add up every
-declaration in this folder you get 1004 — that number is not the contract, and the
+vocabulary across every file below is **296**. If you add up every
+declaration in this folder you get 1001 — that number is not the contract, and the
 table says why. Or load everything with one line: `import "@helloimjolopez-newco/newco-tokens/css"`.
 
 ## Link these, in this order
@@ -26,13 +26,13 @@ unstyled **with no console error**.
 
 | File | Names | Safe to name? | Must load? | What it is |
 |---|---|---|---|---|
-| `primitives.css` | 466 | **no** | yes | Raw ramps (colour/type/unit). Load it; do not name it. |
+| `primitives.css` | 468 | **no** | yes | Raw ramps (colour/type/unit). Load it; do not name it. |
 | `themes/light.css` | 196 | yes | yes | Colour + elevation contract, Light Mode. |
 | `themes/midnight.css` | 196 | yes | yes | Colour + elevation contract, Midnight Mode. Same names. |
 | `type.css` | 39 | yes | yes | Type scale. Compose from these. |
 | `layout.css` | 39 | yes | yes | Spacing, radii, border widths. |
-| `layout-contextual.css` | 47 | **no** | **no** | Per-component metrics. This repo's components use these. |
-| `layout-responsive.css` | 2 | yes | yes | Per-breakpoint chrome + sheet metrics (TopNav / SheetContainer / Sheet). |
+| `layout-contextual.css` | 41 | **no** | **no** | Per-component metrics. This repo's components use these. |
+| `layout-responsive.css` | 3 | yes | yes | Per-breakpoint chrome + sheet metrics (TopNav / SheetContainer / Sheet). |
 | `motion.css` | 14 | yes | yes | Durations and easings. |
 | `breakpoints.css` | 5 | yes | yes | Breakpoint values. |
 
