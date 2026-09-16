@@ -6,54 +6,6 @@
   ],
   "vars": [
     [
-      "TopNav/Padding/Horizontal",
-      [
-        24,
-        24,
-        16
-      ]
-    ],
-    [
-      "TopNav/Padding/Vertical",
-      [
-        0,
-        0,
-        0
-      ]
-    ],
-    [
-      "TopNav/Gap/Horizontal",
-      [
-        16,
-        16,
-        12
-      ]
-    ],
-    [
-      "SheetContainer/Padding/Top",
-      [
-        8,
-        8,
-        8
-      ]
-    ],
-    [
-      "SheetContainer/Padding/Horizontal",
-      [
-        0,
-        0,
-        0
-      ]
-    ],
-    [
-      "Sheet/Padding/Top",
-      [
-        8,
-        8,
-        8
-      ]
-    ],
-    [
       "Sheet/Padding/Horizontal",
       [
         36,
@@ -62,11 +14,11 @@
       ]
     ],
     [
-      "Sheet/CornerRadius",
+      "TopNav/Padding/Horizontal",
       [
-        20,
-        20,
-        16
+        24,
+        16,
+        12
       ]
     ]
   ]

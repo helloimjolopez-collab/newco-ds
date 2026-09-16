@@ -11,7 +11,7 @@
       "=Unit/14"
     ],
     [
-      "NavItem/Large/Radius/Radius",
+      "NavItem/Large/CornerRadius/CornerRadius",
       "=Unit/999"
     ],
     [
@@ -39,11 +39,11 @@
       "=Unit/8"
     ],
     [
-      "Focused Element/CornerRadius/CornerRadius",
+      "FocusRing/CornerRadius/CornerRadius",
       "=Unit/999"
     ],
     [
-      "Focused Element/BorderWidth/BorderWidth",
+      "FocusRing/Width/Width",
       "=Unit/2"
     ],
     [
@@ -91,7 +91,7 @@
       "=BorderWidth/XThin"
     ],
     [
-      "Button/Radius/Radius",
+      "Button/CornerRadius/CornerRadius",
       "=Unit/999"
     ],
     [
@@ -111,15 +111,15 @@
       "=Unit/8"
     ],
     [
-      "Input/Radius/Radius",
+      "Field/CornerRadius/CornerRadius",
       "=Unit/12"
     ],
     [
-      "Checkbox/Radius/Base",
+      "Selector/CornerRadius/Base",
       "=Unit/6"
     ],
     [
-      "Checkbox/Radius/Small",
+      "Selector/CornerRadius/Small",
       "=Unit/4"
     ],
     [
@@ -131,11 +131,11 @@
       8
     ],
     [
-      "SideNav/Width",
+      "SideNav/Width/Expanded",
       250
     ],
     [
-      "SideNav/Padding/Horizontal",
+      "SideNav/Padding/Horizontal/Expanded",
       "=Unit/16"
     ],
     [
@@ -144,7 +144,51 @@
     ],
     [
       "SideNav/Gap/Vertical",
+      "=Unit/6"
+    ],
+    [
+      "Selector/BorderWidth/BorderWidth",
+      "=BorderWidth/Base"
+    ],
+    [
+      "Field/BorderWidth/BorderWidth",
+      "=BorderWidth/Base"
+    ],
+    [
+      "SideNav/Width/Collapsed",
+      72
+    ],
+    [
+      "SideNav/Padding/Horizontal/Collapsed",
+      "=Unit/12"
+    ],
+    [
+      "SheetContainer/Padding/Horizontal",
       0
+    ],
+    [
+      "SheetContainer/Padding/Top",
+      0
+    ],
+    [
+      "Sheet/Padding/Top",
+      "=Unit/8"
+    ],
+    [
+      "Sheet/CornerRadius/CornerRadius",
+      "=Unit/20"
+    ],
+    [
+      "TopNav/Padding/Vertical",
+      0
+    ],
+    [
+      "TopNav/Gap/Horizontal",
+      "=Unit/16"
+    ],
+    [
+      "TopNav/Height",
+      "=Unit/56"
     ]
   ]
 }
