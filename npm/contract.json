@@ -1,11 +1,11 @@
 {
   "$comment": "The names a consumer may use. Generated from the emitted CSS by scripts/build-contract.js — do not hand-edit. Lint against `contract` if you want the boundary enforced; nothing here blocks a primitive.",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "generated": "2026-09-16",
   "counts": {
-    "contract": 290,
+    "contract": 293,
     "infrastructure": 503,
-    "declarationsAcrossAllFiles": 986
+    "declarationsAcrossAllFiles": 992
   },
   "loadOrder": [
     "primitives.css",
@@ -26,13 +26,13 @@
     "themes/light.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 193,
+      "count": 196,
       "role": "Colour + elevation contract, Light Mode."
     },
     "themes/midnight.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 193,
+      "count": 196,
       "role": "Colour + elevation contract, Midnight Mode. Same names."
     },
     "type.css": {
@@ -184,6 +184,9 @@
     "--semantic-color-foreground-action-status-negative-on-subtle-hover",
     "--semantic-color-foreground-action-status-negative-on-subtle-pressed",
     "--semantic-color-foreground-action-status-negative-on-subtle-rest",
+    "--semantic-color-foreground-action-status-positive-on-strong-hover",
+    "--semantic-color-foreground-action-status-positive-on-strong-pressed",
+    "--semantic-color-foreground-action-status-positive-on-strong-rest",
     "--semantic-color-foreground-action-status-positive-on-subtle-hover",
     "--semantic-color-foreground-action-status-positive-on-subtle-pressed",
     "--semantic-color-foreground-action-status-positive-on-subtle-rest",

@@ -2060,6 +2060,20 @@
                   "$type": "color",
                   "$value": "{primitive-color.green.800}"
                 }
+              },
+              "on-strong": {
+                "rest": {
+                  "$type": "color",
+                  "$value": "{primitive-color.green.800}"
+                },
+                "hover": {
+                  "$type": "color",
+                  "$value": "{primitive-color.green.800}"
+                },
+                "pressed": {
+                  "$type": "color",
+                  "$value": "{primitive-color.green.800}"
+                }
               }
             },
             "attention": {
@@ -3007,6 +3021,20 @@
                 "pressed": {
                   "$type": "color",
                   "$value": "{primitive-color.green.0}"
+                }
+              },
+              "on-strong": {
+                "rest": {
+                  "$type": "color",
+                  "$value": "{primitive-color.green.800}"
+                },
+                "hover": {
+                  "$type": "color",
+                  "$value": "{primitive-color.green.800}"
+                },
+                "pressed": {
+                  "$type": "color",
+                  "$value": "{primitive-color.green.800}"
                 }
               }
             },

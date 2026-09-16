@@ -4737,6 +4737,48 @@ const tokens = {
       "pressed"
     ]
   },
+  "semantic-color-light-mode-foreground-action-status-positive-on-strong-rest": {
+    "value": "#071f13",
+    "type": "color",
+    "path": [
+      "semantic-color",
+      "light-mode",
+      "foreground",
+      "action",
+      "status",
+      "positive",
+      "on-strong",
+      "rest"
+    ]
+  },
+  "semantic-color-light-mode-foreground-action-status-positive-on-strong-hover": {
+    "value": "#071f13",
+    "type": "color",
+    "path": [
+      "semantic-color",
+      "light-mode",
+      "foreground",
+      "action",
+      "status",
+      "positive",
+      "on-strong",
+      "hover"
+    ]
+  },
+  "semantic-color-light-mode-foreground-action-status-positive-on-strong-pressed": {
+    "value": "#071f13",
+    "type": "color",
+    "path": [
+      "semantic-color",
+      "light-mode",
+      "foreground",
+      "action",
+      "status",
+      "positive",
+      "on-strong",
+      "pressed"
+    ]
+  },
   "semantic-color-light-mode-foreground-action-status-attention-on-subtle-rest": {
     "value": "#6d5936",
     "type": "color",
@@ -7118,6 +7160,48 @@ const tokens = {
       "status",
       "positive",
       "on-subtle",
+      "pressed"
+    ]
+  },
+  "semantic-color-midnight-mode-foreground-action-status-positive-on-strong-rest": {
+    "value": "#071f13",
+    "type": "color",
+    "path": [
+      "semantic-color",
+      "midnight-mode",
+      "foreground",
+      "action",
+      "status",
+      "positive",
+      "on-strong",
+      "rest"
+    ]
+  },
+  "semantic-color-midnight-mode-foreground-action-status-positive-on-strong-hover": {
+    "value": "#071f13",
+    "type": "color",
+    "path": [
+      "semantic-color",
+      "midnight-mode",
+      "foreground",
+      "action",
+      "status",
+      "positive",
+      "on-strong",
+      "hover"
+    ]
+  },
+  "semantic-color-midnight-mode-foreground-action-status-positive-on-strong-pressed": {
+    "value": "#071f13",
+    "type": "color",
+    "path": [
+      "semantic-color",
+      "midnight-mode",
+      "foreground",
+      "action",
+      "status",
+      "positive",
+      "on-strong",
       "pressed"
     ]
   },
