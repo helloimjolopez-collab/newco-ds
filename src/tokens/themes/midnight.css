@@ -11,7 +11,7 @@
  Set the attribute on <html> to theme the page, or on any element to theme just
  that subtree — it composes both ways (a light island inside a dark island).
 
- Declares 197 custom properties.
+ Declares 200 custom properties.
  Generated — do not edit. Run `npm run build-tokens`.
  ==========================================================================
 */
@@ -184,9 +184,12 @@
   --semantic-color-stroke-static-neutral-bold: var(--primitive-color-midnight-500);
   --semantic-color-stroke-static-neutral-strong: var(--primitive-color-midnight-400);
   --semantic-color-stroke-focusring-base: var(--primitive-color-brand-150);
-  --semantic-color-stroke-action-primary-rest: var(--primitive-color-brand-300);
-  --semantic-color-stroke-action-primary-hover: var(--primitive-color-brand-250);
-  --semantic-color-stroke-action-primary-pressed: var(--primitive-color-brand-200);
+  --semantic-color-stroke-action-primary-strong-rest: var(--primitive-color-brand-300);
+  --semantic-color-stroke-action-primary-strong-hover: var(--primitive-color-brand-250);
+  --semantic-color-stroke-action-primary-strong-pressed: var(--primitive-color-brand-200);
+  --semantic-color-stroke-action-primary-subtle-rest: var(--primitive-color-brand-500);
+  --semantic-color-stroke-action-primary-subtle-hover: var(--primitive-color-brand-400);
+  --semantic-color-stroke-action-primary-subtle-pressed: var(--primitive-color-brand-350);
   --semantic-color-stroke-action-secondary-rest: var(--primitive-color-cool-neutral-0-16);
   --semantic-color-stroke-action-secondary-hover: var(--primitive-color-cool-neutral-0-6);
   --semantic-color-stroke-action-secondary-pressed: var(--primitive-color-cool-neutral-0-24);

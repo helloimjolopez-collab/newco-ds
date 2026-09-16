@@ -12,7 +12,7 @@
  and both modes resolve by selector. Never put a mode in a property name — that
  form is gone and resolves to nothing.
 
- Declares 197 custom properties.
+ Declares 200 custom properties.
  Generated — do not edit. Run `npm run build-tokens`.
  ==========================================================================
 */
@@ -185,9 +185,12 @@
   --semantic-color-stroke-static-neutral-bold: var(--primitive-color-warm-neutral-300);
   --semantic-color-stroke-static-neutral-strong: var(--primitive-color-warm-neutral-500);
   --semantic-color-stroke-focusring-base: var(--primitive-color-brand-350);
-  --semantic-color-stroke-action-primary-rest: var(--primitive-color-brand-400);
-  --semantic-color-stroke-action-primary-hover: var(--primitive-color-brand-500);
-  --semantic-color-stroke-action-primary-pressed: var(--primitive-color-brand-600);
+  --semantic-color-stroke-action-primary-strong-rest: var(--primitive-color-brand-400);
+  --semantic-color-stroke-action-primary-strong-hover: var(--primitive-color-brand-500);
+  --semantic-color-stroke-action-primary-strong-pressed: var(--primitive-color-brand-600);
+  --semantic-color-stroke-action-primary-subtle-rest: var(--primitive-color-brand-200);
+  --semantic-color-stroke-action-primary-subtle-hover: var(--primitive-color-brand-250);
+  --semantic-color-stroke-action-primary-subtle-pressed: var(--primitive-color-brand-300);
   --semantic-color-stroke-action-secondary-rest: var(--primitive-color-warm-neutral-300);
   --semantic-color-stroke-action-secondary-hover: var(--primitive-color-warm-neutral-350);
   --semantic-color-stroke-action-secondary-pressed: var(--primitive-color-warm-neutral-400);

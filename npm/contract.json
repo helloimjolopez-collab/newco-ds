@@ -1,11 +1,11 @@
 {
   "$comment": "The names a consumer may use. Generated from the emitted CSS by scripts/build-contract.js — do not hand-edit. Lint against `contract` if you want the boundary enforced; nothing here blocks a primitive.",
-  "version": "2.1.3",
+  "version": "3.0.0",
   "generated": "2026-09-16",
   "counts": {
-    "contract": 294,
+    "contract": 297,
     "infrastructure": 503,
-    "declarationsAcrossAllFiles": 994
+    "declarationsAcrossAllFiles": 1000
   },
   "loadOrder": [
     "primitives.css",
@@ -26,13 +26,13 @@
     "themes/light.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 197,
+      "count": 200,
       "role": "Colour + elevation contract, Light Mode."
     },
     "themes/midnight.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 197,
+      "count": 200,
       "role": "Colour + elevation contract, Midnight Mode. Same names."
     },
     "type.css": {
@@ -235,9 +235,12 @@
     "--semantic-color-stroke-action-field-hover",
     "--semantic-color-stroke-action-field-pressed",
     "--semantic-color-stroke-action-field-rest",
-    "--semantic-color-stroke-action-primary-hover",
-    "--semantic-color-stroke-action-primary-pressed",
-    "--semantic-color-stroke-action-primary-rest",
+    "--semantic-color-stroke-action-primary-strong-hover",
+    "--semantic-color-stroke-action-primary-strong-pressed",
+    "--semantic-color-stroke-action-primary-strong-rest",
+    "--semantic-color-stroke-action-primary-subtle-hover",
+    "--semantic-color-stroke-action-primary-subtle-pressed",
+    "--semantic-color-stroke-action-primary-subtle-rest",
     "--semantic-color-stroke-action-secondary-hover",
     "--semantic-color-stroke-action-secondary-pressed",
     "--semantic-color-stroke-action-secondary-rest",
