@@ -12,16 +12,17 @@
  and both modes resolve by selector. Never put a mode in a property name — that
  form is gone and resolves to nothing.
 
- Declares 200 custom properties.
+ Declares 193 custom properties.
  Generated — do not edit. Run `npm run build-tokens`.
  ==========================================================================
 */
 :root, [data-theme="light"] {
   --semantic-color-fill-surface-canvas: #f7f3f3;
   --semantic-color-fill-surface-chrome: #f7f3f3;
-  --semantic-color-fill-surface-elevated-overlay-base: #ffffff;
-  --semantic-color-fill-surface-elevated-card-base: #fefcfc;
-  --semantic-color-fill-surface-elevated-sheet: #fcf9f9;
+  --semantic-color-fill-surface-overlay: #ffffff;
+  --semantic-color-fill-surface-sheet: #fcf9f9;
+  --semantic-color-fill-surface-elevated-subtle: #ffffff;
+  --semantic-color-fill-surface-elevated-strong: #f5f1f1;
   --elevation-sheet: 0 1px 3px rgba(58,50,54,0.05), 0 10px 30px -16px rgba(58,50,54,0.13);
   --elevation-widget: 0 1px 2px rgba(58,50,54,0.05), 0 2px 6px -2px rgba(58,50,54,0.06);
   --elevation-lift: 0 2px 5px rgba(58,50,54,0.06), 0 6px 16px -6px rgba(58,50,54,0.11);
@@ -59,14 +60,6 @@
   --semantic-color-fill-static-brand-bold: var(--primitive-color-brand-300);
   --semantic-color-fill-static-brand-strong: var(--primitive-color-brand-600);
   --semantic-color-fill-static-brand-strongest: var(--primitive-color-brand-700);
-  --semantic-color-fill-surface-elevated-overlay-attention: var(--primitive-color-saffron-50);
-  --semantic-color-fill-surface-elevated-overlay-severe: var(--primitive-color-orange-50);
-  --semantic-color-fill-surface-elevated-overlay-negative: var(--primitive-color-red-50);
-  --semantic-color-fill-surface-elevated-overlay-positive: var(--primitive-color-green-50);
-  --semantic-color-fill-surface-elevated-card-attention: var(--primitive-color-saffron-50);
-  --semantic-color-fill-surface-elevated-card-severe: var(--primitive-color-orange-50);
-  --semantic-color-fill-surface-elevated-card-negative: var(--primitive-color-red-50);
-  --semantic-color-fill-surface-elevated-card-positive: var(--primitive-color-green-50);
   --semantic-color-fill-action-primary-strong-rest: var(--primitive-color-brand-400);
   --semantic-color-fill-action-primary-strong-hover: var(--primitive-color-brand-500);
   --semantic-color-fill-action-primary-strong-pressed: var(--primitive-color-brand-600);

@@ -11,16 +11,17 @@
  Set the attribute on <html> to theme the page, or on any element to theme just
  that subtree — it composes both ways (a light island inside a dark island).
 
- Declares 200 custom properties.
+ Declares 193 custom properties.
  Generated — do not edit. Run `npm run build-tokens`.
  ==========================================================================
 */
 [data-theme="midnight"], [data-theme="dark"] {
   --semantic-color-fill-surface-canvas: #29252f;
   --semantic-color-fill-surface-chrome: #29252f;
-  --semantic-color-fill-surface-elevated-overlay-base: #3a3645;
-  --semantic-color-fill-surface-elevated-card-base: #383442;
-  --semantic-color-fill-surface-elevated-sheet: #322e3c;
+  --semantic-color-fill-surface-overlay: #3a3645;
+  --semantic-color-fill-surface-sheet: #322e3c;
+  --semantic-color-fill-surface-elevated-subtle: #383442;
+  --semantic-color-fill-surface-elevated-strong: #3a3645;
   --elevation-sheet: 0 8px 36px -18px rgba(0,0,0,0.40);
   --elevation-widget: 0 1px 2px rgba(0,0,0,0.15);
   --elevation-lift: 0 8px 20px -10px rgba(0,0,0,0.32);
@@ -58,14 +59,6 @@
   --semantic-color-fill-static-brand-bold: var(--primitive-color-brand-400);
   --semantic-color-fill-static-brand-strong: var(--primitive-color-brand-200);
   --semantic-color-fill-static-brand-strongest: var(--primitive-color-brand-150);
-  --semantic-color-fill-surface-elevated-overlay-attention: var(--primitive-color-saffron-350-16);
-  --semantic-color-fill-surface-elevated-overlay-severe: var(--primitive-color-orange-350-16);
-  --semantic-color-fill-surface-elevated-overlay-negative: var(--primitive-color-red-300-16);
-  --semantic-color-fill-surface-elevated-overlay-positive: var(--primitive-color-green-350-16);
-  --semantic-color-fill-surface-elevated-card-attention: var(--primitive-color-saffron-350-16);
-  --semantic-color-fill-surface-elevated-card-severe: var(--primitive-color-orange-350-16);
-  --semantic-color-fill-surface-elevated-card-negative: var(--primitive-color-red-300-16);
-  --semantic-color-fill-surface-elevated-card-positive: var(--primitive-color-green-350-16);
   --semantic-color-fill-action-primary-strong-rest: var(--primitive-color-brand-250);
   --semantic-color-fill-action-primary-strong-hover: var(--primitive-color-brand-200);
   --semantic-color-fill-action-primary-strong-pressed: var(--primitive-color-brand-300);

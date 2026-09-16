@@ -1,11 +1,11 @@
 {
   "$comment": "The names a consumer may use. Generated from the emitted CSS by scripts/build-contract.js — do not hand-edit. Lint against `contract` if you want the boundary enforced; nothing here blocks a primitive.",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "generated": "2026-09-16",
   "counts": {
-    "contract": 297,
+    "contract": 290,
     "infrastructure": 503,
-    "declarationsAcrossAllFiles": 1000
+    "declarationsAcrossAllFiles": 986
   },
   "loadOrder": [
     "primitives.css",
@@ -26,13 +26,13 @@
     "themes/light.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 200,
+      "count": 193,
       "role": "Colour + elevation contract, Light Mode."
     },
     "themes/midnight.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 200,
+      "count": 193,
       "role": "Colour + elevation contract, Midnight Mode. Same names."
     },
     "type.css": {
@@ -161,17 +161,10 @@
     "--semantic-color-fill-static-severe-subtle",
     "--semantic-color-fill-surface-canvas",
     "--semantic-color-fill-surface-chrome",
-    "--semantic-color-fill-surface-elevated-card-attention",
-    "--semantic-color-fill-surface-elevated-card-base",
-    "--semantic-color-fill-surface-elevated-card-negative",
-    "--semantic-color-fill-surface-elevated-card-positive",
-    "--semantic-color-fill-surface-elevated-card-severe",
-    "--semantic-color-fill-surface-elevated-overlay-attention",
-    "--semantic-color-fill-surface-elevated-overlay-base",
-    "--semantic-color-fill-surface-elevated-overlay-negative",
-    "--semantic-color-fill-surface-elevated-overlay-positive",
-    "--semantic-color-fill-surface-elevated-overlay-severe",
-    "--semantic-color-fill-surface-elevated-sheet",
+    "--semantic-color-fill-surface-elevated-strong",
+    "--semantic-color-fill-surface-elevated-subtle",
+    "--semantic-color-fill-surface-overlay",
+    "--semantic-color-fill-surface-sheet",
     "--semantic-color-foreground-action-disabled",
     "--semantic-color-foreground-action-primary-on-subtle-hover",
     "--semantic-color-foreground-action-primary-on-subtle-pressed",

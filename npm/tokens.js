@@ -3651,7 +3651,29 @@ const tokens = {
       "chrome"
     ]
   },
-  "semantic-color-light-mode-fill-surface-elevated-overlay-base": {
+  "semantic-color-light-mode-fill-surface-overlay": {
+    "value": "#ffffff",
+    "type": "color",
+    "path": [
+      "semantic-color",
+      "light-mode",
+      "fill",
+      "surface",
+      "overlay"
+    ]
+  },
+  "semantic-color-light-mode-fill-surface-sheet": {
+    "value": "#fcf9f9",
+    "type": "color",
+    "path": [
+      "semantic-color",
+      "light-mode",
+      "fill",
+      "surface",
+      "sheet"
+    ]
+  },
+  "semantic-color-light-mode-fill-surface-elevated-subtle": {
     "value": "#ffffff",
     "type": "color",
     "path": [
@@ -3660,12 +3682,11 @@ const tokens = {
       "fill",
       "surface",
       "elevated",
-      "overlay",
-      "base"
+      "subtle"
     ]
   },
-  "semantic-color-light-mode-fill-surface-elevated-overlay-attention": {
-    "value": "#feeac8",
+  "semantic-color-light-mode-fill-surface-elevated-strong": {
+    "value": "#f5f1f1",
     "type": "color",
     "path": [
       "semantic-color",
@@ -3673,124 +3694,7 @@ const tokens = {
       "fill",
       "surface",
       "elevated",
-      "overlay",
-      "attention"
-    ]
-  },
-  "semantic-color-light-mode-fill-surface-elevated-overlay-severe": {
-    "value": "#ffe7dc",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "surface",
-      "elevated",
-      "overlay",
-      "severe"
-    ]
-  },
-  "semantic-color-light-mode-fill-surface-elevated-overlay-negative": {
-    "value": "#fce7e4",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "surface",
-      "elevated",
-      "overlay",
-      "negative"
-    ]
-  },
-  "semantic-color-light-mode-fill-surface-elevated-overlay-positive": {
-    "value": "#befedb",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "surface",
-      "elevated",
-      "overlay",
-      "positive"
-    ]
-  },
-  "semantic-color-light-mode-fill-surface-elevated-card-attention": {
-    "value": "#feeac8",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "surface",
-      "elevated",
-      "card",
-      "attention"
-    ]
-  },
-  "semantic-color-light-mode-fill-surface-elevated-card-severe": {
-    "value": "#ffe7dc",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "surface",
-      "elevated",
-      "card",
-      "severe"
-    ]
-  },
-  "semantic-color-light-mode-fill-surface-elevated-card-negative": {
-    "value": "#fce7e4",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "surface",
-      "elevated",
-      "card",
-      "negative"
-    ]
-  },
-  "semantic-color-light-mode-fill-surface-elevated-card-positive": {
-    "value": "#befedb",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "surface",
-      "elevated",
-      "card",
-      "positive"
-    ]
-  },
-  "semantic-color-light-mode-fill-surface-elevated-card-base": {
-    "value": "#fefcfc",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "surface",
-      "elevated",
-      "card",
-      "base"
-    ]
-  },
-  "semantic-color-light-mode-fill-surface-elevated-sheet": {
-    "value": "#fcf9f9",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "surface",
-      "elevated",
-      "sheet"
+      "strong"
     ]
   },
   "semantic-color-light-mode-fill-action-primary-strong-rest": {
@@ -6131,7 +6035,7 @@ const tokens = {
       "chrome"
     ]
   },
-  "semantic-color-midnight-mode-fill-surface-elevated-overlay-base": {
+  "semantic-color-midnight-mode-fill-surface-overlay": {
     "value": "#3a3645",
     "type": "color",
     "path": [
@@ -6139,116 +6043,21 @@ const tokens = {
       "midnight-mode",
       "fill",
       "surface",
-      "elevated",
-      "overlay",
-      "base"
+      "overlay"
     ]
   },
-  "semantic-color-midnight-mode-fill-surface-elevated-overlay-attention": {
-    "value": "#aa843e29",
+  "semantic-color-midnight-mode-fill-surface-sheet": {
+    "value": "#322e3c",
     "type": "color",
     "path": [
       "semantic-color",
       "midnight-mode",
       "fill",
       "surface",
-      "elevated",
-      "overlay",
-      "attention"
+      "sheet"
     ]
   },
-  "semantic-color-midnight-mode-fill-surface-elevated-overlay-severe": {
-    "value": "#d06a3329",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "surface",
-      "elevated",
-      "overlay",
-      "severe"
-    ]
-  },
-  "semantic-color-midnight-mode-fill-surface-elevated-overlay-negative": {
-    "value": "#e4776929",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "surface",
-      "elevated",
-      "overlay",
-      "negative"
-    ]
-  },
-  "semantic-color-midnight-mode-fill-surface-elevated-overlay-positive": {
-    "value": "#00a46c29",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "surface",
-      "elevated",
-      "overlay",
-      "positive"
-    ]
-  },
-  "semantic-color-midnight-mode-fill-surface-elevated-card-attention": {
-    "value": "#aa843e29",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "surface",
-      "elevated",
-      "card",
-      "attention"
-    ]
-  },
-  "semantic-color-midnight-mode-fill-surface-elevated-card-severe": {
-    "value": "#d06a3329",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "surface",
-      "elevated",
-      "card",
-      "severe"
-    ]
-  },
-  "semantic-color-midnight-mode-fill-surface-elevated-card-negative": {
-    "value": "#e4776929",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "surface",
-      "elevated",
-      "card",
-      "negative"
-    ]
-  },
-  "semantic-color-midnight-mode-fill-surface-elevated-card-positive": {
-    "value": "#00a46c29",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "surface",
-      "elevated",
-      "card",
-      "positive"
-    ]
-  },
-  "semantic-color-midnight-mode-fill-surface-elevated-card-base": {
+  "semantic-color-midnight-mode-fill-surface-elevated-subtle": {
     "value": "#383442",
     "type": "color",
     "path": [
@@ -6257,12 +6066,11 @@ const tokens = {
       "fill",
       "surface",
       "elevated",
-      "card",
-      "base"
+      "subtle"
     ]
   },
-  "semantic-color-midnight-mode-fill-surface-elevated-sheet": {
-    "value": "#322e3c",
+  "semantic-color-midnight-mode-fill-surface-elevated-strong": {
+    "value": "#3a3645",
     "type": "color",
     "path": [
       "semantic-color",
@@ -6270,7 +6078,7 @@ const tokens = {
       "fill",
       "surface",
       "elevated",
-      "sheet"
+      "strong"
     ]
   },
   "semantic-color-midnight-mode-fill-action-primary-strong-rest": {
