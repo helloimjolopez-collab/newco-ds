@@ -19,18 +19,6 @@
       "=Unit/1 point 5"
     ],
     [
-      "Sheet/Padding/Top",
-      "=Unit/8"
-    ],
-    [
-      "Sheet/Padding/Horizontal",
-      "=Unit/36"
-    ],
-    [
-      "Sheet/Padding/Bottom",
-      "=Unit/56"
-    ],
-    [
       "Button/Padding/Medium/Vertical",
       "=Unit/10"
     ],
@@ -151,8 +139,16 @@
       "=Unit/16"
     ],
     [
-      "Canvas/Padding/Right",
-      "=Unit/16"
+      "Container/Padding/Top",
+      "=Unit/8"
+    ],
+    [
+      "Container/Padding/Horizontal",
+      "=Unit/24"
+    ],
+    [
+      "Container/Padding/Bottom",
+      0
     ]
   ]
 }

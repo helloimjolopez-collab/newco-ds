@@ -1,11 +1,11 @@
 {
   "$comment": "The names a consumer may use. Generated from the emitted CSS by scripts/build-contract.js — do not hand-edit. Lint against `contract` if you want the boundary enforced; nothing here blocks a primitive.",
-  "version": "2.1.1",
+  "version": "2.1.3",
   "generated": "2026-09-16",
   "counts": {
     "contract": 294,
-    "infrastructure": 504,
-    "declarationsAcrossAllFiles": 995
+    "infrastructure": 503,
+    "declarationsAcrossAllFiles": 994
   },
   "loadOrder": [
     "primitives.css",
@@ -50,7 +50,7 @@
     "layout-contextual.css": {
       "contract": false,
       "mustLoad": false,
-      "count": 38,
+      "count": 37,
       "role": "Per-component metrics. This repo's components use these."
     },
     "motion.css": {
