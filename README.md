@@ -19,20 +19,25 @@ Both registries publish from the **same build, in lockstep** — identical versi
 
 .NET delivery details (Razor Class Library, static-web-asset stylesheet, C# constants): [nuget/README.md](nuget/README.md).
 
-## The contract is **514 names**
+## The contract is **294 names**
 
 That is the number to quote a developer — the names you may actually use, not the
-line count. The rest is infrastructure you load but never name. The CSS ships as
-small, self-describing files (each with a stamped CONTRACT / INFRASTRUCTURE /
-COMPONENT-INTERNALS header and a computed count), never one giant `tokens.css`:
+line count. The rest is infrastructure you load but never name. The colour system
+follows the canonical Pathway architecture: **meaning-named** tones (Negative,
+Positive, Attention, Severe, Info, Neutral, Brand) with two rungs each — `Subtle`
+and `Strong` — plus `Accent/<hue>` for the decorative hues; only Neutral and Brand
+carry the long ladder. Every foreground-on-fill pairing clears **AAA (7:1)**,
+verified by luminance in `check-color`. The CSS ships as small, self-describing
+files (each with a stamped CONTRACT / INFRASTRUCTURE / COMPONENT-INTERNALS header
+and a computed count), never one giant `tokens.css`:
 
 | File | Names | Name it? | What it is |
 |---|---|---|---|
 | `primitives.css` | 466 | no | Raw ramps. Load it; never name it. |
-| `themes/light.css` + `themes/midnight.css` | 417 | **yes** | Colour + elevation, one name per token, flipped by `data-theme`. |
+| `themes/light.css` + `themes/midnight.css` | 197 | **yes** | Colour + elevation, one name per token, flipped by `data-theme`. |
 | `type.css` | 39 | **yes** | Type scale (compose the atomic tokens). |
 | `layout.css` | 39 | **yes** | Spacing, radii, border widths. |
-| `layout-contextual.css` | 37 | no | Per-component metrics. |
+| `layout-contextual.css` | 38 | no | Per-component metrics. |
 | `motion.css` / `breakpoints.css` | 14 / 5 | **yes** | Durations + easings / breakpoints. |
 
 Load order, the region→surface map, and the theming/type recipes are in
@@ -65,9 +70,9 @@ npm install @helloimjolopez-newco/newco-tokens
 @import "@helloimjolopez-newco/newco-tokens/css";
 
 .card {
-  background: var(--semantic-color-light-mode-surface-widget-base);
-  color:      var(--semantic-color-light-mode-text-static-primary-base);
-  border:     1px solid var(--semantic-color-light-mode-stroke-static-neutral-base);
+  background: var(--semantic-color-fill-surface-elevated-card-base);
+  color:      var(--semantic-color-foreground-static-neutral-base);
+  border:     1px solid var(--semantic-color-stroke-static-neutral-base);
 }
 ```
 

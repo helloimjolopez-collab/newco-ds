@@ -1,6 +1,6 @@
 # NewCo design tokens — the CSS
 
-**The number to quote a developer is not the line count. It is 514 — the names you may actually use.** Everything else in these files is infrastructure you load but never name.
+**The number to quote a developer is not the line count. It is 294 — the names you may actually use.** Everything else in these files is infrastructure you load but never name. Colour is canonical Pathway architecture: meaning-named tones (Negative/Positive/Attention/Severe/Info/Neutral/Brand) with `Subtle`+`Strong` rungs (Neutral/Brand carry the long ladder) plus `Accent/<hue>`; every foreground-on-fill pairing clears AAA 7:1 (`npm run check-color`).
 
 Load these, **in this order** (primitives first, or every colour resolves to nothing with no console error):
 
@@ -22,11 +22,11 @@ Or, from the npm package, one line loads them all in order: `@import "@helloimjo
 | File | Names | Safe to name? | Must load? | What it is |
 |---|---|---|---|---|
 | `primitives.css` | 466 | **no** | yes | Raw ramps (colour/type/unit). Load it; never name it. |
-| `themes/light.css` | 417 | yes | yes | Colour + elevation contract, Light. |
-| `themes/midnight.css` | 417 | yes | yes | Same names, Midnight values. |
+| `themes/light.css` | 197 | yes | yes | Colour + elevation contract, Light. |
+| `themes/midnight.css` | 197 | yes | yes | Same names, Midnight values. |
 | `type.css` | 39 | yes | yes | Type scale (atomic). |
 | `layout.css` | 39 | yes | yes | Spacing, radii, border widths. |
-| `layout-contextual.css` | 37 | **no** | yes | Per-component metrics; this repo's components use them. |
+| `layout-contextual.css` | 38 | **no** | yes | Per-component metrics; this repo's components use them. |
 | `motion.css` | 14 | yes | yes | Durations + easings. |
 | `breakpoints.css` | 5 | yes | yes | Breakpoint values. |
 
@@ -38,7 +38,7 @@ Colour **and** the four `--elevation-*` shadows are one name each; the value fli
 
 ## Which surface goes on what (so nobody guesses)
 
-- **Top nav / side nav / app frame →** `--semantic-color-contextual-fill-surface-chrome`
+- **Top nav / side nav / app frame →** `--semantic-color-fill-surface-chrome`
 - **Content page →** `--semantic-color-fill-surface-elevated-sheet`
 - **Cards / tiles / tables →** `--semantic-color-fill-surface-elevated-card-base`
 - **Modals / popovers / menus / toasts →** `--semantic-color-fill-surface-elevated-overlay-base`

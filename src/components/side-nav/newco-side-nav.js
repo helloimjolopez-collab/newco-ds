@@ -34,7 +34,7 @@ import { LitElement, html, css, nothing } from "lit";
 // --semantic-color-* and --elevation-* to the Light or Midnight value, which
 // inherits into the slotted items. No mode-in-name property is referenced.
 const ROLE_VARS = `
-  --newco-nav-surface: var(--semantic-color-contextual-fill-surface-chrome);
+  --newco-nav-surface: var(--semantic-color-fill-surface-chrome);
   --newco-nav-border: var(--semantic-color-stroke-static-neutral-subtle);
   --newco-nav-item-fg: var(--semantic-color-foreground-action-selection-base);
   --newco-nav-item-fg-hover: var(--semantic-color-foreground-action-selection-hover);
