@@ -9,7 +9,7 @@
  prefer layout.css. They exist so a component's geometry can be tuned without
  moving the whole scale. This is where sheet cornerradius lives.
 
- Declares 39 custom properties.
+ Declares 36 custom properties.
  Generated — do not edit. Run `npm run build-tokens`.
  ==========================================================================
 */
@@ -17,6 +17,7 @@
   --contextual-layout-units-navitem-gap-indicatortocontent: 8px;
   --contextual-layout-units-navitem-gap-icontolabel: 8px;
   --contextual-layout-units-sidenav-width: 250px;
+  --contextual-layout-units-sidenav-gap-vertical: 0px;
   --contextual-layout-units-navitem-large-padding-vertical: var(--primitive-unit-unit-12);
   --contextual-layout-units-navitem-large-padding-horizontal: var(--primitive-unit-unit-14);
   --contextual-layout-units-navitem-large-radius-radius: var(--primitive-unit-unit-999);
@@ -43,12 +44,8 @@
   --contextual-layout-units-input-radius-radius: var(--primitive-unit-unit-12);
   --contextual-layout-units-checkbox-radius-base: var(--primitive-unit-unit-6);
   --contextual-layout-units-checkbox-radius-small: var(--primitive-unit-unit-4);
-  --contextual-layout-units-sheet-cornerradius-cornerradius: var(--primitive-unit-unit-28);
-  --contextual-layout-units-sheet-padding-top: var(--primitive-unit-unit-8);
-  --contextual-layout-units-sheet-padding-horizontal: var(--primitive-unit-unit-24);
-  --contextual-layout-units-canvas-gap-topnavtocontent: var(--primitive-unit-unit-16);
-  --contextual-layout-units-canvas-padding-top: var(--primitive-unit-unit-8);
-  --contextual-layout-units-canvas-padding-horizontal: var(--primitive-unit-unit-24);
+  --contextual-layout-units-sidenav-padding-horizontal: var(--primitive-unit-unit-16);
+  --contextual-layout-units-sidenav-padding-vertical: var(--primitive-unit-unit-8);
   --contextual-layout-units-button-border-width-base-base: var(--semantic-layout-units-borderwidth-thin);
   --contextual-layout-units-button-border-width-thick-thick: var(--semantic-layout-units-borderwidth-base);
   --contextual-layout-units-button-border-width-thin-thin: var(--semantic-layout-units-borderwidth-xthin);

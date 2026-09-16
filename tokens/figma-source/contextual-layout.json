@@ -123,10 +123,6 @@
       "=Unit/4"
     ],
     [
-      "Sheet/CornerRadius/CornerRadius",
-      "=Unit/28"
-    ],
-    [
       "NavItem/Gap-IndicatorToContent",
       8
     ],
@@ -135,28 +131,20 @@
       8
     ],
     [
-      "Canvas/Gap/TopnavToContent",
-      "=Unit/16"
-    ],
-    [
-      "Canvas/Padding/Top",
-      "=Unit/8"
-    ],
-    [
-      "Canvas/Padding/Horizontal",
-      "=Unit/24"
-    ],
-    [
       "SideNav/Width",
       250
     ],
     [
-      "Sheet/Padding/Top",
+      "SideNav/Padding/Horizontal",
+      "=Unit/16"
+    ],
+    [
+      "SideNav/Padding/Vertical",
       "=Unit/8"
     ],
     [
-      "Sheet/Padding/Horizontal",
-      "=Unit/24"
+      "SideNav/Gap/Vertical",
+      0
     ]
   ]
 }

@@ -1,11 +1,11 @@
 {
   "$comment": "The names a consumer may use. Generated from the emitted CSS by scripts/build-contract.js — do not hand-edit. Lint against `contract` if you want the boundary enforced; nothing here blocks a primitive.",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "generated": "2026-09-16",
   "counts": {
-    "contract": 293,
-    "infrastructure": 505,
-    "declarationsAcrossAllFiles": 994
+    "contract": 301,
+    "infrastructure": 502,
+    "declarationsAcrossAllFiles": 999
   },
   "loadOrder": [
     "primitives.css",
@@ -13,6 +13,7 @@
     "themes/midnight.css",
     "type.css",
     "layout.css",
+    "layout-responsive.css",
     "motion.css",
     "breakpoints.css"
   ],
@@ -50,8 +51,14 @@
     "layout-contextual.css": {
       "contract": false,
       "mustLoad": false,
-      "count": 39,
+      "count": 36,
       "role": "Per-component metrics. This repo's components use these."
+    },
+    "layout-responsive.css": {
+      "contract": true,
+      "mustLoad": true,
+      "count": 8,
+      "role": "Per-breakpoint chrome + sheet metrics (TopNav / SheetContainer / Sheet)."
     },
     "motion.css": {
       "contract": true,
@@ -90,6 +97,14 @@
     "--motion-easing-spring",
     "--motion-easing-spring-soft",
     "--motion-easing-standard",
+    "--responsive-layout-units-sheet-cornerradius",
+    "--responsive-layout-units-sheet-padding-horizontal",
+    "--responsive-layout-units-sheet-padding-top",
+    "--responsive-layout-units-sheetcontainer-padding-horizontal",
+    "--responsive-layout-units-sheetcontainer-padding-top",
+    "--responsive-layout-units-topnav-gap-horizontal",
+    "--responsive-layout-units-topnav-padding-horizontal",
+    "--responsive-layout-units-topnav-padding-vertical",
     "--semantic-color-fill-action-disabled",
     "--semantic-color-fill-action-primary-strong-hover",
     "--semantic-color-fill-action-primary-strong-pressed",

@@ -1,8 +1,8 @@
 # NewCo design tokens
 
 **The themed contract (colour + elevation) is 196 names.** Your full working
-vocabulary across every file below is **293**. If you add up every
-declaration in this folder you get 994 — that number is not the contract, and the
+vocabulary across every file below is **301**. If you add up every
+declaration in this folder you get 999 — that number is not the contract, and the
 table says why. Or load everything with one line: `import "@helloimjolopez-newco/newco-tokens/css"`.
 
 ## Link these, in this order
@@ -13,6 +13,7 @@ table says why. Or load everything with one line: `import "@helloimjolopez-newco
 <link rel="stylesheet" href="themes/midnight.css">
 <link rel="stylesheet" href="type.css">
 <link rel="stylesheet" href="layout.css">
+<link rel="stylesheet" href="layout-responsive.css">
 <link rel="stylesheet" href="motion.css">
 <link rel="stylesheet" href="breakpoints.css">
 ```
@@ -30,7 +31,8 @@ unstyled **with no console error**.
 | `themes/midnight.css` | 196 | yes | yes | Colour + elevation contract, Midnight Mode. Same names. |
 | `type.css` | 39 | yes | yes | Type scale. Compose from these. |
 | `layout.css` | 39 | yes | yes | Spacing, radii, border widths. |
-| `layout-contextual.css` | 39 | **no** | **no** | Per-component metrics. This repo's components use these. |
+| `layout-contextual.css` | 36 | **no** | **no** | Per-component metrics. This repo's components use these. |
+| `layout-responsive.css` | 8 | yes | yes | Per-breakpoint chrome + sheet metrics (TopNav / SheetContainer / Sheet). |
 | `motion.css` | 14 | yes | yes | Durations and easings. |
 | `breakpoints.css` | 5 | yes | yes | Breakpoint values. |
 

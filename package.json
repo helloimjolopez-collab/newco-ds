@@ -24,6 +24,7 @@
     "./themes/midnight": "./npm/themes/midnight.css",
     "./layout": "./npm/layout.css",
     "./layout-contextual": "./npm/layout-contextual.css",
+    "./layout-responsive": "./npm/layout-responsive.css",
     "./type": "./npm/type.css",
     "./motion": "./npm/motion.css",
     "./breakpoints": "./npm/breakpoints.css",
@@ -39,7 +40,7 @@
   },
   "scripts": {
     "build-source": "node scripts/build-token-source.js",
-    "build-tokens": "node scripts/build-token-source.js && node style-dictionary.config.js && node scripts/stamp-headers.js && node scripts/build-index.js",
+    "build-tokens": "node scripts/build-token-source.js && node style-dictionary.config.js && node scripts/build-responsive-layout.js && node scripts/stamp-headers.js && node scripts/build-index.js",
     "build-dist": "npm run build-tokens && npm run check-color && node scripts/build-dist.js && node scripts/build-contract.js",
     "build-nuget": "node scripts/build-nuget.js",
     "check-color": "node scripts/check-ladder-order.js && node scripts/check-state-distinctness.js",

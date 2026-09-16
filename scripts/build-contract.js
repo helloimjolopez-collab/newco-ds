@@ -26,6 +26,7 @@ const FILES = [
   { file: "type.css",              contract: true,  load: true,  role: "Type scale. Compose from these." },
   { file: "layout.css",            contract: true,  load: true,  role: "Spacing, radii, border widths." },
   { file: "layout-contextual.css", contract: false, load: false, role: "Per-component metrics. This repo's components use these." },
+  { file: "layout-responsive.css", contract: true,  load: true,  role: "Per-breakpoint chrome + sheet metrics (TopNav / SheetContainer / Sheet)." },
   { file: "motion.css",            contract: true,  load: true,  role: "Durations and easings." },
   { file: "breakpoints.css",       contract: true,  load: true,  role: "Breakpoint values." },
 ];

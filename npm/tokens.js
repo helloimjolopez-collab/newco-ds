@@ -10037,66 +10037,6 @@ const tokens = {
       "small"
     ]
   },
-  "contextual-layout-units-sheet-cornerradius-cornerradius": {
-    "value": 28,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "sheet",
-      "cornerradius",
-      "cornerradius"
-    ]
-  },
-  "contextual-layout-units-sheet-padding-top": {
-    "value": 8,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "sheet",
-      "padding",
-      "top"
-    ]
-  },
-  "contextual-layout-units-sheet-padding-horizontal": {
-    "value": 24,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "sheet",
-      "padding",
-      "horizontal"
-    ]
-  },
-  "contextual-layout-units-canvas-gap-topnavtocontent": {
-    "value": 16,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "canvas",
-      "gap",
-      "topnavtocontent"
-    ]
-  },
-  "contextual-layout-units-canvas-padding-top": {
-    "value": 8,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "canvas",
-      "padding",
-      "top"
-    ]
-  },
-  "contextual-layout-units-canvas-padding-horizontal": {
-    "value": 24,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "canvas",
-      "padding",
-      "horizontal"
-    ]
-  },
   "contextual-layout-units-sidenav-width": {
     "value": 250,
     "type": "number",
@@ -10104,6 +10044,36 @@ const tokens = {
       "contextual-layout-units",
       "sidenav",
       "width"
+    ]
+  },
+  "contextual-layout-units-sidenav-padding-horizontal": {
+    "value": 16,
+    "type": "number",
+    "path": [
+      "contextual-layout-units",
+      "sidenav",
+      "padding",
+      "horizontal"
+    ]
+  },
+  "contextual-layout-units-sidenav-padding-vertical": {
+    "value": 8,
+    "type": "number",
+    "path": [
+      "contextual-layout-units",
+      "sidenav",
+      "padding",
+      "vertical"
+    ]
+  },
+  "contextual-layout-units-sidenav-gap-vertical": {
+    "value": 0,
+    "type": "number",
+    "path": [
+      "contextual-layout-units",
+      "sidenav",
+      "gap",
+      "vertical"
     ]
   },
   "semantic-type-letter-spacing-standard": {

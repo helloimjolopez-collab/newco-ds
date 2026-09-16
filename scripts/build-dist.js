@@ -12,6 +12,7 @@ const CSS = [
   "themes/midnight.css",
   "layout.css",
   "layout-contextual.css",
+  "layout-responsive.css",
   "type.css",
   "motion.css",
   "breakpoints.css",
