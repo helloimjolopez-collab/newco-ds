@@ -4362,17 +4362,7 @@
           "$type": "number",
           "$value": "{primitive-unit.unit.28}"
         }
-      }
-    },
-    "canvas": {
-      "gap": {
-        "topnavtocontent": {
-          "$type": "number",
-          "$value": "{primitive-unit.unit.16}"
-        }
-      }
-    },
-    "container": {
+      },
       "padding": {
         "top": {
           "$type": "number",
@@ -4381,11 +4371,31 @@
         "horizontal": {
           "$type": "number",
           "$value": "{primitive-unit.unit.24}"
-        },
-        "bottom": {
-          "$type": "number",
-          "$value": 0
         }
+      }
+    },
+    "canvas": {
+      "gap": {
+        "topnavtocontent": {
+          "$type": "number",
+          "$value": "{primitive-unit.unit.16}"
+        }
+      },
+      "padding": {
+        "top": {
+          "$type": "number",
+          "$value": "{primitive-unit.unit.8}"
+        },
+        "horizontal": {
+          "$type": "number",
+          "$value": "{primitive-unit.unit.24}"
+        }
+      }
+    },
+    "sidenav": {
+      "width": {
+        "$type": "number",
+        "$value": 250
       }
     }
   },

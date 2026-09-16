@@ -10047,6 +10047,26 @@ const tokens = {
       "cornerradius"
     ]
   },
+  "contextual-layout-units-sheet-padding-top": {
+    "value": 8,
+    "type": "number",
+    "path": [
+      "contextual-layout-units",
+      "sheet",
+      "padding",
+      "top"
+    ]
+  },
+  "contextual-layout-units-sheet-padding-horizontal": {
+    "value": 24,
+    "type": "number",
+    "path": [
+      "contextual-layout-units",
+      "sheet",
+      "padding",
+      "horizontal"
+    ]
+  },
   "contextual-layout-units-canvas-gap-topnavtocontent": {
     "value": 16,
     "type": "number",
@@ -10057,34 +10077,33 @@ const tokens = {
       "topnavtocontent"
     ]
   },
-  "contextual-layout-units-container-padding-top": {
+  "contextual-layout-units-canvas-padding-top": {
     "value": 8,
     "type": "number",
     "path": [
       "contextual-layout-units",
-      "container",
+      "canvas",
       "padding",
       "top"
     ]
   },
-  "contextual-layout-units-container-padding-horizontal": {
+  "contextual-layout-units-canvas-padding-horizontal": {
     "value": 24,
     "type": "number",
     "path": [
       "contextual-layout-units",
-      "container",
+      "canvas",
       "padding",
       "horizontal"
     ]
   },
-  "contextual-layout-units-container-padding-bottom": {
-    "value": 0,
+  "contextual-layout-units-sidenav-width": {
+    "value": 250,
     "type": "number",
     "path": [
       "contextual-layout-units",
-      "container",
-      "padding",
-      "bottom"
+      "sidenav",
+      "width"
     ]
   },
   "semantic-type-letter-spacing-standard": {

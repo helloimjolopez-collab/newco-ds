@@ -139,16 +139,24 @@
       "=Unit/16"
     ],
     [
-      "Container/Padding/Top",
+      "Canvas/Padding/Top",
       "=Unit/8"
     ],
     [
-      "Container/Padding/Horizontal",
+      "Canvas/Padding/Horizontal",
       "=Unit/24"
     ],
     [
-      "Container/Padding/Bottom",
-      0
+      "SideNav/Width",
+      250
+    ],
+    [
+      "Sheet/Padding/Top",
+      "=Unit/8"
+    ],
+    [
+      "Sheet/Padding/Horizontal",
+      "=Unit/24"
     ]
   ]
 }
