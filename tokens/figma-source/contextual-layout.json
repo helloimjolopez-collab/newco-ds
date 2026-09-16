@@ -1,106 +1,17 @@
 {
   "mode": "Desktop 1440pt",
-  "note": "Contextual layout tokens in their own collection (parity with Pathway main). Aliases Primitive: Unit and Semantic BorderWidth.",
   "vars": [
     [
-      "NavItem/Large/Padding/Vertical",
+      "NavItem/Padding/Vertical",
       "=Unit/12"
     ],
     [
-      "NavItem/Large/Padding/Horizontal",
+      "NavItem/Padding/Horizontal",
       "=Unit/14"
     ],
     [
-      "NavItem/Large/CornerRadius/CornerRadius",
+      "NavItem/CornerRadius",
       "=Unit/999"
-    ],
-    [
-      "NavItem/Large/Stroke Width/Stroke Width",
-      "=Unit/1 point 5"
-    ],
-    [
-      "Button/Padding/Medium/Vertical",
-      "=Unit/10"
-    ],
-    [
-      "Button/Padding/Medium/Horizontal",
-      "=Unit/12"
-    ],
-    [
-      "Button/Padding/Small/Vertical",
-      "=Unit/6"
-    ],
-    [
-      "Button/Padding/Small/Horizontal",
-      "=Unit/8"
-    ],
-    [
-      "Button/Gap/Horizontal",
-      "=Unit/8"
-    ],
-    [
-      "FocusRing/CornerRadius/CornerRadius",
-      "=Unit/999"
-    ],
-    [
-      "FocusRing/Width/Width",
-      "=Unit/2"
-    ],
-    [
-      "Button/Border Width/Base/Base",
-      "=BorderWidth/Thin"
-    ],
-    [
-      "Button/Border Width/Thick/Thick",
-      "=BorderWidth/Base"
-    ],
-    [
-      "Card/Gap/Gap",
-      "=Unit/8"
-    ],
-    [
-      "Card/Padding/Medium/Vertical",
-      "=Unit/16"
-    ],
-    [
-      "Card/Padding/Medium/Horizontal",
-      "=Unit/16"
-    ],
-    [
-      "Card/Padding/Small/Vertical",
-      "=Unit/14"
-    ],
-    [
-      "Card/Padding/Small/Horizontal",
-      "=Unit/14"
-    ],
-    [
-      "Card/Border Width/Base/Base",
-      "=Unit/0 point 5"
-    ],
-    [
-      "Card/Border Width/Thick/Thick",
-      "=BorderWidth/Thin"
-    ],
-    [
-      "Card/CornerRadius/CornerRadius",
-      "=Unit/16"
-    ],
-    [
-      "Button/Border Width/Thin/Thin",
-      "=BorderWidth/XThin"
-    ],
-    [
-      "Button/CornerRadius/CornerRadius",
-      "=Unit/999"
-    ],
-    [
-      "Button/Padding/Large/Vertical",
-      "=Unit/12"
-    ],
-    [
-      "Button/Padding/Large/Horizontal",
-      "=Unit/14"
     ],
     [
       "Button/Padding/XSmall/Vertical",
@@ -111,28 +22,108 @@
       "=Unit/8"
     ],
     [
-      "Field/CornerRadius/CornerRadius",
-      "=Unit/12"
-    ],
-    [
-      "Selector/CornerRadius/Base",
+      "Button/Padding/Small/Vertical",
       "=Unit/6"
     ],
     [
-      "Selector/CornerRadius/Small",
-      "=Unit/4"
+      "Button/Padding/Small/Horizontal",
+      "=Unit/8"
     ],
     [
-      "NavItem/Gap-IconToLabel",
+      "Button/Padding/Medium/Vertical",
+      "=Unit/10"
+    ],
+    [
+      "Button/Padding/Medium/Horizontal",
+      "=Unit/12"
+    ],
+    [
+      "Button/Padding/Large/Vertical",
+      "=Unit/12"
+    ],
+    [
+      "Button/Padding/Large/Horizontal",
+      "=Unit/14"
+    ],
+    [
+      "Button/Gap/Horizontal",
       "=Unit/8"
+    ],
+    [
+      "Button/BorderWidth/Rest",
+      "=BorderWidth/Thin"
+    ],
+    [
+      "Button/BorderWidth/Hover",
+      "=BorderWidth/Base"
+    ],
+    [
+      "Button/CornerRadius",
+      "=Unit/999"
+    ],
+    [
+      "FocusRing/Width",
+      "=Unit/2"
+    ],
+    [
+      "FocusRing/Offset",
+      "=Unit/2"
+    ],
+    [
+      "Card/Gap",
+      "=Unit/8"
+    ],
+    [
+      "Card/Padding/Small/Vertical",
+      "=Unit/14"
+    ],
+    [
+      "Card/Padding/Small/Horizontal",
+      "=Unit/14"
+    ],
+    [
+      "Card/Padding/Medium/Vertical",
+      "=Unit/16"
+    ],
+    [
+      "Card/Padding/Medium/Horizontal",
+      "=Unit/16"
+    ],
+    [
+      "Card/BorderWidth/Rest",
+      "=BorderWidth/XThin"
+    ],
+    [
+      "Card/BorderWidth/Hover",
+      "=BorderWidth/Thin"
+    ],
+    [
+      "Card/CornerRadius",
+      "=Unit/16"
+    ],
+    [
+      "Selector/BorderWidth",
+      "=BorderWidth/Base"
+    ],
+    [
+      "Field/BorderWidth",
+      "=BorderWidth/Base"
     ],
     [
       "SideNav/Width/Expanded",
       "=Unit/250"
     ],
     [
-      "SideNav/Padding/Horizontal",
+      "SideNav/Width/Collapsed",
+      "=Unit/72"
+    ],
+    [
+      "SideNav/Padding/Horizontal/Expanded",
       "=Unit/16"
+    ],
+    [
+      "SideNav/Padding/Horizontal/Collapsed",
+      "=Unit/12"
     ],
     [
       "SideNav/Padding/Vertical",
@@ -140,31 +131,7 @@
     ],
     [
       "SideNav/Gap/Vertical",
-      "=Unit/0"
-    ],
-    [
-      "Selector/BorderWidth/BorderWidth",
-      "=BorderWidth/Base"
-    ],
-    [
-      "Field/BorderWidth/BorderWidth",
-      "=BorderWidth/Base"
-    ],
-    [
-      "SideNav/Width/Collapsed",
-      "=Unit/72"
-    ],
-    [
-      "Sheet/CornerRadius/CornerRadius",
-      "=Unit/20"
-    ],
-    [
-      "TopNav/Gap/Horizontal",
-      "=Unit/16"
-    ],
-    [
-      "TopNav/Height",
-      "=Unit/56"
+      "=Unit/6"
     ]
   ]
 }

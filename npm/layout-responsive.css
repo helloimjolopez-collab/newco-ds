@@ -4,9 +4,15 @@
  and Mobile (<=393px) override only what changes. Generated — do not edit.
 */
 :root {
+  --responsive-layout-units-sheetcontainer-padding-horizontal: 0px;
+  --responsive-layout-units-sheetcontainer-padding-top: 0px;
   --responsive-layout-units-sheet-padding-horizontal: 36px;
   --responsive-layout-units-sheet-padding-top: 8px;
+  --responsive-layout-units-sheet-cornerradius: 20px;
   --responsive-layout-units-topnav-padding-horizontal: 24px;
+  --responsive-layout-units-topnav-padding-vertical: 0px;
+  --responsive-layout-units-topnav-gap-horizontal: 16px;
+  --responsive-layout-units-topnav-height: 56px;
 }
 
 @media (max-width: 798px) {

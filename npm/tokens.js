@@ -9716,78 +9716,54 @@ const tokens = {
       "width"
     ]
   },
-  "contextual-layout-units-navitem-large-padding-vertical": {
+  "contextual-layout-units-navitem-padding-vertical": {
     "value": 12,
     "type": "number",
     "path": [
       "contextual-layout-units",
       "navitem",
-      "large",
       "padding",
       "vertical"
     ]
   },
-  "contextual-layout-units-navitem-large-padding-horizontal": {
+  "contextual-layout-units-navitem-padding-horizontal": {
     "value": 14,
     "type": "number",
     "path": [
       "contextual-layout-units",
       "navitem",
-      "large",
       "padding",
       "horizontal"
     ]
   },
-  "contextual-layout-units-navitem-large-cornerradius-cornerradius": {
+  "contextual-layout-units-navitem-cornerradius": {
     "value": 999,
     "type": "number",
     "path": [
       "contextual-layout-units",
       "navitem",
-      "large",
-      "cornerradius",
       "cornerradius"
     ]
   },
-  "contextual-layout-units-navitem-large-stroke-width-stroke-width": {
-    "value": 1.5,
+  "contextual-layout-units-button-padding-xsmall-vertical": {
+    "value": 6,
     "type": "number",
     "path": [
       "contextual-layout-units",
-      "navitem",
-      "large",
-      "stroke-width",
-      "stroke-width"
+      "button",
+      "padding",
+      "xsmall",
+      "vertical"
     ]
   },
-  "contextual-layout-units-navitem-gap-icontolabel": {
+  "contextual-layout-units-button-padding-xsmall-horizontal": {
     "value": 8,
     "type": "number",
     "path": [
       "contextual-layout-units",
-      "navitem",
-      "gap-icontolabel"
-    ]
-  },
-  "contextual-layout-units-button-padding-medium-vertical": {
-    "value": 10,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
       "button",
       "padding",
-      "medium",
-      "vertical"
-    ]
-  },
-  "contextual-layout-units-button-padding-medium-horizontal": {
-    "value": 12,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "button",
-      "padding",
-      "medium",
+      "xsmall",
       "horizontal"
     ]
   },
@@ -9813,6 +9789,28 @@ const tokens = {
       "horizontal"
     ]
   },
+  "contextual-layout-units-button-padding-medium-vertical": {
+    "value": 10,
+    "type": "number",
+    "path": [
+      "contextual-layout-units",
+      "button",
+      "padding",
+      "medium",
+      "vertical"
+    ]
+  },
+  "contextual-layout-units-button-padding-medium-horizontal": {
+    "value": 12,
+    "type": "number",
+    "path": [
+      "contextual-layout-units",
+      "button",
+      "padding",
+      "medium",
+      "horizontal"
+    ]
+  },
   "contextual-layout-units-button-padding-large-vertical": {
     "value": 12,
     "type": "number",
@@ -9835,28 +9833,6 @@ const tokens = {
       "horizontal"
     ]
   },
-  "contextual-layout-units-button-padding-xsmall-vertical": {
-    "value": 6,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "button",
-      "padding",
-      "xsmall",
-      "vertical"
-    ]
-  },
-  "contextual-layout-units-button-padding-xsmall-horizontal": {
-    "value": 8,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "button",
-      "padding",
-      "xsmall",
-      "horizontal"
-    ]
-  },
   "contextual-layout-units-button-gap-horizontal": {
     "value": 8,
     "type": "number",
@@ -9867,99 +9843,60 @@ const tokens = {
       "horizontal"
     ]
   },
-  "contextual-layout-units-button-border-width-base-base": {
+  "contextual-layout-units-button-borderwidth-rest": {
     "value": 0.75,
     "type": "number",
     "path": [
       "contextual-layout-units",
       "button",
-      "border-width",
-      "base",
-      "base"
+      "borderwidth",
+      "rest"
     ]
   },
-  "contextual-layout-units-button-border-width-thick-thick": {
+  "contextual-layout-units-button-borderwidth-hover": {
     "value": 1,
     "type": "number",
     "path": [
       "contextual-layout-units",
       "button",
-      "border-width",
-      "thick",
-      "thick"
+      "borderwidth",
+      "hover"
     ]
   },
-  "contextual-layout-units-button-border-width-thin-thin": {
-    "value": 0.5,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "button",
-      "border-width",
-      "thin",
-      "thin"
-    ]
-  },
-  "contextual-layout-units-button-cornerradius-cornerradius": {
+  "contextual-layout-units-button-cornerradius": {
     "value": 999,
     "type": "number",
     "path": [
       "contextual-layout-units",
       "button",
-      "cornerradius",
       "cornerradius"
     ]
   },
-  "contextual-layout-units-focusring-cornerradius-cornerradius": {
-    "value": 999,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "focusring",
-      "cornerradius",
-      "cornerradius"
-    ]
-  },
-  "contextual-layout-units-focusring-width-width": {
+  "contextual-layout-units-focusring-width": {
     "value": 2,
     "type": "number",
     "path": [
       "contextual-layout-units",
       "focusring",
-      "width",
       "width"
     ]
   },
-  "contextual-layout-units-card-gap-gap": {
+  "contextual-layout-units-focusring-offset": {
+    "value": 2,
+    "type": "number",
+    "path": [
+      "contextual-layout-units",
+      "focusring",
+      "offset"
+    ]
+  },
+  "contextual-layout-units-card-gap": {
     "value": 8,
     "type": "number",
     "path": [
       "contextual-layout-units",
       "card",
-      "gap",
       "gap"
-    ]
-  },
-  "contextual-layout-units-card-padding-medium-vertical": {
-    "value": 16,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "card",
-      "padding",
-      "medium",
-      "vertical"
-    ]
-  },
-  "contextual-layout-units-card-padding-medium-horizontal": {
-    "value": 16,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "card",
-      "padding",
-      "medium",
-      "horizontal"
     ]
   },
   "contextual-layout-units-card-padding-small-vertical": {
@@ -9984,85 +9921,72 @@ const tokens = {
       "horizontal"
     ]
   },
-  "contextual-layout-units-card-border-width-base-base": {
-    "value": 0.5,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "card",
-      "border-width",
-      "base",
-      "base"
-    ]
-  },
-  "contextual-layout-units-card-border-width-thick-thick": {
-    "value": 0.75,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "card",
-      "border-width",
-      "thick",
-      "thick"
-    ]
-  },
-  "contextual-layout-units-card-cornerradius-cornerradius": {
+  "contextual-layout-units-card-padding-medium-vertical": {
     "value": 16,
     "type": "number",
     "path": [
       "contextual-layout-units",
       "card",
-      "cornerradius",
-      "cornerradius"
+      "padding",
+      "medium",
+      "vertical"
     ]
   },
-  "contextual-layout-units-field-cornerradius-cornerradius": {
-    "value": 12,
+  "contextual-layout-units-card-padding-medium-horizontal": {
+    "value": 16,
     "type": "number",
     "path": [
       "contextual-layout-units",
-      "field",
-      "cornerradius",
+      "card",
+      "padding",
+      "medium",
+      "horizontal"
+    ]
+  },
+  "contextual-layout-units-card-borderwidth-rest": {
+    "value": 0.5,
+    "type": "number",
+    "path": [
+      "contextual-layout-units",
+      "card",
+      "borderwidth",
+      "rest"
+    ]
+  },
+  "contextual-layout-units-card-borderwidth-hover": {
+    "value": 0.75,
+    "type": "number",
+    "path": [
+      "contextual-layout-units",
+      "card",
+      "borderwidth",
+      "hover"
+    ]
+  },
+  "contextual-layout-units-card-cornerradius": {
+    "value": 16,
+    "type": "number",
+    "path": [
+      "contextual-layout-units",
+      "card",
       "cornerradius"
     ]
   },
-  "contextual-layout-units-field-borderwidth-borderwidth": {
+  "contextual-layout-units-selector-borderwidth": {
     "value": 1,
     "type": "number",
     "path": [
       "contextual-layout-units",
-      "field",
-      "borderwidth",
+      "selector",
       "borderwidth"
     ]
   },
-  "contextual-layout-units-selector-cornerradius-base": {
-    "value": 6,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "selector",
-      "cornerradius",
-      "base"
-    ]
-  },
-  "contextual-layout-units-selector-cornerradius-small": {
-    "value": 4,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "selector",
-      "cornerradius",
-      "small"
-    ]
-  },
-  "contextual-layout-units-selector-borderwidth-borderwidth": {
+  "contextual-layout-units-field-borderwidth": {
     "value": 1,
     "type": "number",
     "path": [
       "contextual-layout-units",
-      "selector",
-      "borderwidth",
+      "field",
       "borderwidth"
     ]
   },
@@ -10086,14 +10010,26 @@ const tokens = {
       "collapsed"
     ]
   },
-  "contextual-layout-units-sidenav-padding-horizontal": {
+  "contextual-layout-units-sidenav-padding-horizontal-expanded": {
     "value": 16,
     "type": "number",
     "path": [
       "contextual-layout-units",
       "sidenav",
       "padding",
-      "horizontal"
+      "horizontal",
+      "expanded"
+    ]
+  },
+  "contextual-layout-units-sidenav-padding-horizontal-collapsed": {
+    "value": 12,
+    "type": "number",
+    "path": [
+      "contextual-layout-units",
+      "sidenav",
+      "padding",
+      "horizontal",
+      "collapsed"
     ]
   },
   "contextual-layout-units-sidenav-padding-vertical": {
@@ -10107,42 +10043,13 @@ const tokens = {
     ]
   },
   "contextual-layout-units-sidenav-gap-vertical": {
-    "value": 0,
+    "value": 6,
     "type": "number",
     "path": [
       "contextual-layout-units",
       "sidenav",
       "gap",
       "vertical"
-    ]
-  },
-  "contextual-layout-units-sheet-cornerradius-cornerradius": {
-    "value": 20,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "sheet",
-      "cornerradius",
-      "cornerradius"
-    ]
-  },
-  "contextual-layout-units-topnav-gap-horizontal": {
-    "value": 16,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "topnav",
-      "gap",
-      "horizontal"
-    ]
-  },
-  "contextual-layout-units-topnav-height": {
-    "value": 56,
-    "type": "number",
-    "path": [
-      "contextual-layout-units",
-      "topnav",
-      "height"
     ]
   },
   "semantic-type-letter-spacing-standard": {

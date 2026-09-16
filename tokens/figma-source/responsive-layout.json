@@ -6,6 +6,22 @@
   ],
   "vars": [
     [
+      "SheetContainer/Padding/Horizontal",
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      "SheetContainer/Padding/Top",
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
       "Sheet/Padding/Horizontal",
       [
         36,
@@ -22,11 +38,43 @@
       ]
     ],
     [
+      "Sheet/CornerRadius",
+      [
+        20,
+        20,
+        20
+      ]
+    ],
+    [
       "TopNav/Padding/Horizontal",
       [
         24,
         16,
         12
+      ]
+    ],
+    [
+      "TopNav/Padding/Vertical",
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      "TopNav/Gap/Horizontal",
+      [
+        16,
+        16,
+        16
+      ]
+    ],
+    [
+      "TopNav/Height",
+      [
+        56,
+        56,
+        56
       ]
     ]
   ]
