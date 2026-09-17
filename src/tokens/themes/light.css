@@ -12,7 +12,7 @@
  and both modes resolve by selector. Never put a mode in a property name — that
  form is gone and resolves to nothing.
 
- Declares 152 custom properties.
+ Declares 153 custom properties.
  Generated — do not edit. Run `npm run build-tokens`.
  ==========================================================================
 */
@@ -82,6 +82,7 @@
   --semantic-color-fill-action-status-negative-subtle-rest: var(--primitive-color-red-50);
   --semantic-color-fill-action-status-negative-subtle-hover: var(--primitive-color-red-75);
   --semantic-color-fill-action-status-negative-subtle-pressed: var(--primitive-color-red-150);
+  --semantic-color-fill-shadow-dropshadow: var(--primitive-color-warm-neutral-350-6);
   --semantic-color-foreground-static-negative-on-subtle: var(--primitive-color-red-700);
   --semantic-color-foreground-static-negative-on-strong: var(--primitive-color-cool-neutral-0);
   --semantic-color-foreground-static-positive-on-subtle: var(--primitive-color-green-700);

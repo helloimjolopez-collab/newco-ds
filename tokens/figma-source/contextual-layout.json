@@ -67,22 +67,6 @@
       "=Unit/8"
     ],
     [
-      "Card/Padding/Small/Vertical",
-      "=Unit/14"
-    ],
-    [
-      "Card/Padding/Small/Horizontal",
-      "=Unit/14"
-    ],
-    [
-      "Card/Padding/Medium/Vertical",
-      "=Unit/16"
-    ],
-    [
-      "Card/Padding/Medium/Horizontal",
-      "=Unit/16"
-    ],
-    [
       "Card/BorderWidth",
       "=BorderWidth/XThin"
     ],
@@ -91,16 +75,12 @@
       "=Unit/16"
     ],
     [
-      "Selector/BorderWidth",
-      "=BorderWidth/Thin"
-    ],
-    [
       "Field/BorderWidth",
       "=BorderWidth/Thin"
     ],
     [
       "Field/CornerRadius",
-      "=Unit/10"
+      "=CornerRadius/Medium"
     ],
     [
       "SideNav/Width/Expanded",
@@ -125,6 +105,18 @@
     [
       "TopNav/Height",
       "=Unit/60"
+    ],
+    [
+      "Card/Padding/Vertical",
+      "=Unit/14"
+    ],
+    [
+      "Card/Padding/Horizontal",
+      "=Unit/14"
+    ],
+    [
+      "Selection Controls/BorderWidth",
+      "=BorderWidth/Thin"
     ]
   ]
 }

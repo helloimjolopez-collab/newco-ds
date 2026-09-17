@@ -161,6 +161,38 @@
     [
       "Accessibility/Touch Target/AA/Width",
       "=Unit/44"
+    ],
+    [
+      "Shadow/Sheet/Y",
+      "=Unit/10"
+    ],
+    [
+      "Shadow/Sheet/Blur",
+      "=Unit/30"
+    ],
+    [
+      "Shadow/Sheet/Spread",
+      -16
+    ],
+    [
+      "Shadow/Sheet/X",
+      0
+    ],
+    [
+      "Shadow/Card/X",
+      0
+    ],
+    [
+      "Shadow/Card/Y",
+      "=Unit/2"
+    ],
+    [
+      "Shadow/Card/Blur",
+      "=Unit/6"
+    ],
+    [
+      "Shadow/Card/Spread",
+      -2
     ]
   ]
 }

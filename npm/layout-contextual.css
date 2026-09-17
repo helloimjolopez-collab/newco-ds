@@ -9,7 +9,7 @@
  prefer layout.css. They exist so a component's geometry can be tuned without
  moving the whole scale. This is where sheet cornerradius lives.
 
- Declares 31 custom properties.
+ Declares 29 custom properties.
  Generated — do not edit. Run `npm run build-tokens`.
  ==========================================================================
 */
@@ -29,12 +29,9 @@
   --contextual-layout-units-button-cornerradius: var(--primitive-unit-unit-999);
   --contextual-layout-units-focusring-width: var(--primitive-unit-unit-3);
   --contextual-layout-units-card-gap: var(--primitive-unit-unit-8);
-  --contextual-layout-units-card-padding-small-vertical: var(--primitive-unit-unit-14);
-  --contextual-layout-units-card-padding-small-horizontal: var(--primitive-unit-unit-14);
-  --contextual-layout-units-card-padding-medium-vertical: var(--primitive-unit-unit-16);
-  --contextual-layout-units-card-padding-medium-horizontal: var(--primitive-unit-unit-16);
   --contextual-layout-units-card-cornerradius: var(--primitive-unit-unit-16);
-  --contextual-layout-units-field-cornerradius: var(--primitive-unit-unit-10);
+  --contextual-layout-units-card-padding-vertical: var(--primitive-unit-unit-14);
+  --contextual-layout-units-card-padding-horizontal: var(--primitive-unit-unit-14);
   --contextual-layout-units-sidenav-width-expanded: var(--primitive-unit-unit-256);
   --contextual-layout-units-sidenav-width-collapsed: var(--primitive-unit-unit-84);
   --contextual-layout-units-sidenav-padding-horizontal-expanded: var(--primitive-unit-unit-18);
@@ -43,6 +40,7 @@
   --contextual-layout-units-topnav-height: var(--primitive-unit-unit-60);
   --contextual-layout-units-button-borderwidth: var(--semantic-layout-units-borderwidth-xthin);
   --contextual-layout-units-card-borderwidth: var(--semantic-layout-units-borderwidth-xthin);
-  --contextual-layout-units-selector-borderwidth: var(--semantic-layout-units-borderwidth-thin);
   --contextual-layout-units-field-borderwidth: var(--semantic-layout-units-borderwidth-thin);
+  --contextual-layout-units-field-cornerradius: var(--semantic-layout-units-cornerradius-medium);
+  --contextual-layout-units-selection-controls-borderwidth: var(--semantic-layout-units-borderwidth-thin);
 }

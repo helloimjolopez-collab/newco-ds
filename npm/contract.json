@@ -1,11 +1,11 @@
 {
   "$comment": "The names a consumer may use. Generated from the emitted CSS by scripts/build-contract.js — do not hand-edit. Lint against `contract` if you want the boundary enforced; nothing here blocks a primitive.",
-  "version": "3.0.10",
+  "version": "3.0.11",
   "generated": "2026-09-17",
   "counts": {
-    "contract": 257,
-    "infrastructure": 508,
-    "declarationsAcrossAllFiles": 917
+    "contract": 266,
+    "infrastructure": 506,
+    "declarationsAcrossAllFiles": 925
   },
   "loadOrder": [
     "primitives.css",
@@ -27,13 +27,13 @@
     "themes/light.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 152,
+      "count": 153,
       "role": "Colour + elevation contract, Light Mode."
     },
     "themes/midnight.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 152,
+      "count": 153,
       "role": "Colour + elevation contract, Midnight Mode. Same names."
     },
     "type.css": {
@@ -45,13 +45,13 @@
     "layout.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 40,
+      "count": 48,
       "role": "Spacing, radii, border widths."
     },
     "layout-contextual.css": {
       "contract": false,
       "mustLoad": false,
-      "count": 31,
+      "count": 29,
       "role": "Per-component metrics. This repo's components use these."
     },
     "layout-responsive.css": {
@@ -97,7 +97,7 @@
     "--motion-easing-spring",
     "--motion-easing-spring-soft",
     "--motion-easing-standard",
-    "--responsive-layout-units-sheet-cornerradius",
+    "--responsive-layout-units-sheet-corner-radius-cornerradius",
     "--responsive-layout-units-sheet-padding-bottom",
     "--responsive-layout-units-sheet-padding-horizontal",
     "--responsive-layout-units-sheet-padding-top",
@@ -130,6 +130,7 @@
     "--semantic-color-fill-action-status-positive-subtle-hover",
     "--semantic-color-fill-action-status-positive-subtle-pressed",
     "--semantic-color-fill-action-status-positive-subtle-rest",
+    "--semantic-color-fill-shadow-dropshadow",
     "--semantic-color-fill-static-accent-citrine-strong",
     "--semantic-color-fill-static-accent-citrine-subtle",
     "--semantic-color-fill-static-accent-jade-strong",
@@ -292,6 +293,14 @@
     "--semantic-layout-units-padding-xxtight",
     "--semantic-layout-units-padding-xxwide",
     "--semantic-layout-units-padding-xxxtight",
+    "--semantic-layout-units-shadow-card-blur",
+    "--semantic-layout-units-shadow-card-spread",
+    "--semantic-layout-units-shadow-card-x",
+    "--semantic-layout-units-shadow-card-y",
+    "--semantic-layout-units-shadow-sheet-blur",
+    "--semantic-layout-units-shadow-sheet-spread",
+    "--semantic-layout-units-shadow-sheet-x",
+    "--semantic-layout-units-shadow-sheet-y",
     "--semantic-type-family-brand",
     "--semantic-type-font-size-4xl",
     "--semantic-type-font-size-5xl",

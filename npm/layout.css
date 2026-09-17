@@ -9,11 +9,15 @@
  calc(... * 1px): that yields calc(4px * 1px), which is not a length, so the
  browser silently drops the declaration.
 
- Declares 40 custom properties.
+ Declares 48 custom properties.
  Generated — do not edit. Run `npm run build-tokens`.
  ==========================================================================
 */
 :root {
+  --semantic-layout-units-shadow-sheet-spread: -16px;
+  --semantic-layout-units-shadow-sheet-x: 0px;
+  --semantic-layout-units-shadow-card-x: 0px;
+  --semantic-layout-units-shadow-card-spread: -2px;
   --semantic-layout-units-borderwidth-xthin: var(--primitive-unit-unit-0-point-5);
   --semantic-layout-units-borderwidth-thin: var(--primitive-unit-unit-0-point-75);
   --semantic-layout-units-borderwidth-base: var(--primitive-unit-unit-1);
@@ -54,4 +58,8 @@
   --semantic-layout-units-accessibility-touch-target-aa-width: var(--primitive-unit-unit-44);
   --semantic-layout-units-accessibility-touch-target-desktop-only-height: var(--primitive-unit-unit-36);
   --semantic-layout-units-accessibility-touch-target-desktop-only-width: var(--primitive-unit-unit-36);
+  --semantic-layout-units-shadow-sheet-y: var(--primitive-unit-unit-10);
+  --semantic-layout-units-shadow-sheet-blur: var(--primitive-unit-unit-30);
+  --semantic-layout-units-shadow-card-y: var(--primitive-unit-unit-2);
+  --semantic-layout-units-shadow-card-blur: var(--primitive-unit-unit-6);
 }

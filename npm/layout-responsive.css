@@ -4,31 +4,34 @@
  and Mobile (<=393px) override only what changes. Generated — do not edit.
 */
 :root {
-  --responsive-layout-units-sheetcontainer-padding-horizontal: 16px;
-  --responsive-layout-units-sheetcontainer-padding-top: 16px;
+  --responsive-layout-units-sheetcontainer-padding-horizontal: 24px;
+  --responsive-layout-units-sheetcontainer-padding-top: 8px;
   --responsive-layout-units-sheet-padding-horizontal: 32px;
-  --responsive-layout-units-sheet-padding-top: 44px;
+  --responsive-layout-units-sheet-padding-top: 16px;
   --responsive-layout-units-sheet-padding-bottom: 56px;
-  --responsive-layout-units-sheet-cornerradius: 28px;
   --responsive-layout-units-topnav-padding-horizontal: 30px;
+  --responsive-layout-units-sheet-corner-radius-cornerradius: 28px;
 }
 
 @media (max-width: 798px) {
   :root {
+    --responsive-layout-units-sheetcontainer-padding-horizontal: 16px;
+    --responsive-layout-units-sheetcontainer-padding-top: 6px;
     --responsive-layout-units-sheet-padding-horizontal: 24px;
-    --responsive-layout-units-sheet-padding-top: 32px;
+    --responsive-layout-units-sheet-padding-top: 14px;
     --responsive-layout-units-sheet-padding-bottom: 48px;
+    --responsive-layout-units-sheet-corner-radius-cornerradius: 24px;
   }
 }
 
 @media (max-width: 393px) {
   :root {
-    --responsive-layout-units-sheetcontainer-padding-horizontal: 0px;
-    --responsive-layout-units-sheetcontainer-padding-top: 0px;
+    --responsive-layout-units-sheetcontainer-padding-horizontal: 12px;
+    --responsive-layout-units-sheetcontainer-padding-top: 4px;
     --responsive-layout-units-sheet-padding-horizontal: 16px;
-    --responsive-layout-units-sheet-padding-top: 24px;
-    --responsive-layout-units-sheet-padding-bottom: 40px;
-    --responsive-layout-units-sheet-cornerradius: 0px;
+    --responsive-layout-units-sheet-padding-top: 8px;
+    --responsive-layout-units-sheet-padding-bottom: 32px;
     --responsive-layout-units-topnav-padding-horizontal: 14px;
+    --responsive-layout-units-sheet-corner-radius-cornerradius: 20px;
   }
 }

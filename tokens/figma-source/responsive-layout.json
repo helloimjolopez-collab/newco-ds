@@ -9,17 +9,17 @@
     [
       "SheetContainer/Padding/Horizontal",
       [
+        24,
         16,
-        16,
-        0
+        12
       ]
     ],
     [
       "SheetContainer/Padding/Top",
       [
-        16,
-        16,
-        0
+        8,
+        6,
+        4
       ]
     ],
     [
@@ -33,9 +33,9 @@
     [
       "Sheet/Padding/Top",
       [
-        44,
-        32,
-        24
+        16,
+        14,
+        8
       ]
     ],
     [
@@ -43,15 +43,7 @@
       [
         56,
         48,
-        40
-      ]
-    ],
-    [
-      "Sheet/CornerRadius",
-      [
-        28,
-        28,
-        0
+        32
       ]
     ],
     [
@@ -60,6 +52,14 @@
         30,
         30,
         14
+      ]
+    ],
+    [
+      "Sheet/Corner Radius/CornerRadius",
+      [
+        28,
+        24,
+        20
       ]
     ]
   ]
