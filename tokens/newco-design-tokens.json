@@ -1650,12 +1650,6 @@
               "$type": "color",
               "$value": "{primitive-color.warm-neutral.10}"
             }
-          },
-          "overlay": {
-            "base": {
-              "$type": "color",
-              "$value": "{primitive-color.cool-neutral.0}"
-            }
           }
         },
         "action": {
@@ -2401,12 +2395,6 @@
             "sheet": {
               "$type": "color",
               "$value": "{primitive-color.midnight.850}"
-            }
-          },
-          "overlay": {
-            "base": {
-              "$type": "color",
-              "$value": "{primitive-color.midnight.700}"
             }
           }
         },

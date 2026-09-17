@@ -11,7 +11,7 @@
  Set the attribute on <html> to theme the page, or on any element to theme just
  that subtree — it composes both ways (a light island inside a dark island).
 
- Declares 153 custom properties.
+ Declares 152 custom properties.
  Generated — do not edit. Run `npm run build-tokens`.
  ==========================================================================
 */
@@ -55,7 +55,6 @@
   --semantic-color-fill-surface-chrome: var(--primitive-color-midnight-900);
   --semantic-color-fill-surface-elevated-raised: var(--primitive-color-midnight-800);
   --semantic-color-fill-surface-elevated-sheet: var(--primitive-color-midnight-850);
-  --semantic-color-fill-surface-overlay-base: var(--primitive-color-midnight-700);
   --semantic-color-fill-action-primary-strong-rest: var(--primitive-color-brand-250);
   --semantic-color-fill-action-primary-strong-hover: var(--primitive-color-brand-200);
   --semantic-color-fill-action-primary-strong-pressed: var(--primitive-color-brand-300);

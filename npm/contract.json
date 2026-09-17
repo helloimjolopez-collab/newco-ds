@@ -1,11 +1,11 @@
 {
   "$comment": "The names a consumer may use. Generated from the emitted CSS by scripts/build-contract.js — do not hand-edit. Lint against `contract` if you want the boundary enforced; nothing here blocks a primitive.",
-  "version": "3.0.8",
+  "version": "3.0.9",
   "generated": "2026-09-17",
   "counts": {
-    "contract": 258,
+    "contract": 257,
     "infrastructure": 507,
-    "declarationsAcrossAllFiles": 918
+    "declarationsAcrossAllFiles": 916
   },
   "loadOrder": [
     "primitives.css",
@@ -27,13 +27,13 @@
     "themes/light.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 153,
+      "count": 152,
       "role": "Colour + elevation contract, Light Mode."
     },
     "themes/midnight.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 153,
+      "count": 152,
       "role": "Colour + elevation contract, Midnight Mode. Same names."
     },
     "type.css": {
@@ -165,7 +165,6 @@
     "--semantic-color-fill-surface-chrome",
     "--semantic-color-fill-surface-elevated-raised",
     "--semantic-color-fill-surface-elevated-sheet",
-    "--semantic-color-fill-surface-overlay-base",
     "--semantic-color-foreground-action-disabled",
     "--semantic-color-foreground-action-primary-on-strong",
     "--semantic-color-foreground-action-primary-on-subtle-hover",

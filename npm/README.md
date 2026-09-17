@@ -1,8 +1,8 @@
 # NewCo design tokens
 
-**The themed contract (colour + elevation) is 153 names.** Your full working
-vocabulary across every file below is **258**. If you add up every
-declaration in this folder you get 918 — that number is not the contract, and the
+**The themed contract (colour + elevation) is 152 names.** Your full working
+vocabulary across every file below is **257**. If you add up every
+declaration in this folder you get 916 — that number is not the contract, and the
 table says why. Or load everything with one line: `import "@helloimjolopez-newco/newco-tokens/css"`.
 
 ## Link these, in this order
@@ -27,8 +27,8 @@ unstyled **with no console error**.
 | File | Names | Safe to name? | Must load? | What it is |
 |---|---|---|---|---|
 | `primitives.css` | 476 | **no** | yes | Raw ramps (colour/type/unit). Load it; do not name it. |
-| `themes/light.css` | 153 | yes | yes | Colour + elevation contract, Light Mode. |
-| `themes/midnight.css` | 153 | yes | yes | Colour + elevation contract, Midnight Mode. Same names. |
+| `themes/light.css` | 152 | yes | yes | Colour + elevation contract, Light Mode. |
+| `themes/midnight.css` | 152 | yes | yes | Colour + elevation contract, Midnight Mode. Same names. |
 | `type.css` | 39 | yes | yes | Type scale. Compose from these. |
 | `layout.css` | 40 | yes | yes | Spacing, radii, border widths. |
 | `layout-contextual.css` | 31 | **no** | **no** | Per-component metrics. This repo's components use these. |

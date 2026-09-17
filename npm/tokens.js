@@ -3678,18 +3678,6 @@ const tokens = {
       "sheet"
     ]
   },
-  "semantic-color-light-mode-fill-surface-overlay-base": {
-    "value": "#ffffff",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "light-mode",
-      "fill",
-      "surface",
-      "overlay",
-      "base"
-    ]
-  },
   "semantic-color-light-mode-fill-action-primary-strong-rest": {
     "value": "#6e64be",
     "type": "color",
@@ -5539,18 +5527,6 @@ const tokens = {
       "surface",
       "elevated",
       "sheet"
-    ]
-  },
-  "semantic-color-midnight-mode-fill-surface-overlay-base": {
-    "value": "#443f52",
-    "type": "color",
-    "path": [
-      "semantic-color",
-      "midnight-mode",
-      "fill",
-      "surface",
-      "overlay",
-      "base"
     ]
   },
   "semantic-color-midnight-mode-fill-action-primary-strong-rest": {

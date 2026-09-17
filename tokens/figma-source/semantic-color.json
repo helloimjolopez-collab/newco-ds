@@ -145,5 +145,4 @@
 ["Stroke/Action/Disabled","=Warm Neutral/350 @ 16%","=Warm Neutral/350 @ 24%"],
 ["Foreground/Action/Status/Negative/On Strong","=Red/800","=Red/800"],
 ["Fill/Surface/Elevated/Raised","=Cool Neutral/0","=Midnight/800"],
-["Fill/Surface/Elevated/Sheet","=Warm Neutral/10","=Midnight/850"],
-["Fill/Surface/Overlay/Base","=Cool Neutral/0","=Midnight/700"]]
+["Fill/Surface/Elevated/Sheet","=Warm Neutral/10","=Midnight/850"]]
