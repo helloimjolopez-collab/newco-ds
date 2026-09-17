@@ -79,7 +79,7 @@
 ["Fill/Static/Brand/Strong","=Brand/600","=Brand/200"],
 ["Foreground/Static/Brand/On Subtle","=Brand/600","=Brand/150"],
 ["Foreground/Static/Brand/On Strong","=Cool Neutral/0","=Brand/900"],
-["Scrim/Base","=Cool Neutral/0 @ 70%","=Cool Neutral/0 @ 70%"],
+["Scrim/Base","=Midnight/900 @ 36%","=Midnight/900 @ 36%"],
 ["Stroke/FocusRing/Base","=Brand/350","=Brand/150"],
 ["Fill/Surface/Canvas","=Warm Neutral/40","=Midnight/900"],
 ["Fill/Surface/Chrome","=Warm Neutral/40","=Midnight/900"],
