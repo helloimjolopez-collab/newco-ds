@@ -117,9 +117,9 @@
   --semantic-color-foreground-action-primary-on-subtle-hover: var(--primitive-color-brand-600);
   --semantic-color-foreground-action-primary-on-subtle-pressed: var(--primitive-color-brand-700);
   --semantic-color-foreground-action-primary-on-strong: var(--primitive-color-warm-neutral-0);
-  --semantic-color-foreground-action-secondary-rest: var(--primitive-color-cool-neutral-800);
+  --semantic-color-foreground-action-secondary-rest: var(--primitive-color-cool-neutral-700);
   --semantic-color-foreground-action-secondary-hover: var(--primitive-color-cool-neutral-800);
-  --semantic-color-foreground-action-secondary-pressed: var(--primitive-color-cool-neutral-800);
+  --semantic-color-foreground-action-secondary-pressed: var(--primitive-color-cool-neutral-900);
   --semantic-color-foreground-action-status-positive-on-subtle-rest: var(--primitive-color-green-600);
   --semantic-color-foreground-action-status-positive-on-subtle-hover: var(--primitive-color-green-700);
   --semantic-color-foreground-action-status-positive-on-subtle-pressed: var(--primitive-color-green-800);

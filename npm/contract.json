@@ -1,6 +1,6 @@
 {
   "$comment": "The names a consumer may use. Generated from the emitted CSS by scripts/build-contract.js — do not hand-edit. Lint against `contract` if you want the boundary enforced; nothing here blocks a primitive.",
-  "version": "3.0.11",
+  "version": "3.0.12",
   "generated": "2026-09-17",
   "counts": {
     "contract": 266,

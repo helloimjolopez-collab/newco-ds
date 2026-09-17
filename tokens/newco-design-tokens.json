@@ -1968,7 +1968,7 @@
           "secondary": {
             "rest": {
               "$type": "color",
-              "$value": "{primitive-color.cool-neutral.800}"
+              "$value": "{primitive-color.cool-neutral.700}"
             },
             "hover": {
               "$type": "color",
@@ -1976,7 +1976,7 @@
             },
             "pressed": {
               "$type": "color",
-              "$value": "{primitive-color.cool-neutral.800}"
+              "$value": "{primitive-color.cool-neutral.900}"
             }
           },
           "status": {

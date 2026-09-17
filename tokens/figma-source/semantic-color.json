@@ -576,7 +576,7 @@
   ],
   [
     "Foreground/Action/Secondary/Rest",
-    "=Cool Neutral/800",
+    "=Cool Neutral/700",
     "=Midnight/150"
   ],
   [
@@ -586,7 +586,7 @@
   ],
   [
     "Foreground/Action/Secondary/Pressed",
-    "=Cool Neutral/800",
+    "=Cool Neutral/900",
     "=Midnight/100"
   ],
   [

@@ -4463,7 +4463,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-foreground-action-secondary-rest": {
-    "value": "#242424",
+    "value": "#383838",
     "type": "color",
     "path": [
       "semantic-color",
@@ -4487,7 +4487,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-foreground-action-secondary-pressed": {
-    "value": "#242424",
+    "value": "#101010",
     "type": "color",
     "path": [
       "semantic-color",
