@@ -35,17 +35,17 @@ import { LitElement, html, css, nothing } from "lit";
 // inherits into the slotted items. No mode-in-name property is referenced.
 const ROLE_VARS = `
   --newco-nav-surface: var(--semantic-color-fill-surface-chrome);
-  --newco-nav-border: var(--semantic-color-stroke-static-neutral-subtle);
-  --newco-nav-item-fg: var(--semantic-color-foreground-action-selection-base);
-  --newco-nav-item-fg-hover: var(--semantic-color-foreground-action-selection-hover);
-  --newco-nav-item-fg-selected: var(--semantic-color-foreground-action-selection-selected);
-  --newco-nav-item-fg-disabled: var(--semantic-color-foreground-action-selection-disabled);
+  --newco-nav-border: var(--semantic-color-stroke-static-neutral-base);
+  --newco-nav-item-fg: var(--semantic-color-foreground-action-secondary-rest);
+  --newco-nav-item-fg-hover: var(--semantic-color-foreground-action-secondary-hover);
+  --newco-nav-item-fg-selected: var(--semantic-color-foreground-action-secondary-pressed);
+  --newco-nav-item-fg-disabled: var(--semantic-color-foreground-action-disabled);
   --newco-nav-item-bg-hover: var(--semantic-color-fill-action-selection-hover);
   --newco-nav-item-bg-selected: var(--semantic-color-fill-action-selection-selected);
   --newco-nav-item-bg-trail: var(--semantic-color-fill-action-selection-trail);
   --newco-nav-indicator: var(--semantic-color-fill-action-selection-indicator);
   --newco-nav-focus: var(--semantic-color-stroke-focusring-base);
-  --newco-nav-flyout-surface: var(--semantic-color-fill-surface-elevated-overlay-base);
+  --newco-nav-flyout-surface: var(--semantic-color-fill-surface-elevated-raised);
   --newco-nav-shadow: var(--elevation-overlay);
   --newco-nav-font: var(--primitive-type-family-brand, "Google Sans Flex");
 `;
@@ -129,13 +129,15 @@ export class NewcoSideNav extends LitElement {
   static styles = css`
     :host {
       display: block; box-sizing: border-box;
-      inline-size: var(--newco-nav-width, 260px);
+      inline-size: var(--newco-nav-width, var(--contextual-layout-units-sidenav-width-expanded, 256px));
       block-size: 100%;
       font-family: var(--newco-nav-font, "Google Sans Flex"), system-ui, -apple-system, sans-serif;
     }
     .rail {
       box-sizing: border-box; display: flex; flex-direction: column; block-size: 100%;
-      padding: 8px 16px 56px;
+      padding: var(--contextual-layout-units-sidenav-padding-vertical, 12px)
+               var(--contextual-layout-units-sidenav-padding-horizontal-expanded, 18px)
+               var(--semantic-layout-units-padding-xxwide, 56px);
       background: var(--newco-nav-surface, #f7f3f3);
       transition: inline-size 320ms cubic-bezier(0.32, 0.72, 0, 1);
       overflow: hidden;
@@ -152,8 +154,8 @@ export class NewcoSideNav extends LitElement {
       border-inline-end: var(--semantic-layout-units-borderwidth-base, 1px) solid
         var(--newco-nav-border, rgba(0, 0, 0, 0.08));
     }
-    :host([collapsed]) { --newco-nav-width: 84px; }
-    :host([collapsed]) .rail { padding-inline: 12px; }
+    :host([collapsed]) { --newco-nav-width: var(--contextual-layout-units-sidenav-width-collapsed, 84px); }
+    :host([collapsed]) .rail { padding-inline: var(--contextual-layout-units-sidenav-padding-horizontal-collapsed, 12px); }
     :host([elevated]) .rail { box-shadow: var(--newco-nav-shadow); border-inline-end: 0; }
   `;
 
