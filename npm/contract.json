@@ -1,11 +1,11 @@
 {
   "$comment": "The names a consumer may use. Generated from the emitted CSS by scripts/build-contract.js — do not hand-edit. Lint against `contract` if you want the boundary enforced; nothing here blocks a primitive.",
-  "version": "3.0.9",
+  "version": "3.0.10",
   "generated": "2026-09-17",
   "counts": {
     "contract": 257,
-    "infrastructure": 507,
-    "declarationsAcrossAllFiles": 916
+    "infrastructure": 508,
+    "declarationsAcrossAllFiles": 917
   },
   "loadOrder": [
     "primitives.css",
@@ -21,7 +21,7 @@
     "primitives.css": {
       "contract": false,
       "mustLoad": true,
-      "count": 476,
+      "count": 477,
       "role": "Raw ramps (colour/type/unit). Load it; do not name it."
     },
     "themes/light.css": {

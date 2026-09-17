@@ -168,5 +168,5 @@
   --semantic-color-stroke-action-status-positive-hover: var(--primitive-color-green-300);
   --semantic-color-stroke-action-status-positive-pressed: var(--primitive-color-green-350);
   --semantic-color-stroke-action-disabled: var(--primitive-color-warm-neutral-350-16);
-  --semantic-color-scrim-base: var(--primitive-color-cool-neutral-0-70);
+  --semantic-color-scrim-base: var(--primitive-color-midnight-900-36);
 }

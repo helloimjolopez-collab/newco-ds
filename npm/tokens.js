@@ -2834,6 +2834,15 @@ const tokens = {
       "350-70"
     ]
   },
+  "primitive-color-midnight-900-36": {
+    "value": "#29252f5c",
+    "type": "color",
+    "path": [
+      "primitive-color",
+      "midnight",
+      "900-36"
+    ]
+  },
   "primitive-color-citrine-0": {
     "value": "#fafbf0",
     "type": "color",
@@ -5090,7 +5099,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-scrim-base": {
-    "value": "#fcfcfcb2",
+    "value": "#29252f5c",
     "type": "color",
     "path": [
       "semantic-color",
@@ -6941,7 +6950,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-scrim-base": {
-    "value": "#fcfcfcb2",
+    "value": "#29252f5c",
     "type": "color",
     "path": [
       "semantic-color",
