@@ -9,7 +9,7 @@
  calc(... * 1px): that yields calc(4px * 1px), which is not a length, so the
  browser silently drops the declaration.
 
- Declares 39 custom properties.
+ Declares 40 custom properties.
  Generated — do not edit. Run `npm run build-tokens`.
  ==========================================================================
 */
@@ -23,6 +23,7 @@
   --semantic-layout-units-borderwidth-xxthick: var(--primitive-unit-unit-6);
   --semantic-layout-units-cornerradius-xsmall: var(--primitive-unit-unit-2);
   --semantic-layout-units-cornerradius-small: var(--primitive-unit-unit-4);
+  --semantic-layout-units-cornerradius-base: var(--primitive-unit-unit-8);
   --semantic-layout-units-cornerradius-medium: var(--primitive-unit-unit-8);
   --semantic-layout-units-cornerradius-large: var(--primitive-unit-unit-12);
   --semantic-layout-units-cornerradius-xlarge: var(--primitive-unit-unit-16);

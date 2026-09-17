@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sheet color</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500;600;700&family=Red+Hat+Mono:wght@400;500&display=swap');
+  *{box-sizing:border-box}
+  body{margin:0;background:#dedad9;font-family:'Red Hat Text',system-ui,sans-serif;color:#201c26}
+  .wrap{max-width:1180px;margin:0 auto;padding:26px 22px 56px}
+  h1{font-size:21px;font-weight:700;margin:0 0 4px}
+  .sub{font-size:13px;color:#5f585f;margin:0 0 22px;max-width:760px;line-height:1.5}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
+  .cell .cap{font:600 11px 'Red Hat Mono',monospace;letter-spacing:.04em;margin:0 0 7px;display:flex;gap:8px;align-items:baseline}
+  .cell .cap b{font-size:12px;color:#201c26}
+  .cell .cap span{color:#8a828a}
+  .tag{font:600 9px 'Red Hat Mono',monospace;background:#7a4fd6;color:#fff;padding:1px 6px;border-radius:99px;letter-spacing:.04em}
+  /* app frame = canvas; inner = sheet page with a card + shadow option */
+  .app{border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:14px;background:#f7f3f3}
+  .sheet{border-radius:9px;padding:14px;min-height:150px;position:relative}
+  .sheet.sh{box-shadow:0 1px 2px rgba(28,22,34,.05),0 8px 24px rgba(28,22,34,.07)}
+  .pt{font-size:12px;font-weight:700;margin:0 0 10px;color:#201c26}
+  .card{background:#fefcfc;border:1px solid rgba(0,0,0,.06);border-radius:8px;padding:10px 11px;box-shadow:0 1px 2px rgba(28,22,34,.05)}
+  .card .k{font:600 9px 'Red Hat Mono',monospace;letter-spacing:.05em;text-transform:uppercase;color:#8a828a}
+  .card .v{font-size:16px;font-weight:700;margin-top:2px}
+  .note{margin-top:22px;padding:12px 14px;border-radius:9px;background:#fbf6ec;border:1px solid #ecdcbb;font-size:12.5px;color:#6a5a38;line-height:1.55}
+  .note b{color:#4a3d1e}
+  .ladder{margin-top:8px;font:500 11.5px 'Red Hat Mono',monospace;color:#5f585f}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Sheet color — which matches the demo?</h1>
+  <p class="sub">Each frame is the Canvas (#f7f3f3) holding a Sheet page with a Card (#fefcfc) on it. Only the Sheet fill changes. A is today's value. B&ndash;E step the warmth/saturation down toward a cleaner near-white. The last row shows the current Sheet with the subtle drop-shadow the demo appears to use behind the page. Tell me the letter that matches your demo.</p>
+
+  <div class="grid">
+    <div class="cell">
+      <p class="cap"><b>A</b> <span>#fcf9f9</span> <span class="tag">CURRENT</span></p>
+      <div class="app"><div class="sheet" style="background:#fcf9f9"><p class="pt">People</p><div class="card"><div class="k">Members</div><div class="v">4,281</div></div></div></div>
+    </div>
+    <div class="cell">
+      <p class="cap"><b>B</b> <span>#fbfaf9</span></p>
+      <div class="app"><div class="sheet" style="background:#fbfaf9"><p class="pt">People</p><div class="card"><div class="k">Members</div><div class="v">4,281</div></div></div></div>
+    </div>
+    <div class="cell">
+      <p class="cap"><b>C</b> <span>#faf9f8</span></p>
+      <div class="app"><div class="sheet" style="background:#faf9f8"><p class="pt">People</p><div class="card"><div class="k">Members</div><div class="v">4,281</div></div></div></div>
+    </div>
+    <div class="cell">
+      <p class="cap"><b>D</b> <span>#f9f9f9</span> <span>neutral</span></p>
+      <div class="app"><div class="sheet" style="background:#f9f9f9"><p class="pt">People</p><div class="card"><div class="k">Members</div><div class="v">4,281</div></div></div></div>
+    </div>
+    <div class="cell">
+      <p class="cap"><b>E</b> <span>#fbfbfc</span> <span>faint cool</span></p>
+      <div class="app"><div class="sheet" style="background:#fbfbfc"><p class="pt">People</p><div class="card"><div class="k">Members</div><div class="v">4,281</div></div></div></div>
+    </div>
+    <div class="cell">
+      <p class="cap"><b>A+</b> <span>#fcf9f9 + shadow</span></p>
+      <div class="app"><div class="sheet sh" style="background:#fcf9f9"><p class="pt">People</p><div class="card"><div class="k">Members</div><div class="v">4,281</div></div></div></div>
+    </div>
+  </div>
+
+  <div class="note">
+    <b>On the shadow:</b> a shadow behind the page is a layout/presentation choice, not part of the surface color token &mdash; the Sheet token only carries a fill. That is why Figma (flat) and the demo (shadowed) will not match 100% on depth even when the color is identical. If you want the shadow baked into the pattern I can wire the page container to the <code>--elevation-*</code> scale, but the token value itself stays a flat color.
+    <div class="ladder">Ladder stays: Canvas #f7f3f3 &lt; Sheet [your pick] &lt; Card #fefcfc &lt; Overlay #ffffff</div>
+  </div>
+</div>
+</body>
+</html>

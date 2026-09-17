@@ -1,8 +1,8 @@
 # NewCo design tokens
 
-**The themed contract (colour + elevation) is 196 names.** Your full working
-vocabulary across every file below is **302**. If you add up every
-declaration in this folder you get 999 — that number is not the contract, and the
+**The themed contract (colour + elevation) is 153 names.** Your full working
+vocabulary across every file below is **258**. If you add up every
+declaration in this folder you get 918 — that number is not the contract, and the
 table says why. Or load everything with one line: `import "@helloimjolopez-newco/newco-tokens/css"`.
 
 ## Link these, in this order
@@ -26,13 +26,13 @@ unstyled **with no console error**.
 
 | File | Names | Safe to name? | Must load? | What it is |
 |---|---|---|---|---|
-| `primitives.css` | 468 | **no** | yes | Raw ramps (colour/type/unit). Load it; do not name it. |
-| `themes/light.css` | 196 | yes | yes | Colour + elevation contract, Light Mode. |
-| `themes/midnight.css` | 196 | yes | yes | Colour + elevation contract, Midnight Mode. Same names. |
+| `primitives.css` | 476 | **no** | yes | Raw ramps (colour/type/unit). Load it; do not name it. |
+| `themes/light.css` | 153 | yes | yes | Colour + elevation contract, Light Mode. |
+| `themes/midnight.css` | 153 | yes | yes | Colour + elevation contract, Midnight Mode. Same names. |
 | `type.css` | 39 | yes | yes | Type scale. Compose from these. |
-| `layout.css` | 39 | yes | yes | Spacing, radii, border widths. |
-| `layout-contextual.css` | 33 | **no** | **no** | Per-component metrics. This repo's components use these. |
-| `layout-responsive.css` | 9 | yes | yes | Per-breakpoint chrome + sheet metrics (TopNav / SheetContainer / Sheet). |
+| `layout.css` | 40 | yes | yes | Spacing, radii, border widths. |
+| `layout-contextual.css` | 31 | **no** | **no** | Per-component metrics. This repo's components use these. |
+| `layout-responsive.css` | 7 | yes | yes | Per-breakpoint chrome + sheet metrics (TopNav / SheetContainer / Sheet). |
 | `motion.css` | 14 | yes | yes | Durations and easings. |
 | `breakpoints.css` | 5 | yes | yes | Breakpoint values. |
 
@@ -65,9 +65,9 @@ No composite styles, no classes. Name the scale:
 
 ```css
 font-family: var(--semantic-type-family-brand);
-font-size:   var(--semantic-type-font-size-14);
-font-weight: var(--semantic-type-weight-500);
-line-height: var(--semantic-type-line-height-20pt-single);
+font-size:   var(--semantic-type-font-size-s);
+font-weight: var(--semantic-type-weight-medium);
+line-height: var(--semantic-type-line-height-l-single);
 ```
 
 ## Layout units carry their unit

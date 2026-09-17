@@ -113,9 +113,9 @@ No composite styles, no classes. Name the scale:
 
 \`\`\`css
 font-family: var(--semantic-type-family-brand);
-font-size:   var(--semantic-type-font-size-14);
-font-weight: var(--semantic-type-weight-500);
-line-height: var(--semantic-type-line-height-20pt-single);
+font-size:   var(--semantic-type-font-size-s);
+font-weight: var(--semantic-type-weight-medium);
+line-height: var(--semantic-type-line-height-l-single);
 \`\`\`
 
 ## Layout units carry their unit

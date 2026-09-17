@@ -47,6 +47,10 @@
       "=Unit/4"
     ],
     [
+      "CornerRadius/Base",
+      "=Unit/8"
+    ],
+    [
       "CornerRadius/Medium",
       "=Unit/8"
     ],

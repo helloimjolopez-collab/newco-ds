@@ -3,35 +3,35 @@
   "note": "Atomic semantic typography tokens aliasing Primitive: Type. Composite roles live only as text styles (parity with Pathway main).",
   "vars": [
     [
-      "Letter Spacing/Standard",
+      "Letter Spacing/Wide",
       "=Letter Spacing/Standard"
     ],
     [
-      "Weight/700",
+      "Weight/Bold",
       "=Weight/700"
     ],
     [
-      "Font Size/32",
+      "Font Size/XXL",
       "=Size/32"
     ],
     [
-      "Line Height/32pt/Single",
+      "Line Height/XXL/Single",
       "=Line Height/32pt/Single"
     ],
     [
-      "Weight/600",
+      "Weight/Semibold",
       "=Weight/600"
     ],
     [
-      "Letter Spacing/Wide",
+      "Letter Spacing/Spacious",
       "=Letter Spacing/Wide"
     ],
     [
-      "Font Size/24",
+      "Font Size/XL",
       "=Size/24"
     ],
     [
-      "Line Height/24pt/Single",
+      "Line Height/XL/Single",
       "=Line Height/24pt/Single"
     ],
     [
@@ -39,123 +39,123 @@
       "=Family/Brand"
     ],
     [
-      "Font Size/36",
+      "Font Size/XXXL",
       "=Size/36"
     ],
     [
-      "Line Height/36pt/Single",
+      "Line Height/XXXL/Single",
       "=Line Height/36pt/Single"
     ],
     [
-      "Font Size/20",
+      "Font Size/L",
       "=Size/20"
     ],
     [
-      "Line Height/20pt/Single",
+      "Line Height/L/Single",
       "=Line Height/20pt/Single"
     ],
     [
-      "Font Size/18",
+      "Font Size/M",
       "=Size/18"
     ],
     [
-      "Font Size/16",
+      "Font Size/R",
       "=Size/16"
     ],
     [
-      "Line Height/16pt/Single",
+      "Line Height/R/Single",
       "=Line Height/16pt/Single"
     ],
     [
-      "Font Size/14",
+      "Font Size/S",
       "=Size/14"
     ],
     [
-      "Line Height/14pt/Tight",
+      "Line Height/S/Tight",
       "=Line Height/14pt/Tight"
     ],
     [
-      "Font Size/12",
+      "Font Size/XS",
       "=Size/12"
     ],
     [
-      "Line Height/12pt/Tight",
+      "Line Height/XS/Tight",
       "=Line Height/12pt/Tight"
     ],
     [
-      "Font Size/11",
+      "Font Size/XXS",
       "=Size/11"
     ],
     [
-      "Line Height/11pt/Tight",
+      "Line Height/XXS/Tight",
       "=Line Height/11pt/Tight"
     ],
     [
-      "Weight/400",
+      "Weight/Regular",
       "=Weight/400"
     ],
     [
-      "Line Height/18pt/Relaxed",
+      "Line Height/M/Relaxed",
       "=Line Height/18pt/Relaxed"
     ],
     [
-      "Line Height/14pt/Single",
+      "Line Height/S/Single",
       "=Line Height/14pt/Single"
     ],
     [
-      "Line Height/12pt/Single",
+      "Line Height/XS/Single",
       "=Line Height/12pt/Single"
     ],
     [
-      "Line Height/11pt/Single",
+      "Line Height/XXS/Single",
       "=Line Height/11pt/Single"
     ],
     [
-      "Font Size/10",
+      "Font Size/XXXS",
       "=Size/10"
     ],
     [
-      "Line Height/10pt/Single",
+      "Line Height/XXXS/Single",
       "=Line Height/10pt/Single"
     ],
     [
-      "Line Height/10pt/Tight",
+      "Line Height/XXXS/Tight",
       "=Line Height/10pt/Tight"
     ],
     [
-      "Weight/500",
+      "Weight/Medium",
       "=Weight/500"
     ],
     [
-      "Line Height/18pt/Single",
+      "Line Height/M/Single",
       "=Line Height/18pt/Single"
     ],
     [
-      "Font Size/56",
+      "Font Size/6XL",
       "=Size/56"
     ],
     [
-      "Line Height/56pt/Single",
+      "Line Height/6XL/Single",
       "=Line Height/56pt/Single"
     ],
     [
-      "Font Size/48",
+      "Font Size/5XL",
       "=Size/48"
     ],
     [
-      "Line Height/48pt/Single",
+      "Line Height/5XL/Single",
       "=Line Height/48pt/Single"
     ],
     [
-      "Font Size/40",
+      "Font Size/4XL",
       "=Size/40"
     ],
     [
-      "Line Height/40pt/Single",
+      "Line Height/4XL/Single",
       "=Line Height/40pt/Single"
     ],
     [
-      "Letter Spacing/ExtraWide",
+      "Letter Spacing/ExtraSpacious",
       "=Letter Spacing/ExtraWide"
     ]
   ]

@@ -13,12 +13,12 @@
  that purple in Midnight, while `var(--semantic-color-fill-action-primary-rest)`
  flips. Reach for a primitive only when you want a value that ignores the theme.
 
- Declares 468 custom properties.
+ Declares 476 custom properties.
  Generated — do not edit. Run `npm run build-tokens`.
  ==========================================================================
 */
 :root {
-  --primitive-color-cool-neutral-0: #fcfcfc;
+  --primitive-color-cool-neutral-0: #ffffff;
   --primitive-color-cool-neutral-25: #f7f7f7;
   --primitive-color-cool-neutral-50: #f2f2f2;
   --primitive-color-cool-neutral-75: #ececec;
@@ -46,7 +46,9 @@
   --primitive-color-cool-neutral-0-12: rgba(252, 252, 252, 0.12);
   --primitive-color-cool-neutral-800-50: rgba(36, 36, 36, 0.5);
   --primitive-color-warm-neutral-0: #fefbfb;
+  --primitive-color-warm-neutral-10: #fcf9f9;
   --primitive-color-warm-neutral-25: #faf6f6;
+  --primitive-color-warm-neutral-40: #f7f3f3;
   --primitive-color-warm-neutral-50: #f5f1f1;
   --primitive-color-warm-neutral-75: #f1eaea;
   --primitive-color-warm-neutral-100: #ece3e3;
@@ -321,6 +323,7 @@
   --primitive-color-midnight-600: #565165;
   --primitive-color-midnight-700: #443f52;
   --primitive-color-midnight-800: #3a3645;
+  --primitive-color-midnight-850: #322e3c;
   --primitive-color-midnight-900: #29252f;
   --primitive-color-midnight-350-4: rgba(143, 138, 161, 0.04);
   --primitive-color-midnight-350-6: rgba(143, 138, 161, 0.06);
@@ -379,6 +382,7 @@
   --primitive-unit-unit-0: 0px;
   --primitive-unit-unit-1: 1px;
   --primitive-unit-unit-2: 2px;
+  --primitive-unit-unit-3: 3px;
   --primitive-unit-unit-4: 4px;
   --primitive-unit-unit-6: 6px;
   --primitive-unit-unit-8: 8px;
@@ -392,21 +396,25 @@
   --primitive-unit-unit-24: 24px;
   --primitive-unit-unit-26: 26px;
   --primitive-unit-unit-28: 28px;
+  --primitive-unit-unit-30: 30px;
   --primitive-unit-unit-32: 32px;
   --primitive-unit-unit-36: 36px;
   --primitive-unit-unit-40: 40px;
   --primitive-unit-unit-44: 44px;
   --primitive-unit-unit-48: 48px;
   --primitive-unit-unit-56: 56px;
+  --primitive-unit-unit-60: 60px;
   --primitive-unit-unit-64: 64px;
   --primitive-unit-unit-72: 72px;
   --primitive-unit-unit-80: 80px;
+  --primitive-unit-unit-84: 84px;
   --primitive-unit-unit-88: 88px;
   --primitive-unit-unit-96: 96px;
   --primitive-unit-unit-104: 104px;
   --primitive-unit-unit-112: 112px;
   --primitive-unit-unit-120: 120px;
   --primitive-unit-unit-250: 250px;
+  --primitive-unit-unit-256: 256px;
   --primitive-unit-unit-999: 999px;
   --primitive-unit-unit-0-point-5: 0.5px;
   --primitive-unit-unit-0-point-75: 0.75px;

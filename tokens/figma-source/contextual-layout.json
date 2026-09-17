@@ -1,9 +1,10 @@
 {
-  "mode": "Desktop 1440pt",
+  "mode": "Value",
+  "note": "Per-component metrics that do NOT change across breakpoints. Values exact from the NewCo demo (artifact dbaa0c6e); redundant same-value border tiers collapsed to one (the demo shows no width change on hover/pressed). Breakpoint-varying metrics live in responsive-layout.json.",
   "vars": [
     [
       "NavItem/Padding/Vertical",
-      "=Unit/12"
+      "=Unit/8"
     ],
     [
       "NavItem/Padding/Horizontal",
@@ -19,15 +20,15 @@
     ],
     [
       "Button/Padding/XSmall/Horizontal",
-      "=Unit/8"
+      "=Unit/12"
     ],
     [
       "Button/Padding/Small/Vertical",
-      "=Unit/6"
+      "=Unit/8"
     ],
     [
       "Button/Padding/Small/Horizontal",
-      "=Unit/8"
+      "=Unit/14"
     ],
     [
       "Button/Padding/Medium/Vertical",
@@ -35,7 +36,7 @@
     ],
     [
       "Button/Padding/Medium/Horizontal",
-      "=Unit/12"
+      "=Unit/18"
     ],
     [
       "Button/Padding/Large/Vertical",
@@ -43,19 +44,15 @@
     ],
     [
       "Button/Padding/Large/Horizontal",
-      "=Unit/14"
+      "=Unit/24"
     ],
     [
       "Button/Gap/Horizontal",
       "=Unit/8"
     ],
     [
-      "Button/BorderWidth/Rest",
-      "=BorderWidth/Thin"
-    ],
-    [
-      "Button/BorderWidth/Hover",
-      "=BorderWidth/Base"
+      "Button/BorderWidth",
+      "=BorderWidth/XThin"
     ],
     [
       "Button/CornerRadius",
@@ -63,11 +60,7 @@
     ],
     [
       "FocusRing/Width",
-      "=Unit/2"
-    ],
-    [
-      "FocusRing/Offset",
-      "=Unit/2"
+      "=Unit/3"
     ],
     [
       "Card/Gap",
@@ -90,12 +83,8 @@
       "=Unit/16"
     ],
     [
-      "Card/BorderWidth/Rest",
+      "Card/BorderWidth",
       "=BorderWidth/XThin"
-    ],
-    [
-      "Card/BorderWidth/Hover",
-      "=BorderWidth/Thin"
     ],
     [
       "Card/CornerRadius",
@@ -103,23 +92,27 @@
     ],
     [
       "Selector/BorderWidth",
-      "=BorderWidth/Base"
+      "=BorderWidth/Thin"
     ],
     [
       "Field/BorderWidth",
-      "=BorderWidth/Base"
+      "=BorderWidth/Thin"
+    ],
+    [
+      "Field/CornerRadius",
+      "=Unit/10"
     ],
     [
       "SideNav/Width/Expanded",
-      "=Unit/250"
+      "=Unit/256"
     ],
     [
       "SideNav/Width/Collapsed",
-      "=Unit/72"
+      "=Unit/84"
     ],
     [
       "SideNav/Padding/Horizontal/Expanded",
-      "=Unit/16"
+      "=Unit/18"
     ],
     [
       "SideNav/Padding/Horizontal/Collapsed",
@@ -127,11 +120,11 @@
     ],
     [
       "SideNav/Padding/Vertical",
-      "=Unit/8"
+      "=Unit/12"
     ],
     [
-      "SideNav/Gap/Vertical",
-      "=Unit/6"
+      "TopNav/Height",
+      "=Unit/60"
     ]
   ]
 }

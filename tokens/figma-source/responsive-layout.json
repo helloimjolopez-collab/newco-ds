@@ -4,27 +4,28 @@
     "Tablet 798pt",
     "Mobile 393pt"
   ],
+  "note": "Only metrics that CHANGE across breakpoints in the demo live here. Constant chrome metrics (TopNav height/vertical-padding/gap) live in Contextual. Values are exact from the NewCo demo (artifact dbaa0c6e).",
   "vars": [
     [
       "SheetContainer/Padding/Horizontal",
       [
-        0,
-        0,
+        16,
+        16,
         0
       ]
     ],
     [
       "SheetContainer/Padding/Top",
       [
-        0,
-        0,
+        16,
+        16,
         0
       ]
     ],
     [
       "Sheet/Padding/Horizontal",
       [
-        36,
+        32,
         24,
         16
       ]
@@ -32,49 +33,33 @@
     [
       "Sheet/Padding/Top",
       [
-        8,
-        8,
-        8
+        44,
+        32,
+        24
+      ]
+    ],
+    [
+      "Sheet/Padding/Bottom",
+      [
+        56,
+        48,
+        40
       ]
     ],
     [
       "Sheet/CornerRadius",
       [
-        20,
-        20,
-        20
+        28,
+        28,
+        0
       ]
     ],
     [
       "TopNav/Padding/Horizontal",
       [
-        24,
-        16,
-        12
-      ]
-    ],
-    [
-      "TopNav/Padding/Vertical",
-      [
-        0,
-        0,
-        0
-      ]
-    ],
-    [
-      "TopNav/Gap/Horizontal",
-      [
-        16,
-        16,
-        16
-      ]
-    ],
-    [
-      "TopNav/Height",
-      [
-        56,
-        56,
-        56
+        30,
+        30,
+        14
       ]
     ]
   ]

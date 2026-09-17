@@ -1,5 +1,5 @@
 {
-  "Cool Neutral/0": "#fcfcfc",
+  "Cool Neutral/0": "#ffffff",
   "Warm Neutral/0": "#fefbfb",
   "Warm Neutral/25": "#faf6f6",
   "Warm Neutral/50": "#f5f1f1",
@@ -356,5 +356,8 @@
   "Mauve/350 @ 36%": "#cc5ba85c",
   "Mauve/350 @ 50%": "#cc5ba880",
   "Mauve/350 @ 70%": "#cc5ba8b2",
-  "Cool Neutral/800 @ 50%": "#24242480"
+  "Cool Neutral/800 @ 50%": "#24242480",
+  "Warm Neutral/10": "#fcf9f9",
+  "Warm Neutral/40": "#f7f3f3",
+  "Midnight/850": "#322e3c"
 }
