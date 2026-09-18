@@ -5120,7 +5120,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-fill-static-negative-subtle": {
-    "value": "#370201",
+    "value": "#e4776929",
     "type": "color",
     "path": [
       "semantic-color",
@@ -5144,7 +5144,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-fill-static-positive-subtle": {
-    "value": "#071f13",
+    "value": "#00a46c29",
     "type": "color",
     "path": [
       "semantic-color",
@@ -5765,7 +5765,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-fill-action-status-positive-subtle-rest": {
-    "value": "#071f13",
+    "value": "#00a46c29",
     "type": "color",
     "path": [
       "semantic-color",
@@ -5779,7 +5779,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-fill-action-status-positive-subtle-hover": {
-    "value": "#0a3723",
+    "value": "#00a46c3d",
     "type": "color",
     "path": [
       "semantic-color",
@@ -5793,7 +5793,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-fill-action-status-positive-subtle-pressed": {
-    "value": "#055134",
+    "value": "#00a46c5c",
     "type": "color",
     "path": [
       "semantic-color",
@@ -5849,7 +5849,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-fill-action-status-negative-subtle-rest": {
-    "value": "#370201",
+    "value": "#e4776929",
     "type": "color",
     "path": [
       "semantic-color",
@@ -5863,7 +5863,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-fill-action-status-negative-subtle-hover": {
-    "value": "#590a06",
+    "value": "#e477693d",
     "type": "color",
     "path": [
       "semantic-color",
@@ -5877,7 +5877,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-fill-action-status-negative-subtle-pressed": {
-    "value": "#7f130e",
+    "value": "#e477695c",
     "type": "color",
     "path": [
       "semantic-color",
@@ -6416,7 +6416,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-foreground-action-status-negative-on-subtle-rest": {
-    "value": "#e47769",
+    "value": "#fdbdb3",
     "type": "color",
     "path": [
       "semantic-color",

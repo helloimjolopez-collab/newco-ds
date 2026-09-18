@@ -2,7 +2,7 @@
   [
     "Fill/Static/Negative/Subtle",
     "=Red/50",
-    "=Red/800"
+    "=Red/300 @ 16%"
   ],
   [
     "Fill/Static/Negative/Strong",
@@ -32,7 +32,7 @@
   [
     "Fill/Static/Positive/Subtle",
     "=Green/50",
-    "=Green/800"
+    "=Green/350 @ 16%"
   ],
   [
     "Fill/Static/Positive/Strong",
@@ -512,17 +512,17 @@
   [
     "Fill/Action/Status/Positive/Subtle/Rest",
     "=Green/50",
-    "=Green/800"
+    "=Green/350 @ 16%"
   ],
   [
     "Fill/Action/Status/Positive/Subtle/Hover",
     "=Green/75",
-    "=Green/700"
+    "=Green/350 @ 24%"
   ],
   [
     "Fill/Action/Status/Positive/Subtle/Pressed",
     "=Green/150",
-    "=Green/600"
+    "=Green/350 @ 36%"
   ],
   [
     "Fill/Action/Status/Negative/Strong/Rest",
@@ -542,17 +542,17 @@
   [
     "Fill/Action/Status/Negative/Subtle/Rest",
     "=Red/50",
-    "=Red/800"
+    "=Red/300 @ 16%"
   ],
   [
     "Fill/Action/Status/Negative/Subtle/Hover",
     "=Red/75",
-    "=Red/700"
+    "=Red/300 @ 24%"
   ],
   [
     "Fill/Action/Status/Negative/Subtle/Pressed",
     "=Red/150",
-    "=Red/600"
+    "=Red/300 @ 36%"
   ],
   [
     "Foreground/Action/Primary/On Subtle/Rest",
@@ -612,7 +612,7 @@
   [
     "Foreground/Action/Status/Negative/On Subtle/Rest",
     "=Red/500",
-    "=Red/300"
+    "=Red/150"
   ],
   [
     "Foreground/Action/Status/Negative/On Subtle/Hover",
