@@ -21,13 +21,13 @@
   ],
   [
     "Stroke/Static/Negative/Subtle",
-    "=Red/500",
-    "=Red/200"
+    "=Red/300",
+    "=Red/500"
   ],
   [
     "Stroke/Static/Negative/Strong",
     "=Red/500",
-    "=Red/200"
+    "=Red/300"
   ],
   [
     "Fill/Static/Positive/Subtle",
@@ -36,8 +36,8 @@
   ],
   [
     "Fill/Static/Positive/Strong",
-    "=Green/200",
-    "=Green/200"
+    "=Green/500",
+    "=Green/250"
   ],
   [
     "Foreground/Static/Positive/On Subtle",
@@ -46,17 +46,17 @@
   ],
   [
     "Foreground/Static/Positive/On Strong",
-    "=Green/800",
+    "=Cool Neutral/0",
     "=Green/800"
   ],
   [
     "Stroke/Static/Positive/Subtle",
-    "=Green/600",
-    "=Green/150"
+    "=Green/150",
+    "=Green/400"
   ],
   [
     "Stroke/Static/Positive/Strong",
-    "=Green/600",
+    "=Green/400",
     "=Green/150"
   ],
   [
@@ -82,12 +82,12 @@
   [
     "Stroke/Static/Attention/Subtle",
     "=Saffron/150",
-    "=Saffron/150"
+    "=Saffron/300"
   ],
   [
     "Stroke/Static/Attention/Strong",
     "=Saffron/300",
-    "=Saffron/300"
+    "=Saffron/150"
   ],
   [
     "Fill/Static/Severe/Subtle",
@@ -112,12 +112,12 @@
   [
     "Stroke/Static/Severe/Subtle",
     "=Orange/150",
-    "=Orange/150"
+    "=Orange/300"
   ],
   [
     "Stroke/Static/Severe/Strong",
     "=Orange/300",
-    "=Orange/300"
+    "=Orange/150"
   ],
   [
     "Fill/Static/Info/Subtle",
@@ -141,12 +141,12 @@
   ],
   [
     "Stroke/Static/Info/Subtle",
-    "=Seabreeze/600",
-    "=Seabreeze/150"
+    "=Seabreeze/150",
+    "=Seabreeze/300"
   ],
   [
     "Stroke/Static/Info/Strong",
-    "=Seabreeze/600",
+    "=Seabreeze/300",
     "=Seabreeze/150"
   ],
   [
@@ -476,18 +476,18 @@
   ],
   [
     "Fill/Action/Status/Positive/Strong/Rest",
-    "=Green/200",
-    "=Green/200"
-  ],
-  [
-    "Fill/Action/Status/Positive/Strong/Hover",
-    "=Green/250",
+    "=Green/500",
     "=Green/250"
   ],
   [
-    "Fill/Action/Status/Positive/Strong/Pressed",
-    "=Green/300",
+    "Fill/Action/Status/Positive/Strong/Hover",
+    "=Green/600",
     "=Green/300"
+  ],
+  [
+    "Fill/Action/Status/Positive/Strong/Pressed",
+    "=Green/700",
+    "=Green/350"
   ],
   [
     "Fill/Action/Status/Positive/Subtle/Rest",
@@ -586,7 +586,7 @@
   ],
   [
     "Foreground/Action/Status/Positive/On Strong",
-    "=Green/800",
+    "=Cool Neutral/0",
     "=Green/800"
   ],
   [
