@@ -2312,76 +2312,76 @@ const tokens = {
       "800"
     ]
   },
-  "primitive-color-saffron-350-16": {
-    "value": "#aa843e29",
+  "primitive-color-saffron-150-16": {
+    "value": "#ffc86429",
     "type": "color",
     "path": [
       "primitive-color",
       "saffron",
-      "350-16"
+      "150-16"
     ]
   },
-  "primitive-color-saffron-350-24": {
-    "value": "#aa843e3d",
+  "primitive-color-saffron-150-24": {
+    "value": "#ffc8643d",
     "type": "color",
     "path": [
       "primitive-color",
       "saffron",
-      "350-24"
+      "150-24"
     ]
   },
-  "primitive-color-saffron-350-36": {
-    "value": "#aa843e5c",
+  "primitive-color-saffron-150-36": {
+    "value": "#ffc8645c",
     "type": "color",
     "path": [
       "primitive-color",
       "saffron",
-      "350-36"
+      "150-36"
     ]
   },
-  "primitive-color-saffron-350-50": {
-    "value": "#aa843e80",
+  "primitive-color-saffron-150-50": {
+    "value": "#ffc86480",
     "type": "color",
     "path": [
       "primitive-color",
       "saffron",
-      "350-50"
+      "150-50"
     ]
   },
-  "primitive-color-saffron-350-70": {
-    "value": "#aa843eb2",
+  "primitive-color-saffron-150-70": {
+    "value": "#ffc864b2",
     "type": "color",
     "path": [
       "primitive-color",
       "saffron",
-      "350-70"
+      "150-70"
     ]
   },
-  "primitive-color-saffron-350-4": {
-    "value": "#aa843e0a",
+  "primitive-color-saffron-150-4": {
+    "value": "#ffc8640a",
     "type": "color",
     "path": [
       "primitive-color",
       "saffron",
-      "350-4"
+      "150-4"
     ]
   },
-  "primitive-color-saffron-350-6": {
-    "value": "#aa843e0f",
+  "primitive-color-saffron-150-6": {
+    "value": "#ffc8640f",
     "type": "color",
     "path": [
       "primitive-color",
       "saffron",
-      "350-6"
+      "150-6"
     ]
   },
-  "primitive-color-saffron-350-12": {
-    "value": "#aa843e1f",
+  "primitive-color-saffron-150-12": {
+    "value": "#ffc8641f",
     "type": "color",
     "path": [
       "primitive-color",
       "saffron",
-      "350-12"
+      "150-12"
     ]
   },
   "primitive-color-mauve-0": {
