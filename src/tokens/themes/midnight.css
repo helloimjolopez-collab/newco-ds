@@ -11,7 +11,7 @@
  Set the attribute on <html> to theme the page, or on any element to theme just
  that subtree — it composes both ways (a light island inside a dark island).
 
- Declares 153 custom properties.
+ Declares 149 custom properties.
  Generated — do not edit. Run `npm run build-tokens`.
  ==========================================================================
 */
@@ -21,26 +21,24 @@
   --elevation-lift: 0 8px 20px -10px rgba(0,0,0,0.32);
   --elevation-overlay: 0 20px 48px -16px rgba(0,0,0,0.50);
   --semantic-color-fill-static-negative-subtle: var(--primitive-color-red-300-16);
-  --semantic-color-fill-static-negative-strong: var(--primitive-color-red-500);
+  --semantic-color-fill-static-negative-strong: var(--primitive-color-red-400);
   --semantic-color-fill-static-positive-subtle: var(--primitive-color-green-350-16);
-  --semantic-color-fill-static-positive-strong: var(--primitive-color-green-150);
-  --semantic-color-fill-static-attention-subtle: var(--primitive-color-saffron-800);
+  --semantic-color-fill-static-positive-strong: var(--primitive-color-green-250);
+  --semantic-color-fill-static-attention-subtle: var(--primitive-color-saffron-150-16);
   --semantic-color-fill-static-attention-strong: var(--primitive-color-saffron-150);
-  --semantic-color-fill-static-severe-subtle: var(--primitive-color-orange-800);
-  --semantic-color-fill-static-severe-strong: var(--primitive-color-orange-150);
-  --semantic-color-fill-static-info-subtle: var(--primitive-color-seabreeze-800);
-  --semantic-color-fill-static-info-strong: var(--primitive-color-seabreeze-150);
-  --semantic-color-fill-static-accent-jade-subtle: var(--primitive-color-jade-800);
+  --semantic-color-fill-static-severe-subtle: var(--primitive-color-orange-350-16);
+  --semantic-color-fill-static-severe-strong: var(--primitive-color-orange-300);
+  --semantic-color-fill-static-info-subtle: var(--primitive-color-seabreeze-300-16);
+  --semantic-color-fill-static-info-strong: var(--primitive-color-seabreeze-500);
+  --semantic-color-fill-static-accent-jade-subtle: var(--primitive-color-jade-300-16);
   --semantic-color-fill-static-accent-jade-strong: var(--primitive-color-jade-150);
-  --semantic-color-fill-static-accent-seabreeze-subtle: var(--primitive-color-seabreeze-800);
-  --semantic-color-fill-static-accent-seabreeze-strong: var(--primitive-color-seabreeze-500);
-  --semantic-color-fill-static-accent-mauve-subtle: var(--primitive-color-mauve-800);
+  --semantic-color-fill-static-accent-mauve-subtle: var(--primitive-color-mauve-350-16);
   --semantic-color-fill-static-accent-mauve-strong: var(--primitive-color-mauve-500);
-  --semantic-color-fill-static-accent-lagoon-subtle: var(--primitive-color-lagoon-800);
+  --semantic-color-fill-static-accent-lagoon-subtle: var(--primitive-color-lagoon-300-16);
   --semantic-color-fill-static-accent-lagoon-strong: var(--primitive-color-lagoon-150);
-  --semantic-color-fill-static-accent-citrine-subtle: var(--primitive-color-citrine-800);
+  --semantic-color-fill-static-accent-citrine-subtle: var(--primitive-color-citrine-350-16);
   --semantic-color-fill-static-accent-citrine-strong: var(--primitive-color-citrine-150);
-  --semantic-color-fill-static-accent-rose-subtle: var(--primitive-color-rose-800);
+  --semantic-color-fill-static-accent-rose-subtle: var(--primitive-color-rose-350-16);
   --semantic-color-fill-static-accent-rose-strong: var(--primitive-color-rose-500);
   --semantic-color-fill-static-neutral-mono: var(--primitive-color-warm-neutral-900);
   --semantic-color-fill-static-neutral-faint: var(--primitive-color-warm-neutral-800);
@@ -70,33 +68,31 @@
   --semantic-color-fill-action-selection-indicator: var(--primitive-color-brand-400);
   --semantic-color-fill-action-disabled: var(--primitive-color-warm-neutral-350-12);
   --semantic-color-fill-action-status-positive-strong-rest: var(--primitive-color-green-250);
-  --semantic-color-fill-action-status-positive-strong-hover: var(--primitive-color-green-200);
-  --semantic-color-fill-action-status-positive-strong-pressed: var(--primitive-color-green-150);
+  --semantic-color-fill-action-status-positive-strong-hover: var(--primitive-color-green-300);
+  --semantic-color-fill-action-status-positive-strong-pressed: var(--primitive-color-green-350);
   --semantic-color-fill-action-status-positive-subtle-rest: var(--primitive-color-green-350-16);
   --semantic-color-fill-action-status-positive-subtle-hover: var(--primitive-color-green-350-24);
   --semantic-color-fill-action-status-positive-subtle-pressed: var(--primitive-color-green-350-36);
-  --semantic-color-fill-action-status-negative-strong-rest: var(--primitive-color-red-300);
-  --semantic-color-fill-action-status-negative-strong-hover: var(--primitive-color-red-250);
-  --semantic-color-fill-action-status-negative-strong-pressed: var(--primitive-color-red-200);
+  --semantic-color-fill-action-status-negative-strong-rest: var(--primitive-color-red-400);
+  --semantic-color-fill-action-status-negative-strong-hover: var(--primitive-color-red-500);
+  --semantic-color-fill-action-status-negative-strong-pressed: var(--primitive-color-red-600);
   --semantic-color-fill-action-status-negative-subtle-rest: var(--primitive-color-red-300-16);
   --semantic-color-fill-action-status-negative-subtle-hover: var(--primitive-color-red-300-24);
   --semantic-color-fill-action-status-negative-subtle-pressed: var(--primitive-color-red-300-36);
   --semantic-color-fill-shadow-dropshadow: var(--primitive-color-midnight-900-36);
-  --semantic-color-foreground-static-negative-on-subtle: var(--primitive-color-red-150);
+  --semantic-color-foreground-static-negative-on-subtle: var(--primitive-color-red-200);
   --semantic-color-foreground-static-negative-on-strong: var(--primitive-color-cool-neutral-0);
   --semantic-color-foreground-static-positive-on-subtle: var(--primitive-color-green-150);
   --semantic-color-foreground-static-positive-on-strong: var(--primitive-color-green-800);
   --semantic-color-foreground-static-attention-on-subtle: var(--primitive-color-saffron-150);
-  --semantic-color-foreground-static-attention-on-strong: var(--primitive-color-saffron-800);
+  --semantic-color-foreground-static-attention-on-strong: var(--primitive-color-cool-neutral-900);
   --semantic-color-foreground-static-severe-on-subtle: var(--primitive-color-orange-150);
   --semantic-color-foreground-static-severe-on-strong: var(--primitive-color-orange-800);
   --semantic-color-foreground-static-info-on-subtle: var(--primitive-color-seabreeze-150);
-  --semantic-color-foreground-static-info-on-strong: var(--primitive-color-seabreeze-800);
+  --semantic-color-foreground-static-info-on-strong: var(--primitive-color-cool-neutral-0);
   --semantic-color-foreground-static-accent-jade-on-subtle: var(--primitive-color-jade-150);
   --semantic-color-foreground-static-accent-jade-on-strong: var(--primitive-color-jade-800);
-  --semantic-color-foreground-static-accent-seabreeze-on-subtle: var(--primitive-color-seabreeze-150);
-  --semantic-color-foreground-static-accent-seabreeze-on-strong: var(--primitive-color-cool-neutral-0);
-  --semantic-color-foreground-static-accent-mauve-on-subtle: var(--primitive-color-mauve-150);
+  --semantic-color-foreground-static-accent-mauve-on-subtle: var(--primitive-color-mauve-250);
   --semantic-color-foreground-static-accent-mauve-on-strong: var(--primitive-color-cool-neutral-0);
   --semantic-color-foreground-static-accent-lagoon-on-subtle: var(--primitive-color-lagoon-150);
   --semantic-color-foreground-static-accent-lagoon-on-strong: var(--primitive-color-lagoon-800);
@@ -119,25 +115,25 @@
   --semantic-color-foreground-action-secondary-rest: var(--primitive-color-midnight-150);
   --semantic-color-foreground-action-secondary-hover: var(--primitive-color-midnight-100);
   --semantic-color-foreground-action-secondary-pressed: var(--primitive-color-midnight-100);
-  --semantic-color-foreground-action-status-positive-on-subtle-rest: var(--primitive-color-green-50);
-  --semantic-color-foreground-action-status-positive-on-subtle-hover: var(--primitive-color-green-25);
-  --semantic-color-foreground-action-status-positive-on-subtle-pressed: var(--primitive-color-green-0);
+  --semantic-color-foreground-action-status-positive-on-subtle-rest: var(--primitive-color-green-150);
+  --semantic-color-foreground-action-status-positive-on-subtle-hover: var(--primitive-color-green-100);
+  --semantic-color-foreground-action-status-positive-on-subtle-pressed: var(--primitive-color-green-75);
   --semantic-color-foreground-action-status-positive-on-strong: var(--primitive-color-green-800);
-  --semantic-color-foreground-action-status-negative-on-subtle-rest: var(--primitive-color-red-150);
-  --semantic-color-foreground-action-status-negative-on-subtle-hover: var(--primitive-color-red-75);
-  --semantic-color-foreground-action-status-negative-on-subtle-pressed: var(--primitive-color-red-50);
-  --semantic-color-foreground-action-status-negative-on-strong: var(--primitive-color-red-800);
+  --semantic-color-foreground-action-status-negative-on-subtle-rest: var(--primitive-color-red-200);
+  --semantic-color-foreground-action-status-negative-on-subtle-hover: var(--primitive-color-red-150);
+  --semantic-color-foreground-action-status-negative-on-subtle-pressed: var(--primitive-color-red-100);
+  --semantic-color-foreground-action-status-negative-on-strong: var(--primitive-color-cool-neutral-0);
   --semantic-color-foreground-action-disabled: var(--primitive-color-cool-neutral-0-50);
-  --semantic-color-stroke-static-negative-subtle: var(--primitive-color-red-600);
-  --semantic-color-stroke-static-negative-strong: var(--primitive-color-red-300);
-  --semantic-color-stroke-static-positive-subtle: var(--primitive-color-green-600);
-  --semantic-color-stroke-static-positive-strong: var(--primitive-color-green-300);
-  --semantic-color-stroke-static-attention-subtle: var(--primitive-color-saffron-600);
-  --semantic-color-stroke-static-attention-strong: var(--primitive-color-saffron-300);
-  --semantic-color-stroke-static-severe-subtle: var(--primitive-color-orange-600);
-  --semantic-color-stroke-static-severe-strong: var(--primitive-color-orange-300);
-  --semantic-color-stroke-static-info-subtle: var(--primitive-color-seabreeze-600);
-  --semantic-color-stroke-static-info-strong: var(--primitive-color-seabreeze-300);
+  --semantic-color-stroke-static-negative-subtle: var(--primitive-color-red-200);
+  --semantic-color-stroke-static-negative-strong: var(--primitive-color-red-200);
+  --semantic-color-stroke-static-positive-subtle: var(--primitive-color-green-150);
+  --semantic-color-stroke-static-positive-strong: var(--primitive-color-green-150);
+  --semantic-color-stroke-static-attention-subtle: var(--primitive-color-saffron-150);
+  --semantic-color-stroke-static-attention-strong: var(--primitive-color-saffron-150);
+  --semantic-color-stroke-static-severe-subtle: var(--primitive-color-orange-150);
+  --semantic-color-stroke-static-severe-strong: var(--primitive-color-orange-150);
+  --semantic-color-stroke-static-info-subtle: var(--primitive-color-seabreeze-150);
+  --semantic-color-stroke-static-info-strong: var(--primitive-color-seabreeze-150);
   --semantic-color-stroke-static-accent-jade: var(--primitive-color-jade-400);
   --semantic-color-stroke-static-accent-seabreeze: var(--primitive-color-seabreeze-400);
   --semantic-color-stroke-static-accent-mauve: var(--primitive-color-mauve-400);
@@ -164,9 +160,9 @@
   --semantic-color-stroke-action-status-negative-rest: var(--primitive-color-red-200);
   --semantic-color-stroke-action-status-negative-hover: var(--primitive-color-red-150);
   --semantic-color-stroke-action-status-negative-pressed: var(--primitive-color-red-100);
-  --semantic-color-stroke-action-status-positive-rest: var(--primitive-color-green-250);
-  --semantic-color-stroke-action-status-positive-hover: var(--primitive-color-green-200);
-  --semantic-color-stroke-action-status-positive-pressed: var(--primitive-color-green-150);
+  --semantic-color-stroke-action-status-positive-rest: var(--primitive-color-green-150);
+  --semantic-color-stroke-action-status-positive-hover: var(--primitive-color-green-100);
+  --semantic-color-stroke-action-status-positive-pressed: var(--primitive-color-green-75);
   --semantic-color-stroke-action-disabled: var(--primitive-color-warm-neutral-350-24);
   --semantic-color-scrim-base: var(--primitive-color-midnight-900-36);
 }

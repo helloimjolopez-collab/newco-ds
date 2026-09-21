@@ -1,11 +1,11 @@
 {
   "$comment": "The names a consumer may use. Generated from the emitted CSS by scripts/build-contract.js — do not hand-edit. Lint against `contract` if you want the boundary enforced; nothing here blocks a primitive.",
-  "version": "3.0.14",
+  "version": "3.0.15",
   "generated": "2026-09-21",
   "counts": {
-    "contract": 266,
+    "contract": 262,
     "infrastructure": 506,
-    "declarationsAcrossAllFiles": 925
+    "declarationsAcrossAllFiles": 917
   },
   "loadOrder": [
     "primitives.css",
@@ -27,13 +27,13 @@
     "themes/light.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 153,
+      "count": 149,
       "role": "Colour + elevation contract, Light Mode."
     },
     "themes/midnight.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 153,
+      "count": 149,
       "role": "Colour + elevation contract, Midnight Mode. Same names."
     },
     "type.css": {
@@ -141,8 +141,6 @@
     "--semantic-color-fill-static-accent-mauve-subtle",
     "--semantic-color-fill-static-accent-rose-strong",
     "--semantic-color-fill-static-accent-rose-subtle",
-    "--semantic-color-fill-static-accent-seabreeze-strong",
-    "--semantic-color-fill-static-accent-seabreeze-subtle",
     "--semantic-color-fill-static-attention-strong",
     "--semantic-color-fill-static-attention-subtle",
     "--semantic-color-fill-static-brand-base",
@@ -192,8 +190,6 @@
     "--semantic-color-foreground-static-accent-mauve-on-subtle",
     "--semantic-color-foreground-static-accent-rose-on-strong",
     "--semantic-color-foreground-static-accent-rose-on-subtle",
-    "--semantic-color-foreground-static-accent-seabreeze-on-strong",
-    "--semantic-color-foreground-static-accent-seabreeze-on-subtle",
     "--semantic-color-foreground-static-attention-on-strong",
     "--semantic-color-foreground-static-attention-on-subtle",
     "--semantic-color-foreground-static-brand-on-strong",

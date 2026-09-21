@@ -6,13 +6,13 @@
   ],
   [
     "Fill/Static/Negative/Strong",
-    "=Red/500",
-    "=Red/500"
+    "=Red/400",
+    "=Red/400"
   ],
   [
     "Foreground/Static/Negative/On Subtle",
-    "=Red/700",
-    "=Red/150"
+    "=Red/400",
+    "=Red/200"
   ],
   [
     "Foreground/Static/Negative/On Strong",
@@ -21,13 +21,13 @@
   ],
   [
     "Stroke/Static/Negative/Subtle",
-    "=Red/150",
-    "=Red/600"
+    "=Red/400",
+    "=Red/200"
   ],
   [
     "Stroke/Static/Negative/Strong",
     "=Red/400",
-    "=Red/300"
+    "=Red/200"
   ],
   [
     "Fill/Static/Positive/Subtle",
@@ -36,123 +36,123 @@
   ],
   [
     "Fill/Static/Positive/Strong",
-    "=Green/600",
-    "=Green/150"
+    "=Green/250",
+    "=Green/250"
   ],
   [
     "Foreground/Static/Positive/On Subtle",
-    "=Green/700",
+    "=Green/500",
     "=Green/150"
   ],
   [
     "Foreground/Static/Positive/On Strong",
-    "=Cool Neutral/0",
+    "=Green/800",
     "=Green/800"
   ],
   [
     "Stroke/Static/Positive/Subtle",
-    "=Green/150",
-    "=Green/600"
+    "=Green/500",
+    "=Green/150"
   ],
   [
     "Stroke/Static/Positive/Strong",
-    "=Green/400",
-    "=Green/300"
+    "=Green/500",
+    "=Green/150"
   ],
   [
     "Fill/Static/Attention/Subtle",
     "=Saffron/50",
-    "=Saffron/800"
+    "=Saffron/150 @ 16%"
   ],
   [
     "Fill/Static/Attention/Strong",
-    "=Saffron/600",
+    "=Saffron/150",
     "=Saffron/150"
   ],
   [
     "Foreground/Static/Attention/On Subtle",
-    "=Saffron/700",
+    "=Saffron/600",
     "=Saffron/150"
   ],
   [
     "Foreground/Static/Attention/On Strong",
-    "=Cool Neutral/0",
-    "=Saffron/800"
+    "=Cool Neutral/900",
+    "=Cool Neutral/900"
   ],
   [
     "Stroke/Static/Attention/Subtle",
-    "=Saffron/150",
-    "=Saffron/600"
+    "=Saffron/600",
+    "=Saffron/150"
   ],
   [
     "Stroke/Static/Attention/Strong",
-    "=Saffron/400",
-    "=Saffron/300"
+    "=Saffron/600",
+    "=Saffron/150"
   ],
   [
     "Fill/Static/Severe/Subtle",
     "=Orange/50",
-    "=Orange/800"
+    "=Orange/350 @ 16%"
   ],
   [
     "Fill/Static/Severe/Strong",
+    "=Orange/300",
+    "=Orange/300"
+  ],
+  [
+    "Foreground/Static/Severe/On Subtle",
     "=Orange/600",
     "=Orange/150"
   ],
   [
-    "Foreground/Static/Severe/On Subtle",
-    "=Orange/700",
-    "=Orange/150"
-  ],
-  [
     "Foreground/Static/Severe/On Strong",
-    "=Cool Neutral/0",
+    "=Orange/800",
     "=Orange/800"
   ],
   [
     "Stroke/Static/Severe/Subtle",
-    "=Orange/150",
-    "=Orange/600"
+    "=Orange/600",
+    "=Orange/150"
   ],
   [
     "Stroke/Static/Severe/Strong",
-    "=Orange/400",
-    "=Orange/300"
+    "=Orange/600",
+    "=Orange/150"
   ],
   [
     "Fill/Static/Info/Subtle",
     "=Seabreeze/50",
-    "=Seabreeze/800"
+    "=Seabreeze/300 @ 16%"
   ],
   [
     "Fill/Static/Info/Strong",
-    "=Seabreeze/600",
-    "=Seabreeze/150"
+    "=Seabreeze/500",
+    "=Seabreeze/500"
   ],
   [
     "Foreground/Static/Info/On Subtle",
-    "=Seabreeze/700",
+    "=Seabreeze/600",
     "=Seabreeze/150"
   ],
   [
     "Foreground/Static/Info/On Strong",
     "=Cool Neutral/0",
-    "=Seabreeze/800"
+    "=Cool Neutral/0"
   ],
   [
     "Stroke/Static/Info/Subtle",
-    "=Seabreeze/150",
-    "=Seabreeze/600"
+    "=Seabreeze/600",
+    "=Seabreeze/150"
   ],
   [
     "Stroke/Static/Info/Strong",
-    "=Seabreeze/400",
-    "=Seabreeze/300"
+    "=Seabreeze/600",
+    "=Seabreeze/150"
   ],
   [
     "Fill/Static/Accent/Jade/Subtle",
     "=Jade/50",
-    "=Jade/800"
+    "=Jade/300 @ 16%"
   ],
   [
     "Fill/Static/Accent/Jade/Strong",
@@ -175,26 +175,6 @@
     "=Jade/400"
   ],
   [
-    "Fill/Static/Accent/Seabreeze/Subtle",
-    "=Seabreeze/50",
-    "=Seabreeze/800"
-  ],
-  [
-    "Fill/Static/Accent/Seabreeze/Strong",
-    "=Seabreeze/500",
-    "=Seabreeze/500"
-  ],
-  [
-    "Foreground/Static/Accent/Seabreeze/On Subtle",
-    "=Seabreeze/700",
-    "=Seabreeze/150"
-  ],
-  [
-    "Foreground/Static/Accent/Seabreeze/On Strong",
-    "=Cool Neutral/0",
-    "=Cool Neutral/0"
-  ],
-  [
     "Stroke/Static/Accent/Seabreeze",
     "=Seabreeze/250",
     "=Seabreeze/400"
@@ -202,7 +182,7 @@
   [
     "Fill/Static/Accent/Mauve/Subtle",
     "=Mauve/50",
-    "=Mauve/800"
+    "=Mauve/350 @ 16%"
   ],
   [
     "Fill/Static/Accent/Mauve/Strong",
@@ -211,8 +191,8 @@
   ],
   [
     "Foreground/Static/Accent/Mauve/On Subtle",
-    "=Mauve/700",
-    "=Mauve/150"
+    "=Mauve/500",
+    "=Mauve/250"
   ],
   [
     "Foreground/Static/Accent/Mauve/On Strong",
@@ -227,7 +207,7 @@
   [
     "Fill/Static/Accent/Lagoon/Subtle",
     "=Lagoon/50",
-    "=Lagoon/800"
+    "=Lagoon/300 @ 16%"
   ],
   [
     "Fill/Static/Accent/Lagoon/Strong",
@@ -252,11 +232,11 @@
   [
     "Fill/Static/Accent/Citrine/Subtle",
     "=Citrine/50",
-    "=Citrine/800"
+    "=Citrine/350 @ 16%"
   ],
   [
     "Fill/Static/Accent/Citrine/Strong",
-    "=Citrine/600",
+    "=Citrine/150",
     "=Citrine/150"
   ],
   [
@@ -266,7 +246,7 @@
   ],
   [
     "Foreground/Static/Accent/Citrine/On Strong",
-    "=Cool Neutral/0",
+    "=Citrine/800",
     "=Citrine/800"
   ],
   [
@@ -277,7 +257,7 @@
   [
     "Fill/Static/Accent/Rose/Subtle",
     "=Rose/50",
-    "=Rose/800"
+    "=Rose/350 @ 16%"
   ],
   [
     "Fill/Static/Accent/Rose/Strong",
@@ -502,12 +482,12 @@
   [
     "Fill/Action/Status/Positive/Strong/Hover",
     "=Green/300",
-    "=Green/200"
+    "=Green/300"
   ],
   [
     "Fill/Action/Status/Positive/Strong/Pressed",
     "=Green/350",
-    "=Green/150"
+    "=Green/350"
   ],
   [
     "Fill/Action/Status/Positive/Subtle/Rest",
@@ -521,23 +501,23 @@
   ],
   [
     "Fill/Action/Status/Positive/Subtle/Pressed",
-    "=Green/150",
+    "=Green/100",
     "=Green/350 @ 36%"
   ],
   [
     "Fill/Action/Status/Negative/Strong/Rest",
     "=Red/400",
-    "=Red/300"
+    "=Red/400"
   ],
   [
     "Fill/Action/Status/Negative/Strong/Hover",
     "=Red/500",
-    "=Red/250"
+    "=Red/500"
   ],
   [
     "Fill/Action/Status/Negative/Strong/Pressed",
     "=Red/600",
-    "=Red/200"
+    "=Red/600"
   ],
   [
     "Fill/Action/Status/Negative/Subtle/Rest",
@@ -551,7 +531,7 @@
   ],
   [
     "Fill/Action/Status/Negative/Subtle/Pressed",
-    "=Red/150",
+    "=Red/100",
     "=Red/300 @ 36%"
   ],
   [
@@ -591,18 +571,18 @@
   ],
   [
     "Foreground/Action/Status/Positive/On Subtle/Rest",
-    "=Green/600",
-    "=Green/50"
+    "=Green/500",
+    "=Green/150"
   ],
   [
     "Foreground/Action/Status/Positive/On Subtle/Hover",
-    "=Green/700",
-    "=Green/25"
+    "=Green/600",
+    "=Green/100"
   ],
   [
     "Foreground/Action/Status/Positive/On Subtle/Pressed",
-    "=Green/800",
-    "=Green/0"
+    "=Green/700",
+    "=Green/75"
   ],
   [
     "Foreground/Action/Status/Positive/On Strong",
@@ -611,18 +591,18 @@
   ],
   [
     "Foreground/Action/Status/Negative/On Subtle/Rest",
+    "=Red/400",
+    "=Red/200"
+  ],
+  [
+    "Foreground/Action/Status/Negative/On Subtle/Hover",
     "=Red/500",
     "=Red/150"
   ],
   [
-    "Foreground/Action/Status/Negative/On Subtle/Hover",
-    "=Red/600",
-    "=Red/75"
-  ],
-  [
     "Foreground/Action/Status/Negative/On Subtle/Pressed",
-    "=Red/700",
-    "=Red/50"
+    "=Red/600",
+    "=Red/100"
   ],
   [
     "Foreground/Action/Disabled",
@@ -706,18 +686,18 @@
   ],
   [
     "Stroke/Action/Status/Positive/Rest",
-    "=Green/250",
-    "=Green/250"
+    "=Green/500",
+    "=Green/150"
   ],
   [
     "Stroke/Action/Status/Positive/Hover",
-    "=Green/300",
-    "=Green/200"
+    "=Green/600",
+    "=Green/100"
   ],
   [
     "Stroke/Action/Status/Positive/Pressed",
-    "=Green/350",
-    "=Green/150"
+    "=Green/700",
+    "=Green/75"
   ],
   [
     "Stroke/Action/Disabled",
@@ -726,8 +706,8 @@
   ],
   [
     "Foreground/Action/Status/Negative/On Strong",
-    "=Red/800",
-    "=Red/800"
+    "=Cool Neutral/0",
+    "=Cool Neutral/0"
   ],
   [
     "Fill/Surface/Elevated/Raised",
