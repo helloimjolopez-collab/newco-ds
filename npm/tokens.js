@@ -243,7 +243,7 @@ const tokens = {
     ]
   },
   "primitive-color-warm-neutral-0": {
-    "value": "#fefbfb",
+    "value": "#fdfcfc",
     "type": "color",
     "path": [
       "primitive-color",
@@ -3508,7 +3508,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-fill-static-neutral-mono": {
-    "value": "#fefbfb",
+    "value": "#ffffff",
     "type": "color",
     "path": [
       "semantic-color",
@@ -3616,7 +3616,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-fill-surface-canvas": {
-    "value": "#f7f3f3",
+    "value": "#fcf9f9",
     "type": "color",
     "path": [
       "semantic-color",
@@ -3627,7 +3627,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-fill-surface-chrome": {
-    "value": "#f7f3f3",
+    "value": "#fcf9f9",
     "type": "color",
     "path": [
       "semantic-color",
@@ -3650,7 +3650,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-fill-surface-elevated-sheet": {
-    "value": "#fcf9f9",
+    "value": "#fdfcfc",
     "type": "color",
     "path": [
       "semantic-color",
@@ -3727,7 +3727,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-fill-action-primary-subtle-pressed": {
-    "value": "#bfbdf9",
+    "value": "#d3d1fa",
     "type": "color",
     "path": [
       "semantic-color",
@@ -3740,7 +3740,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-fill-action-secondary-rest": {
-    "value": "#f1eaea",
+    "value": "#f5f1f1",
     "type": "color",
     "path": [
       "semantic-color",
@@ -3752,7 +3752,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-fill-action-secondary-hover": {
-    "value": "#e0d5d5",
+    "value": "#f1eaea",
     "type": "color",
     "path": [
       "semantic-color",
@@ -3764,7 +3764,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-fill-action-secondary-pressed": {
-    "value": "#cfc3c3",
+    "value": "#ece3e3",
     "type": "color",
     "path": [
       "semantic-color",
@@ -4399,7 +4399,7 @@ const tokens = {
     ]
   },
   "semantic-color-light-mode-foreground-action-primary-on-strong": {
-    "value": "#fefbfb",
+    "value": "#fdfcfc",
     "type": "color",
     "path": [
       "semantic-color",

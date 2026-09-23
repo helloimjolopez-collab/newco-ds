@@ -5,7 +5,7 @@
 */
 :root {
   --responsive-layout-units-sheetcontainer-padding-horizontal: 24px;
-  --responsive-layout-units-sheetcontainer-padding-top: 8px;
+  --responsive-layout-units-sheetcontainer-padding-top: 14px;
   --responsive-layout-units-sheet-padding-horizontal: 32px;
   --responsive-layout-units-sheet-padding-top: 16px;
   --responsive-layout-units-sheet-padding-bottom: 56px;
@@ -16,7 +16,7 @@
 @media (max-width: 798px) {
   :root {
     --responsive-layout-units-sheetcontainer-padding-horizontal: 16px;
-    --responsive-layout-units-sheetcontainer-padding-top: 6px;
+    --responsive-layout-units-sheetcontainer-padding-top: 8px;
     --responsive-layout-units-sheet-padding-horizontal: 24px;
     --responsive-layout-units-sheet-padding-top: 14px;
     --responsive-layout-units-sheet-padding-bottom: 48px;
