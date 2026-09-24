@@ -5619,7 +5619,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-fill-action-primary-subtle-rest": {
-    "value": "#6e64be29",
+    "value": "#6e64be3d",
     "type": "color",
     "path": [
       "semantic-color",
@@ -5632,7 +5632,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-fill-action-primary-subtle-hover": {
-    "value": "#6e64be3d",
+    "value": "#6e64be5c",
     "type": "color",
     "path": [
       "semantic-color",
@@ -5645,7 +5645,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-fill-action-primary-subtle-pressed": {
-    "value": "#6e64be5c",
+    "value": "#6e64be80",
     "type": "color",
     "path": [
       "semantic-color",
@@ -6522,7 +6522,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-foreground-action-ghost-rest": {
-    "value": "#d9d6e8",
+    "value": "#e3e0ed",
     "type": "color",
     "path": [
       "semantic-color",
@@ -6534,7 +6534,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-foreground-action-ghost-hover": {
-    "value": "#e3e0ed",
+    "value": "#eceaf3",
     "type": "color",
     "path": [
       "semantic-color",
@@ -6546,7 +6546,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-foreground-action-ghost-pressed": {
-    "value": "#eceaf3",
+    "value": "#f3f1f8",
     "type": "color",
     "path": [
       "semantic-color",
@@ -7048,7 +7048,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-stroke-action-ghost-rest": {
-    "value": "#a8a4b9",
+    "value": "#b5b1c6",
     "type": "color",
     "path": [
       "semantic-color",
@@ -7060,7 +7060,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-stroke-action-ghost-hover": {
-    "value": "#b5b1c6",
+    "value": "#c7c3d7",
     "type": "color",
     "path": [
       "semantic-color",
@@ -7072,7 +7072,7 @@ const tokens = {
     ]
   },
   "semantic-color-midnight-mode-stroke-action-ghost-pressed": {
-    "value": "#c7c3d7",
+    "value": "#d9d6e8",
     "type": "color",
     "path": [
       "semantic-color",

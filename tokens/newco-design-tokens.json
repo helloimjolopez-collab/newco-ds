@@ -2439,15 +2439,15 @@
             "subtle": {
               "rest": {
                 "$type": "color",
-                "$value": "{primitive-color.brand.400-16}"
+                "$value": "{primitive-color.brand.400-24}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{primitive-color.brand.400-24}"
+                "$value": "{primitive-color.brand.400-36}"
               },
               "pressed": {
                 "$type": "color",
-                "$value": "{primitive-color.brand.400-36}"
+                "$value": "{primitive-color.brand.400-50}"
               }
             }
           },
@@ -2796,15 +2796,15 @@
           "ghost": {
             "rest": {
               "$type": "color",
-              "$value": "{primitive-color.midnight.100}"
+              "$value": "{primitive-color.midnight.75}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{primitive-color.midnight.75}"
+              "$value": "{primitive-color.midnight.50}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{primitive-color.midnight.50}"
+              "$value": "{primitive-color.midnight.25}"
             }
           }
         }
@@ -3008,15 +3008,15 @@
           "ghost": {
             "rest": {
               "$type": "color",
-              "$value": "{primitive-color.midnight.250}"
+              "$value": "{primitive-color.midnight.200}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{primitive-color.midnight.200}"
+              "$value": "{primitive-color.midnight.150}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{primitive-color.midnight.150}"
+              "$value": "{primitive-color.midnight.100}"
             }
           }
         }
