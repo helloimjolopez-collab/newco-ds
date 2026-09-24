@@ -422,17 +422,17 @@
   [
     "Fill/Action/Primary/Subtle/Rest",
     "=Brand/50",
-    "=Brand/400 @ 24%"
+    "=Brand/400 @ 36%"
   ],
   [
     "Fill/Action/Primary/Subtle/Hover",
     "=Brand/75",
-    "=Brand/400 @ 36%"
+    "=Brand/400 @ 50%"
   ],
   [
     "Fill/Action/Primary/Subtle/Pressed",
     "=Brand/100",
-    "=Brand/400 @ 50%"
+    "=Brand/400 @ 70%"
   ],
   [
     "Fill/Action/Secondary/Rest",
@@ -537,17 +537,17 @@
   [
     "Foreground/Action/Primary/On Subtle/Rest",
     "=Brand/500",
-    "=Brand/200"
+    "=Brand/150"
   ],
   [
     "Foreground/Action/Primary/On Subtle/Hover",
     "=Brand/600",
-    "=Brand/150"
+    "=Brand/100"
   ],
   [
     "Foreground/Action/Primary/On Subtle/Pressed",
     "=Brand/700",
-    "=Brand/100"
+    "=Brand/75"
   ],
   [
     "Foreground/Action/Primary/On Strong",
