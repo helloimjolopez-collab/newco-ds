@@ -1,11 +1,11 @@
 {
   "$comment": "The names a consumer may use. Generated from the emitted CSS by scripts/build-contract.js — do not hand-edit. Lint against `contract` if you want the boundary enforced; nothing here blocks a primitive.",
   "version": "3.0.19",
-  "generated": "2026-09-23",
+  "generated": "2026-09-24",
   "counts": {
-    "contract": 262,
+    "contract": 271,
     "infrastructure": 506,
-    "declarationsAcrossAllFiles": 917
+    "declarationsAcrossAllFiles": 935
   },
   "loadOrder": [
     "primitives.css",
@@ -27,13 +27,13 @@
     "themes/light.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 149,
+      "count": 158,
       "role": "Colour + elevation contract, Light Mode."
     },
     "themes/midnight.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 149,
+      "count": 158,
       "role": "Colour + elevation contract, Midnight Mode. Same names."
     },
     "type.css": {
@@ -105,6 +105,9 @@
     "--responsive-layout-units-sheetcontainer-padding-top",
     "--responsive-layout-units-topnav-padding-horizontal",
     "--semantic-color-fill-action-disabled",
+    "--semantic-color-fill-action-mono-hover",
+    "--semantic-color-fill-action-mono-pressed",
+    "--semantic-color-fill-action-mono-rest",
     "--semantic-color-fill-action-primary-strong-hover",
     "--semantic-color-fill-action-primary-strong-pressed",
     "--semantic-color-fill-action-primary-strong-rest",
@@ -165,6 +168,9 @@
     "--semantic-color-fill-surface-elevated-raised",
     "--semantic-color-fill-surface-elevated-sheet",
     "--semantic-color-foreground-action-disabled",
+    "--semantic-color-foreground-action-mono-hover",
+    "--semantic-color-foreground-action-mono-pressed",
+    "--semantic-color-foreground-action-mono-rest",
     "--semantic-color-foreground-action-primary-on-strong",
     "--semantic-color-foreground-action-primary-on-subtle-hover",
     "--semantic-color-foreground-action-primary-on-subtle-pressed",
@@ -213,6 +219,9 @@
     "--semantic-color-stroke-action-field-hover",
     "--semantic-color-stroke-action-field-pressed",
     "--semantic-color-stroke-action-field-rest",
+    "--semantic-color-stroke-action-mono-hover",
+    "--semantic-color-stroke-action-mono-pressed",
+    "--semantic-color-stroke-action-mono-rest",
     "--semantic-color-stroke-action-primary-strong-hover",
     "--semantic-color-stroke-action-primary-strong-pressed",
     "--semantic-color-stroke-action-primary-strong-rest",
