@@ -4002,39 +4002,39 @@ const tokens = {
       "pressed"
     ]
   },
-  "semantic-color-light-mode-fill-action-mono-rest": {
-    "value": "#fcfcfc0f",
+  "semantic-color-light-mode-fill-action-ghost-rest": {
+    "value": "#6e64be0f",
     "type": "color",
     "path": [
       "semantic-color",
       "light-mode",
       "fill",
       "action",
-      "mono",
+      "ghost",
       "rest"
     ]
   },
-  "semantic-color-light-mode-fill-action-mono-hover": {
-    "value": "#fcfcfc1f",
+  "semantic-color-light-mode-fill-action-ghost-hover": {
+    "value": "#6e64be1f",
     "type": "color",
     "path": [
       "semantic-color",
       "light-mode",
       "fill",
       "action",
-      "mono",
+      "ghost",
       "hover"
     ]
   },
-  "semantic-color-light-mode-fill-action-mono-pressed": {
-    "value": "#29252f5c",
+  "semantic-color-light-mode-fill-action-ghost-pressed": {
+    "value": "#6e64be3d",
     "type": "color",
     "path": [
       "semantic-color",
       "light-mode",
       "fill",
       "action",
-      "mono",
+      "ghost",
       "pressed"
     ]
   },
@@ -4603,39 +4603,39 @@ const tokens = {
       "disabled"
     ]
   },
-  "semantic-color-light-mode-foreground-action-mono-rest": {
-    "value": "#fcfcfc80",
+  "semantic-color-light-mode-foreground-action-ghost-rest": {
+    "value": "#443c7d",
     "type": "color",
     "path": [
       "semantic-color",
       "light-mode",
       "foreground",
       "action",
-      "mono",
+      "ghost",
       "rest"
     ]
   },
-  "semantic-color-light-mode-foreground-action-mono-hover": {
-    "value": "#fcfcfcb2",
+  "semantic-color-light-mode-foreground-action-ghost-hover": {
+    "value": "#2e285d",
     "type": "color",
     "path": [
       "semantic-color",
       "light-mode",
       "foreground",
       "action",
-      "mono",
+      "ghost",
       "hover"
     ]
   },
-  "semantic-color-light-mode-foreground-action-mono-pressed": {
-    "value": "#ffffff",
+  "semantic-color-light-mode-foreground-action-ghost-pressed": {
+    "value": "#19143c",
     "type": "color",
     "path": [
       "semantic-color",
       "light-mode",
       "foreground",
       "action",
-      "mono",
+      "ghost",
       "pressed"
     ]
   },
@@ -5129,39 +5129,39 @@ const tokens = {
       "disabled"
     ]
   },
-  "semantic-color-light-mode-stroke-action-mono-rest": {
-    "value": "#fcfcfc80",
+  "semantic-color-light-mode-stroke-action-ghost-rest": {
+    "value": "#6e64be",
     "type": "color",
     "path": [
       "semantic-color",
       "light-mode",
       "stroke",
       "action",
-      "mono",
+      "ghost",
       "rest"
     ]
   },
-  "semantic-color-light-mode-stroke-action-mono-hover": {
-    "value": "#fcfcfcb2",
+  "semantic-color-light-mode-stroke-action-ghost-hover": {
+    "value": "#59509d",
     "type": "color",
     "path": [
       "semantic-color",
       "light-mode",
       "stroke",
       "action",
-      "mono",
+      "ghost",
       "hover"
     ]
   },
-  "semantic-color-light-mode-stroke-action-mono-pressed": {
-    "value": "#ffffff",
+  "semantic-color-light-mode-stroke-action-ghost-pressed": {
+    "value": "#443c7d",
     "type": "color",
     "path": [
       "semantic-color",
       "light-mode",
       "stroke",
       "action",
-      "mono",
+      "ghost",
       "pressed"
     ]
   },
@@ -5920,31 +5920,31 @@ const tokens = {
       "pressed"
     ]
   },
-  "semantic-color-midnight-mode-fill-action-mono-rest": {
-    "value": "#fcfcfc0f",
+  "semantic-color-midnight-mode-fill-action-ghost-rest": {
+    "value": "#8f8aa10f",
     "type": "color",
     "path": [
       "semantic-color",
       "midnight-mode",
       "fill",
       "action",
-      "mono",
+      "ghost",
       "rest"
     ]
   },
-  "semantic-color-midnight-mode-fill-action-mono-hover": {
-    "value": "#fcfcfc1f",
+  "semantic-color-midnight-mode-fill-action-ghost-hover": {
+    "value": "#8f8aa11f",
     "type": "color",
     "path": [
       "semantic-color",
       "midnight-mode",
       "fill",
       "action",
-      "mono",
+      "ghost",
       "hover"
     ]
   },
-  "semantic-color-midnight-mode-fill-action-mono-pressed": {
+  "semantic-color-midnight-mode-fill-action-ghost-pressed": {
     "value": "#29252f5c",
     "type": "color",
     "path": [
@@ -5952,7 +5952,7 @@ const tokens = {
       "midnight-mode",
       "fill",
       "action",
-      "mono",
+      "ghost",
       "pressed"
     ]
   },
@@ -6521,39 +6521,39 @@ const tokens = {
       "disabled"
     ]
   },
-  "semantic-color-midnight-mode-foreground-action-mono-rest": {
-    "value": "#fcfcfc80",
+  "semantic-color-midnight-mode-foreground-action-ghost-rest": {
+    "value": "#d9d6e8",
     "type": "color",
     "path": [
       "semantic-color",
       "midnight-mode",
       "foreground",
       "action",
-      "mono",
+      "ghost",
       "rest"
     ]
   },
-  "semantic-color-midnight-mode-foreground-action-mono-hover": {
-    "value": "#fcfcfcb2",
+  "semantic-color-midnight-mode-foreground-action-ghost-hover": {
+    "value": "#e3e0ed",
     "type": "color",
     "path": [
       "semantic-color",
       "midnight-mode",
       "foreground",
       "action",
-      "mono",
+      "ghost",
       "hover"
     ]
   },
-  "semantic-color-midnight-mode-foreground-action-mono-pressed": {
-    "value": "#ffffff",
+  "semantic-color-midnight-mode-foreground-action-ghost-pressed": {
+    "value": "#eceaf3",
     "type": "color",
     "path": [
       "semantic-color",
       "midnight-mode",
       "foreground",
       "action",
-      "mono",
+      "ghost",
       "pressed"
     ]
   },
@@ -7047,39 +7047,39 @@ const tokens = {
       "disabled"
     ]
   },
-  "semantic-color-midnight-mode-stroke-action-mono-rest": {
-    "value": "#fcfcfc80",
+  "semantic-color-midnight-mode-stroke-action-ghost-rest": {
+    "value": "#a8a4b9",
     "type": "color",
     "path": [
       "semantic-color",
       "midnight-mode",
       "stroke",
       "action",
-      "mono",
+      "ghost",
       "rest"
     ]
   },
-  "semantic-color-midnight-mode-stroke-action-mono-hover": {
-    "value": "#fcfcfcb2",
+  "semantic-color-midnight-mode-stroke-action-ghost-hover": {
+    "value": "#b5b1c6",
     "type": "color",
     "path": [
       "semantic-color",
       "midnight-mode",
       "stroke",
       "action",
-      "mono",
+      "ghost",
       "hover"
     ]
   },
-  "semantic-color-midnight-mode-stroke-action-mono-pressed": {
-    "value": "#ffffff",
+  "semantic-color-midnight-mode-stroke-action-ghost-pressed": {
+    "value": "#c7c3d7",
     "type": "color",
     "path": [
       "semantic-color",
       "midnight-mode",
       "stroke",
       "action",
-      "mono",
+      "ghost",
       "pressed"
     ]
   },

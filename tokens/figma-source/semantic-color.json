@@ -725,48 +725,48 @@
     "=Midnight/900 @ 36%"
   ],
   [
-    "Fill/Action/Mono/Rest",
-    "=Cool Neutral/0 @ 6%",
-    "=Cool Neutral/0 @ 6%"
+    "Fill/Action/Ghost/Rest",
+    "=Brand/400 @ 6%",
+    "=Midnight/350 @ 6%"
   ],
   [
-    "Fill/Action/Mono/Hover",
-    "=Cool Neutral/0 @ 12%",
-    "=Cool Neutral/0 @ 12%"
+    "Fill/Action/Ghost/Hover",
+    "=Brand/400 @ 12%",
+    "=Midnight/350 @ 12%"
   ],
   [
-    "Fill/Action/Mono/Pressed",
-    "=Midnight/900 @ 36%",
+    "Fill/Action/Ghost/Pressed",
+    "=Brand/400 @ 24%",
     "=Midnight/900 @ 36%"
   ],
   [
-    "Foreground/Action/Mono/Rest",
-    "=Cool Neutral/0 @ 50%",
-    "=Cool Neutral/0 @ 50%"
+    "Foreground/Action/Ghost/Rest",
+    "=Brand/600",
+    "=Midnight/100"
   ],
   [
-    "Foreground/Action/Mono/Hover",
-    "=Cool Neutral/0 @ 70%",
-    "=Cool Neutral/0 @ 70%"
+    "Foreground/Action/Ghost/Hover",
+    "=Brand/700",
+    "=Midnight/75"
   ],
   [
-    "Foreground/Action/Mono/Pressed",
-    "=Cool Neutral/0",
-    "=Cool Neutral/0"
+    "Foreground/Action/Ghost/Pressed",
+    "=Brand/800",
+    "=Midnight/50"
   ],
   [
-    "Stroke/Action/Mono/Rest",
-    "=Cool Neutral/0 @ 50%",
-    "=Cool Neutral/0 @ 50%"
+    "Stroke/Action/Ghost/Rest",
+    "=Brand/400",
+    "=Midnight/250"
   ],
   [
-    "Stroke/Action/Mono/Hover",
-    "=Cool Neutral/0 @ 70%",
-    "=Cool Neutral/0 @ 70%"
+    "Stroke/Action/Ghost/Hover",
+    "=Brand/500",
+    "=Midnight/200"
   ],
   [
-    "Stroke/Action/Mono/Pressed",
-    "=Cool Neutral/0",
-    "=Cool Neutral/0"
+    "Stroke/Action/Ghost/Pressed",
+    "=Brand/600",
+    "=Midnight/150"
   ]
 ]
