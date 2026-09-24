@@ -45,7 +45,7 @@ const ROLE_VARS = `
   --newco-nav-item-bg-trail: var(--semantic-color-fill-action-selection-trail);
   --newco-nav-indicator: var(--semantic-color-fill-action-selection-indicator);
   --newco-nav-focus: var(--semantic-color-stroke-focusring-base);
-  --newco-nav-flyout-surface: var(--semantic-color-fill-surface-elevated-raised);
+  --newco-nav-flyout-surface: var(--semantic-color-fill-surface-elevated);
   --newco-nav-shadow: var(--elevation-overlay);
   --newco-nav-font: var(--primitive-type-family-brand, "Google Sans Flex");
 `;

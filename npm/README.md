@@ -1,8 +1,8 @@
 # NewCo design tokens
 
-**The themed contract (colour + elevation) is 158 names.** Your full working
-vocabulary across every file below is **271**. If you add up every
-declaration in this folder you get 941 — that number is not the contract, and the
+**The themed contract (colour + elevation) is 157 names.** Your full working
+vocabulary across every file below is **270**. If you add up every
+declaration in this folder you get 923 — that number is not the contract, and the
 table says why. Or load everything with one line: `import "@helloimjolopez-newco/newco-tokens/css"`.
 
 ## Link these, in this order
@@ -26,9 +26,9 @@ unstyled **with no console error**.
 
 | File | Names | Safe to name? | Must load? | What it is |
 |---|---|---|---|---|
-| `primitives.css` | 483 | **no** | yes | Raw ramps (colour/type/unit). Load it; do not name it. |
-| `themes/light.css` | 158 | yes | yes | Colour + elevation contract, Light Mode. |
-| `themes/midnight.css` | 158 | yes | yes | Colour + elevation contract, Midnight Mode. Same names. |
+| `primitives.css` | 467 | **no** | yes | Raw ramps (colour/type/unit). Load it; do not name it. |
+| `themes/light.css` | 157 | yes | yes | Colour + elevation contract, Light Mode. |
+| `themes/midnight.css` | 157 | yes | yes | Colour + elevation contract, Midnight Mode. Same names. |
 | `type.css` | 39 | yes | yes | Type scale. Compose from these. |
 | `layout.css` | 48 | yes | yes | Spacing, radii, border widths. |
 | `layout-contextual.css` | 29 | **no** | **no** | Per-component metrics. This repo's components use these. |
@@ -52,7 +52,7 @@ A surface token is only a fill. To lift it the way the demo does, pair it with a
 elevation shadow and (for the page) the sheet radius:
 
 ```css
-background:    var(--semantic-color-fill-surface-elevated-sheet);
+background:    var(--semantic-color-fill-surface-elevated);
 box-shadow:    var(--elevation-sheet);      /* page / sheet */
 border-radius: var(--contextual-layout-units-sheet-cornerradius-cornerradius);
 ```

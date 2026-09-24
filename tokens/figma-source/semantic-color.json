@@ -396,13 +396,13 @@
   ],
   [
     "Fill/Surface/Canvas",
-    "=Warm Neutral/10",
+    "=Brand/0",
     "=Midnight/900"
   ],
   [
     "Fill/Surface/Chrome",
-    "=Warm Neutral/10",
-    "=Midnight/900"
+    "=Cool Neutral/0",
+    "=Brand/600"
   ],
   [
     "Fill/Action/Primary/Strong/Rest",
@@ -422,17 +422,17 @@
   [
     "Fill/Action/Primary/Subtle/Rest",
     "=Brand/50",
-    "=Brand/400 @ 36%"
+    "=Brand/400 @ 80%"
   ],
   [
     "Fill/Action/Primary/Subtle/Hover",
     "=Brand/75",
-    "=Brand/400 @ 50%"
+    "=Brand/400 @ 90%"
   ],
   [
     "Fill/Action/Primary/Subtle/Pressed",
     "=Brand/100",
-    "=Brand/400 @ 70%"
+    "=Midnight/900 @ 36%"
   ],
   [
     "Fill/Action/Secondary/Rest",
@@ -456,7 +456,7 @@
   ],
   [
     "Fill/Action/Selection/Selected",
-    "=Brand/75",
+    "=Brand/50",
     "=Brand/400 @ 50%"
   ],
   [
@@ -537,17 +537,17 @@
   [
     "Foreground/Action/Primary/On Subtle/Rest",
     "=Brand/500",
-    "=Brand/150"
+    "=Brand/50"
   ],
   [
     "Foreground/Action/Primary/On Subtle/Hover",
     "=Brand/600",
-    "=Brand/100"
+    "=Brand/25"
   ],
   [
     "Foreground/Action/Primary/On Subtle/Pressed",
     "=Brand/700",
-    "=Brand/75"
+    "=Brand/0"
   ],
   [
     "Foreground/Action/Primary/On Strong",
@@ -710,16 +710,6 @@
     "=Cool Neutral/0"
   ],
   [
-    "Fill/Surface/Elevated/Raised",
-    "=Cool Neutral/0",
-    "=Midnight/800"
-  ],
-  [
-    "Fill/Surface/Elevated/Sheet",
-    "=Warm Neutral/0",
-    "=Midnight/850"
-  ],
-  [
     "Fill/Shadow/Dropshadow",
     "=Warm Neutral/350 @ 6%",
     "=Midnight/900 @ 36%"
@@ -742,31 +732,36 @@
   [
     "Foreground/Action/Ghost/Rest",
     "=Brand/600",
-    "=Midnight/75"
+    "=Midnight/25"
   ],
   [
     "Foreground/Action/Ghost/Hover",
     "=Brand/700",
-    "=Midnight/50"
+    "=Midnight/0"
   ],
   [
     "Foreground/Action/Ghost/Pressed",
     "=Brand/800",
-    "=Midnight/25"
+    "=Midnight/0"
   ],
   [
     "Stroke/Action/Ghost/Rest",
     "=Brand/400",
-    "=Midnight/200"
+    "=Cool Neutral/0 @ 36%"
   ],
   [
     "Stroke/Action/Ghost/Hover",
     "=Brand/500",
-    "=Midnight/150"
+    "=Cool Neutral/0 @ 50%"
   ],
   [
     "Stroke/Action/Ghost/Pressed",
     "=Brand/600",
-    "=Midnight/100"
+    "=Cool Neutral/0 @ 70%"
+  ],
+  [
+    "Fill/Surface/Elevated",
+    "=Cool Neutral/0",
+    "=Midnight/850"
   ]
 ]

@@ -11,7 +11,7 @@
  Set the attribute on <html> to theme the page, or on any element to theme just
  that subtree — it composes both ways (a light island inside a dark island).
 
- Declares 158 custom properties.
+ Declares 157 custom properties.
  Generated — do not edit. Run `npm run build-tokens`.
  ==========================================================================
 */
@@ -50,15 +50,14 @@
   --semantic-color-fill-static-brand-base: var(--primitive-color-brand-600);
   --semantic-color-fill-static-brand-strong: var(--primitive-color-brand-200);
   --semantic-color-fill-surface-canvas: var(--primitive-color-midnight-900);
-  --semantic-color-fill-surface-chrome: var(--primitive-color-midnight-900);
-  --semantic-color-fill-surface-elevated-raised: var(--primitive-color-midnight-800);
-  --semantic-color-fill-surface-elevated-sheet: var(--primitive-color-midnight-850);
+  --semantic-color-fill-surface-chrome: var(--primitive-color-brand-600);
+  --semantic-color-fill-surface-elevated: var(--primitive-color-midnight-850);
   --semantic-color-fill-action-primary-strong-rest: var(--primitive-color-brand-250);
   --semantic-color-fill-action-primary-strong-hover: var(--primitive-color-brand-200);
   --semantic-color-fill-action-primary-strong-pressed: var(--primitive-color-brand-300);
-  --semantic-color-fill-action-primary-subtle-rest: var(--primitive-color-brand-400-36);
-  --semantic-color-fill-action-primary-subtle-hover: var(--primitive-color-brand-400-50);
-  --semantic-color-fill-action-primary-subtle-pressed: var(--primitive-color-brand-400-70);
+  --semantic-color-fill-action-primary-subtle-rest: var(--primitive-color-brand-400-80);
+  --semantic-color-fill-action-primary-subtle-hover: var(--primitive-color-brand-400-90);
+  --semantic-color-fill-action-primary-subtle-pressed: var(--primitive-color-midnight-900-36);
   --semantic-color-fill-action-secondary-rest: var(--primitive-color-midnight-700);
   --semantic-color-fill-action-secondary-hover: var(--primitive-color-midnight-600);
   --semantic-color-fill-action-secondary-pressed: var(--primitive-color-midnight-500);
@@ -111,9 +110,9 @@
   --semantic-color-foreground-static-neutral-strong: var(--primitive-color-cool-neutral-0);
   --semantic-color-foreground-static-brand-on-subtle: var(--primitive-color-brand-150);
   --semantic-color-foreground-static-brand-on-strong: var(--primitive-color-brand-900);
-  --semantic-color-foreground-action-primary-on-subtle-rest: var(--primitive-color-brand-150);
-  --semantic-color-foreground-action-primary-on-subtle-hover: var(--primitive-color-brand-100);
-  --semantic-color-foreground-action-primary-on-subtle-pressed: var(--primitive-color-brand-75);
+  --semantic-color-foreground-action-primary-on-subtle-rest: var(--primitive-color-brand-50);
+  --semantic-color-foreground-action-primary-on-subtle-hover: var(--primitive-color-brand-25);
+  --semantic-color-foreground-action-primary-on-subtle-pressed: var(--primitive-color-brand-0);
   --semantic-color-foreground-action-primary-on-strong: var(--primitive-color-warm-neutral-900);
   --semantic-color-foreground-action-secondary-rest: var(--primitive-color-midnight-150);
   --semantic-color-foreground-action-secondary-hover: var(--primitive-color-midnight-100);
@@ -127,9 +126,9 @@
   --semantic-color-foreground-action-status-negative-on-subtle-pressed: var(--primitive-color-red-100);
   --semantic-color-foreground-action-status-negative-on-strong: var(--primitive-color-cool-neutral-0);
   --semantic-color-foreground-action-disabled: var(--primitive-color-cool-neutral-0-50);
-  --semantic-color-foreground-action-ghost-rest: var(--primitive-color-midnight-75);
-  --semantic-color-foreground-action-ghost-hover: var(--primitive-color-midnight-50);
-  --semantic-color-foreground-action-ghost-pressed: var(--primitive-color-midnight-25);
+  --semantic-color-foreground-action-ghost-rest: var(--primitive-color-midnight-25);
+  --semantic-color-foreground-action-ghost-hover: var(--primitive-color-midnight-0);
+  --semantic-color-foreground-action-ghost-pressed: var(--primitive-color-midnight-0);
   --semantic-color-stroke-static-negative-subtle: var(--primitive-color-red-500);
   --semantic-color-stroke-static-negative-strong: var(--primitive-color-red-300);
   --semantic-color-stroke-static-positive-subtle: var(--primitive-color-green-400);
@@ -170,8 +169,8 @@
   --semantic-color-stroke-action-status-positive-hover: var(--primitive-color-green-100);
   --semantic-color-stroke-action-status-positive-pressed: var(--primitive-color-green-75);
   --semantic-color-stroke-action-disabled: var(--primitive-color-warm-neutral-350-24);
-  --semantic-color-stroke-action-ghost-rest: var(--primitive-color-midnight-200);
-  --semantic-color-stroke-action-ghost-hover: var(--primitive-color-midnight-150);
-  --semantic-color-stroke-action-ghost-pressed: var(--primitive-color-midnight-100);
+  --semantic-color-stroke-action-ghost-rest: var(--primitive-color-cool-neutral-0-36);
+  --semantic-color-stroke-action-ghost-hover: var(--primitive-color-cool-neutral-0-50);
+  --semantic-color-stroke-action-ghost-pressed: var(--primitive-color-cool-neutral-0-70);
   --semantic-color-scrim-base: var(--primitive-color-midnight-900-36);
 }

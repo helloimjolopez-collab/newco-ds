@@ -12,7 +12,7 @@
  and both modes resolve by selector. Never put a mode in a property name — that
  form is gone and resolves to nothing.
 
- Declares 158 custom properties.
+ Declares 157 custom properties.
  Generated — do not edit. Run `npm run build-tokens`.
  ==========================================================================
 */
@@ -50,10 +50,9 @@
   --semantic-color-fill-static-brand-subtle: var(--primitive-color-brand-50);
   --semantic-color-fill-static-brand-base: var(--primitive-color-brand-100);
   --semantic-color-fill-static-brand-strong: var(--primitive-color-brand-600);
-  --semantic-color-fill-surface-canvas: var(--primitive-color-warm-neutral-10);
-  --semantic-color-fill-surface-chrome: var(--primitive-color-warm-neutral-10);
-  --semantic-color-fill-surface-elevated-raised: var(--primitive-color-cool-neutral-0);
-  --semantic-color-fill-surface-elevated-sheet: var(--primitive-color-warm-neutral-0);
+  --semantic-color-fill-surface-canvas: var(--primitive-color-brand-0);
+  --semantic-color-fill-surface-chrome: var(--primitive-color-cool-neutral-0);
+  --semantic-color-fill-surface-elevated: var(--primitive-color-cool-neutral-0);
   --semantic-color-fill-action-primary-strong-rest: var(--primitive-color-brand-400);
   --semantic-color-fill-action-primary-strong-hover: var(--primitive-color-brand-500);
   --semantic-color-fill-action-primary-strong-pressed: var(--primitive-color-brand-600);
@@ -64,7 +63,7 @@
   --semantic-color-fill-action-secondary-hover: var(--primitive-color-warm-neutral-75);
   --semantic-color-fill-action-secondary-pressed: var(--primitive-color-warm-neutral-100);
   --semantic-color-fill-action-selection-hover: var(--primitive-color-warm-neutral-350-12);
-  --semantic-color-fill-action-selection-selected: var(--primitive-color-brand-75);
+  --semantic-color-fill-action-selection-selected: var(--primitive-color-brand-50);
   --semantic-color-fill-action-selection-trail: var(--primitive-color-warm-neutral-350-16);
   --semantic-color-fill-action-selection-indicator: var(--primitive-color-brand-400);
   --semantic-color-fill-action-disabled: var(--primitive-color-warm-neutral-350-6);

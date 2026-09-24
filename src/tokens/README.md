@@ -39,14 +39,14 @@ Colour **and** the four `--elevation-*` shadows are one name each; the value fli
 ## Which surface goes on what (so nobody guesses)
 
 - **Top nav / side nav / app frame →** `--semantic-color-fill-surface-chrome`
-- **Content page →** `--semantic-color-fill-surface-elevated-sheet`
+- **Content page →** `--semantic-color-fill-surface-elevated`
 - **Cards / tiles / tables →** `--semantic-color-fill-surface-elevated-card-base`
 - **Modals / popovers / menus / toasts →** `--semantic-color-fill-surface-elevated-overlay-base`
 
 A raised surface is a **recipe** — fill + elevation + radius:
 
 ```css
-background:    var(--semantic-color-fill-surface-elevated-sheet);
+background:    var(--semantic-color-fill-surface-elevated);
 box-shadow:    var(--elevation-sheet);      /* cards: --elevation-widget; overlays: --elevation-overlay */
 border-radius: var(--contextual-layout-units-sheet-cornerradius-cornerradius);
 ```

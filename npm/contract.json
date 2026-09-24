@@ -1,11 +1,11 @@
 {
   "$comment": "The names a consumer may use. Generated from the emitted CSS by scripts/build-contract.js — do not hand-edit. Lint against `contract` if you want the boundary enforced; nothing here blocks a primitive.",
-  "version": "3.0.23",
+  "version": "3.0.24",
   "generated": "2026-09-24",
   "counts": {
-    "contract": 271,
-    "infrastructure": 512,
-    "declarationsAcrossAllFiles": 941
+    "contract": 270,
+    "infrastructure": 496,
+    "declarationsAcrossAllFiles": 923
   },
   "loadOrder": [
     "primitives.css",
@@ -21,19 +21,19 @@
     "primitives.css": {
       "contract": false,
       "mustLoad": true,
-      "count": 483,
+      "count": 467,
       "role": "Raw ramps (colour/type/unit). Load it; do not name it."
     },
     "themes/light.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 158,
+      "count": 157,
       "role": "Colour + elevation contract, Light Mode."
     },
     "themes/midnight.css": {
       "contract": true,
       "mustLoad": true,
-      "count": 158,
+      "count": 157,
       "role": "Colour + elevation contract, Midnight Mode. Same names."
     },
     "type.css": {
@@ -165,8 +165,7 @@
     "--semantic-color-fill-static-severe-subtle",
     "--semantic-color-fill-surface-canvas",
     "--semantic-color-fill-surface-chrome",
-    "--semantic-color-fill-surface-elevated-raised",
-    "--semantic-color-fill-surface-elevated-sheet",
+    "--semantic-color-fill-surface-elevated",
     "--semantic-color-foreground-action-disabled",
     "--semantic-color-foreground-action-ghost-hover",
     "--semantic-color-foreground-action-ghost-pressed",

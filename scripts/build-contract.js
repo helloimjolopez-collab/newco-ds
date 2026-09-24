@@ -100,7 +100,7 @@ A surface token is only a fill. To lift it the way the demo does, pair it with a
 elevation shadow and (for the page) the sheet radius:
 
 \`\`\`css
-background:    var(--semantic-color-fill-surface-elevated-sheet);
+background:    var(--semantic-color-fill-surface-elevated);
 box-shadow:    var(--elevation-sheet);      /* page / sheet */
 border-radius: var(--contextual-layout-units-sheet-cornerradius-cornerradius);
 \`\`\`
