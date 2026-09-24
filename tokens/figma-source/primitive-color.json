@@ -308,6 +308,8 @@
   "Brand/400 @ 36%": "#6e64be5c",
   "Brand/400 @ 50%": "#6e64be80",
   "Brand/400 @ 70%": "#6e64beb2",
+  "Brand/400 @ 80%": "#6e64becc",
+  "Brand/400 @ 90%": "#6e64bee6",
   "Warm Neutral/350 @ 4%": "#a095950a",
   "Warm Neutral/350 @ 6%": "#a095950f",
   "Warm Neutral/350 @ 12%": "#a095951f",
@@ -357,8 +359,12 @@
   "Mauve/350 @ 50%": "#cc5ba880",
   "Mauve/350 @ 70%": "#cc5ba8b2",
   "Cool Neutral/800 @ 50%": "#24242480",
+  "Cool Neutral/800 @ 70%": "#242424b2",
+  "Cool Neutral/800 @ 90%": "#242424e6",
   "Warm Neutral/10": "#fcf9f9",
   "Warm Neutral/40": "#f7f3f3",
   "Midnight/850": "#322e3c",
-  "Midnight/900 @ 36%": "#29252f5c"
+  "Midnight/900 @ 36%": "#29252f5c",
+  "Midnight/900 @ 70%": "#29252fb2",
+  "Midnight/900 @ 90%": "#29252fe6"
 }

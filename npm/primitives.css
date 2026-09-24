@@ -13,7 +13,7 @@
  that purple in Midnight, while `var(--semantic-color-fill-action-primary-rest)`
  flips. Reach for a primitive only when you want a value that ignores the theme.
 
- Declares 477 custom properties.
+ Declares 483 custom properties.
  Generated — do not edit. Run `npm run build-tokens`.
  ==========================================================================
 */
@@ -45,6 +45,8 @@
   --primitive-color-cool-neutral-0-6: rgba(252, 252, 252, 0.06);
   --primitive-color-cool-neutral-0-12: rgba(252, 252, 252, 0.12);
   --primitive-color-cool-neutral-800-50: rgba(36, 36, 36, 0.5);
+  --primitive-color-cool-neutral-800-70: rgba(36, 36, 36, 0.7);
+  --primitive-color-cool-neutral-800-90: rgba(36, 36, 36, 0.9);
   --primitive-color-warm-neutral-0: #fdfcfc;
   --primitive-color-warm-neutral-10: #fcf9f9;
   --primitive-color-warm-neutral-25: #faf6f6;
@@ -99,6 +101,8 @@
   --primitive-color-brand-400-36: rgba(110, 100, 190, 0.36);
   --primitive-color-brand-400-50: rgba(110, 100, 190, 0.5);
   --primitive-color-brand-400-70: rgba(110, 100, 190, 0.7);
+  --primitive-color-brand-400-80: rgba(110, 100, 190, 0.8);
+  --primitive-color-brand-400-90: rgba(110, 100, 190, 0.9);
   --primitive-color-red-0: #fcf9f9;
   --primitive-color-red-25: #fcf0ee;
   --primitive-color-red-50: #fce7e4;
@@ -334,6 +338,8 @@
   --primitive-color-midnight-350-50: rgba(143, 138, 161, 0.5);
   --primitive-color-midnight-350-70: rgba(143, 138, 161, 0.7);
   --primitive-color-midnight-900-36: rgba(41, 37, 47, 0.36);
+  --primitive-color-midnight-900-70: rgba(41, 37, 47, 0.7);
+  --primitive-color-midnight-900-90: rgba(41, 37, 47, 0.9);
   --primitive-color-citrine-0: #fafbf0;
   --primitive-color-citrine-25: #f4f6dd;
   --primitive-color-citrine-50: #eef1c1;

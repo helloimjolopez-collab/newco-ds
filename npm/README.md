@@ -2,7 +2,7 @@
 
 **The themed contract (colour + elevation) is 158 names.** Your full working
 vocabulary across every file below is **271**. If you add up every
-declaration in this folder you get 935 — that number is not the contract, and the
+declaration in this folder you get 941 — that number is not the contract, and the
 table says why. Or load everything with one line: `import "@helloimjolopez-newco/newco-tokens/css"`.
 
 ## Link these, in this order
@@ -26,7 +26,7 @@ unstyled **with no console error**.
 
 | File | Names | Safe to name? | Must load? | What it is |
 |---|---|---|---|---|
-| `primitives.css` | 477 | **no** | yes | Raw ramps (colour/type/unit). Load it; do not name it. |
+| `primitives.css` | 483 | **no** | yes | Raw ramps (colour/type/unit). Load it; do not name it. |
 | `themes/light.css` | 158 | yes | yes | Colour + elevation contract, Light Mode. |
 | `themes/midnight.css` | 158 | yes | yes | Colour + elevation contract, Midnight Mode. Same names. |
 | `type.css` | 39 | yes | yes | Type scale. Compose from these. |

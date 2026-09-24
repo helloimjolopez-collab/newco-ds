@@ -108,6 +108,14 @@
       "800-50": {
         "$type": "color",
         "$value": "#24242480"
+      },
+      "800-70": {
+        "$type": "color",
+        "$value": "#242424b2"
+      },
+      "800-90": {
+        "$type": "color",
+        "$value": "#242424e6"
       }
     },
     "warm-neutral": {
@@ -328,6 +336,14 @@
       "400-70": {
         "$type": "color",
         "$value": "#6e64beb2"
+      },
+      "400-80": {
+        "$type": "color",
+        "$value": "#6e64becc"
+      },
+      "400-90": {
+        "$type": "color",
+        "$value": "#6e64bee6"
       }
     },
     "red": {
@@ -1288,6 +1304,14 @@
       "900-36": {
         "$type": "color",
         "$value": "#29252f5c"
+      },
+      "900-70": {
+        "$type": "color",
+        "$value": "#29252fb2"
+      },
+      "900-90": {
+        "$type": "color",
+        "$value": "#29252fe6"
       }
     },
     "citrine": {

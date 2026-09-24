@@ -242,6 +242,24 @@ const tokens = {
       "800-50"
     ]
   },
+  "primitive-color-cool-neutral-800-70": {
+    "value": "#242424b2",
+    "type": "color",
+    "path": [
+      "primitive-color",
+      "cool-neutral",
+      "800-70"
+    ]
+  },
+  "primitive-color-cool-neutral-800-90": {
+    "value": "#242424e6",
+    "type": "color",
+    "path": [
+      "primitive-color",
+      "cool-neutral",
+      "800-90"
+    ]
+  },
   "primitive-color-warm-neutral-0": {
     "value": "#fdfcfc",
     "type": "color",
@@ -726,6 +744,24 @@ const tokens = {
       "primitive-color",
       "brand",
       "400-70"
+    ]
+  },
+  "primitive-color-brand-400-80": {
+    "value": "#6e64becc",
+    "type": "color",
+    "path": [
+      "primitive-color",
+      "brand",
+      "400-80"
+    ]
+  },
+  "primitive-color-brand-400-90": {
+    "value": "#6e64bee6",
+    "type": "color",
+    "path": [
+      "primitive-color",
+      "brand",
+      "400-90"
     ]
   },
   "primitive-color-red-0": {
@@ -2841,6 +2877,24 @@ const tokens = {
       "primitive-color",
       "midnight",
       "900-36"
+    ]
+  },
+  "primitive-color-midnight-900-70": {
+    "value": "#29252fb2",
+    "type": "color",
+    "path": [
+      "primitive-color",
+      "midnight",
+      "900-70"
+    ]
+  },
+  "primitive-color-midnight-900-90": {
+    "value": "#29252fe6",
+    "type": "color",
+    "path": [
+      "primitive-color",
+      "midnight",
+      "900-90"
     ]
   },
   "primitive-color-citrine-0": {
