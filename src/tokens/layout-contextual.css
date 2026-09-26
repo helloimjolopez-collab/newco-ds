@@ -14,33 +14,33 @@
  ==========================================================================
 */
 :root {
-  --contextual-layout-units-navitem-padding-vertical: var(--primitive-unit-unit-8);
-  --contextual-layout-units-navitem-padding-horizontal: var(--primitive-unit-unit-14);
-  --contextual-layout-units-navitem-cornerradius: var(--primitive-unit-unit-999);
-  --contextual-layout-units-button-padding-xsmall-vertical: var(--primitive-unit-unit-6);
-  --contextual-layout-units-button-padding-xsmall-horizontal: var(--primitive-unit-unit-12);
-  --contextual-layout-units-button-padding-small-vertical: var(--primitive-unit-unit-8);
-  --contextual-layout-units-button-padding-small-horizontal: var(--primitive-unit-unit-14);
-  --contextual-layout-units-button-padding-medium-vertical: var(--primitive-unit-unit-10);
-  --contextual-layout-units-button-padding-medium-horizontal: var(--primitive-unit-unit-18);
-  --contextual-layout-units-button-padding-large-vertical: var(--primitive-unit-unit-12);
-  --contextual-layout-units-button-padding-large-horizontal: var(--primitive-unit-unit-24);
-  --contextual-layout-units-button-gap-horizontal: var(--primitive-unit-unit-8);
-  --contextual-layout-units-button-cornerradius: var(--primitive-unit-unit-999);
   --contextual-layout-units-focusring-width: var(--primitive-unit-unit-3);
-  --contextual-layout-units-card-gap: var(--primitive-unit-unit-8);
-  --contextual-layout-units-card-cornerradius: var(--primitive-unit-unit-16);
-  --contextual-layout-units-card-padding-vertical: var(--primitive-unit-unit-14);
-  --contextual-layout-units-card-padding-horizontal: var(--primitive-unit-unit-14);
   --contextual-layout-units-sidenav-width-expanded: var(--primitive-unit-unit-256);
   --contextual-layout-units-sidenav-width-collapsed: var(--primitive-unit-unit-84);
-  --contextual-layout-units-sidenav-padding-horizontal-expanded: var(--primitive-unit-unit-18);
-  --contextual-layout-units-sidenav-padding-horizontal-collapsed: var(--primitive-unit-unit-12);
-  --contextual-layout-units-sidenav-padding-vertical: var(--primitive-unit-unit-12);
   --contextual-layout-units-topnav-height: var(--primitive-unit-unit-60);
+  --contextual-layout-units-navitem-padding-vertical: var(--semantic-layout-units-padding-xtight);
+  --contextual-layout-units-navitem-padding-horizontal: var(--semantic-layout-units-padding-medium);
+  --contextual-layout-units-navitem-cornerradius: var(--semantic-layout-units-cornerradius-base);
+  --contextual-layout-units-button-padding-xsmall-vertical: var(--semantic-layout-units-padding-xxtight);
+  --contextual-layout-units-button-padding-xsmall-horizontal: var(--semantic-layout-units-padding-tight);
+  --contextual-layout-units-button-padding-small-vertical: var(--semantic-layout-units-padding-xtight);
+  --contextual-layout-units-button-padding-small-horizontal: var(--semantic-layout-units-padding-medium);
+  --contextual-layout-units-button-padding-medium-vertical: var(--semantic-layout-units-padding-medium);
+  --contextual-layout-units-button-padding-medium-horizontal: var(--semantic-layout-units-padding-base);
+  --contextual-layout-units-button-padding-large-vertical: var(--semantic-layout-units-padding-tight);
+  --contextual-layout-units-button-padding-large-horizontal: var(--semantic-layout-units-padding-relaxed);
+  --contextual-layout-units-button-gap-horizontal: var(--semantic-layout-units-gap-tight);
   --contextual-layout-units-button-borderwidth: var(--semantic-layout-units-borderwidth-xthin);
+  --contextual-layout-units-button-cornerradius: var(--semantic-layout-units-cornerradius-base);
+  --contextual-layout-units-card-gap: var(--semantic-layout-units-gap-tight);
   --contextual-layout-units-card-borderwidth: var(--semantic-layout-units-borderwidth-xthin);
+  --contextual-layout-units-card-cornerradius: var(--semantic-layout-units-cornerradius-xlarge);
+  --contextual-layout-units-card-padding-vertical: var(--semantic-layout-units-padding-medium);
+  --contextual-layout-units-card-padding-horizontal: var(--semantic-layout-units-padding-medium);
   --contextual-layout-units-field-borderwidth: var(--semantic-layout-units-borderwidth-thin);
-  --contextual-layout-units-field-cornerradius: var(--semantic-layout-units-cornerradius-medium);
+  --contextual-layout-units-field-cornerradius: var(--semantic-layout-units-cornerradius-base);
+  --contextual-layout-units-sidenav-padding-horizontal-expanded: var(--semantic-layout-units-padding-base);
+  --contextual-layout-units-sidenav-padding-horizontal-collapsed: var(--semantic-layout-units-padding-tight);
+  --contextual-layout-units-sidenav-padding-vertical: var(--semantic-layout-units-padding-tight);
   --contextual-layout-units-selection-controls-borderwidth: var(--semantic-layout-units-borderwidth-thin);
 }

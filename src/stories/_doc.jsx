@@ -14,7 +14,7 @@ export const C = {
   muted: "#8c8380",
   line: "#ece4e4",
   mono: "ui-monospace, SFMono-Regular, Menlo, monospace",
-  sans: "'Google Sans Flex', system-ui, sans-serif",
+  sans: "'Red Hat Text', system-ui, sans-serif",
   midBg: "#29252f",
   midInk: "#eceaf3",
   midMuted: "#8f8aa1",

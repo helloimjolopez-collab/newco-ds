@@ -47,7 +47,7 @@ const ROLE_VARS = `
   --newco-nav-focus: var(--semantic-color-stroke-focusring-base);
   --newco-nav-flyout-surface: var(--semantic-color-fill-surface-elevated);
   --newco-nav-shadow: var(--elevation-overlay);
-  --newco-nav-font: var(--primitive-type-family-brand, "Google Sans Flex");
+  --newco-nav-font: var(--primitive-type-family-brand, "Red Hat Text");
 `;
 
 // Shared row CSS used by both the destination item and the group header.
@@ -63,7 +63,7 @@ const ROW_CSS = css`
     border: 0;
     background: transparent;
     color: var(--newco-nav-item-fg, #524e59);
-    font-family: var(--newco-nav-font, "Google Sans Flex"), system-ui, sans-serif;
+    font-family: var(--newco-nav-font, "Red Hat Text"), system-ui, sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.35;
@@ -131,7 +131,7 @@ export class NewcoSideNav extends LitElement {
       display: block; box-sizing: border-box;
       inline-size: var(--newco-nav-width, var(--contextual-layout-units-sidenav-width-expanded, 256px));
       block-size: 100%;
-      font-family: var(--newco-nav-font, "Google Sans Flex"), system-ui, -apple-system, sans-serif;
+      font-family: var(--newco-nav-font, "Red Hat Text"), system-ui, -apple-system, sans-serif;
     }
     .rail {
       box-sizing: border-box; display: flex; flex-direction: column; block-size: 100%;
@@ -314,7 +314,7 @@ export class NewcoSideNavGroup extends LitElement {
       background: var(--newco-nav-flyout-surface, #ffffff);
       box-shadow: var(--newco-nav-shadow);
       border: 1px solid var(--newco-nav-border, rgba(0,0,0,.08));
-      font-family: var(--newco-nav-font, "Google Sans Flex"), system-ui, sans-serif;
+      font-family: var(--newco-nav-font, "Red Hat Text"), system-ui, sans-serif;
       display: flex; flex-direction: column; gap: 4px;
     }
     .flyout-title {

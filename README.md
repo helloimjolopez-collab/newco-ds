@@ -70,7 +70,7 @@ npm install @helloimjolopez-newco/newco-tokens
 @import "@helloimjolopez-newco/newco-tokens/css";
 
 .card {
-  background: var(--semantic-color-fill-surface-elevated-card-base);
+  background: var(--semantic-color-fill-surface-elevated);
   color:      var(--semantic-color-foreground-static-neutral-base);
   border:     1px solid var(--semantic-color-stroke-static-neutral-base);
 }

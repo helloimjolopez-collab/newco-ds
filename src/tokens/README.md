@@ -40,8 +40,8 @@ Colour **and** the four `--elevation-*` shadows are one name each; the value fli
 
 - **Top nav / side nav / app frame →** `--semantic-color-fill-surface-chrome`
 - **Content page →** `--semantic-color-fill-surface-elevated`
-- **Cards / tiles / tables →** `--semantic-color-fill-surface-elevated-card-base`
-- **Modals / popovers / menus / toasts →** `--semantic-color-fill-surface-elevated-overlay-base`
+- **Cards / tiles / tables →** `--semantic-color-fill-surface-elevated`
+- **Modals / popovers / menus / toasts →** `--semantic-color-fill-surface-elevated`
 
 A raised surface is a **recipe** — fill + elevation + radius:
 

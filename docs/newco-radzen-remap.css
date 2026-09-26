@@ -40,7 +40,7 @@
   /* ---- Surfaces ---------------------------------------------------------- */
   --rz-base-background-color:    var(--semantic-color-fill-surface-canvas);
   --rz-content-background-color: var(--semantic-color-fill-surface-elevated);
-  --rz-panel-background-color:   var(--semantic-color-fill-surface-elevated-card-base);
+  --rz-panel-background-color:   var(--semantic-color-fill-surface-elevated);
 
   /* ---- Text (foreground) ------------------------------------------------- */
   --rz-text-color:           var(--semantic-color-foreground-static-primary-base);

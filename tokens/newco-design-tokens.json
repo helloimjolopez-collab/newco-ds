@@ -3267,7 +3267,7 @@
     "family": {
       "brand": {
         "$type": "string",
-        "$value": "Google Sans Flex"
+        "$value": "Red Hat Text"
       }
     },
     "size": {
@@ -3645,10 +3645,6 @@
         "$type": "number",
         "$value": "{primitive-unit.unit.8}"
       },
-      "medium": {
-        "$type": "number",
-        "$value": "{primitive-unit.unit.8}"
-      },
       "large": {
         "$type": "number",
         "$value": "{primitive-unit.unit.12}"
@@ -3699,23 +3695,23 @@
     "padding": {
       "xxxtight": {
         "$type": "number",
-        "$value": "{primitive-unit.unit.2}"
+        "$value": "{primitive-unit.unit.4}"
       },
       "xxtight": {
         "$type": "number",
-        "$value": "{primitive-unit.unit.4}"
+        "$value": "{primitive-unit.unit.6}"
       },
       "xtight": {
         "$type": "number",
-        "$value": "{primitive-unit.unit.6}"
+        "$value": "{primitive-unit.unit.8}"
       },
       "tight": {
         "$type": "number",
-        "$value": "{primitive-unit.unit.8}"
+        "$value": "{primitive-unit.unit.12}"
       },
       "medium": {
         "$type": "number",
-        "$value": "{primitive-unit.unit.12}"
+        "$value": "{primitive-unit.unit.14}"
       },
       "base": {
         "$type": "number",
@@ -3744,6 +3740,10 @@
       "collosal": {
         "$type": "number",
         "$value": "{primitive-unit.unit.120}"
+      },
+      "tightest": {
+        "$type": "number",
+        "$value": "{primitive-unit.unit.2}"
       }
     },
     "accessibility": {
@@ -3824,16 +3824,16 @@
       "padding": {
         "vertical": {
           "$type": "number",
-          "$value": "{primitive-unit.unit.8}"
+          "$value": "{semantic-layout-units.padding.xtight}"
         },
         "horizontal": {
           "$type": "number",
-          "$value": "{primitive-unit.unit.14}"
+          "$value": "{semantic-layout-units.padding.medium}"
         }
       },
       "cornerradius": {
         "$type": "number",
-        "$value": "{primitive-unit.unit.999}"
+        "$value": "{semantic-layout-units.cornerradius.base}"
       }
     },
     "button": {
@@ -3841,48 +3841,48 @@
         "xsmall": {
           "vertical": {
             "$type": "number",
-            "$value": "{primitive-unit.unit.6}"
+            "$value": "{semantic-layout-units.padding.xxtight}"
           },
           "horizontal": {
             "$type": "number",
-            "$value": "{primitive-unit.unit.12}"
+            "$value": "{semantic-layout-units.padding.tight}"
           }
         },
         "small": {
           "vertical": {
             "$type": "number",
-            "$value": "{primitive-unit.unit.8}"
+            "$value": "{semantic-layout-units.padding.xtight}"
           },
           "horizontal": {
             "$type": "number",
-            "$value": "{primitive-unit.unit.14}"
+            "$value": "{semantic-layout-units.padding.medium}"
           }
         },
         "medium": {
           "vertical": {
             "$type": "number",
-            "$value": "{primitive-unit.unit.10}"
+            "$value": "{semantic-layout-units.padding.medium}"
           },
           "horizontal": {
             "$type": "number",
-            "$value": "{primitive-unit.unit.18}"
+            "$value": "{semantic-layout-units.padding.base}"
           }
         },
         "large": {
           "vertical": {
             "$type": "number",
-            "$value": "{primitive-unit.unit.12}"
+            "$value": "{semantic-layout-units.padding.tight}"
           },
           "horizontal": {
             "$type": "number",
-            "$value": "{primitive-unit.unit.24}"
+            "$value": "{semantic-layout-units.padding.relaxed}"
           }
         }
       },
       "gap": {
         "horizontal": {
           "$type": "number",
-          "$value": "{primitive-unit.unit.8}"
+          "$value": "{semantic-layout-units.gap.tight}"
         }
       },
       "borderwidth": {
@@ -3891,7 +3891,7 @@
       },
       "cornerradius": {
         "$type": "number",
-        "$value": "{primitive-unit.unit.999}"
+        "$value": "{semantic-layout-units.cornerradius.base}"
       }
     },
     "focusring": {
@@ -3903,7 +3903,7 @@
     "card": {
       "gap": {
         "$type": "number",
-        "$value": "{primitive-unit.unit.8}"
+        "$value": "{semantic-layout-units.gap.tight}"
       },
       "borderwidth": {
         "$type": "number",
@@ -3911,16 +3911,16 @@
       },
       "cornerradius": {
         "$type": "number",
-        "$value": "{primitive-unit.unit.16}"
+        "$value": "{semantic-layout-units.cornerradius.xlarge}"
       },
       "padding": {
         "vertical": {
           "$type": "number",
-          "$value": "{primitive-unit.unit.14}"
+          "$value": "{semantic-layout-units.padding.medium}"
         },
         "horizontal": {
           "$type": "number",
-          "$value": "{primitive-unit.unit.14}"
+          "$value": "{semantic-layout-units.padding.medium}"
         }
       }
     },
@@ -3931,7 +3931,7 @@
       },
       "cornerradius": {
         "$type": "number",
-        "$value": "{semantic-layout-units.cornerradius.medium}"
+        "$value": "{semantic-layout-units.cornerradius.base}"
       }
     },
     "sidenav": {
@@ -3949,16 +3949,16 @@
         "horizontal": {
           "expanded": {
             "$type": "number",
-            "$value": "{primitive-unit.unit.18}"
+            "$value": "{semantic-layout-units.padding.base}"
           },
           "collapsed": {
             "$type": "number",
-            "$value": "{primitive-unit.unit.12}"
+            "$value": "{semantic-layout-units.padding.tight}"
           }
         },
         "vertical": {
           "$type": "number",
-          "$value": "{primitive-unit.unit.12}"
+          "$value": "{semantic-layout-units.padding.tight}"
         }
       }
     },

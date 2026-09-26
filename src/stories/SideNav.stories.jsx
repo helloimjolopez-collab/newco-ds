@@ -17,9 +17,9 @@ function Logo({ collapsed }) {
       <span aria-hidden style={{
         width: 28, height: 28, borderRadius: 8, flex: "0 0 auto", display: "grid", placeItems: "center",
         background: "var(--semantic-color-fill-action-primary-rest)",
-        color: "#fff", font: "700 15px 'Google Sans Flex',sans-serif",
+        color: "#fff", font: "700 15px 'Red Hat Text',sans-serif",
       }}>N</span>
-      {!collapsed && <strong style={{ font: "700 16px 'Google Sans Flex',sans-serif", letterSpacing: "-0.2px", color: "var(--newco-nav-item-fg-selected)" }}>NewCo</strong>}
+      {!collapsed && <strong style={{ font: "700 16px 'Red Hat Text',sans-serif", letterSpacing: "-0.2px", color: "var(--newco-nav-item-fg-selected)" }}>NewCo</strong>}
     </div>
   );
 }

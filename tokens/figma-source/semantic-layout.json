@@ -51,10 +51,6 @@
       "=Unit/8"
     ],
     [
-      "CornerRadius/Medium",
-      "=Unit/8"
-    ],
-    [
       "CornerRadius/Large",
       "=Unit/12"
     ],
@@ -92,23 +88,23 @@
     ],
     [
       "Padding/XXXTight",
-      "=Unit/2"
-    ],
-    [
-      "Padding/XXTight",
       "=Unit/4"
     ],
     [
-      "Padding/XTight",
+      "Padding/XXTight",
       "=Unit/6"
     ],
     [
-      "Padding/Tight",
+      "Padding/XTight",
       "=Unit/8"
     ],
     [
-      "Padding/Medium",
+      "Padding/Tight",
       "=Unit/12"
+    ],
+    [
+      "Padding/Medium",
+      "=Unit/14"
     ],
     [
       "Padding/Base",
@@ -193,6 +189,10 @@
     [
       "Shadow/Card/Spread",
       -2
+    ],
+    [
+      "Padding/Tightest",
+      "=Unit/2"
     ]
   ]
 }

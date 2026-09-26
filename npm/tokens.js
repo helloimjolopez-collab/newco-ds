@@ -7576,7 +7576,7 @@ const tokens = {
     ]
   },
   "primitive-type-family-brand": {
-    "value": "Google Sans Flex",
+    "value": "Red Hat Text",
     "type": "string",
     "path": [
       "primitive-type",
@@ -8392,15 +8392,6 @@ const tokens = {
       "base"
     ]
   },
-  "semantic-layout-units-cornerradius-medium": {
-    "value": 8,
-    "type": "number",
-    "path": [
-      "semantic-layout-units",
-      "cornerradius",
-      "medium"
-    ]
-  },
   "semantic-layout-units-cornerradius-large": {
     "value": 12,
     "type": "number",
@@ -8501,7 +8492,7 @@ const tokens = {
     ]
   },
   "semantic-layout-units-padding-xxxtight": {
-    "value": 2,
+    "value": 4,
     "type": "number",
     "path": [
       "semantic-layout-units",
@@ -8510,7 +8501,7 @@ const tokens = {
     ]
   },
   "semantic-layout-units-padding-xxtight": {
-    "value": 4,
+    "value": 6,
     "type": "number",
     "path": [
       "semantic-layout-units",
@@ -8519,7 +8510,7 @@ const tokens = {
     ]
   },
   "semantic-layout-units-padding-xtight": {
-    "value": 6,
+    "value": 8,
     "type": "number",
     "path": [
       "semantic-layout-units",
@@ -8528,7 +8519,7 @@ const tokens = {
     ]
   },
   "semantic-layout-units-padding-tight": {
-    "value": 8,
+    "value": 12,
     "type": "number",
     "path": [
       "semantic-layout-units",
@@ -8537,7 +8528,7 @@ const tokens = {
     ]
   },
   "semantic-layout-units-padding-medium": {
-    "value": 12,
+    "value": 14,
     "type": "number",
     "path": [
       "semantic-layout-units",
@@ -8606,6 +8597,15 @@ const tokens = {
       "semantic-layout-units",
       "padding",
       "collosal"
+    ]
+  },
+  "semantic-layout-units-padding-tightest": {
+    "value": 2,
+    "type": "number",
+    "path": [
+      "semantic-layout-units",
+      "padding",
+      "tightest"
     ]
   },
   "semantic-layout-units-accessibility-touch-target-aaa-height": {
@@ -8775,7 +8775,7 @@ const tokens = {
     ]
   },
   "contextual-layout-units-navitem-cornerradius": {
-    "value": 999,
+    "value": 8,
     "type": "number",
     "path": [
       "contextual-layout-units",
@@ -8828,7 +8828,7 @@ const tokens = {
     ]
   },
   "contextual-layout-units-button-padding-medium-vertical": {
-    "value": 10,
+    "value": 14,
     "type": "number",
     "path": [
       "contextual-layout-units",
@@ -8839,7 +8839,7 @@ const tokens = {
     ]
   },
   "contextual-layout-units-button-padding-medium-horizontal": {
-    "value": 18,
+    "value": 16,
     "type": "number",
     "path": [
       "contextual-layout-units",
@@ -8891,7 +8891,7 @@ const tokens = {
     ]
   },
   "contextual-layout-units-button-cornerradius": {
-    "value": 999,
+    "value": 8,
     "type": "number",
     "path": [
       "contextual-layout-units",
@@ -8994,7 +8994,7 @@ const tokens = {
     ]
   },
   "contextual-layout-units-sidenav-padding-horizontal-expanded": {
-    "value": 18,
+    "value": 16,
     "type": "number",
     "path": [
       "contextual-layout-units",
@@ -9404,7 +9404,7 @@ const tokens = {
     ]
   },
   "semantic-type-family-brand": {
-    "value": "Google Sans Flex",
+    "value": "Red Hat Text",
     "type": "string",
     "path": [
       "semantic-type",

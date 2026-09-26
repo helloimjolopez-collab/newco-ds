@@ -1,7 +1,7 @@
 {
   "$comment": "The names a consumer may use. Generated from the emitted CSS by scripts/build-contract.js — do not hand-edit. Lint against `contract` if you want the boundary enforced; nothing here blocks a primitive.",
-  "version": "3.0.24",
-  "generated": "2026-09-24",
+  "version": "3.0.25",
+  "generated": "2026-09-26",
   "counts": {
     "contract": 270,
     "infrastructure": 496,
@@ -273,7 +273,6 @@
     "--semantic-layout-units-cornerradius-base",
     "--semantic-layout-units-cornerradius-full",
     "--semantic-layout-units-cornerradius-large",
-    "--semantic-layout-units-cornerradius-medium",
     "--semantic-layout-units-cornerradius-small",
     "--semantic-layout-units-cornerradius-xlarge",
     "--semantic-layout-units-cornerradius-xsmall",
@@ -291,6 +290,7 @@
     "--semantic-layout-units-padding-medium",
     "--semantic-layout-units-padding-relaxed",
     "--semantic-layout-units-padding-tight",
+    "--semantic-layout-units-padding-tightest",
     "--semantic-layout-units-padding-wide",
     "--semantic-layout-units-padding-xtight",
     "--semantic-layout-units-padding-xwide",

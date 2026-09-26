@@ -4,51 +4,51 @@
   "vars": [
     [
       "NavItem/Padding/Vertical",
-      "=Unit/8"
+      "=Padding/XTight"
     ],
     [
       "NavItem/Padding/Horizontal",
-      "=Unit/14"
+      "=Padding/Medium"
     ],
     [
       "NavItem/CornerRadius",
-      "=Unit/999"
+      "=CornerRadius/Base"
     ],
     [
       "Button/Padding/XSmall/Vertical",
-      "=Unit/6"
+      "=Padding/XXTight"
     ],
     [
       "Button/Padding/XSmall/Horizontal",
-      "=Unit/12"
+      "=Padding/Tight"
     ],
     [
       "Button/Padding/Small/Vertical",
-      "=Unit/8"
+      "=Padding/XTight"
     ],
     [
       "Button/Padding/Small/Horizontal",
-      "=Unit/14"
+      "=Padding/Medium"
     ],
     [
       "Button/Padding/Medium/Vertical",
-      "=Unit/10"
+      "=Padding/Medium"
     ],
     [
       "Button/Padding/Medium/Horizontal",
-      "=Unit/18"
+      "=Padding/Base"
     ],
     [
       "Button/Padding/Large/Vertical",
-      "=Unit/12"
+      "=Padding/Tight"
     ],
     [
       "Button/Padding/Large/Horizontal",
-      "=Unit/24"
+      "=Padding/Relaxed"
     ],
     [
       "Button/Gap/Horizontal",
-      "=Unit/8"
+      "=Gap/Tight"
     ],
     [
       "Button/BorderWidth",
@@ -56,7 +56,7 @@
     ],
     [
       "Button/CornerRadius",
-      "=Unit/999"
+      "=CornerRadius/Base"
     ],
     [
       "FocusRing/Width",
@@ -64,7 +64,7 @@
     ],
     [
       "Card/Gap",
-      "=Unit/8"
+      "=Gap/Tight"
     ],
     [
       "Card/BorderWidth",
@@ -72,7 +72,7 @@
     ],
     [
       "Card/CornerRadius",
-      "=Unit/16"
+      "=CornerRadius/XLarge"
     ],
     [
       "Field/BorderWidth",
@@ -80,7 +80,7 @@
     ],
     [
       "Field/CornerRadius",
-      "=CornerRadius/Medium"
+      "=CornerRadius/Base"
     ],
     [
       "SideNav/Width/Expanded",
@@ -92,15 +92,15 @@
     ],
     [
       "SideNav/Padding/Horizontal/Expanded",
-      "=Unit/18"
+      "=Padding/Base"
     ],
     [
       "SideNav/Padding/Horizontal/Collapsed",
-      "=Unit/12"
+      "=Padding/Tight"
     ],
     [
       "SideNav/Padding/Vertical",
-      "=Unit/12"
+      "=Padding/Tight"
     ],
     [
       "TopNav/Height",
@@ -108,11 +108,11 @@
     ],
     [
       "Card/Padding/Vertical",
-      "=Unit/14"
+      "=Padding/Medium"
     ],
     [
       "Card/Padding/Horizontal",
-      "=Unit/14"
+      "=Padding/Medium"
     ],
     [
       "Selection Controls/BorderWidth",

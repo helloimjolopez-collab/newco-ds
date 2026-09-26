@@ -4,7 +4,7 @@ import { dtcg, resolveVal, stepSort } from "./tokens-data";
 export default { title: "Tokens/Type", parameters: { layout: "fullscreen" } };
 
 const ST = dtcg["semantic-type"] || {};
-const BRAND = resolveVal((ST.family?.brand || {}).$value) || "Google Sans Flex";
+const BRAND = resolveVal((ST.family?.brand || {}).$value) || "Red Hat Text";
 const px = (v) => (typeof v === "string" ? parseFloat(v) : v);
 
 function Page({ title, blurb, children }) {

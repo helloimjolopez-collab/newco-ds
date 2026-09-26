@@ -28,7 +28,6 @@
   --semantic-layout-units-cornerradius-xsmall: var(--primitive-unit-unit-2);
   --semantic-layout-units-cornerradius-small: var(--primitive-unit-unit-4);
   --semantic-layout-units-cornerradius-base: var(--primitive-unit-unit-8);
-  --semantic-layout-units-cornerradius-medium: var(--primitive-unit-unit-8);
   --semantic-layout-units-cornerradius-large: var(--primitive-unit-unit-12);
   --semantic-layout-units-cornerradius-xlarge: var(--primitive-unit-unit-16);
   --semantic-layout-units-cornerradius-full: var(--primitive-unit-unit-999);
@@ -40,11 +39,11 @@
   --semantic-layout-units-gap-base: var(--primitive-unit-unit-16);
   --semantic-layout-units-gap-relaxed: var(--primitive-unit-unit-24);
   --semantic-layout-units-gap-wide: var(--primitive-unit-unit-36);
-  --semantic-layout-units-padding-xxxtight: var(--primitive-unit-unit-2);
-  --semantic-layout-units-padding-xxtight: var(--primitive-unit-unit-4);
-  --semantic-layout-units-padding-xtight: var(--primitive-unit-unit-6);
-  --semantic-layout-units-padding-tight: var(--primitive-unit-unit-8);
-  --semantic-layout-units-padding-medium: var(--primitive-unit-unit-12);
+  --semantic-layout-units-padding-xxxtight: var(--primitive-unit-unit-4);
+  --semantic-layout-units-padding-xxtight: var(--primitive-unit-unit-6);
+  --semantic-layout-units-padding-xtight: var(--primitive-unit-unit-8);
+  --semantic-layout-units-padding-tight: var(--primitive-unit-unit-12);
+  --semantic-layout-units-padding-medium: var(--primitive-unit-unit-14);
   --semantic-layout-units-padding-base: var(--primitive-unit-unit-16);
   --semantic-layout-units-padding-relaxed: var(--primitive-unit-unit-24);
   --semantic-layout-units-padding-wide: var(--primitive-unit-unit-36);
@@ -52,6 +51,7 @@
   --semantic-layout-units-padding-xxwide: var(--primitive-unit-unit-56);
   --semantic-layout-units-padding-ginormous: var(--primitive-unit-unit-64);
   --semantic-layout-units-padding-collosal: var(--primitive-unit-unit-120);
+  --semantic-layout-units-padding-tightest: var(--primitive-unit-unit-2);
   --semantic-layout-units-accessibility-touch-target-aaa-height: var(--primitive-unit-unit-48);
   --semantic-layout-units-accessibility-touch-target-aaa-width: var(--primitive-unit-unit-48);
   --semantic-layout-units-accessibility-touch-target-aa-height: var(--primitive-unit-unit-44);
