@@ -115,7 +115,7 @@ the whole integration. No component CSS to import, no theme provider.
 |---|---|---|---|
 | `icon` | string | — | Material Symbols ligature name. |
 | `label` | string | — | Visible text (and collapsed tooltip). |
-| `active` | boolean | `false` | Current destination (`aria-current="page"`, brand indicator stripe + selection pill). |
+| `active` | boolean | `false` | Current destination (`aria-current="page"`, brand indicator stripe + selection highlight). |
 | `disabled` | boolean | `false` | Non-interactive. |
 | `href` | string | — | Render as a link; omit to render a `<button>`. |
 | `level` | `0 \| 1` | `0` | `1` indents a child destination under a group and drops the leading icon. |
